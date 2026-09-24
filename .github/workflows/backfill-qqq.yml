@@ -1,0 +1,37 @@
+name: Backfill historical QQQ reactions
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Optional September event date (YYYY-MM-DD); blank runs all eligible history'
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Calculate QQQ reaction windows
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+          BACKFILL_DATE: ${{ inputs.date }}
+        shell: bash
+        run: |
+          test -n "$MASSIVE_API_KEY" || { echo 'Configure MASSIVE_API_KEY in NasCal Actions secrets'; exit 1; }
+          if [ -n "$BACKFILL_DATE" ]; then
+            [[ "$BACKFILL_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || exit 2
+            node scripts/fill-qqq-reactions.mjs "--date=$BACKFILL_DATE"
+          else
+            node scripts/fill-qqq-reactions.mjs
+          fi
+      - name: Preserve calculated history
+        uses: actions/upload-artifact@v4
+        with:
+          name: qqq-event-results
+          path: public/event-results.json
+          retention-days: 7
