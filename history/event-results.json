@@ -2732,7 +2732,32 @@
       "explanation": "Manufacturing activity accelerated in the original release.",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/july/",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 2.16,
+          "baseline": {
+            "date": "2026-08-03",
+            "timeET": "09:59",
+            "close": 202.2624
+          },
+          "close": {
+            "date": "2026-08-03",
+            "timeET": "16:00",
+            "close": 206.64
+          },
+          "sessionPct": 2.93,
+          "priorSession": {
+            "date": "2026-07-31",
+            "close": 200.75
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+2.16%"
     },
     {
       "eventId": "2026-08-04-JOLTS",
@@ -2836,7 +2861,32 @@
       "explanation": "Openings changed little while hires were stable in the original publication.",
       "sourceUrl": "https://www.bls.gov/news.release/archives/jolts_08042026.htm",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 0.9,
+          "baseline": {
+            "date": "2026-08-04",
+            "timeET": "09:59",
+            "close": 210.04
+          },
+          "close": {
+            "date": "2026-08-04",
+            "timeET": "16:00",
+            "close": 211.94
+          },
+          "sessionPct": 2.56,
+          "priorSession": {
+            "date": "2026-08-03",
+            "close": 206.64
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+0.90%"
     },
     {
       "eventId": "2026-08-05-ISM-SVC",
@@ -2940,7 +2990,32 @@
       "explanation": "The services headline was nearly unchanged; employment moved into contraction.",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/july/",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": -0.87,
+          "baseline": {
+            "date": "2026-08-05",
+            "timeET": "09:59",
+            "close": 221.155
+          },
+          "close": {
+            "date": "2026-08-05",
+            "timeET": "16:00",
+            "close": 219.22
+          },
+          "sessionPct": 3.43,
+          "priorSession": {
+            "date": "2026-08-04",
+            "close": 211.94
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "-0.87%"
     },
     {
       "eventId": "2026-08-07-JOBS",
@@ -3045,7 +3120,32 @@
       "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_08072026.htm",
       "consensusSourceUrl": "https://www.reuters.com/business/view-soft-july-jobs-report-fuels-skepticism-over-possible-fed-rate-hike-2026-08-07/",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 1.85,
+          "baseline": {
+            "date": "2026-08-07",
+            "timeET": "08:29",
+            "close": 219.9
+          },
+          "close": {
+            "date": "2026-08-07",
+            "timeET": "16:00",
+            "close": 223.96
+          },
+          "sessionPct": 2.27,
+          "priorSession": {
+            "date": "2026-08-06",
+            "close": 218.99
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+1.85%"
     },
     {
       "eventId": "2026-08-12-CPI",
@@ -3150,7 +3250,32 @@
       "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
       "consensusSourceUrl": "https://www.reuters.com/business/traders-stick-narrow-bets-september-fed-hold-after-inflation-data-2026-08-12/",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 1.96,
+          "baseline": {
+            "date": "2026-08-12",
+            "timeET": "08:29",
+            "close": 219.78
+          },
+          "close": {
+            "date": "2026-08-12",
+            "timeET": "16:00",
+            "close": 224.09
+          },
+          "sessionPct": 3.03,
+          "priorSession": {
+            "date": "2026-08-11",
+            "close": 217.5
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+1.96%"
     },
     {
       "eventId": "2026-08-13-PPI",
@@ -3244,7 +3369,32 @@
       "explanation": "Flat headline producer prices masked firmer underlying services.",
       "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_08132026.htm",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 0.79,
+          "baseline": {
+            "date": "2026-08-13",
+            "timeET": "08:29",
+            "close": 223.5421
+          },
+          "close": {
+            "date": "2026-08-13",
+            "timeET": "16:00",
+            "close": 225.3
+          },
+          "sessionPct": 0.54,
+          "priorSession": {
+            "date": "2026-08-12",
+            "close": 224.09
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+0.79%"
     },
     {
       "eventId": "2026-08-14-RETAIL",
@@ -3348,7 +3498,32 @@
       "explanation": "The advance estimate showed a decline in nominal sales.",
       "sourceUrl": "https://www2.census.gov/retail/releases/historical/marts/adv2607.pdf",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": -0.22,
+          "baseline": {
+            "date": "2026-08-14",
+            "timeET": "08:29",
+            "close": 225.66
+          },
+          "close": {
+            "date": "2026-08-14",
+            "timeET": "16:00",
+            "close": 225.16
+          },
+          "sessionPct": -0.06,
+          "priorSession": {
+            "date": "2026-08-13",
+            "close": 225.3
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "-0.22%"
     },
     {
       "eventId": "2026-08-26-GDP",
@@ -3432,7 +3607,32 @@
       "explanation": "GDP was unchanged after rounding; core July PCE came at the same timestamp.",
       "sourceUrl": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": -1.71,
+          "baseline": {
+            "date": "2026-08-26",
+            "timeET": "08:29",
+            "close": 213.3
+          },
+          "close": {
+            "date": "2026-08-26",
+            "timeET": "16:00",
+            "close": 209.66
+          },
+          "sessionPct": -1.59,
+          "priorSession": {
+            "date": "2026-08-25",
+            "close": 213.05
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "-1.71%"
     },
     {
       "eventId": "2026-08-26-NVDA",
@@ -3451,7 +3651,29 @@
       "explanation": "Nvidia reported after the U.S. cash close; the company scheduled its call for 17:00 ET. Do not assign an intraday 08:30 market reaction to this event.",
       "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "requires-event-timestamp"
+      "reactionStatus": "requires-event-timestamp",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 8.74,
+          "baseline": {
+            "date": "2026-08-26",
+            "timeET": "regular market close",
+            "close": 209.66
+          },
+          "close": {
+            "date": "2026-08-27",
+            "timeET": "16:00",
+            "close": 227.98
+          },
+          "sessionPct": null,
+          "priorSession": null,
+          "method": "Earnings release-day adjusted close versus the following regular-session adjusted close; intervening news may affect the move.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+8.74%"
     },
     {
       "eventId": "2026-08-26-PCE",
@@ -3535,7 +3757,32 @@
       "explanation": "Core monthly inflation ticked higher; GDP revision was simultaneous.",
       "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
       "verifiedAt": "2026-09-24",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": -1.71,
+          "baseline": {
+            "date": "2026-08-26",
+            "timeET": "08:29",
+            "close": 213.3
+          },
+          "close": {
+            "date": "2026-08-26",
+            "timeET": "16:00",
+            "close": 209.66
+          },
+          "sessionPct": -1.59,
+          "priorSession": {
+            "date": "2026-08-25",
+            "close": 213.05
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "-1.71%"
     },
     {
       "eventId": "2026-09-01-ISM + JOLTS",
