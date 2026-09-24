@@ -1,0 +1,55 @@
+name: Backfill QQQ NVDA SMH historical reactions
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/backfill-market-reactions.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/backfill-market-reactions.yml'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Optional event date (YYYY-MM-DD); blank runs all September 2026 history'
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  verify-key:
+    if: github.event_name != 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify NasCal has the Massive secret
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: |
+          if [ -z "$MASSIVE_API_KEY" ]; then
+            echo 'MASSIVE_API_KEY is unavailable to this NasCal workflow'
+            exit 1
+          fi
+          echo 'MASSIVE_API_KEY is available to NasCal Actions'
+  backfill:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Calculate QQQ NVDA SMH reaction windows
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+          BACKFILL_DATE: ${{ inputs.date }}
+        shell: bash
+        run: |
+          test -n "$MASSIVE_API_KEY" || { echo 'Configure MASSIVE_API_KEY in NasCal Actions secrets'; exit 1; }
+          if [ -n "$BACKFILL_DATE" ]; then [[ "$BACKFILL_DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || exit 2; fi
+          node scripts/backfill-market-reactions.mjs
+      - name: Preserve price-window history
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-reactions
+          path: public/market-reactions.json
+          retention-days: 7
