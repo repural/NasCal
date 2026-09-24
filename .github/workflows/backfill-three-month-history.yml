@@ -1,5 +1,9 @@
 name: Discover and enrich three-month Nasdaq history
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/backfill-three-month-history.yml'
   workflow_dispatch:
     inputs:
       as_of:
