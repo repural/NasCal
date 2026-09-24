@@ -33,5 +33,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: qqq-event-results
-          path: public/event-results.json
+          path: history/event-results.json
           retention-days: 7

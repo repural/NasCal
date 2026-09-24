@@ -29,5 +29,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: market-reactions
-          path: public/market-reactions.json
+          path: history/market-reactions.json
           retention-days: 7

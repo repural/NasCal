@@ -5,7 +5,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const file = new URL("../public/event-results.json", import.meta.url);
+const file = new URL("../history/event-results.json", import.meta.url);
 const results = JSON.parse(await readFile(file, "utf8"));
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");

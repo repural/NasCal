@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Historical price responses, with separate timestamps for composite events.
-// Reads ../public/event-results.json and writes ../public/market-reactions.json.
+// Reads ../history/event-results.json and writes ../history/market-reactions.json.
 import { readFile, writeFile } from 'node:fs/promises';
 
-const source = new URL('../public/event-results.json', import.meta.url);
-const output = new URL('../public/market-reactions.json', import.meta.url);
+const source = new URL('../history/event-results.json', import.meta.url);
+const output = new URL('../history/market-reactions.json', import.meta.url);
 const archive = JSON.parse(await readFile(source, 'utf8'));
 const key = process.env.MASSIVE_API_KEY;
 if (!key) throw new Error('MASSIVE_API_KEY must be configured in GitHub Actions');
