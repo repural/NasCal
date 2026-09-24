@@ -19,6 +19,12 @@ for(const record of history.results){
       }
     }
   }
+  for(const [ticker,close] of Object.entries(record.closeReactions??{})){
+    if(!Number.isFinite(close.pct)||!(close.baseline?.close>0)||!(close.close?.close>0)||
+       !/^https:\/\//.test(close.priceSourceUrl??"")||
+       Math.abs(close.pct-Math.round((close.close.close/close.baseline.close-1)*10000)/100)>0.001)
+      throw new Error(`Invalid ${ticker} close reaction: ${record.eventId}`);
+  }
 }
 for(const id of Object.keys(history.eventIndex))if(!seen.has(id))throw new Error(`Index without result: ${id}`);
 try {await stat(new URL("../public/event-results.json",import.meta.url));throw new Error("History must not be duplicated in public/");}

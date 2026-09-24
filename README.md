@@ -83,6 +83,8 @@ This procedure uses the three **completed calendar months** before the as-of dat
 
 The [backfill workflow](.github/workflows/backfill-three-month-history.yml) runs steps 1, 3, and 4 in **NasCal** using its `MASSIVE_API_KEY` Actions secret. Run it manually for a chosen as-of date; edits to the workflow file also trigger a run. It commits the updated history and discovery queue. Step 2 deliberately needs a verified release record first; the workflow cannot infer a release result or market consensus from a scheduled date. The GitHub Actions workflow updates this repository; publishing the separate Sites deployment is a distinct step.
 
+For market-close analysis, run the [close-reaction workflow](.github/workflows/backfill-close-reactions.yml) for a month and ticker. It preserves both `closeReactions.<ticker>.pct` (the pre-release minute price to the same day's adjusted market close) and `sessionPct` (previous trading close to that day's adjusted close). After-close earnings instead use the next trading day's close versus the announcement day's close. Same-time releases share a price window and cannot be separated by this measurement.
+
 ## Forecasting roadmap
 
 Forecasting should begin with transparent descriptive statistics rather than a complex model. Once each recurring event family has enough observations, useful measures include median Nasdaq reaction by surprise direction, hit rate, dispersion, yield sensitivity, market-regime splits, and the effect of simultaneous catalysts.
