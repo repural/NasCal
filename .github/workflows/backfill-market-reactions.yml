@@ -53,3 +53,5 @@ jobs:
           name: market-reactions
           path: public/market-reactions.json
           retention-days: 7
+
+# Verify repository secret availability before closing this transfer.
