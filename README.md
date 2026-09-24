@@ -22,6 +22,8 @@ app/
   globals.css              Site styling
 data/calendar.ts           Events, expectations and release times
 history/event-results.json Persistent historical outcome dataset
+history/discovery.json     Source-linked candidate queue for the preceding three completed months
+history/official-schedule-snapshot-2026.json  Verified fallback for ISM's 2026 dates
 tests/                     Rendering and archive checks
 scripts/                   Backfill and build helpers
 .openai/hosting.json       Sites deployment configuration
@@ -69,6 +71,17 @@ The dataset is stored only under `history/`. The site embeds it for the results 
 4. Run the build and JSON validation.
 5. Review the date-click navigation and historical result panel.
 6. Commit the change with a concise description of the event update.
+
+## Three-month historical backfill
+
+This procedure uses the three **completed calendar months** before the as-of date. For example, `--as-of=2026-09-24` covers June 1 through August 31, 2026. It does not move the site's visible three-month forward calendar into the past.
+
+1. `node scripts/discover-history.mjs --as-of=2026-09-24` reads official BLS, BEA, Fed, Census, and ISM calendars and writes dated candidates and gaps to `history/discovery.json`. Check its `errors` and `fallbacks` fields; a missing official source is not silently interpreted as no events. Company earnings and unforeseen policy events require a separate source-checked review.
+2. For each `needs-release-verification` candidate, check its original release. Record the **first published** actual and previous value, the original source URL, and an archived consensus only when independently verified. The June–August 2026 examples are in `scripts/seed-verified-history-2026.mjs`; run that script once or again safely to insert the 2026 source-checked records. Do not apply its fixed 2026 values to a later date range.
+3. `MASSIVE_API_KEY=... node scripts/enrich-history-reactions.mjs --as-of=2026-09-24` obtains adjusted one-minute bars for QQQ, NVDA, and SMH and writes exact +15-minute and +60-minute results to the **same** historical file. It requires minute coverage for the event time, including extended hours for 08:30 ET releases. A missing bar stays null. Do not publish a daily close as an intraday impact. Earnings marked `after-close` await verification of the precise timestamp before measurement.
+4. `node scripts/validate-history.mjs && npm test` checks uniqueness, provenance, and site behavior. Compare simultaneous releases before interpreting a reaction: the recorded price movement is a correlation around the timestamp, not proof of which announcement moved the stock.
+
+The manually dispatched [backfill workflow](.github/workflows/backfill-three-month-history.yml) runs steps 1, 3, and 4 in **NasCal** using its `MASSIVE_API_KEY` Actions secret. It commits the updated history and discovery queue. Step 2 deliberately needs a verified release record first; the workflow cannot infer a release result or market consensus from a scheduled date. The GitHub Actions workflow updates this repository; publishing the separate Sites deployment is a distinct step.
 
 ## Forecasting roadmap
 

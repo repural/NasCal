@@ -1,0 +1,284 @@
+{
+  "asOf": "2026-09-24",
+  "range": [
+    "2026-06",
+    "2026-08"
+  ],
+  "checkedOn": "2026-09-24",
+  "sources": [
+    "https://www.bea.gov/news/schedule/full",
+    "https://www.census.gov/retail/release_schedule.html",
+    "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://www.bls.gov/schedule/2026/06_sched_list.htm",
+    "https://www.bls.gov/schedule/2026/07_sched_list.htm",
+    "https://www.bls.gov/schedule/2026/08_sched_list.htm"
+  ],
+  "candidates": [
+    {
+      "date": "2026-06-01",
+      "family": "ism-manufacturing",
+      "label": "ISM Manufacturing PMI",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "historyEventId": "2026-06-01-ISM-MFG",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-02",
+      "family": "jolts",
+      "label": "JOLTS",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/06_sched_list.htm",
+      "historyEventId": "2026-06-02-JOLTS",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-03",
+      "family": "ism-services",
+      "label": "ISM Services PMI",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "historyEventId": "2026-06-03-ISM-SVC",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-05",
+      "family": "employment-report",
+      "label": "Employment report",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/06_sched_list.htm",
+      "historyEventId": "2026-06-05-JOBS",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-10",
+      "family": "cpi",
+      "label": "CPI",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/06_sched_list.htm",
+      "historyEventId": "2026-06-10-CPI",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-11",
+      "family": "ppi",
+      "label": "PPI",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/06_sched_list.htm",
+      "historyEventId": "2026-06-11-PPI",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-17",
+      "family": "fomc-decision",
+      "label": "FOMC decision",
+      "timeET": "14:00",
+      "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "historyEventId": "2026-06-17-FOMC",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-17",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-06-17-RETAIL",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-25",
+      "family": "core-pce",
+      "label": "Personal Income and Outlays, May 2026 View",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-06-25-PCE",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-06-30",
+      "family": "jolts",
+      "label": "JOLTS",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/06_sched_list.htm",
+      "historyEventId": "2026-06-30-JOLTS",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-01",
+      "family": "ism-manufacturing",
+      "label": "ISM Manufacturing PMI",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "historyEventId": "2026-07-01-ISM-MFG",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-02",
+      "family": "employment-report",
+      "label": "Employment report",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/07_sched_list.htm",
+      "historyEventId": "2026-07-02-JOBS",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-06",
+      "family": "ism-services",
+      "label": "ISM Services PMI",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "historyEventId": "2026-07-06-ISM-SVC",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-14",
+      "family": "cpi",
+      "label": "CPI",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/07_sched_list.htm",
+      "historyEventId": "2026-07-14-CPI",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-15",
+      "family": "ppi",
+      "label": "PPI",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/07_sched_list.htm",
+      "historyEventId": "2026-07-15-PPI",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-16",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-07-16-RETAIL",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-29",
+      "family": "fomc-decision",
+      "label": "FOMC decision",
+      "timeET": "14:00",
+      "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "historyEventId": "2026-07-29-FOMC",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-30",
+      "family": "core-pce",
+      "label": "Personal Income and Outlays, June 2026 View",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-07-30-PCE",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-30",
+      "family": "gdp-advance",
+      "label": "GDP (Advance Estimate), 2nd Quarter 2026 View",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-07-30-GDP",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-31",
+      "family": "employment-cost",
+      "label": "Employment Cost Index",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/07_sched_list.htm",
+      "historyEventId": "2026-07-31-ECI",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-03",
+      "family": "ism-manufacturing",
+      "label": "ISM Manufacturing PMI",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "historyEventId": "2026-08-03-ISM-MFG",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-04",
+      "family": "jolts",
+      "label": "JOLTS",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/08_sched_list.htm",
+      "historyEventId": "2026-08-04-JOLTS",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-05",
+      "family": "ism-services",
+      "label": "ISM Services PMI",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "historyEventId": "2026-08-05-ISM-SVC",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-07",
+      "family": "employment-report",
+      "label": "Employment report",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/08_sched_list.htm",
+      "historyEventId": "2026-08-07-JOBS",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-12",
+      "family": "cpi",
+      "label": "CPI",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/08_sched_list.htm",
+      "historyEventId": "2026-08-12-CPI",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-13",
+      "family": "ppi",
+      "label": "PPI",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/08_sched_list.htm",
+      "historyEventId": "2026-08-13-PPI",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-14",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-08-14-RETAIL",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-26",
+      "family": "core-pce",
+      "label": "Personal Income and Outlays, July 2026 View",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-08-26-PCE",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-08-26",
+      "family": "gdp-second",
+      "label": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026 View",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-08-26-GDP",
+      "status": "recorded"
+    }
+  ],
+  "fallbacks": [
+    "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
+  ],
+  "errors": []
+}
