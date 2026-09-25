@@ -8,6 +8,7 @@ on:
       - '.github/workflows/backfill-three-month-history.yml'
       - 'scripts/enrich-history-reactions.mjs'
       - 'scripts/enrich-history-index-closes.mjs'
+      - 'history/event-results.json'
   workflow_dispatch:
     inputs:
       as_of:
