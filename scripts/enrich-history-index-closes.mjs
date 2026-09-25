@@ -25,7 +25,7 @@ for(const [name,ticker] of [["nasdaq","I:COMP"],["sox","I:SOX"]]){
   if(!response.ok)throw new Error(`${ticker}: daily aggregates HTTP ${response.status}`);
   const body=await response.json();
   if(!["OK","DELAYED"].includes(body.status)||body.next_url)throw new Error(`${ticker}: incomplete daily aggregates (status ${body.status}, paginated ${Boolean(body.next_url)})`);
-  sessions[name]=(body.results??[]).filter(b=>Number.isFinite(b.c)).map(b=>({date:new Date(b.t).toISOString().slice(0,10),value:b.c}));
+  sessions[name]=(body.results??[]).filter(b=>Number.isFinite(b.c)).map(b=>({date:new Date(b.t).toISOString().slice(0,10),value:b.c,open:Number.isFinite(b.o)?b.o:null}));
 }
 let changed=0;
 for(const result of archive.results){
@@ -37,7 +37,8 @@ for(const result of archive.results){
     const prior=[...rows].reverse().find(x=>x.date<event.eventDate)??null;
     const close=rows.find(x=>x.date===event.eventDate)??null;
     const levels=result.indexLevels[name]??{};
-    const updated={...levels,priorClose:prior,at15:levels.at15??null,at60:levels.at60??null,dayClose:close,
+    const open=rows.find(x=>x.date===event.eventDate)?.open ?? null;
+    const updated={...levels,priorClose:prior,dayOpen:open?{date:event.eventDate,value:open}:null,at15:levels.at15??null,at60:levels.at60??null,dayClose:close,
       intradayStatus:event.timeET==="headline-driven"?"no-single-release-time":levels.intradayStatus??"awaiting-minute-bars",sourceUrl:"https://massive.com/docs/rest/indices/aggregates/custom-bars",updatedAt:today};
     if(JSON.stringify(levels)!==JSON.stringify(updated))changed++;
     result.indexLevels[name]=updated;
