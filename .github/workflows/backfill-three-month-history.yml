@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       as_of:
-        description: 'YYYY-MM-DD; defaults to today and processes the prior six completed months'
+        description: 'YYYY-MM-DD; defaults to today and processes 2026 year-to-date'
         required: false
         type: string
 permissions:
@@ -30,7 +30,7 @@ jobs:
         env:
           AS_OF: ${{ inputs.as_of }}
         run: |
-          if [ -n "$AS_OF" ]; then node scripts/discover-history.mjs "--as-of=$AS_OF" --months=6; else node scripts/discover-history.mjs --months=6; fi
+          if [ -n "$AS_OF" ]; then node scripts/discover-history.mjs "--as-of=$AS_OF" --months=9; else node scripts/discover-history.mjs --months=9; fi
       - name: Store Nasdaq Composite and SOX previous and event-day closes
         env:
           MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
@@ -41,7 +41,7 @@ jobs:
           AS_OF: ${{ inputs.as_of }}
         run: |
           test -n "$MASSIVE_API_KEY" || { echo 'Add MASSIVE_API_KEY to NasCal repository Actions secrets'; exit 1; }
-          node scripts/enrich-history-reactions.mjs --from=2026-03 "--through=$(date -u +%Y-%m)"
+          node scripts/enrich-history-reactions.mjs --from=2026-01 "--through=$(date -u +%Y-%m)"
       - name: Validate history
         run: node scripts/validate-history.mjs
       - name: Commit verified history and discovery queue
