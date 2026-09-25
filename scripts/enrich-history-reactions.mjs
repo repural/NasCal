@@ -47,7 +47,7 @@ async function bars(ticker,date){
     if(!response.ok)throw new Error(`${id}: Massive HTTP ${response.status}`);
     body=await response.json();break;
   }
-  if(body?.status!=="OK"||body.next_url)throw new Error(`${id}: incomplete Massive aggregate response`);
+  if(!["OK","DELAYED"].includes(body?.status)||body.next_url)throw new Error(`${id}: incomplete Massive aggregate response (status ${body?.status}, paginated ${Boolean(body?.next_url)})`);
   const exact=new Map((body.results??[]).filter(b=>Number.isFinite(b.c)).map(b=>[b.t,b.c]));
   cache.set(id,exact);
   console.log(`${id}: ${exact.size} minute bars`);
