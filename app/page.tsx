@@ -133,8 +133,12 @@ export default function Home() {
     const cacheKey="nascal-history-v1";
     try {
       const cached=JSON.parse(localStorage.getItem(cacheKey)??"null");
-      if(cached?.data?.eventIndex && Array.isArray(cached.data.results))setArchive(cached.data);
-      if(cached && Date.now()-cached.fetchedAt<24*60*60*1000)return;
+      // The deployed archive is newer than a saved browser copy after a Site update.
+      // Prefer it until GitHub confirms a strictly newer archive.
+      const cacheIsNewer=cached?.data?.eventIndex && Array.isArray(cached.data.results)
+        && cached.data.lastUpdated > resultData.lastUpdated;
+      if(cacheIsNewer)setArchive(cached.data);
+      if(cacheIsNewer && Date.now()-cached.fetchedAt<60*60*1000)return;
     } catch { /* Use the bundled archive when the cache cannot be read. */ }
     fetch("https://raw.githubusercontent.com/repural/NasCal/main/history/event-results.json")
       .then(response=>{if(!response.ok)throw new Error("History unavailable");return response.json();})
