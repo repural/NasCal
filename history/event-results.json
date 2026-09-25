@@ -56,6 +56,17 @@
       "dominantDriver": "jolts",
       "confounders": []
     },
+    "2026-04-09-PCE": {
+      "eventDate": "2026-04-09",
+      "eventKey": "core-pce",
+      "eventType": "Inflation",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": []
+    },
     "2026-04-10-CPI": {
       "eventDate": "2026-04-10",
       "eventKey": "cpi",
@@ -858,6 +869,25 @@
       "reactionWindows": null,
       "explanation": "Job openings were broadly unchanged in the February release.",
       "sourceUrl": "https://www.bls.gov/news.release/archives/jolts_04072026.htm",
+      "verifiedAt": "2026-09-25",
+      "reactionStatus": "awaiting-minute-bars"
+    },
+    {
+      "eventId": "2026-04-09-PCE",
+      "status": "verified",
+      "previous": "January core PCE +0.4% m/m",
+      "expected": null,
+      "actual": "February core PCE (official release); headline PCE +0.4% m/m",
+      "surprise": "Not assessed: archived consensus was not consistently verified for this backfill",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": null,
+      "explanation": "February PCE was delayed to April 9 and released at 08:30 ET; the release showed continued inflation pressure.",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026",
       "verifiedAt": "2026-09-25",
       "reactionStatus": "awaiting-minute-bars"
     },
