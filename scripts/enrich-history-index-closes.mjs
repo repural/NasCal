@@ -24,7 +24,7 @@ for(const [name,ticker] of [["nasdaq","I:COMP"],["sox","I:SOX"]]){
   }
   if(!response.ok)throw new Error(`${ticker}: daily aggregates HTTP ${response.status}`);
   const body=await response.json();
-  if(body.status!=="OK"||body.next_url)throw new Error(`${ticker}: incomplete daily aggregates`);
+  if(!["OK","DELAYED"].includes(body.status)||body.next_url)throw new Error(`${ticker}: incomplete daily aggregates (status ${body.status}, paginated ${Boolean(body.next_url)})`);
   sessions[name]=(body.results??[]).filter(b=>Number.isFinite(b.c)).map(b=>({date:new Date(b.t).toISOString().slice(0,10),value:b.c}));
 }
 let changed=0;
