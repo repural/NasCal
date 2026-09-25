@@ -9467,7 +9467,39 @@
       "reactionStatus": "headline-driven-no-single-release",
       "explanation": "The summit preserved a temporary trade truce but left major tariff, rare-earth, AI and Taiwan questions open. Oil, yields and the 7-year Treasury auction also affected the trading day, so its index moves cannot be assigned to the summit alone.",
       "sourceUrl": "https://www.reuters.com/world/china/four-takeaways-trumps-summit-with-xi-washington-2026-09-24/",
-      "verifiedAt": "2026-09-25"
+      "verifiedAt": "2026-09-25",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-09-23",
+            "value": 26936.03653939892
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-09-24",
+            "value": 26939.37301120382
+          },
+          "intradayStatus": "awaiting-minute-bars",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-09-23",
+            "value": 12534.27471305812
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-09-24",
+            "value": 12492.53651950959
+          },
+          "intradayStatus": "awaiting-minute-bars",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25"
+        }
+      }
     }
   ]
 }
