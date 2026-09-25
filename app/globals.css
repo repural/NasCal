@@ -85,6 +85,9 @@ td strong { display:block; color:var(--ink); font-size:13px; margin-bottom:7px; 
 .playbook b { color:var(--ink); }
 .result-toggle { width:100%; margin-top:10px; padding:9px 11px; display:flex; align-items:center; justify-content:space-between; border:1px solid #c8d2df; border-radius:5px; color:#18324f; background:#fff; font-size:11px; font-weight:800; cursor:pointer; }
 .result-toggle:hover { border-color:#7d91aa; background:#f7f9fb; }
+.historical-analysis-section { padding:0 clamp(18px,4vw,72px) 26px; background:#f6f8fb; }
+.historical-analysis-section .result-toggle { margin:0; padding:14px 18px; font-size:14px; }
+.historical-analysis-section .analysis-panel textarea { min-height:205px; }
 .index-results { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:14px; }
 .index-card { background:#fff; border:1px solid #ccd6e2; padding:12px; }
 .index-card h4 { font-size:13px; margin:0 0 10px; color:#183b63; }
