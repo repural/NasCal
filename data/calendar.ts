@@ -1,4 +1,7 @@
 // Calendar entries and their market interpretations; keep IDs stable for historical results.
+// One entry per independent release or scheduled company event, even on the same day.
+// Components of a single release (such as FOMC decision and projections) may share one entry.
+// Record simultaneous releases as confounders, not as a combined event.
 export const events = [
   { date: "2026-09-01", short: "ISM Mfg", event: "ISM Manufacturing PMI", type: "Macro", importance: "High", explanation: "Factory activity and prices paid inform growth and inflation expectations. JOLTS was released at the same time, so observed moves reflect both releases.", positive: "Expansion with easing input prices", negative: "A jump in prices paid or falling orders", sourceUrl: "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/manufacturing/august/" },
   { date: "2026-09-01", short: "JOLTS", event: "July JOLTS job openings", type: "Macro", importance: "High", explanation: "Openings and quits inform labor tightness and the Fed outlook. ISM Manufacturing was released at the same time, so observed moves reflect both releases.", positive: "Orderly cooling in labor demand", negative: "Unexpectedly tight hiring conditions", sourceUrl: "https://www.bls.gov/news.release/jolts.htm" },
