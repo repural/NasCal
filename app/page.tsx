@@ -15,6 +15,7 @@ const monthConfig = [
   { name: "September", month: 8, days: 30, offset: 1 },
   { name: "October", month: 9, days: 31, offset: 3 },
   { name: "November", month: 10, days: 30, offset: 6 },
+  { name: "December", month: 11, days: 31, offset: 1 },
 ];
 const weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
@@ -71,13 +72,13 @@ export default function Home() {
     <header className="topbar">
       <div className="brand-mark"><span>N</span></div>
       <div><p className="eyebrow">MARKET INTELLIGENCE</p><h1>Nasdaq event calendar</h1></div>
-      <div className="date-range"><span>SEP</span><strong>→</strong><span>NOV 2026</span></div>
+      <div className="date-range"><span>SEP</span><strong>→</strong><span>DEC 2026</span></div>
     </header>
     <section className="intro">
       <div><p className="kicker">FORWARD RISK MAP</p><h2>Know the days that can<br/>change the tape.</h2></div>
       <div className="intro-copy"><p>Significant macro releases, Federal Reserve decisions, Treasury auctions, AI earnings signals and the U.S. midterms—all in one decision-ready view.</p><div className="legend"><span><i className="legend-x">×</i> Significant event</span><span><i className="critical-swatch"></i> Critical risk</span></div></div>
     </section>
-    <section className="calendar-section" aria-label="Three month event calendar">{monthConfig.map(month => <Calendar key={month.name} {...month} onSelect={goToEvents} />)}</section>
+    <section className="calendar-section" aria-label="Four month event calendar">{monthConfig.map(month => <Calendar key={month.name} {...month} onSelect={goToEvents} />)}</section>
     <section className="history-strip" aria-label="Historical results dataset">
       <div><p className="kicker">ANALYSIS ARCHIVE</p><h2>Every result becomes reusable evidence.</h2><p>The archive preserves expectations, actual results, surprises, Nasdaq reactions, yield effects, dominant drivers and confounding events for later forecast calibration.</p></div>
       <div className="history-stats"><span><b>{verifiedResults}</b> verified outcomes</span><span><b>{eventFamilies}</b> event families</span><a href="/api/history" download>Download history JSON</a></div>
@@ -99,6 +100,6 @@ export default function Home() {
         })}</tbody>
       </table></div>
     </section>
-    <footer><p>Dates shown in the U.S. market calendar. Company dates may change.</p><p>Updated 24 Sep 2026 · For planning, not investment advice.</p></footer>
+    <footer><p>Dates shown in the U.S. market calendar. Company dates may change.</p><p>Updated 25 Sep 2026 · For planning, not investment advice.</p></footer>
   </main>;
 }
