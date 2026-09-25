@@ -14,7 +14,7 @@ const lookbackMonths = Number(args.months ?? 3);
 if (!Number.isInteger(lookbackMonths) || lookbackMonths < 1 || lookbackMonths > 12) throw new Error("--months must be an integer from 1 to 12");
 const base = new Date(`${asOf.slice(0,7)}-01T00:00:00Z`);
 const fromMonth = args.from;
-if (fromMonth && !/^\\d{4}-\\d{2}$/.test(fromMonth)) throw new Error("--from must be YYYY-MM");
+if (fromMonth && !/^\d{4}-\d{2}$/.test(fromMonth)) throw new Error("--from must be YYYY-MM");
 const monthDates = fromMonth
   ? Array.from({length: 12}, (_, i) => new Date(Date.UTC(Number(fromMonth.slice(0,4)),Number(fromMonth.slice(5,7))-1+i,1)))
       .filter(date => date <= base)
