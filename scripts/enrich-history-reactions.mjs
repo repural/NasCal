@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Backfill exact +15m/+60m QQQ, NVDA and SMH closes from Massive minute bars.
+// Backfill exact +15m/+60m ETF and Nasdaq Composite closes from Massive minute bars.
 // Run for the three completed months before --as-of, or choose --from/--through.
 // Absent bars stay null; an API error stops before writing partly updated history.
 import { readFile, writeFile } from "node:fs/promises";
@@ -22,9 +22,11 @@ const entries=archive.results.filter(r=>{
 });
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const cache=new Map();
+let soxMinuteDenied=false;
 let lastRequest=0;
 async function bars(ticker,date){
   const id=`${ticker}/${date}`;
+  if(ticker==="I:SOX"&&soxMinuteDenied)return null;
   if(cache.has(id))return cache.get(id);
   const url=new URL(`https://api.massive.com/v2/aggs/ticker/${ticker}/range/1/minute/${date}/${date}`);
   for(const [k,v] of Object.entries({adjusted:"true",sort:"asc",limit:"5000"}))url.searchParams.set(k,v);
@@ -36,6 +38,11 @@ async function bars(ticker,date){
     if(response.status===429 && attempt<3){
       await sleep(Math.max(15000,Math.min(90000,Number(response.headers.get("retry-after")||0)*1000)));
       continue;
+    }
+    if(response.status===403 && ticker==="I:SOX"){
+      soxMinuteDenied=true;
+      console.log(`${id}: SOX minute aggregates not authorized on this plan`);
+      cache.set(id,null);return null;
     }
     if(!response.ok)throw new Error(`${id}: Massive HTTP ${response.status}`);
     body=await response.json();break;
@@ -52,14 +59,24 @@ for(const record of entries){
   const indexed=archive.eventIndex[record.eventId];
   const utc=timestamp(indexed.eventDate,indexed.timeET);
   const assets={};
-  for(const ticker of ["QQQ","NVDA","SMH"]){
+  for(const ticker of ["QQQ","NVDA","SMH","I:COMP","I:SOX"]){
+    const saved=record.reactionWindows?.[0]?.assets?.[ticker];
+    if(saved){assets[ticker]=saved;continue;}
     const series=await bars(ticker,indexed.eventDate);
-    assets[ticker]={at15:measure(series,utc,15),at60:measure(series,utc,60)};
+    assets[ticker]={at15:series?measure(series,utc,15):null,at60:series?measure(series,utc,60):null};
+  }
+  record.indexLevels??={};
+  for(const [name,ticker] of [["nasdaq","I:COMP"],["sox","I:SOX"]]){
+    record.indexLevels[name]??={};
+    record.indexLevels[name].at15=assets[ticker].at15?.after??null;
+    record.indexLevels[name].at60=assets[ticker].at60?.after??null;
+    record.indexLevels[name].beforeRelease=assets[ticker].at15?.before??assets[ticker].at60?.before??null;
+    record.indexLevels[name].intradayStatus=ticker==="I:SOX"&&!cache.get(`${ticker}/${indexed.eventDate}`)?"plan-not-authorized":assets[ticker].at15||assets[ticker].at60?"measured":"exact-bars-unavailable";
   }
   const window={label:indexed.eventKey,releaseTimeET:indexed.timeET,scheduleSource:record.sourceUrl,
     caveat:indexed.confounders.join(" ")||null,priceSource:"Massive adjusted one-minute aggregate bars",
     priceSourceUrl,method,verifiedAt:asOf,assets};
-  record.reactionWindows=[window];
+  record.reactionWindows=[{...window,assets:{...record.reactionWindows?.[0]?.assets,...assets}}];
   record.qqq15m=assets.QQQ.at15?`${assets.QQQ.at15.pct>=0?"+":""}${assets.QQQ.at15.pct.toFixed(2)}%`:null;
   record.qqq1h=assets.QQQ.at60?`${assets.QQQ.at60.pct>=0?"+":""}${assets.QQQ.at60.pct.toFixed(2)}%`:null;
   record.reactionStatus=assets.QQQ.at15||assets.QQQ.at60?"measured":"exact-bars-unavailable";
