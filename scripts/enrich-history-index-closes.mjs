@@ -39,7 +39,7 @@ for(const result of archive.results){
     const levels=result.indexLevels[name]??{};
     if(JSON.stringify([levels.priorClose,levels.dayClose])!==JSON.stringify([prior,close]))changed++;
     result.indexLevels[name]={...levels,priorClose:prior,at15:levels.at15??null,at60:levels.at60??null,dayClose:close,
-      intradayStatus:levels.intradayStatus??"awaiting-minute-bars",sourceUrl:"https://massive.com/docs/rest/indices/aggregates/custom-bars",updatedAt:today};
+      intradayStatus:event.timeET==="headline-driven"?"no-single-release-time":levels.intradayStatus??"awaiting-minute-bars",sourceUrl:"https://massive.com/docs/rest/indices/aggregates/custom-bars",updatedAt:today};
   }
 }
 if(changed){archive.lastUpdated=today;await writeFile(file,JSON.stringify(archive,null,2)+"\n");}
