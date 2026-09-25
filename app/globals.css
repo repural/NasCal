@@ -107,18 +107,18 @@ td strong { display:block; color:var(--ink); font-size:13px; margin-bottom:7px; 
 @media (max-width:700px) { .index-results { grid-template-columns:1fr; } }
 .result-toggle span { font-size:17px; line-height:1; color:var(--red); }
 .results-row:hover { background:#fff; }
-.results-row td { padding:0 14px 18px 119px; background:#fff; }
+.results-row td { padding:0 14px 18px 119px; background:#fff; white-space:normal; }
 .results-panel { padding:20px; border:1px solid #ccd6e2; border-top:4px solid #183b63; background:linear-gradient(145deg,#f8fafc,#fff); box-shadow:0 10px 24px rgba(15,32,53,.07); }
 .results-heading { display:flex; align-items:start; justify-content:space-between; gap:20px; margin-bottom:16px; }
 .results-heading h3 { margin:0; color:var(--ink); font:500 22px Georgia,serif; }
 .capture-state { padding:5px 8px; border-radius:999px; font-size:9px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
 .capture-state.pending { color:#825017; background:#fff0d9; }.capture-state.verified { color:#116247; background:#dff5ec; }
 .result-metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border:1px solid var(--line); background:#fff; }
-.result-metrics span { min-height:74px; padding:12px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); color:#243d5a; font-size:14px; font-weight:750; }
+.result-metrics span { min-width:0; min-height:74px; padding:12px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); color:#243d5a; font-size:14px; font-weight:750; line-height:1.45; overflow-wrap:anywhere; }
 .result-metrics span:nth-child(4n) { border-right:0; }.result-metrics span:nth-last-child(-n+4) { border-bottom:0; }
 .result-metrics b { display:block; margin-bottom:6px; color:#7b899a; font-size:9px; letter-spacing:.08em; text-transform:uppercase; }
 .result-explanation { margin-top:14px; color:#4d6077; }
-.result-explanation b { color:var(--ink); }.result-explanation p { margin:5px 0 0; }.result-explanation a { display:inline-block; margin-top:7px; color:#35527b; font-weight:700; text-decoration:underline; }
+.result-explanation b { color:var(--ink); }.result-explanation p { margin:5px 0 0; }.result-explanation a { display:inline-block; margin:7px 12px 0 0; color:#35527b; font-weight:700; text-decoration:underline; }
 .positive { color:var(--green); }.negative { color:#a92b35; }
 footer { padding:24px clamp(20px,4vw,64px); display:flex; justify-content:space-between; gap:20px; color:#91a0b5; background:var(--navy); font-size:11px; }
 footer p { margin:0; }
