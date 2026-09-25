@@ -17,7 +17,7 @@ type HistoricalResult = {
   qqq15m?: string | null;
   qqq1h?: string | null;
   qqqReaction?: { sourceUrl: string } | null;
-  reactionWindows?: Array<{ label: string; releaseTimeET: string; assets: { QQQ: { at15: { pct: number } | null; at60: { pct: number } | null } }; priceSourceUrl: string }> | null;
+  reactionWindows?: Array<{ label: string; releaseTimeET: string; assets?: { QQQ?: { at15?: { pct: number } | null; at60?: { pct: number } | null } }; priceSourceUrl?: string }> | null;
   indexLevels?: Record<string, { priorClose?: {date:string;value:number}|null; dayOpen?: {date:string;value:number}|null; beforeRelease?: {close:number;minuteET:string}|null; at15?: {close:number;minuteET:string}|null; at60?: {close:number;minuteET:string}|null; dayClose?: {date:string;value:number}|null; intradayStatus?:string; releaseLabel?:string; releaseTimeET?:string; sourceUrl?:string }> | null;
   indexWindows?: Array<{label:string;releaseTimeET:string;nasdaq:{at15:{close:number}|null;at60:{close:number}|null};sox:{at15:{close:number}|null;at60:{close:number}|null}}> | null;
 };
