@@ -1,0 +1,40 @@
+name: Enrich earnings cross-asset history
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/enrich-earnings-cross-assets.yml'
+      - 'scripts/enrich-earnings-cross-assets.mjs'
+  schedule:
+    - cron: '30 2 * * 2-6'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: earnings-cross-assets
+  cancel-in-progress: false
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Capture earnings asset sessions
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: node scripts/enrich-earnings-cross-assets.mjs
+      - name: Validate archive
+        run: node scripts/validate-history.mjs
+      - name: Store earnings asset sessions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add history/event-results.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Store earnings cross-asset daily price windows'
+            git pull --rebase origin main
+            git push
+          fi
