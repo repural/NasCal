@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import resultData from "../history/event-results.json";
 import { events, eventTimes, eventView, today } from "../data/calendar";
 type HistoricalResult = (typeof resultData.results)[number] & {
@@ -14,9 +14,10 @@ type HistoricalResult = (typeof resultData.results)[number] & {
 const level=(value:number|undefined)=>value == null ? "—" : new Intl.NumberFormat("en-US",{maximumFractionDigits:2}).format(value);
 function historicalAnalysis(result:HistoricalResult, all:HistoricalResult[], index:typeof resultData.eventIndex){
   const family=index[result.eventId as keyof typeof index]?.eventKey;
-  const peers=all.filter(r=>r.status==="verified"&&r.eventId!==result.eventId&&index[r.eventId as keyof typeof index]?.eventKey===family);
-  if(!peers.length)return "No other verified occurrences of this event family are in the archive yet. Add more releases before drawing a historical comparison.";
-  const lines=[`${peers.length} other verified ${family} event${peers.length===1?"":"s"} in the archive.`];
+  const eventDate=index[result.eventId as keyof typeof index]?.eventDate;
+  const peers=all.filter(r=>r.status==="verified"&&index[r.eventId as keyof typeof index]?.eventKey===family&&index[r.eventId as keyof typeof index]?.eventDate<eventDate);
+  if(!peers.length)return "No earlier verified occurrences of this event family are in the archive yet. Add more releases before drawing a historical comparison.";
+  const lines=[`${peers.length} earlier verified ${family} event${peers.length===1?"":"s"} in the archive.`];
   for(const [name,label] of [["nasdaq","Nasdaq Composite"],["sox","SOX"]]){
     const observations=peers.flatMap(r=>{const p=r.indexLevels?.[name]?.priorClose?.value,c=r.indexLevels?.[name]?.dayClose?.value;return p&&c?[100*(c/p-1)]:[];});
     if(!observations.length){lines.push(`${label}: no comparable prior-close to day-close index observations yet.`);continue;}
@@ -73,9 +74,22 @@ const prettyDate = (date: string) => new Intl.DateTimeFormat("en-US", { month: "
 export default function Home() {
   const [openResults, setOpenResults] = useState<Record<string, boolean>>({});
   const [openAnalysis, setOpenAnalysis] = useState<Record<string, boolean>>({});
-  const results = new Map<string, HistoricalResult>(resultData.results.map(result => [result.eventId, result]));
-  const verifiedResults = resultData.results.filter(result => result.status === "verified").length;
-  const eventFamilies = new Set(Object.values(resultData.eventIndex).map(item => item.eventKey)).size;
+  const [archive, setArchive] = useState<typeof resultData>(resultData);
+  useEffect(() => {
+    const cacheKey="nascal-history-v1";
+    try {
+      const cached=JSON.parse(localStorage.getItem(cacheKey)??"null");
+      if(cached?.data?.eventIndex && Array.isArray(cached.data.results))setArchive(cached.data);
+      if(cached && Date.now()-cached.fetchedAt<24*60*60*1000)return;
+    } catch { /* Use the bundled archive when the cache cannot be read. */ }
+    fetch("https://raw.githubusercontent.com/repural/NasCal/main/history/event-results.json")
+      .then(response=>{if(!response.ok)throw new Error("History unavailable");return response.json();})
+      .then(data=>{if(!data?.eventIndex||!Array.isArray(data.results))return;setArchive(data);try{localStorage.setItem(cacheKey,JSON.stringify({fetchedAt:Date.now(),data}));}catch{ /* Storage is optional. */ }})
+      .catch(()=>{});
+  },[]);
+  const results = new Map<string, HistoricalResult>(archive.results.map(result => [result.eventId, result]));
+  const verifiedResults = archive.results.filter(result => result.status === "verified").length;
+  const eventFamilies = new Set(Object.values(archive.eventIndex).map(item => item.eventKey)).size;
   const goToEvents = (date: string) => {
     const matchingRows = Array.from(document.querySelectorAll<HTMLElement>(`tr[data-event-date="${date}"]`));
     if (!matchingRows.length) return;
@@ -99,7 +113,7 @@ export default function Home() {
     <section className="calendar-section" aria-label="Four month event calendar">{monthConfig.map(month => <Calendar key={month.name} {...month} onSelect={goToEvents} />)}</section>
     <section className="history-strip" aria-label="Historical results dataset">
       <div><p className="kicker">ANALYSIS ARCHIVE</p><h2>Every result becomes reusable evidence.</h2><p>The archive preserves expectations, actual results, surprises, Nasdaq reactions, yield effects, dominant drivers and confounding events for later forecast calibration.</p></div>
-      <div className="history-stats"><span><b>{verifiedResults}</b> verified outcomes</span><span><b>{eventFamilies}</b> event families</span><a href="/api/history" download>Download history JSON</a></div>
+      <div className="history-stats"><span><b>{verifiedResults}</b> verified outcomes</span><span><b>{eventFamilies}</b> event families</span><a href="https://raw.githubusercontent.com/repural/NasCal/main/history/event-results.json" target="_blank" rel="noreferrer">Download history JSON</a></div>
     </section>
     <section className="events-section">
       <div className="section-title"><div><p className="kicker">EVENT REGISTER</p><h2>What moves the Nasdaq—and why</h2></div><p>{events.length} scheduled catalysts</p></div>
@@ -113,7 +127,7 @@ export default function Home() {
           const show = (value: string | null | undefined) => value ?? "—";
           return <Fragment key={`${item.date}-${index}`}>
             <tr id={`event-${item.date}-${index}`} data-event-date={item.date}><td><time dateTime={item.date}>{prettyDate(item.date)}</time><span className="event-time">{eventTimes[eventId] ?? "Time TBD"}</span><span className={`release-state ${isReleased ? "released" : "upcoming"}`}>{isReleased ? "Released" : item.date === today ? "Today" : "Upcoming"}</span></td><td><strong>{item.event}</strong><span className={`tag tag-${item.type.toLowerCase()}`}>{item.type}</span>{"isNew" in item && item.isNew && <span className="new-badge">New</span>}{"isUpdated" in item && item.isUpdated && <span className="new-badge">Updated</span>}{"lastUpdated" in item && item.lastUpdated && <span className="last-updated">Last updated {item.lastUpdated}</span>}{"sourceUrl" in item && item.sourceUrl && <a className="source-link" href={item.sourceUrl} target="_blank" rel="noreferrer">Verified source</a>}<p className="why">{item.explanation}</p><div className="playbook"><span><b>Watch live</b>{item.watch}</span><span><b>Reaction window</b>{item.window}</span></div>{isReleased && <button className="result-toggle" type="button" aria-expanded={isOpen} onClick={() => setOpenResults(current => ({ ...current, [eventId]: !current[eventId] }))}>{isOpen ? "Hide results" : "View results"}<span aria-hidden="true">{isOpen ? "−" : "+"}</span></button>}</td><td><span className={`importance ${item.importance.toLowerCase()}`}>{item.importance} impact</span><span className={`signal bias-${item.bias.toLowerCase()}`}>{item.bias} bias</span><span className={`signal uncertainty-${item.uncertainty.toLowerCase()}`}>{item.uncertainty} uncertainty</span></td><td>{item.expects}</td><td className="positive">{item.positive}</td><td className="negative">{item.negative}</td></tr>
-            {isReleased && isOpen && <tr className="results-row" data-event-date={item.date}><td colSpan={6}><div className="results-panel"><div className="results-heading"><div><p className="kicker">HISTORICAL RESULT</p><h3>{item.event}</h3></div><span className={`capture-state ${result?.status === "verified" ? "verified" : "pending"}`}>{result?.status === "verified" ? "Verified" : "Pending capture"}</span></div><div className="result-metrics"><span><b>Previous</b>{show(result?.previous)}</span><span><b>Expected</b>{show(result?.expected)}</span><span><b>Actual</b>{show(result?.actual)}</span><span><b>Surprise</b>{show(result?.surprise)}</span></div><div className="index-results">{([ ["nasdaq","Nasdaq Composite"], ["sox","PHLX Semiconductor (SOX)"] ] as const).map(([key,label]) => {const levels=result?.indexLevels?.[key];return <div className="index-card" key={key}><h4>{label}</h4><div className="result-metrics"><span><b>Previous trading day close</b>{level(levels?.priorClose?.value)}</span><span><b>+15 minutes</b>{level(levels?.at15?.close)}</span><span><b>+1 hour</b>{level(levels?.at60?.close)}</span><span><b>Event-day close</b>{level(levels?.dayClose?.value)}</span></div>{levels?.intradayStatus==="plan-not-authorized"&&<p className="index-note">Massive does not authorize SOX minute bars on the current plan; intraday values are unavailable.</p>}{!levels&&<p className="index-note">Index levels have not yet been captured.</p>}</div>})}</div><div className="result-explanation"><b>Why the market reacted</b><p>{result?.explanation ?? "Awaiting verified historical data."}</p>{result?.indexLevels?.nasdaq?.sourceUrl&&<a href={result.indexLevels.nasdaq.sourceUrl} target="_blank" rel="noreferrer">Index data and method</a>}{result?.sourceUrl&&<a href={result.sourceUrl} target="_blank" rel="noreferrer">Verification source</a>}</div><button className="result-toggle" type="button" aria-expanded={!!openAnalysis[eventId]} onClick={() => setOpenAnalysis(current=>({...current,[eventId]:!current[eventId]}))}>{openAnalysis[eventId]?"Hide historical analysis":"View historical analysis"}<span aria-hidden="true">{openAnalysis[eventId]?"−":"+"}</span></button>{openAnalysis[eventId]&&<div className="analysis-panel"><label htmlFor={`analysis-${eventId}`}>Historical analysis · {item.event}</label><textarea id={`analysis-${eventId}`} readOnly value={result?historicalAnalysis(result,resultData.results as HistoricalResult[],resultData.eventIndex):"A verified result is needed before historical analysis can be computed."} /></div>}</div></td></tr>}
+            {isReleased && isOpen && <tr className="results-row" data-event-date={item.date}><td colSpan={6}><div className="results-panel"><div className="results-heading"><div><p className="kicker">HISTORICAL RESULT</p><h3>{item.event}</h3></div><span className={`capture-state ${result?.status === "verified" ? "verified" : "pending"}`}>{result?.status === "verified" ? "Verified" : "Pending capture"}</span></div><div className="result-metrics"><span><b>Previous</b>{show(result?.previous)}</span><span><b>Expected</b>{show(result?.expected)}</span><span><b>Actual</b>{show(result?.actual)}</span><span><b>Surprise</b>{show(result?.surprise)}</span></div><div className="index-results">{([ ["nasdaq","Nasdaq Composite"], ["sox","PHLX Semiconductor (SOX)"] ] as const).map(([key,label]) => {const levels=result?.indexLevels?.[key];return <div className="index-card" key={key}><h4>{label}</h4><div className="result-metrics"><span><b>Previous trading day close</b>{level(levels?.priorClose?.value)}</span><span><b>+15 minutes</b>{level(levels?.at15?.close)}</span><span><b>+1 hour</b>{level(levels?.at60?.close)}</span><span><b>Event-day close</b>{level(levels?.dayClose?.value)}</span></div>{levels?.intradayStatus==="plan-not-authorized"&&<p className="index-note">Massive does not authorize SOX minute bars on the current plan; intraday values are unavailable.</p>}{!levels&&<p className="index-note">Index levels have not yet been captured.</p>}</div>})}</div><div className="result-explanation"><b>Why the market reacted</b><p>{result?.explanation ?? "Awaiting verified historical data."}</p>{result?.indexLevels?.nasdaq?.sourceUrl&&<a href={result.indexLevels.nasdaq.sourceUrl} target="_blank" rel="noreferrer">Index data and method</a>}{result?.sourceUrl&&<a href={result.sourceUrl} target="_blank" rel="noreferrer">Verification source</a>}</div><button className="result-toggle" type="button" aria-expanded={!!openAnalysis[eventId]} onClick={() => setOpenAnalysis(current=>({...current,[eventId]:!current[eventId]}))}>{openAnalysis[eventId]?"Hide historical analysis":"View historical analysis"}<span aria-hidden="true">{openAnalysis[eventId]?"−":"+"}</span></button>{openAnalysis[eventId]&&<div className="analysis-panel"><label htmlFor={`analysis-${eventId}`}>Historical analysis · {item.event}</label><textarea id={`analysis-${eventId}`} readOnly value={result?historicalAnalysis(result,archive.results as HistoricalResult[],archive.eventIndex):"A verified result is needed before historical analysis can be computed."} /></div>}</div></td></tr>}
           </Fragment>;
         })}</tbody>
       </table></div>
