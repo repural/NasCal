@@ -725,7 +725,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26928.61582841896
-          }
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -750,9 +752,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 12646.91254130404
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26955.59750665409
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26988.30505153741
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 12708.05598952283
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 12865.14502165461
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-06-02-JOLTS",
@@ -929,7 +959,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 27092.0949984278
-          }
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -954,9 +986,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13512.22396891976
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 27122.50257314981
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 27145.32914514999
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 13495.06684759254
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 13548.87736303319
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-06-03-AVGO",
@@ -1184,7 +1244,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26911.46328906445
-          }
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -1209,9 +1271,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13682.18501141986
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26998.56525881945
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26935.63230828669
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 13901.77425320898
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 13888.49204925508
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-06-05-JOBS",
@@ -1339,7 +1429,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -1355,9 +1447,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-06-10-CPI",
@@ -1485,7 +1593,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -1501,9 +1611,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-06-11-PPI",
@@ -1631,7 +1757,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -1647,9 +1775,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-06-17-FOMC",
@@ -1826,7 +1970,9 @@
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 26424.15176792179
-          }
+          },
+          "releaseLabel": "fomc-decision",
+          "releaseTimeET": "14:00"
         },
         "sox": {
           "priorClose": {
@@ -1851,9 +1997,37 @@
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 13783.59830334393
+          },
+          "releaseLabel": "fomc-decision",
+          "releaseTimeET": "14:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "fomc-decision",
+          "releaseTimeET": "14:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 26263.81874480683
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 26253.3151981266
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 13672.31701556604
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 13796.98721505298
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-06-17-RETAIL",
@@ -1981,7 +2155,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -1997,9 +2173,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-06-25-PCE",
@@ -2127,7 +2319,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -2143,9 +2337,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-06-30-JOLTS",
@@ -2322,7 +2532,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26010.68705903582
-          }
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -2347,9 +2559,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 14099.70884449764
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26005.74293913133
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26000.60704585856
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 14126.59609893515
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 14096.9894691026
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-07-01-ISM-MFG",
@@ -2526,7 +2766,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26076.28360573044
-          }
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -2551,9 +2793,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13783.36304901283
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26116.96726366685
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26099.60094331763
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 13747.41711010268
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 13498.4035638952
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-07-02-JOBS",
@@ -2681,7 +2951,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -2697,9 +2969,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-07-06-ISM-SVC",
@@ -2876,7 +3164,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26055.35267678975
-          }
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -2901,9 +3191,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13126.50013233148
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26107.21763196725
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26125.81549430423
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 13232.21002535032
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 13151.35764706425
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-07-14-CPI",
@@ -3032,7 +3350,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -3048,9 +3368,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-07-15-PPI",
@@ -3158,7 +3494,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -3174,9 +3512,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-07-16-RETAIL",
@@ -3304,7 +3658,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -3320,9 +3676,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-07-29-FOMC",
@@ -3499,7 +3871,9 @@
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 24751.82222925614
-          }
+          },
+          "releaseLabel": "fomc-decision",
+          "releaseTimeET": "14:00"
         },
         "sox": {
           "priorClose": {
@@ -3524,9 +3898,37 @@
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 10672.67301818816
+          },
+          "releaseLabel": "fomc-decision",
+          "releaseTimeET": "14:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "fomc-decision",
+          "releaseTimeET": "14:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 24821.10356782101
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 25022.70342688744
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 10756.99377442535
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 10974.53948711719
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-07-30-GDP",
@@ -3654,7 +4056,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "gdp-advance",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -3670,9 +4074,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "gdp-advance",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "gdp-advance",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-07-30-PCE",
@@ -3800,7 +4220,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -3816,9 +4238,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-07-31-ECI",
@@ -3946,7 +4384,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-cost",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -3962,9 +4402,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-cost",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "employment-cost",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-08-03-ISM-MFG",
@@ -4166,7 +4622,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 25705.88256802494
-          }
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -4191,9 +4649,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11107.91311810444
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 25690.09468146109
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 25835.29718461395
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 11088.64958717592
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 11408.23392313387
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-08-04-JOLTS",
@@ -4395,7 +4881,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26247.47895180638
-          }
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -4420,9 +4908,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11963.84345799304
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26325.13317954475
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26333.10112977847
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 11994.35650913602
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 12010.81133340179
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-08-05-ISM-SVC",
@@ -4624,7 +5140,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26709.93314720706
-          }
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -4649,9 +5167,37 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 12323.10802995111
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26706.42116683336
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26612.13612131427
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 12221.87476563637
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 12048.55573839975
+            }
           }
         }
-      }
+      ]
     },
     {
       "eventId": "2026-08-07-JOBS",
@@ -4805,7 +5351,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -4821,9 +5369,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-08-12-CPI",
@@ -4977,7 +5541,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -4993,9 +5559,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-08-13-PPI",
@@ -5138,7 +5720,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -5154,9 +5738,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-08-14-RETAIL",
@@ -5309,7 +5909,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -5325,9 +5927,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-08-26-GDP",
@@ -5460,7 +6078,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "gdp-second",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -5476,9 +6096,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "gdp-second",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "gdp-second",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-08-26-NVDA",
@@ -5684,7 +6320,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -5700,9 +6338,25 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-01-ISM + JOLTS",
@@ -5911,7 +6565,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26077.50216633122
-          }
+          },
+          "releaseLabel": "ism-manufacturing-jolts",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -5936,10 +6592,38 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11214.68612860684
-          }
+          },
+          "releaseLabel": "ism-manufacturing-jolts",
+          "releaseTimeET": "10:00"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "ism-manufacturing-jolts",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26123.19654618606
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26173.31586949002
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 11193.69866050842
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 11300.56357470643
+            }
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-02-AVGO",
@@ -6195,7 +6879,9 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26430.91692147155
-          }
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
         },
         "sox": {
           "priorClose": {
@@ -6220,10 +6906,38 @@
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11154.32365542779
-          }
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26421.67368513872
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26425.76728193085
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 11110.54401112371
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 11234.96281991907
+            }
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-04-Jobs",
@@ -6383,7 +7097,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -6399,10 +7115,26 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-08-3Y",
@@ -6611,7 +7343,9 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 26447.38586668834
-          }
+          },
+          "releaseLabel": "treasury-3y-auction",
+          "releaseTimeET": "13:00"
         },
         "sox": {
           "priorClose": {
@@ -6636,10 +7370,38 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 11915.87651509936
-          }
+          },
+          "releaseLabel": "treasury-3y-auction",
+          "releaseTimeET": "13:00"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "treasury-3y-auction",
+          "releaseTimeET": "13:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 26484.44025744184
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 26461.63620218847
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 11961.74754342941
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 11933.34240245022
+            }
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-09-10Y",
@@ -6848,7 +7610,9 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 26262.45588339676
-          }
+          },
+          "releaseLabel": "treasury-10y-auction",
+          "releaseTimeET": "13:00"
         },
         "sox": {
           "priorClose": {
@@ -6873,10 +7637,38 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 11936.57864986138
-          }
+          },
+          "releaseLabel": "treasury-10y-auction",
+          "releaseTimeET": "13:00"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "treasury-10y-auction",
+          "releaseTimeET": "13:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 26270.05985744849
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 26273.17424304272
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 11950.65655913415
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 11932.79181984159
+            }
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-10-PPI + 30Y",
@@ -6897,11 +7689,11 @@
           "label": "Producer Price Index",
           "releaseTimeET": "08:30",
           "scheduleSource": "https://www.bls.gov/schedule/2026/09_sched_list.htm",
-          "caveat": null,
+          "caveat": "PPI and auction occurred at different times",
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-24",
+          "verifiedAt": "2026-09-25",
           "assets": {
             "QQQ": {
               "at15": {
@@ -6974,6 +7766,14 @@
                   "close": 560.99
                 }
               }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
             }
           }
         },
@@ -6981,11 +7781,11 @@
           "label": "30-year Treasury auction",
           "releaseTimeET": "13:00",
           "scheduleSource": "https://www.treasurydirect.gov/auctions/announcements-data-results/",
-          "caveat": null,
+          "caveat": "PPI and auction occurred at different times",
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-24",
+          "verifiedAt": "2026-09-25",
           "assets": {
             "QQQ": {
               "at15": {
@@ -7058,6 +7858,54 @@
                   "close": 562.87
                 }
               }
+            },
+            "I:COMP": {
+              "at15": {
+                "pct": -0.01,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 26155.61898032853
+                },
+                "after": {
+                  "minuteET": "13:14",
+                  "close": 26153.13421453093
+                }
+              },
+              "at60": {
+                "pct": -0.14,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 26155.61898032853
+                },
+                "after": {
+                  "minuteET": "13:59",
+                  "close": 26119.22804307903
+                }
+              }
+            },
+            "I:SOX": {
+              "at15": {
+                "pct": -0.03,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 11695.43700817128
+                },
+                "after": {
+                  "minuteET": "13:14",
+                  "close": 11692.48969063805
+                }
+              },
+              "at60": {
+                "pct": -0.12,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 11695.43700817128
+                },
+                "after": {
+                  "minuteET": "13:59",
+                  "close": 11681.33989064967
+                }
+              }
             }
           }
         }
@@ -7068,32 +7916,97 @@
             "date": "2026-09-09",
             "value": 26253.33983069593
           },
-          "at15": null,
-          "at60": null,
+          "at15": {
+            "minuteET": "13:14",
+            "close": 26153.13421453093
+          },
+          "at60": {
+            "minuteET": "13:59",
+            "close": 26119.22804307903
+          },
           "dayClose": {
             "date": "2026-09-10",
             "value": 26081.72451301881
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "12:59",
+            "close": 26155.61898032853
+          },
+          "releaseLabel": "30-year Treasury auction",
+          "releaseTimeET": "13:00"
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-09",
             "value": 11931.32171861764
           },
-          "at15": null,
-          "at60": null,
+          "at15": {
+            "minuteET": "13:14",
+            "close": 11692.48969063805
+          },
+          "at60": {
+            "minuteET": "13:59",
+            "close": 11681.33989064967
+          },
           "dayClose": {
             "date": "2026-09-10",
             "value": 11614.16685232229
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "12:59",
+            "close": 11695.43700817128
+          },
+          "releaseLabel": "30-year Treasury auction",
+          "releaseTimeET": "13:00"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "Producer Price Index",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        },
+        {
+          "label": "30-year Treasury auction",
+          "releaseTimeET": "13:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 26153.13421453093
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 26119.22804307903
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 11692.48969063805
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 11681.33989064967
+            }
+          }
+        }
+      ],
+      "qqq15m": "-0.42%",
+      "qqq1h": "-0.47%",
+      "reactionStatus": "measured"
     },
     {
       "eventId": "2026-09-11-CPI",
@@ -7253,7 +8166,9 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         },
         "sox": {
           "priorClose": {
@@ -7269,10 +8184,26 @@
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
-          "beforeRelease": null
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-15-FOMC 1",
@@ -7340,11 +8271,11 @@
           "label": "Retail sales",
           "releaseTimeET": "08:30",
           "scheduleSource": "https://www.census.gov/retail/release_schedule.html",
-          "caveat": null,
+          "caveat": "Retail sales and Fed decision occurred at different times",
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-24",
+          "verifiedAt": "2026-09-25",
           "assets": {
             "QQQ": {
               "at15": {
@@ -7407,6 +8338,14 @@
                   "close": 550
                 }
               }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
             }
           }
         },
@@ -7418,7 +8357,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-24",
+          "verifiedAt": "2026-09-25",
           "assets": {
             "QQQ": {
               "at15": {
@@ -7491,6 +8430,54 @@
                   "close": 543.94
                 }
               }
+            },
+            "I:COMP": {
+              "at15": {
+                "pct": 0,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 26161.84949311681
+                },
+                "after": {
+                  "minuteET": "14:14",
+                  "close": 26161.29657377087
+                }
+              },
+              "at60": {
+                "pct": -0.78,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 26161.84949311681
+                },
+                "after": {
+                  "minuteET": "14:59",
+                  "close": 25957.69265305037
+                }
+              }
+            },
+            "I:SOX": {
+              "at15": {
+                "pct": -0.19,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 11377.5570048445
+                },
+                "after": {
+                  "minuteET": "14:14",
+                  "close": 11355.7429864452
+                }
+              },
+              "at60": {
+                "pct": -1.52,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 11377.5570048445
+                },
+                "after": {
+                  "minuteET": "14:59",
+                  "close": 11204.08641671896
+                }
+              }
             }
           }
         }
@@ -7501,32 +8488,97 @@
             "date": "2026-09-15",
             "value": 25981.57079867358
           },
-          "at15": null,
-          "at60": null,
+          "at15": {
+            "minuteET": "14:14",
+            "close": 26161.29657377087
+          },
+          "at60": {
+            "minuteET": "14:59",
+            "close": 25957.69265305037
+          },
           "dayClose": {
             "date": "2026-09-16",
             "value": 25978.4248457016
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "13:59",
+            "close": 26161.84949311681
+          },
+          "releaseLabel": "FOMC statement",
+          "releaseTimeET": "14:00"
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-15",
             "value": 11175.54700876069
           },
-          "at15": null,
-          "at60": null,
+          "at15": {
+            "minuteET": "14:14",
+            "close": 11355.7429864452
+          },
+          "at60": {
+            "minuteET": "14:59",
+            "close": 11204.08641671896
+          },
           "dayClose": {
             "date": "2026-09-16",
             "value": 11246.10706226385
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "13:59",
+            "close": 11377.5570048445
+          },
+          "releaseLabel": "FOMC statement",
+          "releaseTimeET": "14:00"
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "Retail sales",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        },
+        {
+          "label": "FOMC statement",
+          "releaseTimeET": "14:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 26161.29657377087
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 25957.69265305037
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 11355.7429864452
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 11204.08641671896
+            }
+          }
+        }
+      ],
+      "qqq15m": "-0.20%",
+      "qqq1h": "-0.14%",
+      "reactionStatus": "measured"
     },
     {
       "eventId": "2026-09-18-Witching",
@@ -7782,7 +8834,9 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 27206.01204641615
-          }
+          },
+          "releaseLabel": "treasury-2y-auction",
+          "releaseTimeET": "13:00"
         },
         "sox": {
           "priorClose": {
@@ -7807,10 +8861,38 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 12603.90492319828
-          }
+          },
+          "releaseLabel": "treasury-2y-auction",
+          "releaseTimeET": "13:00"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "treasury-2y-auction",
+          "releaseTimeET": "13:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 27213.23122429713
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 27243.34844795638
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 12606.29570216188
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 12620.02626301095
+            }
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-23-5Y",
@@ -8018,7 +9100,9 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 26907.04244711264
-          }
+          },
+          "releaseLabel": "five-year-treasury-auction",
+          "releaseTimeET": "13:00"
         },
         "sox": {
           "priorClose": {
@@ -8043,10 +9127,38 @@
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 12429.89236465128
-          }
+          },
+          "releaseLabel": "five-year-treasury-auction",
+          "releaseTimeET": "13:00"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "five-year-treasury-auction",
+          "releaseTimeET": "13:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 26890.1291936267
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 26966.9434315556
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 12404.61710024969
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 12514.92485527917
+            }
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-09-23-FLASH PMI",
@@ -8264,7 +9376,9 @@
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 27157.83869514727
-          }
+          },
+          "releaseLabel": "sp-global-us-flash-pmi",
+          "releaseTimeET": "09:45"
         },
         "sox": {
           "priorClose": {
@@ -8289,10 +9403,38 @@
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 12538.03059660895
-          }
+          },
+          "releaseLabel": "sp-global-us-flash-pmi",
+          "releaseTimeET": "09:45"
         }
       },
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "indexWindows": [
+        {
+          "label": "sp-global-us-flash-pmi",
+          "releaseTimeET": "09:45",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "09:59",
+              "close": 27096.75229005108
+            },
+            "at60": {
+              "minuteET": "10:44",
+              "close": 26960.44143684416
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "09:59",
+              "close": 12494.60976068334
+            },
+            "at60": {
+              "minuteET": "10:44",
+              "close": 12430.62561742011
+            }
+          }
+        }
+      ]
     }
   ]
 }
