@@ -51,6 +51,11 @@ jobs:
           git add history/event-results.json history/discovery.json
           if ! git diff --cached --quiet; then
             git commit -m "Backfill verified historical market reactions"
-            git pull --rebase origin main
-            git push
+            git fetch origin main
+            # The backfill can overlap a manual history update while the
+            # minute-bar requests are running. Keep this run's freshly
+            # calculated history on overlapping lines, while retaining
+            # unrelated files from the concurrent main-branch update.
+            git merge --no-edit -X ours origin/main
+            git push origin HEAD:main
           fi
