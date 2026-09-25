@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Discover high-priority candidates from official release calendars for the
-// three completed calendar months preceding --as-of. Discovery does not invent
+// completed calendar months preceding --as-of. Discovery does not invent
 // historical outcomes: a researcher verifies each release before adding it.
 import { readFile, writeFile } from "node:fs/promises";
 
@@ -10,8 +10,10 @@ const args = Object.fromEntries(process.argv.slice(2).map(arg => {
 }));
 const asOf = args["as-of"] ?? new Date().toISOString().slice(0,10);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(asOf)) throw new Error("--as-of must be YYYY-MM-DD");
+const lookbackMonths = Number(args.months ?? 3);
+if (!Number.isInteger(lookbackMonths) || lookbackMonths < 1 || lookbackMonths > 12) throw new Error("--months must be an integer from 1 to 12");
 const base = new Date(`${asOf.slice(0,7)}-01T00:00:00Z`);
-const months = [3,2,1].map(n => {
+const months = Array.from({length: lookbackMonths}, (_, i) => lookbackMonths - i).map(n => {
   const date = new Date(Date.UTC(base.getUTCFullYear(), base.getUTCMonth() - n, 1));
   return { year: date.getUTCFullYear(), month: String(date.getUTCMonth()+1).padStart(2,"0"), name: date.toLocaleString("en-US",{month:"long",timeZone:"UTC"}) };
 });
