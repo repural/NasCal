@@ -34,17 +34,21 @@ function earningsHistoricalAnalysis(eventDate:string, ticker:string, result:Hist
   const current=history.find(event=>event.date===eventDate);
   const benchmark=earningsBenchmark[ticker];
   const lines:string[]=[];
+  const windows=(event:typeof history[number])=>{
+    const lead=event.session==="after_close"?"T−7→T0":"T−7→T−1";
+    const first=event.session==="after_close"?"T0→T+1":"T−1→T0";
+    const follow=event.session==="after_close"?"T+1→T+7":"T0→T+7";
+    return `${lead} stock ${signed(event.leadStock)} vs ${benchmark} ${signed(event.leadBenchmark)}; first reaction (${first}) stock ${signed(event.firstStock)} vs ${benchmark} ${signed(event.firstBenchmark)}; follow-through (${follow}) stock ${signed(event.followStock)} vs ${benchmark} ${signed(event.followBenchmark)}.`;
+  };
   if(result?.status==="verified") lines.push(`Recorded outcome: ${result.actual}`);
-  if(current) lines.push(`This report (${current.date}): stock T+1 ${signed(current.post1Stock)} vs ${benchmark} ${signed(current.post1Benchmark)}; T+7 ${signed(current.post7Stock)} vs ${benchmark} ${signed(current.post7Benchmark)}.`);
+  if(current) lines.push(`This report (${current.date}): ${windows(current)}`);
   if(!earlier.length) {
     lines.push(`No earlier ${ticker} earnings observations in the archive as of ${earningsHistoryAsOf}.`);
     return lines.join("\n");
   }
   lines.push(`${earlier.length} earlier ${ticker} earnings report${earlier.length===1?"":"s"} (archive through ${earningsHistoryAsOf}; benchmark ${benchmark}):`);
-  for(const event of earlier.slice(-3)) {
-    lines.push(`${event.date}: T−7 to T−1 stock ${signed(event.preStock)} vs ${benchmark} ${signed(event.preBenchmark)}; T+1 stock ${signed(event.post1Stock)} vs ${benchmark} ${signed(event.post1Benchmark)}; T+7 stock ${signed(event.post7Stock)} vs ${benchmark} ${signed(event.post7Benchmark)}.`);
-  }
-  lines.push(`In this sample, ${earlier.filter(event=>event.preStock>0).length}/${earlier.length} stocks rose before the release, ${earlier.filter(event=>event.post1Stock>0).length}/${earlier.length} rose on the first post-release session, and ${earlier.filter(event=>event.post7Stock>0).length}/${earlier.length} remained up through T+7. This small sample describes positioning and reaction, not a forecast.`);
+  for(const event of earlier.slice(-3)) lines.push(`${event.date}: ${windows(event)}`);
+  lines.push(`In this sample, ${earlier.filter(event=>event.leadStock>0).length}/${earlier.length} stocks rose before the release, ${earlier.filter(event=>event.firstStock>0).length}/${earlier.length} rose on the first reaction session, and ${earlier.filter(event=>event.followStock>0).length}/${earlier.length} gained in the subsequent sessions. This small sample describes historical moves, not a forecast.`);
   lines.push(earlier[0].session==="after_close"
     ? "For after-close earnings, T0 closes before results and T+1 is the first regular-session reaction."
     : "For before-open earnings, T0 already includes the first regular-session reaction.");
