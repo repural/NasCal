@@ -284,11 +284,11 @@
     "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
   ],
   "errors": [
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm"
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm"
   ]
 }
