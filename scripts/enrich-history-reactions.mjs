@@ -18,7 +18,7 @@ const archive=JSON.parse(await readFile(file,"utf8"));
 const entries=archive.results.filter(r=>{
   const i=archive.eventIndex[r.eventId];
   return i?.eventDate.slice(0,7)>=from && i?.eventDate.slice(0,7)<=through &&
-    /^\d{2}:\d{2}$/.test(i?.timeET??"") && r.status==="verified";
+    (r.reactionWindows?.some(w=>/^\d{2}:\d{2}$/.test(w.releaseTimeET))||/^\d{2}:\d{2}$/.test(i?.timeET??"")) && r.status==="verified";
 });
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const cache=new Map();
@@ -57,29 +57,43 @@ const priceSourceUrl="https://massive.com/docs/rest/stocks/aggregates/custom-bar
 const method="Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.";
 for(const record of entries){
   const indexed=archive.eventIndex[record.eventId];
-  const utc=timestamp(indexed.eventDate,indexed.timeET);
-  const assets={};
-  for(const ticker of ["QQQ","NVDA","SMH","I:COMP","I:SOX"]){
-    const saved=record.reactionWindows?.[0]?.assets?.[ticker];
-    if(saved){assets[ticker]=saved;continue;}
-    const series=await bars(ticker,indexed.eventDate);
-    assets[ticker]={at15:series?measure(series,utc,15):null,at60:series?measure(series,utc,60):null};
+  const previous=record.reactionWindows?.length?record.reactionWindows:[{label:indexed.eventKey,releaseTimeET:indexed.timeET,assets:{}}];
+  const windows=[];
+  for(const existing of previous){
+    if(!/^\d{2}:\d{2}$/.test(existing.releaseTimeET??""))continue;
+    const utc=timestamp(indexed.eventDate,existing.releaseTimeET);
+    const assets={...existing.assets};
+    for(const ticker of ["QQQ","NVDA","SMH","I:COMP","I:SOX"]){
+      if(assets[ticker])continue;
+      const series=await bars(ticker,indexed.eventDate);
+      assets[ticker]={at15:series?measure(series,utc,15):null,at60:series?measure(series,utc,60):null};
+    }
+    windows.push({...existing,label:existing.label??indexed.eventKey,releaseTimeET:existing.releaseTimeET,
+      scheduleSource:existing.scheduleSource??record.sourceUrl,caveat:existing.caveat??(indexed.confounders.join(" ")||null),
+      priceSource:existing.priceSource??"Massive adjusted one-minute aggregate bars",priceSourceUrl:existing.priceSourceUrl??priceSourceUrl,
+      method:existing.method??method,verifiedAt:asOf,assets});
   }
+  if(!windows.length)continue;
+  record.reactionWindows=windows;
+  record.indexWindows=windows.map(w=>({label:w.label,releaseTimeET:w.releaseTimeET,
+    nasdaq:{at15:w.assets["I:COMP"].at15?.after??null,at60:w.assets["I:COMP"].at60?.after??null},
+    sox:{at15:w.assets["I:SOX"].at15?.after??null,at60:w.assets["I:SOX"].at60?.after??null}}));
   record.indexLevels??={};
   for(const [name,ticker] of [["nasdaq","I:COMP"],["sox","I:SOX"]]){
+    const selected=windows.find(w=>w.assets[ticker].at15||w.assets[ticker].at60)??windows[0];
+    const values=selected.assets[ticker];
     record.indexLevels[name]??={};
-    record.indexLevels[name].at15=assets[ticker].at15?.after??null;
-    record.indexLevels[name].at60=assets[ticker].at60?.after??null;
-    record.indexLevels[name].beforeRelease=assets[ticker].at15?.before??assets[ticker].at60?.before??null;
-    record.indexLevels[name].intradayStatus=ticker==="I:SOX"&&!cache.get(`${ticker}/${indexed.eventDate}`)?"plan-not-authorized":assets[ticker].at15||assets[ticker].at60?"measured":"exact-bars-unavailable";
+    record.indexLevels[name].at15=values.at15?.after??null;
+    record.indexLevels[name].at60=values.at60?.after??null;
+    record.indexLevels[name].beforeRelease=values.at15?.before??values.at60?.before??null;
+    record.indexLevels[name].releaseLabel=selected.label;
+    record.indexLevels[name].releaseTimeET=selected.releaseTimeET;
+    record.indexLevels[name].intradayStatus=ticker==="I:SOX"&&soxMinuteDenied?"plan-not-authorized":values.at15||values.at60?"measured":"exact-bars-unavailable";
   }
-  const window={label:indexed.eventKey,releaseTimeET:indexed.timeET,scheduleSource:record.sourceUrl,
-    caveat:indexed.confounders.join(" ")||null,priceSource:"Massive adjusted one-minute aggregate bars",
-    priceSourceUrl,method,verifiedAt:asOf,assets};
-  record.reactionWindows=[{...window,assets:{...record.reactionWindows?.[0]?.assets,...assets}}];
-  record.qqq15m=assets.QQQ.at15?`${assets.QQQ.at15.pct>=0?"+":""}${assets.QQQ.at15.pct.toFixed(2)}%`:null;
-  record.qqq1h=assets.QQQ.at60?`${assets.QQQ.at60.pct>=0?"+":""}${assets.QQQ.at60.pct.toFixed(2)}%`:null;
-  record.reactionStatus=assets.QQQ.at15||assets.QQQ.at60?"measured":"exact-bars-unavailable";
+  const qqq=windows[0].assets.QQQ;
+  record.qqq15m=qqq.at15?`${qqq.at15.pct>=0?"+":""}${qqq.at15.pct.toFixed(2)}%`:null;
+  record.qqq1h=qqq.at60?`${qqq.at60.pct>=0?"+":""}${qqq.at60.pct.toFixed(2)}%`:null;
+  record.reactionStatus=windows.some(w=>w.assets.QQQ.at15||w.assets.QQQ.at60)?"measured":"exact-bars-unavailable";
 }
 if(entries.length){
   archive.lastUpdated=asOf;
