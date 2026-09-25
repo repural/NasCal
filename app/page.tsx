@@ -87,7 +87,7 @@ function Calendar({ name, month, days, offset, onSelect }: (typeof monthConfig)[
           }
         } : undefined}
       >
-        {day && <><span className="day-number">{day}</span>{isInteractive && <><span className="event-dot" aria-hidden="true">×</span><span className="event-short">{dayEvents.map(item => item.short).join(" + ")}</span></>}</>}
+        {day && <><span className="day-number">{day}</span>{isInteractive && <><span className="event-dot" aria-hidden="true">×</span><span className="event-short">{dayEvents.map(item => item.short).join(" · ")}</span></>}</>}
       </div>;
     })}</div>
   </article>;
