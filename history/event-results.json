@@ -951,7 +951,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-03-31",
-            "value": 21590.62857526481
+            "value": 21590.62857526481,
+            "open": 21064.33360402862
           },
           "at15": {
             "minuteET": "10:14",
@@ -963,7 +964,8 @@
           },
           "dayClose": {
             "date": "2026-04-01",
-            "value": 21840.94744239738
+            "value": 21840.94744239738,
+            "open": 21742.79546608415
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -973,12 +975,17 @@
             "close": 21782.95440803078
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-04-01",
+            "value": 21742.79546608415
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-03-31",
-            "value": 7588.1962850478
+            "value": 7588.1962850478,
+            "open": 7277.87772500347
           },
           "at15": {
             "minuteET": "10:14",
@@ -990,7 +997,8 @@
           },
           "dayClose": {
             "date": "2026-04-01",
-            "value": 7802.31056728967
+            "value": 7802.31056728967,
+            "open": 7680.60654380939
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -1000,7 +1008,11 @@
             "close": 7792.25727917283
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-04-01",
+            "value": 7680.60654380939
+          }
         }
       },
       "indexWindows": [
@@ -1085,7 +1097,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-02",
-            "value": 21879.18172523713
+            "value": 21879.18172523713,
+            "open": 21472.52255702395
           },
           "at15": null,
           "at60": null,
@@ -1095,12 +1108,14 @@
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": null
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-02",
-            "value": 7833.38661973073
+            "value": 7833.38661973073,
+            "open": 7544.93311881505
           },
           "at15": null,
           "at60": null,
@@ -1110,7 +1125,8 @@
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": null
         }
       },
       "indexWindows": [
@@ -1283,7 +1299,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-02",
-            "value": 21879.18172523713
+            "value": 21879.18172523713,
+            "open": 21472.52255702395
           },
           "at15": {
             "minuteET": "10:14",
@@ -1295,7 +1312,8 @@
           },
           "dayClose": {
             "date": "2026-04-06",
-            "value": 21996.33719313773
+            "value": 21996.33719313773,
+            "open": 21939.796145952
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -1305,12 +1323,17 @@
             "close": 22023.3749618851
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-04-06",
+            "value": 21939.796145952
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-02",
-            "value": 7833.38661973073
+            "value": 7833.38661973073,
+            "open": 7544.93311881505
           },
           "at15": {
             "minuteET": "10:14",
@@ -1322,7 +1345,8 @@
           },
           "dayClose": {
             "date": "2026-04-06",
-            "value": 7916.10472141083
+            "value": 7916.10472141083,
+            "open": 7917.86251471001
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -1332,7 +1356,11 @@
             "close": 7900.60001238861
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-04-06",
+            "value": 7917.86251471001
+          }
         }
       },
       "indexWindows": [
@@ -1517,7 +1545,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-06",
-            "value": 21996.33719313773
+            "value": 21996.33719313773,
+            "open": 21939.796145952
           },
           "at15": {
             "minuteET": "10:14",
@@ -1529,7 +1558,8 @@
           },
           "dayClose": {
             "date": "2026-04-07",
-            "value": 22017.84878186859
+            "value": 22017.84878186859,
+            "open": 21927.08693015018
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -1539,12 +1569,17 @@
             "close": 21774.99615962752
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-04-07",
+            "value": 21927.08693015018
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-06",
-            "value": 7916.10472141083
+            "value": 7916.10472141083,
+            "open": 7917.86251471001
           },
           "at15": {
             "minuteET": "10:14",
@@ -1556,7 +1591,8 @@
           },
           "dayClose": {
             "date": "2026-04-07",
-            "value": 8003.8674945457
+            "value": 8003.8674945457,
+            "open": 7915.17080662103
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -1566,7 +1602,11 @@
             "close": 7860.12699577494
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-04-07",
+            "value": 7915.17080662103
+          }
         }
       },
       "indexWindows": [
@@ -1607,13 +1647,160 @@
       "nasdaq1h": null,
       "nasdaqClose": null,
       "yield10y": null,
-      "qqq15m": null,
-      "qqq1h": null,
-      "reactionWindows": null,
+      "qqq15m": "+0.02%",
+      "qqq1h": "+0.17%",
+      "reactionWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.02,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 604.85
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 604.95
+                }
+              },
+              "at60": {
+                "pct": 0.17,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 604.85
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 605.87
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.09,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 181.06
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 181.22
+                }
+              },
+              "at60": {
+                "pct": 0.41,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 181.06
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 181.8
+                }
+              }
+            },
+            "SMH": {
+              "at15": null,
+              "at60": {
+                "pct": 0.33,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 421.5
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 422.9
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          },
+          "scheduleSource": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25"
+        }
+      ],
       "explanation": "February PCE was delayed to April 9 and released at 08:30 ET; the release showed continued inflation pressure.",
       "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026",
       "verifiedAt": "2026-09-25",
-      "reactionStatus": "awaiting-minute-bars"
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-04-08",
+            "value": 22634.9950553094,
+            "open": 22821.20854251743
+          },
+          "dayOpen": {
+            "date": "2026-04-09",
+            "value": 22646.35286314353
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-04-09",
+            "value": 22822.4171172586,
+            "open": 22646.35286314353
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-04-08",
+            "value": 8510.91743005664,
+            "open": 8497.92866756933
+          },
+          "dayOpen": {
+            "date": "2026-04-09",
+            "value": 8561.18183257582
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-04-09",
+            "value": 8689.53278770933,
+            "open": 8561.18183257582
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
     },
     {
       "eventId": "2026-04-10-CPI",
@@ -1730,38 +1917,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-09",
-            "value": 22822.4171172586
+            "value": 22822.4171172586,
+            "open": 22646.35286314353
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-10",
-            "value": 22902.89371766072
+            "value": 22902.89371766072,
+            "open": 22913.91015638004
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-10",
+            "value": 22913.91015638004
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-09",
-            "value": 8689.53278770933
+            "value": 8689.53278770933,
+            "open": 8561.18183257582
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-10",
-            "value": 8889.82800159301
+            "value": 8889.82800159301,
+            "open": 8812.2197931884
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-10",
+            "value": 8812.2197931884
+          }
         }
       },
       "indexWindows": [
@@ -1874,38 +2073,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-13",
-            "value": 23183.73599960506
+            "value": 23183.73599960506,
+            "open": 22849.22960365903
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-14",
-            "value": 23639.08330932135
+            "value": 23639.08330932135,
+            "open": 23331.50102001786
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-14",
+            "value": 23331.50102001786
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-13",
-            "value": 9039.52446421223
+            "value": 9039.52446421223,
+            "open": 8873.30650434456
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-14",
-            "value": 9224.12111273184
+            "value": 9224.12111273184,
+            "open": 9133.28961213832
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-14",
+            "value": 9133.28961213832
+          }
         }
       },
       "indexWindows": [
@@ -2028,38 +2239,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-15",
-            "value": 24016.01691544134
+            "value": 24016.01691544134,
+            "open": 23688.11978381316
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-16",
-            "value": 24102.70390933821
+            "value": 24102.70390933821,
+            "open": 24062.45354449992
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-16",
+            "value": 24062.45354449992
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-15",
-            "value": 9239.28554782562
+            "value": 9239.28554782562,
+            "open": 9189.22563910358
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-16",
-            "value": 9329.34529120064
+            "value": 9329.34529120064,
+            "open": 9215.92750548854
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-16",
+            "value": 9215.92750548854
+          }
         }
       },
       "indexWindows": [
@@ -2232,7 +2455,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-28",
-            "value": 24663.79913022184
+            "value": 24663.79913022184,
+            "open": 24609.57371556531
           },
           "at15": {
             "minuteET": "14:14",
@@ -2244,7 +2468,8 @@
           },
           "dayClose": {
             "date": "2026-04-29",
-            "value": 24673.24052945492
+            "value": 24673.24052945492,
+            "open": 24606.52714450616
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -2254,12 +2479,17 @@
             "close": 24618.47142461027
           },
           "releaseLabel": "fomc-decision",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-04-29",
+            "value": 24606.52714450616
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-28",
-            "value": 10035.57805989796
+            "value": 10035.57805989796,
+            "open": 9979.1712825582
           },
           "at15": {
             "minuteET": "14:14",
@@ -2271,7 +2501,8 @@
           },
           "dayClose": {
             "date": "2026-04-29",
-            "value": 10271.29830789991
+            "value": 10271.29830789991,
+            "open": 10192.33133068018
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -2281,7 +2512,11 @@
             "close": 10200.8389551959
           },
           "releaseLabel": "fomc-decision",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-04-29",
+            "value": 10192.33133068018
+          }
         }
       },
       "indexWindows": [
@@ -2426,38 +2661,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-29",
-            "value": 24673.24052945492
+            "value": 24673.24052945492,
+            "open": 24606.52714450616
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-30",
-            "value": 24892.3133846792
+            "value": 24892.3133846792,
+            "open": 24859.9405153346
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-30",
+            "value": 24859.9405153346
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-29",
-            "value": 10271.29830789991
+            "value": 10271.29830789991,
+            "open": 10192.33133068018
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-30",
-            "value": 10503.70095569287
+            "value": 10503.70095569287,
+            "open": 10387.84032617688
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-30",
+            "value": 10387.84032617688
+          }
         }
       },
       "indexWindows": [
@@ -2590,38 +2837,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-29",
-            "value": 24673.24052945492
+            "value": 24673.24052945492,
+            "open": 24606.52714450616
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-30",
-            "value": 24892.3133846792
+            "value": 24892.3133846792,
+            "open": 24859.9405153346
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-30",
+            "value": 24859.9405153346
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-29",
-            "value": 10271.29830789991
+            "value": 10271.29830789991,
+            "open": 10192.33133068018
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-30",
-            "value": 10503.70095569287
+            "value": 10503.70095569287,
+            "open": 10387.84032617688
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-30",
+            "value": 10387.84032617688
+          }
         }
       },
       "indexWindows": [
@@ -2754,38 +3013,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-29",
-            "value": 24673.24052945492
+            "value": 24673.24052945492,
+            "open": 24606.52714450616
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-30",
-            "value": 24892.3133846792
+            "value": 24892.3133846792,
+            "open": 24859.9405153346
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-30",
+            "value": 24859.9405153346
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-29",
-            "value": 10271.29830789991
+            "value": 10271.29830789991,
+            "open": 10192.33133068018
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-04-30",
-            "value": 10503.70095569287
+            "value": 10503.70095569287,
+            "open": 10387.84032617688
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-04-30",
+            "value": 10387.84032617688
+          }
         }
       },
       "indexWindows": [
@@ -2958,7 +3229,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-04-30",
-            "value": 24892.3133846792
+            "value": 24892.3133846792,
+            "open": 24859.9405153346
           },
           "at15": {
             "minuteET": "10:14",
@@ -2970,7 +3242,8 @@
           },
           "dayClose": {
             "date": "2026-05-01",
-            "value": 25114.44333804758
+            "value": 25114.44333804758,
+            "open": 24977.78972416697
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -2980,12 +3253,17 @@
             "close": 25145.03047773781
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-05-01",
+            "value": 24977.78972416697
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-04-30",
-            "value": 10503.70095569287
+            "value": 10503.70095569287,
+            "open": 10387.84032617688
           },
           "at15": {
             "minuteET": "10:14",
@@ -2997,7 +3275,8 @@
           },
           "dayClose": {
             "date": "2026-05-01",
-            "value": 10595.34104461187
+            "value": 10595.34104461187,
+            "open": 10388.81767972778
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -3007,7 +3286,11 @@
             "close": 10562.66675346198
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-05-01",
+            "value": 10388.81767972778
+          }
         }
       },
       "indexWindows": [
@@ -3192,7 +3475,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-04",
-            "value": 25067.80134751901
+            "value": 25067.80134751901,
+            "open": 25112.18005132164
           },
           "at15": {
             "minuteET": "10:14",
@@ -3204,7 +3488,8 @@
           },
           "dayClose": {
             "date": "2026-05-05",
-            "value": 25326.12575708979
+            "value": 25326.12575708979,
+            "open": 25258.88180307702
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -3214,12 +3499,17 @@
             "close": 25270.87904162627
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-05-05",
+            "value": 25258.88180307702
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-04",
-            "value": 10534.65784896569
+            "value": 10534.65784896569,
+            "open": 10656.07103181484
           },
           "at15": {
             "minuteET": "10:14",
@@ -3231,7 +3521,8 @@
           },
           "dayClose": {
             "date": "2026-05-05",
-            "value": 10980.57781444445
+            "value": 10980.57781444445,
+            "open": 10759.21071796989
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -3241,7 +3532,11 @@
             "close": 10841.52698278361
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-05-05",
+            "value": 10759.21071796989
+          }
         }
       },
       "indexWindows": [
@@ -3426,7 +3721,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-04",
-            "value": 25067.80134751901
+            "value": 25067.80134751901,
+            "open": 25112.18005132164
           },
           "at15": {
             "minuteET": "10:14",
@@ -3438,7 +3734,8 @@
           },
           "dayClose": {
             "date": "2026-05-05",
-            "value": 25326.12575708979
+            "value": 25326.12575708979,
+            "open": 25258.88180307702
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -3448,12 +3745,17 @@
             "close": 25270.87904162627
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-05-05",
+            "value": 25258.88180307702
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-04",
-            "value": 10534.65784896569
+            "value": 10534.65784896569,
+            "open": 10656.07103181484
           },
           "at15": {
             "minuteET": "10:14",
@@ -3465,7 +3767,8 @@
           },
           "dayClose": {
             "date": "2026-05-05",
-            "value": 10980.57781444445
+            "value": 10980.57781444445,
+            "open": 10759.21071796989
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -3475,7 +3778,11 @@
             "close": 10841.52698278361
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-05-05",
+            "value": 10759.21071796989
+          }
         }
       },
       "indexWindows": [
@@ -3620,38 +3927,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-07",
-            "value": 25806.19620406363
+            "value": 25806.19620406363,
+            "open": 25881.30412743587
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-08",
-            "value": 26247.07631360296
+            "value": 26247.07631360296,
+            "open": 25958.118592027
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-08",
+            "value": 25958.118592027
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-07",
-            "value": 11160.99316255943
+            "value": 11160.99316255943,
+            "open": 11332.18602555553
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-08",
-            "value": 11775.4997558575
+            "value": 11775.4997558575,
+            "open": 11408.00555669009
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-08",
+            "value": 11408.00555669009
+          }
         }
       },
       "indexWindows": [
@@ -3784,38 +4103,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-11",
-            "value": 26274.12545851202
+            "value": 26274.12545851202,
+            "open": 26135.63274721277
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-12",
-            "value": 26088.20334215028
+            "value": 26088.20334215028,
+            "open": 26087.00900514691
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-12",
+            "value": 26087.00900514691
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-11",
-            "value": 12081.0416100466
+            "value": 12081.0416100466,
+            "open": 11875.28575702538
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-12",
-            "value": 11717.25809158255
+            "value": 11717.25809158255,
+            "open": 11741.47190971809
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-12",
+            "value": 11741.47190971809
+          }
         }
       },
       "indexWindows": [
@@ -3948,38 +4279,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-12",
-            "value": 26088.20334215028
+            "value": 26088.20334215028,
+            "open": 26087.00900514691
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-13",
-            "value": 26402.34378828522
+            "value": 26402.34378828522,
+            "open": 26147.64629614576
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-13",
+            "value": 26147.64629614576
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-12",
-            "value": 11717.25809158255
+            "value": 11717.25809158255,
+            "open": 11741.47190971809
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-13",
-            "value": 12017.98257049579
+            "value": 12017.98257049579,
+            "open": 11988.75307234855
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-13",
+            "value": 11988.75307234855
+          }
         }
       },
       "indexWindows": [
@@ -4102,38 +4445,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-13",
-            "value": 26402.34378828522
+            "value": 26402.34378828522,
+            "open": 26147.64629614576
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-14",
-            "value": 26635.22191974761
+            "value": 26635.22191974761,
+            "open": 26425.46835065443
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-14",
+            "value": 26425.46835065443
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-13",
-            "value": 12017.98257049579
+            "value": 12017.98257049579,
+            "open": 11988.75307234855
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-14",
-            "value": 12073.7791764882
+            "value": 12073.7791764882,
+            "open": 11950.14196145601
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-14",
+            "value": 11950.14196145601
+          }
         }
       },
       "indexWindows": [
@@ -4266,38 +4621,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-27",
-            "value": 26674.73490320058
+            "value": 26674.73490320058,
+            "open": 26695.44166335826
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-28",
-            "value": 26917.47139561716
+            "value": 26917.47139561716,
+            "open": 26686.53417938037
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-28",
+            "value": 26686.53417938037
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-27",
-            "value": 12702.18857491931
+            "value": 12702.18857491931,
+            "open": 13029.78686710189
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-28",
-            "value": 12829.14344930627
+            "value": 12829.14344930627,
+            "open": 12748.59135469068
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-28",
+            "value": 12748.59135469068
+          }
         }
       },
       "indexWindows": [
@@ -4430,38 +4797,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-27",
-            "value": 26674.73490320058
+            "value": 26674.73490320058,
+            "open": 26695.44166335826
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-28",
-            "value": 26917.47139561716
+            "value": 26917.47139561716,
+            "open": 26686.53417938037
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-28",
+            "value": 26686.53417938037
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-27",
-            "value": 12702.18857491931
+            "value": 12702.18857491931,
+            "open": 13029.78686710189
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-05-28",
-            "value": 12829.14344930627
+            "value": 12829.14344930627,
+            "open": 12748.59135469068
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-05-28",
+            "value": 12748.59135469068
+          }
         }
       },
       "indexWindows": [
@@ -4634,7 +5013,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-05-29",
-            "value": 26972.61998149248
+            "value": 26972.61998149248,
+            "open": 26960.84047508531
           },
           "at15": {
             "minuteET": "10:14",
@@ -4646,7 +5026,8 @@
           },
           "dayClose": {
             "date": "2026-06-01",
-            "value": 27086.80824501689
+            "value": 27086.80824501689,
+            "open": 26952.57916640004
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -4656,12 +5037,17 @@
             "close": 26928.61582841896
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-01",
+            "value": 26952.57916640004
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-05-29",
-            "value": 12829.38226149492
+            "value": 12829.38226149492,
+            "open": 12973.7673313979
           },
           "at15": {
             "minuteET": "10:14",
@@ -4673,7 +5059,8 @@
           },
           "dayClose": {
             "date": "2026-06-01",
-            "value": 12965.64949139793
+            "value": 12965.64949139793,
+            "open": 12706.61737671273
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -4683,7 +5070,11 @@
             "close": 12646.91254130404
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-01",
+            "value": 12706.61737671273
+          }
         }
       },
       "indexWindows": [
@@ -4868,7 +5259,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-01",
-            "value": 27086.80824501689
+            "value": 27086.80824501689,
+            "open": 26952.57916640004
           },
           "at15": {
             "minuteET": "10:14",
@@ -4880,7 +5272,8 @@
           },
           "dayClose": {
             "date": "2026-06-02",
-            "value": 27093.9009109169
+            "value": 27093.9009109169,
+            "open": 27030.07195829363
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -4890,12 +5283,17 @@
             "close": 27092.0949984278
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-02",
+            "value": 27030.07195829363
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-01",
-            "value": 12965.64949139793
+            "value": 12965.64949139793,
+            "open": 12706.61737671273
           },
           "at15": {
             "minuteET": "10:14",
@@ -4907,7 +5305,8 @@
           },
           "dayClose": {
             "date": "2026-06-02",
-            "value": 13726.26958780481
+            "value": 13726.26958780481,
+            "open": 13242.70419410896
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -4917,7 +5316,11 @@
             "close": 13512.22396891976
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-02",
+            "value": 13242.70419410896
+          }
         }
       },
       "indexWindows": [
@@ -4969,32 +5372,44 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-02",
-            "value": 27093.9009109169
+            "value": 27093.9009109169,
+            "open": 27030.07195829363
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-03",
-            "value": 26853.97555005545
+            "value": 26853.97555005545,
+            "open": 27092.84453694551
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-06-03",
+            "value": 27092.84453694551
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-02",
-            "value": 13726.26958780481
+            "value": 13726.26958780481,
+            "open": 13242.70419410896
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-03",
-            "value": 13916.95743833366
+            "value": 13916.95743833366,
+            "open": 13971.14839628968
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-06-03",
+            "value": 13971.14839628968
+          }
         }
       }
     },
@@ -5153,7 +5568,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-02",
-            "value": 27093.9009109169
+            "value": 27093.9009109169,
+            "open": 27030.07195829363
           },
           "at15": {
             "minuteET": "10:14",
@@ -5165,7 +5581,8 @@
           },
           "dayClose": {
             "date": "2026-06-03",
-            "value": 26853.97555005545
+            "value": 26853.97555005545,
+            "open": 27092.84453694551
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -5175,12 +5592,17 @@
             "close": 26911.46328906445
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-03",
+            "value": 27092.84453694551
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-02",
-            "value": 13726.26958780481
+            "value": 13726.26958780481,
+            "open": 13242.70419410896
           },
           "at15": {
             "minuteET": "10:14",
@@ -5192,7 +5614,8 @@
           },
           "dayClose": {
             "date": "2026-06-03",
-            "value": 13916.95743833366
+            "value": 13916.95743833366,
+            "open": 13971.14839628968
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -5202,7 +5625,11 @@
             "close": 13682.18501141986
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-03",
+            "value": 13971.14839628968
+          }
         }
       },
       "indexWindows": [
@@ -5347,38 +5774,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-04",
-            "value": 26830.95751262962
+            "value": 26830.95751262962,
+            "open": 26579.29712991923
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-05",
-            "value": 25709.43201195242
+            "value": 25709.43201195242,
+            "open": 26536.59265857596
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-05",
+            "value": 26536.59265857596
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-04",
-            "value": 13617.49498062022
+            "value": 13617.49498062022,
+            "open": 13243.65472616345
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-05",
-            "value": 12220.75992899342
+            "value": 12220.75992899342,
+            "open": 13062.55326654596
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-05",
+            "value": 13062.55326654596
+          }
         }
       },
       "indexWindows": [
@@ -5511,38 +5950,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-09",
-            "value": 25678.82188488838
+            "value": 25678.82188488838,
+            "open": 26110.31284962276
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-10",
-            "value": 25169.50115313644
+            "value": 25169.50115313644,
+            "open": 25512.06935468185
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-10",
+            "value": 25512.06935468185
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-09",
-            "value": 12657.80950301068
+            "value": 12657.80950301068,
+            "open": 13142.98618588362
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-10",
-            "value": 12206.4616074082
+            "value": 12206.4616074082,
+            "open": 12501.83778206759
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-10",
+            "value": 12501.83778206759
+          }
         }
       },
       "indexWindows": [
@@ -5675,38 +6126,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-10",
-            "value": 25169.50115313644
+            "value": 25169.50115313644,
+            "open": 25512.06935468185
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-11",
-            "value": 25809.65950451055
+            "value": 25809.65950451055,
+            "open": 25309.77828949376
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-11",
+            "value": 25309.77828949376
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-10",
-            "value": 12206.4616074082
+            "value": 12206.4616074082,
+            "open": 12501.83778206759
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-11",
-            "value": 13171.43887575057
+            "value": 13171.43887575057,
+            "open": 12506.64602997456
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-11",
+            "value": 12506.64602997456
+          }
         }
       },
       "indexWindows": [
@@ -5879,7 +6342,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-16",
-            "value": 26376.34370060678
+            "value": 26376.34370060678,
+            "open": 26649.96868280479
           },
           "at15": {
             "minuteET": "14:14",
@@ -5891,7 +6355,8 @@
           },
           "dayClose": {
             "date": "2026-06-17",
-            "value": 26021.65557248477
+            "value": 26021.65557248477,
+            "open": 26493.82328631262
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -5901,12 +6366,17 @@
             "close": 26424.15176792179
           },
           "releaseLabel": "fomc-decision",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-06-17",
+            "value": 26493.82328631262
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-16",
-            "value": 13294.22453169333
+            "value": 13294.22453169333,
+            "open": 13968.27698829524
           },
           "at15": {
             "minuteET": "14:14",
@@ -5918,7 +6388,8 @@
           },
           "dayClose": {
             "date": "2026-06-17",
-            "value": 13477.07222037981
+            "value": 13477.07222037981,
+            "open": 13694.01291454906
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -5928,7 +6399,11 @@
             "close": 13783.59830334393
           },
           "releaseLabel": "fomc-decision",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-06-17",
+            "value": 13694.01291454906
+          }
         }
       },
       "indexWindows": [
@@ -6073,38 +6548,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-16",
-            "value": 26376.34370060678
+            "value": 26376.34370060678,
+            "open": 26649.96868280479
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-17",
-            "value": 26021.65557248477
+            "value": 26021.65557248477,
+            "open": 26493.82328631262
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-17",
+            "value": 26493.82328631262
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-16",
-            "value": 13294.22453169333
+            "value": 13294.22453169333,
+            "open": 13968.27698829524
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-17",
-            "value": 13477.07222037981
+            "value": 13477.07222037981,
+            "open": 13694.01291454906
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-17",
+            "value": 13694.01291454906
+          }
         }
       },
       "indexWindows": [
@@ -6237,38 +6724,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-24",
-            "value": 25476.63562017577
+            "value": 25476.63562017577,
+            "open": 25578.62392556244
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-25",
-            "value": 25358.60286096038
+            "value": 25358.60286096038,
+            "open": 25724.77908214601
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-25",
+            "value": 25724.77908214601
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-24",
-            "value": 13458.19459548973
+            "value": 13458.19459548973,
+            "open": 13484.16568318557
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-06-25",
-            "value": 13940.87038802851
+            "value": 13940.87038802851,
+            "open": 14156.43460776706
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-06-25",
+            "value": 14156.43460776706
+          }
         }
       },
       "indexWindows": [
@@ -6441,7 +6940,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-29",
-            "value": 25820.14383578806
+            "value": 25820.14383578806,
+            "open": 25502.08827684502
           },
           "at15": {
             "minuteET": "10:14",
@@ -6453,7 +6953,8 @@
           },
           "dayClose": {
             "date": "2026-06-30",
-            "value": 26213.71960365857
+            "value": 26213.71960365857,
+            "open": 25824.47389858094
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -6463,12 +6964,17 @@
             "close": 26010.68705903582
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-30",
+            "value": 25824.47389858094
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-29",
-            "value": 13709.65999555048
+            "value": 13709.65999555048,
+            "open": 13241.97404458141
           },
           "at15": {
             "minuteET": "10:14",
@@ -6480,7 +6986,8 @@
           },
           "dayClose": {
             "date": "2026-06-30",
-            "value": 14246.96090341311
+            "value": 14246.96090341311,
+            "open": 13787.91800972377
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -6490,7 +6997,11 @@
             "close": 14099.70884449764
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-06-30",
+            "value": 13787.91800972377
+          }
         }
       },
       "indexWindows": [
@@ -6675,7 +7186,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-06-30",
-            "value": 26213.71960365857
+            "value": 26213.71960365857,
+            "open": 25824.47389858094
           },
           "at15": {
             "minuteET": "10:14",
@@ -6687,7 +7199,8 @@
           },
           "dayClose": {
             "date": "2026-07-01",
-            "value": 26040.03138940743
+            "value": 26040.03138940743,
+            "open": 26039.50743646192
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -6697,12 +7210,17 @@
             "close": 26076.28360573044
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-07-01",
+            "value": 26039.50743646192
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-06-30",
-            "value": 14246.96090341311
+            "value": 14246.96090341311,
+            "open": 13787.91800972377
           },
           "at15": {
             "minuteET": "10:14",
@@ -6714,7 +7232,8 @@
           },
           "dayClose": {
             "date": "2026-07-01",
-            "value": 13353.27903480367
+            "value": 13353.27903480367,
+            "open": 13718.08215886326
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -6724,7 +7243,11 @@
             "close": 13783.36304901283
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-07-01",
+            "value": 13718.08215886326
+          }
         }
       },
       "indexWindows": [
@@ -6869,38 +7392,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-01",
-            "value": 26040.03138940743
+            "value": 26040.03138940743,
+            "open": 26039.50743646192
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-02",
-            "value": 25832.67161315882
+            "value": 25832.67161315882,
+            "open": 26047.38225809084
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-02",
+            "value": 26047.38225809084
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-01",
-            "value": 13353.27903480367
+            "value": 13353.27903480367,
+            "open": 13718.08215886326
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-02",
-            "value": 12626.2214905138
+            "value": 12626.2214905138,
+            "open": 13268.21564822904
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-02",
+            "value": 13268.21564822904
+          }
         }
       },
       "indexWindows": [
@@ -7073,7 +7608,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-02",
-            "value": 25832.67161315882
+            "value": 25832.67161315882,
+            "open": 26047.38225809084
           },
           "at15": {
             "minuteET": "10:14",
@@ -7085,7 +7621,8 @@
           },
           "dayClose": {
             "date": "2026-07-06",
-            "value": 26121.15996918518
+            "value": 26121.15996918518,
+            "open": 25999.6079508708
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -7095,12 +7632,17 @@
             "close": 26055.35267678975
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-07-06",
+            "value": 25999.6079508708
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-02",
-            "value": 12626.2214905138
+            "value": 12626.2214905138,
+            "open": 13268.21564822904
           },
           "at15": {
             "minuteET": "10:14",
@@ -7112,7 +7654,8 @@
           },
           "dayClose": {
             "date": "2026-07-06",
-            "value": 12900.14192407525
+            "value": 12900.14192407525,
+            "open": 12914.4708386828
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -7122,7 +7665,11 @@
             "close": 13126.50013233148
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-07-06",
+            "value": 12914.4708386828
+          }
         }
       },
       "indexWindows": [
@@ -7268,38 +7815,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-13",
-            "value": 25873.17643521548
+            "value": 25873.17643521548,
+            "open": 26088.31325980373
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-14",
-            "value": 26107.00782088301
+            "value": 26107.00782088301,
+            "open": 26015.49206682509
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-14",
+            "value": 26015.49206682509
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-13",
-            "value": 12347.78360873997
+            "value": 12347.78360873997,
+            "open": 12563.63135625947
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-14",
-            "value": 12661.93061237234
+            "value": 12661.93061237234,
+            "open": 12837.37901828695
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-14",
+            "value": 12837.37901828695
+          }
         }
       },
       "indexWindows": [
@@ -7412,38 +7971,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-14",
-            "value": 26107.00782088301
+            "value": 26107.00782088301,
+            "open": 26015.49206682509
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-15",
-            "value": 26269.22720345757
+            "value": 26269.22720345757,
+            "open": 26261.18337106571
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-15",
+            "value": 26261.18337106571
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-14",
-            "value": 12661.93061237234
+            "value": 12661.93061237234,
+            "open": 12837.37901828695
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-15",
-            "value": 12398.89330483478
+            "value": 12398.89330483478,
+            "open": 12774.42957521292
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-15",
+            "value": 12774.42957521292
+          }
         }
       },
       "indexWindows": [
@@ -7576,38 +8147,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-15",
-            "value": 26269.22720345757
+            "value": 26269.22720345757,
+            "open": 26261.18337106571
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-16",
-            "value": 25881.94632803508
+            "value": 25881.94632803508,
+            "open": 26155.40504280247
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-16",
+            "value": 26155.40504280247
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-15",
-            "value": 12398.89330483478
+            "value": 12398.89330483478,
+            "open": 12774.42957521292
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-16",
-            "value": 11867.5033212336
+            "value": 11867.5033212336,
+            "open": 12114.96599086654
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-16",
+            "value": 12114.96599086654
+          }
         }
       },
       "indexWindows": [
@@ -7780,7 +8363,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-28",
-            "value": 24876.91223848622
+            "value": 24876.91223848622,
+            "open": 24825.07186234774
           },
           "at15": {
             "minuteET": "14:14",
@@ -7792,7 +8376,8 @@
           },
           "dayClose": {
             "date": "2026-07-29",
-            "value": 24442.94194844618
+            "value": 24442.94194844618,
+            "open": 24863.48038903727
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -7802,12 +8387,17 @@
             "close": 24751.82222925614
           },
           "releaseLabel": "fomc-decision",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-07-29",
+            "value": 24863.48038903727
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-28",
-            "value": 11035.68268292247
+            "value": 11035.68268292247,
+            "open": 11150.03752301915
           },
           "at15": {
             "minuteET": "14:14",
@@ -7819,7 +8409,8 @@
           },
           "dayClose": {
             "date": "2026-07-29",
-            "value": 10447.48901793499
+            "value": 10447.48901793499,
+            "open": 11011.87122728147
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -7829,7 +8420,11 @@
             "close": 10672.67301818816
           },
           "releaseLabel": "fomc-decision",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-07-29",
+            "value": 11011.87122728147
+          }
         }
       },
       "indexWindows": [
@@ -7974,38 +8569,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-29",
-            "value": 24442.94194844618
+            "value": 24442.94194844618,
+            "open": 24863.48038903727
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-30",
-            "value": 25122.17714296474
+            "value": 25122.17714296474,
+            "open": 24852.04702139136
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-30",
+            "value": 24852.04702139136
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-29",
-            "value": 10447.48901793499
+            "value": 10447.48901793499,
+            "open": 11011.87122728147
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-30",
-            "value": 11302.98763776193
+            "value": 11302.98763776193,
+            "open": 11085.96074201672
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-30",
+            "value": 11085.96074201672
+          }
         }
       },
       "indexWindows": [
@@ -8138,38 +8745,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-29",
-            "value": 24442.94194844618
+            "value": 24442.94194844618,
+            "open": 24863.48038903727
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-30",
-            "value": 25122.17714296474
+            "value": 25122.17714296474,
+            "open": 24852.04702139136
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-30",
+            "value": 24852.04702139136
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-29",
-            "value": 10447.48901793499
+            "value": 10447.48901793499,
+            "open": 11011.87122728147
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-30",
-            "value": 11302.98763776193
+            "value": 11302.98763776193,
+            "open": 11085.96074201672
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-30",
+            "value": 11085.96074201672
+          }
         }
       },
       "indexWindows": [
@@ -8302,38 +8921,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-30",
-            "value": 25122.17714296474
+            "value": 25122.17714296474,
+            "open": 24852.04702139136
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-31",
-            "value": 25373.85341729255
+            "value": 25373.85341729255,
+            "open": 25340.71068188502
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-31",
+            "value": 25340.71068188502
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-30",
-            "value": 11302.98763776193
+            "value": 11302.98763776193,
+            "open": 11085.96074201672
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-07-31",
-            "value": 11311.07520745611
+            "value": 11311.07520745611,
+            "open": 11715.46280859063
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-07-31",
+            "value": 11715.46280859063
+          }
         }
       },
       "indexWindows": [
@@ -8531,7 +9162,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-07-31",
-            "value": 25373.85341729255
+            "value": 25373.85341729255,
+            "open": 25340.71068188502
           },
           "at15": {
             "minuteET": "10:14",
@@ -8543,7 +9175,8 @@
           },
           "dayClose": {
             "date": "2026-08-03",
-            "value": 25913.8955944159
+            "value": 25913.8955944159,
+            "open": 25452.66257121142
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -8553,12 +9186,17 @@
             "close": 25705.88256802494
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-08-03",
+            "value": 25452.66257121142
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-07-31",
-            "value": 11311.07520745611
+            "value": 11311.07520745611,
+            "open": 11715.46280859063
           },
           "at15": {
             "minuteET": "10:14",
@@ -8570,7 +9208,8 @@
           },
           "dayClose": {
             "date": "2026-08-03",
-            "value": 11430.35121183354
+            "value": 11430.35121183354,
+            "open": 11046.08747926345
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -8580,7 +9219,11 @@
             "close": 11107.91311810444
           },
           "releaseLabel": "ism-manufacturing",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-08-03",
+            "value": 11046.08747926345
+          }
         }
       },
       "indexWindows": [
@@ -8790,7 +9433,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-03",
-            "value": 25913.8955944159
+            "value": 25913.8955944159,
+            "open": 25452.66257121142
           },
           "at15": {
             "minuteET": "10:14",
@@ -8802,7 +9446,8 @@
           },
           "dayClose": {
             "date": "2026-08-04",
-            "value": 26584.99301080211
+            "value": 26584.99301080211,
+            "open": 26088.04223779826
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -8812,12 +9457,17 @@
             "close": 26247.47895180638
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-08-04",
+            "value": 26088.04223779826
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-03",
-            "value": 11430.35121183354
+            "value": 11430.35121183354,
+            "open": 11046.08747926345
           },
           "at15": {
             "minuteET": "10:14",
@@ -8829,7 +9479,8 @@
           },
           "dayClose": {
             "date": "2026-08-04",
-            "value": 12179.26269759648
+            "value": 12179.26269759648,
+            "open": 11834.77205929488
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -8839,7 +9490,11 @@
             "close": 11963.84345799304
           },
           "releaseLabel": "jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-08-04",
+            "value": 11834.77205929488
+          }
         }
       },
       "indexWindows": [
@@ -9049,7 +9704,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-04",
-            "value": 26584.99301080211
+            "value": 26584.99301080211,
+            "open": 26088.04223779826
           },
           "at15": {
             "minuteET": "10:14",
@@ -9061,7 +9717,8 @@
           },
           "dayClose": {
             "date": "2026-08-05",
-            "value": 26363.43932290228
+            "value": 26363.43932290228,
+            "open": 26698.01812982366
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -9071,12 +9728,17 @@
             "close": 26709.93314720706
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-08-05",
+            "value": 26698.01812982366
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-04",
-            "value": 12179.26269759648
+            "value": 12179.26269759648,
+            "open": 11834.77205929488
           },
           "at15": {
             "minuteET": "10:14",
@@ -9088,7 +9750,8 @@
           },
           "dayClose": {
             "date": "2026-08-05",
-            "value": 12008.88332909537
+            "value": 12008.88332909537,
+            "open": 12141.69023110066
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -9098,7 +9761,11 @@
             "close": 12323.10802995111
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-08-05",
+            "value": 12141.69023110066
+          }
         }
       },
       "indexWindows": [
@@ -9269,38 +9936,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-06",
-            "value": 26348.35217258063
+            "value": 26348.35217258063,
+            "open": 26268.84344393968
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-07",
-            "value": 26690.61500174401
+            "value": 26690.61500174401,
+            "open": 26534.66034419171
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-07",
+            "value": 26534.66034419171
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-06",
-            "value": 12048.69290592094
+            "value": 12048.69290592094,
+            "open": 11825.86020644718
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-07",
-            "value": 12356.78738101633
+            "value": 12356.78738101633,
+            "open": 12299.97889408071
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-07",
+            "value": 12299.97889408071
+          }
         }
       },
       "indexWindows": [
@@ -9459,38 +10138,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-11",
-            "value": 26445.4462132026
+            "value": 26445.4462132026,
+            "open": 26672.1748180169
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-12",
-            "value": 26588.48808114044
+            "value": 26588.48808114044,
+            "open": 26680.46892488231
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-12",
+            "value": 26680.46892488231
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-11",
-            "value": 12098.47168726342
+            "value": 12098.47168726342,
+            "open": 12135.40625279519
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-12",
-            "value": 12399.37611855021
+            "value": 12399.37611855021,
+            "open": 12518.93779793852
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-12",
+            "value": 12518.93779793852
+          }
         }
       },
       "indexWindows": [
@@ -9638,38 +10329,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-12",
-            "value": 26588.48808114044
+            "value": 26588.48808114044,
+            "open": 26680.46892488231
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-13",
-            "value": 26803.02504449171
+            "value": 26803.02504449171,
+            "open": 26631.34128484035
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-13",
+            "value": 26631.34128484035
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-12",
-            "value": 12399.37611855021
+            "value": 12399.37611855021,
+            "open": 12518.93779793852
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-13",
-            "value": 12455.99853265861
+            "value": 12455.99853265861,
+            "open": 12413.96682147844
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "ppi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-13",
+            "value": 12413.96682147844
+          }
         }
       },
       "indexWindows": [
@@ -9827,38 +10530,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-13",
-            "value": 26803.02504449171
+            "value": 26803.02504449171,
+            "open": 26631.34128484035
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-14",
-            "value": 26729.16439263398
+            "value": 26729.16439263398,
+            "open": 26851.14799677849
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-14",
+            "value": 26851.14799677849
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-13",
-            "value": 12455.99853265861
+            "value": 12455.99853265861,
+            "open": 12413.96682147844
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-14",
-            "value": 12417.0502009167
+            "value": 12417.0502009167,
+            "open": 12440.49760462871
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-14",
+            "value": 12440.49760462871
+          }
         }
       },
       "indexWindows": [
@@ -9996,38 +10711,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-25",
-            "value": 26151.29983238878
+            "value": 26151.29983238878,
+            "open": 26148.70964842561
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-26",
-            "value": 26130.19671601169
+            "value": 26130.19671601169,
+            "open": 26099.57640220714
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-26",
+            "value": 26099.57640220714
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-25",
-            "value": 11588.03785024429
+            "value": 11588.03785024429,
+            "open": 11583.04716913921
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-26",
-            "value": 11611.23800559579
+            "value": 11611.23800559579,
+            "open": 11564.43525415462
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-26",
+            "value": 11564.43525415462
+          }
         }
       },
       "indexWindows": [
@@ -10089,32 +10816,44 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-25",
-            "value": 26151.29983238878
+            "value": 26151.29983238878,
+            "open": 26148.70964842561
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-26",
-            "value": 26130.19671601169
+            "value": 26130.19671601169,
+            "open": 26099.57640220714
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-08-26",
+            "value": 26099.57640220714
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-25",
-            "value": 11588.03785024429
+            "value": 11588.03785024429,
+            "open": 11583.04716913921
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-26",
-            "value": 11611.23800559579
+            "value": 11611.23800559579,
+            "open": 11564.43525415462
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-08-26",
+            "value": 11564.43525415462
+          }
         }
       }
     },
@@ -10238,38 +10977,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-25",
-            "value": 26151.29983238878
+            "value": 26151.29983238878,
+            "open": 26148.70964842561
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-26",
-            "value": 26130.19671601169
+            "value": 26130.19671601169,
+            "open": 26099.57640220714
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-26",
+            "value": 26099.57640220714
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-25",
-            "value": 11588.03785024429
+            "value": 11588.03785024429,
+            "open": 11583.04716913921
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-08-26",
-            "value": 11611.23800559579
+            "value": 11611.23800559579,
+            "open": 11564.43525415462
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-08-26",
+            "value": 11564.43525415462
+          }
         }
       },
       "indexWindows": [
@@ -10474,7 +11225,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-08-31",
-            "value": 26370.88913669284
+            "value": 26370.88913669284,
+            "open": 26358.55931025218
           },
           "at15": {
             "minuteET": "10:14",
@@ -10486,7 +11238,8 @@
           },
           "dayClose": {
             "date": "2026-09-01",
-            "value": 26099.77415314254
+            "value": 26099.77415314254,
+            "open": 26031.66974857741
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -10496,12 +11249,17 @@
             "close": 26077.50216633122
           },
           "releaseLabel": "ism-manufacturing-jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-09-01",
+            "value": 26031.66974857741
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-08-31",
-            "value": 11535.05108381003
+            "value": 11535.05108381003,
+            "open": 11529.15830999375
           },
           "at15": {
             "minuteET": "10:14",
@@ -10513,7 +11271,8 @@
           },
           "dayClose": {
             "date": "2026-09-01",
-            "value": 11288.61194309744
+            "value": 11288.61194309744,
+            "open": 11296.63113025165
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -10523,7 +11282,11 @@
             "close": 11214.68612860684
           },
           "releaseLabel": "ism-manufacturing-jolts",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-09-01",
+            "value": 11296.63113025165
+          }
         }
       },
       "reactionStatus": "measured",
@@ -10572,32 +11335,44 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-01",
-            "value": 26099.77415314254
+            "value": 26099.77415314254,
+            "open": 26031.66974857741
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-02",
-            "value": 26217.8279234559
+            "value": 26217.8279234559,
+            "open": 26094.00436766905
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-02",
+            "value": 26094.00436766905
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-01",
-            "value": 11288.61194309744
+            "value": 11288.61194309744,
+            "open": 11296.63113025165
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-02",
-            "value": 11339.2535602149
+            "value": 11339.2535602149,
+            "open": 11243.54560637204
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-02",
+            "value": 11243.54560637204
+          }
         }
       }
     },
@@ -10788,7 +11563,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-02",
-            "value": 26217.8279234559
+            "value": 26217.8279234559,
+            "open": 26094.00436766905
           },
           "at15": {
             "minuteET": "10:14",
@@ -10800,7 +11576,8 @@
           },
           "dayClose": {
             "date": "2026-09-03",
-            "value": 26584.05996756678
+            "value": 26584.05996756678,
+            "open": 26336.32163468693
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -10810,12 +11587,17 @@
             "close": 26430.91692147155
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-09-03",
+            "value": 26336.32163468693
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-02",
-            "value": 11339.2535602149
+            "value": 11339.2535602149,
+            "open": 11243.54560637204
           },
           "at15": {
             "minuteET": "10:14",
@@ -10827,7 +11609,8 @@
           },
           "dayClose": {
             "date": "2026-09-03",
-            "value": 11352.12874361092
+            "value": 11352.12874361092,
+            "open": 11219.44191904053
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -10837,7 +11620,11 @@
             "close": 11154.32365542779
           },
           "releaseLabel": "ism-services",
-          "releaseTimeET": "10:00"
+          "releaseTimeET": "10:00",
+          "dayOpen": {
+            "date": "2026-09-03",
+            "value": 11219.44191904053
+          }
         }
       },
       "reactionStatus": "measured",
@@ -11015,38 +11802,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-03",
-            "value": 26584.05996756678
+            "value": 26584.05996756678,
+            "open": 26336.32163468693
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-04",
-            "value": 26506.99006059421
+            "value": 26506.99006059421,
+            "open": 26587.89609674265
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-09-04",
+            "value": 26587.89609674265
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-03",
-            "value": 11352.12874361092
+            "value": 11352.12874361092,
+            "open": 11219.44191904053
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-04",
-            "value": 11735.26241283292
+            "value": 11735.26241283292,
+            "open": 11508.70304357709
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-09-04",
+            "value": 11508.70304357709
+          }
         }
       },
       "reactionStatus": "measured",
@@ -11252,7 +12051,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-04",
-            "value": 26506.99006059421
+            "value": 26506.99006059421,
+            "open": 26587.89609674265
           },
           "at15": {
             "minuteET": "13:14",
@@ -11264,7 +12064,8 @@
           },
           "dayClose": {
             "date": "2026-09-08",
-            "value": 26421.41255477526
+            "value": 26421.41255477526,
+            "open": 26528.57100858818
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -11274,12 +12075,17 @@
             "close": 26447.38586668834
           },
           "releaseLabel": "treasury-3y-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-08",
+            "value": 26528.57100858818
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-04",
-            "value": 11735.26241283292
+            "value": 11735.26241283292,
+            "open": 11508.70304357709
           },
           "at15": {
             "minuteET": "13:14",
@@ -11291,7 +12097,8 @@
           },
           "dayClose": {
             "date": "2026-09-08",
-            "value": 11887.86947579256
+            "value": 11887.86947579256,
+            "open": 11987.28829792067
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -11301,7 +12108,11 @@
             "close": 11915.87651509936
           },
           "releaseLabel": "treasury-3y-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-08",
+            "value": 11987.28829792067
+          }
         }
       },
       "reactionStatus": "measured",
@@ -11519,7 +12330,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-08",
-            "value": 26421.41255477526
+            "value": 26421.41255477526,
+            "open": 26528.57100858818
           },
           "at15": {
             "minuteET": "13:14",
@@ -11531,7 +12343,8 @@
           },
           "dayClose": {
             "date": "2026-09-09",
-            "value": 26253.33983069593
+            "value": 26253.33983069593,
+            "open": 26325.06107941432
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -11541,12 +12354,17 @@
             "close": 26262.45588339676
           },
           "releaseLabel": "treasury-10y-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-09",
+            "value": 26325.06107941432
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-08",
-            "value": 11887.86947579256
+            "value": 11887.86947579256,
+            "open": 11987.28829792067
           },
           "at15": {
             "minuteET": "13:14",
@@ -11558,7 +12376,8 @@
           },
           "dayClose": {
             "date": "2026-09-09",
-            "value": 11931.32171861764
+            "value": 11931.32171861764,
+            "open": 11866.50319543491
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -11568,7 +12387,11 @@
             "close": 11936.57864986138
           },
           "releaseLabel": "treasury-10y-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-09",
+            "value": 11866.50319543491
+          }
         }
       },
       "reactionStatus": "measured",
@@ -11843,7 +12666,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-09",
-            "value": 26253.33983069593
+            "value": 26253.33983069593,
+            "open": 26325.06107941432
           },
           "at15": {
             "minuteET": "13:14",
@@ -11855,7 +12679,8 @@
           },
           "dayClose": {
             "date": "2026-09-10",
-            "value": 26081.72451301881
+            "value": 26081.72451301881,
+            "open": 26021.05241295474
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -11865,12 +12690,17 @@
             "close": 26155.61898032853
           },
           "releaseLabel": "30-year Treasury auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-10",
+            "value": 26021.05241295474
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-09",
-            "value": 11931.32171861764
+            "value": 11931.32171861764,
+            "open": 11866.50319543491
           },
           "at15": {
             "minuteET": "13:14",
@@ -11882,7 +12712,8 @@
           },
           "dayClose": {
             "date": "2026-09-10",
-            "value": 11614.16685232229
+            "value": 11614.16685232229,
+            "open": 11662.99859247621
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -11892,7 +12723,11 @@
             "close": 11695.43700817128
           },
           "releaseLabel": "30-year Treasury auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-10",
+            "value": 11662.99859247621
+          }
         }
       },
       "indexWindows": [
@@ -12084,38 +12919,50 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-10",
-            "value": 26081.72451301881
+            "value": 26081.72451301881,
+            "open": 26021.05241295474
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-11",
-            "value": 26333.03533975296
+            "value": 26333.03533975296,
+            "open": 26289.41392978553
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-09-11",
+            "value": 26289.41392978553
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-10",
-            "value": 11614.16685232229
+            "value": 11614.16685232229,
+            "open": 11662.99859247621
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-11",
-            "value": 11823.99806856453
+            "value": 11823.99806856453,
+            "open": 11753.86519327347
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "beforeRelease": null,
           "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
+          "releaseTimeET": "08:30",
+          "dayOpen": {
+            "date": "2026-09-11",
+            "value": 11753.86519327347
+          }
         }
       },
       "reactionStatus": "measured",
@@ -12152,32 +12999,44 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-14",
-            "value": 26186.41334113503
+            "value": 26186.41334113503,
+            "open": 26018.5015111792
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-15",
-            "value": 25981.57079867358
+            "value": 25981.57079867358,
+            "open": 26140.22737743617
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-15",
+            "value": 26140.22737743617
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-14",
-            "value": 11131.281313954
+            "value": 11131.281313954,
+            "open": 11191.81793092982
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-15",
-            "value": 11175.54700876069
+            "value": 11175.54700876069,
+            "open": 11233.0434712247
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-15",
+            "value": 11233.0434712247
+          }
         }
       }
     },
@@ -12415,7 +13274,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-15",
-            "value": 25981.57079867358
+            "value": 25981.57079867358,
+            "open": 26140.22737743617
           },
           "at15": {
             "minuteET": "14:14",
@@ -12427,7 +13287,8 @@
           },
           "dayClose": {
             "date": "2026-09-16",
-            "value": 25978.4248457016
+            "value": 25978.4248457016,
+            "open": 26108.46228500445
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -12437,12 +13298,17 @@
             "close": 26161.84949311681
           },
           "releaseLabel": "FOMC statement",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-09-16",
+            "value": 26108.46228500445
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-15",
-            "value": 11175.54700876069
+            "value": 11175.54700876069,
+            "open": 11233.0434712247
           },
           "at15": {
             "minuteET": "14:14",
@@ -12454,7 +13320,8 @@
           },
           "dayClose": {
             "date": "2026-09-16",
-            "value": 11246.10706226385
+            "value": 11246.10706226385,
+            "open": 11347.67797199039
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -12464,7 +13331,11 @@
             "close": 11377.5570048445
           },
           "releaseLabel": "FOMC statement",
-          "releaseTimeET": "14:00"
+          "releaseTimeET": "14:00",
+          "dayOpen": {
+            "date": "2026-09-16",
+            "value": 11347.67797199039
+          }
         }
       },
       "indexWindows": [
@@ -12527,32 +13398,44 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-17",
-            "value": 26418.29812464963
+            "value": 26418.29812464963,
+            "open": 26377.86381131072
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-18",
-            "value": 26522.54530625288
+            "value": 26522.54530625288,
+            "open": 26522.0904690094
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-18",
+            "value": 26522.0904690094
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-17",
-            "value": 11599.49224791979
+            "value": 11599.49224791979,
+            "open": 11568.46600761595
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-18",
-            "value": 11921.6855106185
+            "value": 11921.6855106185,
+            "open": 11691.00442187154
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-18",
+            "value": 11691.00442187154
+          }
         }
       }
     },
@@ -12743,7 +13626,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-21",
-            "value": 27122.09418855521
+            "value": 27122.09418855521,
+            "open": 26723.19410077464
           },
           "at15": {
             "minuteET": "13:14",
@@ -12755,7 +13639,8 @@
           },
           "dayClose": {
             "date": "2026-09-22",
-            "value": 27244.27773356946
+            "value": 27244.27773356946,
+            "open": 27161.19748136242
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -12765,12 +13650,17 @@
             "close": 27206.01204641615
           },
           "releaseLabel": "treasury-2y-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-22",
+            "value": 27161.19748136242
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-21",
-            "value": 12433.17073817218
+            "value": 12433.17073817218,
+            "open": 12145.92525533517
           },
           "at15": {
             "minuteET": "13:14",
@@ -12782,7 +13672,8 @@
           },
           "dayClose": {
             "date": "2026-09-22",
-            "value": 12689.82031220644
+            "value": 12689.82031220644,
+            "open": 12338.88480117671
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -12792,7 +13683,11 @@
             "close": 12603.90492319828
           },
           "releaseLabel": "treasury-2y-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-22",
+            "value": 12338.88480117671
+          }
         }
       },
       "reactionStatus": "measured",
@@ -13009,7 +13904,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-22",
-            "value": 27244.27773356946
+            "value": 27244.27773356946,
+            "open": 27161.19748136242
           },
           "at15": {
             "minuteET": "13:14",
@@ -13021,7 +13917,8 @@
           },
           "dayClose": {
             "date": "2026-09-23",
-            "value": 26936.03653939892
+            "value": 26936.03653939892,
+            "open": 27213.51907350036
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -13031,12 +13928,17 @@
             "close": 26907.04244711264
           },
           "releaseLabel": "five-year-treasury-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-23",
+            "value": 27213.51907350036
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-22",
-            "value": 12689.82031220644
+            "value": 12689.82031220644,
+            "open": 12338.88480117671
           },
           "at15": {
             "minuteET": "13:14",
@@ -13048,7 +13950,8 @@
           },
           "dayClose": {
             "date": "2026-09-23",
-            "value": 12534.27471305812
+            "value": 12534.27471305812,
+            "open": 12659.08350147957
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -13058,7 +13961,11 @@
             "close": 12429.89236465128
           },
           "releaseLabel": "five-year-treasury-auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "dayOpen": {
+            "date": "2026-09-23",
+            "value": 12659.08350147957
+          }
         }
       },
       "reactionStatus": "measured",
@@ -13285,7 +14192,8 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-22",
-            "value": 27244.27773356946
+            "value": 27244.27773356946,
+            "open": 27161.19748136242
           },
           "at15": {
             "minuteET": "09:59",
@@ -13297,7 +14205,8 @@
           },
           "dayClose": {
             "date": "2026-09-23",
-            "value": 26936.03653939892
+            "value": 26936.03653939892,
+            "open": 27213.51907350036
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -13307,12 +14216,17 @@
             "close": 27157.83869514727
           },
           "releaseLabel": "sp-global-us-flash-pmi",
-          "releaseTimeET": "09:45"
+          "releaseTimeET": "09:45",
+          "dayOpen": {
+            "date": "2026-09-23",
+            "value": 27213.51907350036
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-22",
-            "value": 12689.82031220644
+            "value": 12689.82031220644,
+            "open": 12338.88480117671
           },
           "at15": {
             "minuteET": "09:59",
@@ -13324,7 +14238,8 @@
           },
           "dayClose": {
             "date": "2026-09-23",
-            "value": 12534.27471305812
+            "value": 12534.27471305812,
+            "open": 12659.08350147957
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -13334,7 +14249,11 @@
             "close": 12538.03059660895
           },
           "releaseLabel": "sp-global-us-flash-pmi",
-          "releaseTimeET": "09:45"
+          "releaseTimeET": "09:45",
+          "dayOpen": {
+            "date": "2026-09-23",
+            "value": 12659.08350147957
+          }
         }
       },
       "reactionStatus": "measured",
@@ -13386,32 +14305,44 @@
         "nasdaq": {
           "priorClose": {
             "date": "2026-09-23",
-            "value": 26936.03653939892
+            "value": 26936.03653939892,
+            "open": 27213.51907350036
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-24",
-            "value": 26939.37301120382
+            "value": 26939.37301120382,
+            "open": 26734.50815004199
           },
           "intradayStatus": "no-single-release-time",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-24",
+            "value": 26734.50815004199
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2026-09-23",
-            "value": 12534.27471305812
+            "value": 12534.27471305812,
+            "open": 12659.08350147957
           },
           "at15": null,
           "at60": null,
           "dayClose": {
             "date": "2026-09-24",
-            "value": 12492.53651950959
+            "value": 12492.53651950959,
+            "open": 12309.09307455128
           },
           "intradayStatus": "no-single-release-time",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-24",
+            "value": 12309.09307455128
+          }
         }
       }
     }
