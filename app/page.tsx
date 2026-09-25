@@ -3,6 +3,7 @@
 import { Fragment, useEffect, useState } from "react";
 import resultData from "../history/event-results.json";
 import { events, eventTimes, eventView, today } from "../data/calendar";
+import { earningsBenchmark, earningsHistory, earningsHistoryAsOf } from "../data/earnings-history";
 type HistoricalResult = {
   eventId:string;
   status:string;
@@ -26,8 +27,37 @@ const pct=(after:number,before:number)=>100*(after/before-1);
 const signed=(value:number)=>`${value>=0?"+":""}${value.toFixed(2)}%`;
 const levelChange=(value:number|undefined,before:number|undefined)=>value == null ? "—" : `${level(value)}${before == null ? "" : ` (${signed(pct(value,before))})`}`;
 const median=(values:number[])=>{const sorted=[...values].sort((a,b)=>a-b);return (sorted[Math.floor((sorted.length-1)/2)]+sorted[Math.floor(sorted.length/2)])/2;};
-function historicalAnalysis(eventId:string,short:string,result:HistoricalResult|undefined,all:HistoricalResult[],index:typeof resultData.eventIndex){
+function earningsHistoricalAnalysis(eventDate:string, ticker:string, result:HistoricalResult|undefined):string|null {
+  const history=earningsHistory[ticker];
+  if(!history) return null;
+  const earlier=history.filter(event=>event.date<eventDate);
+  const current=history.find(event=>event.date===eventDate);
+  const benchmark=earningsBenchmark[ticker];
+  const lines:string[]=[];
+  if(result?.status==="verified") lines.push(`Recorded outcome: ${result.actual}`);
+  if(current) lines.push(`This report (${current.date}): stock T+1 ${signed(current.post1Stock)} vs ${benchmark} ${signed(current.post1Benchmark)}; T+7 ${signed(current.post7Stock)} vs ${benchmark} ${signed(current.post7Benchmark)}.`);
+  if(!earlier.length) {
+    lines.push(`No earlier ${ticker} earnings observations in the archive as of ${earningsHistoryAsOf}.`);
+    return lines.join("\n");
+  }
+  lines.push(`${earlier.length} earlier ${ticker} earnings report${earlier.length===1?"":"s"} (archive through ${earningsHistoryAsOf}; benchmark ${benchmark}):`);
+  for(const event of earlier.slice(-3)) {
+    lines.push(`${event.date}: T−7 to T−1 stock ${signed(event.preStock)} vs ${benchmark} ${signed(event.preBenchmark)}; T+1 stock ${signed(event.post1Stock)} vs ${benchmark} ${signed(event.post1Benchmark)}; T+7 stock ${signed(event.post7Stock)} vs ${benchmark} ${signed(event.post7Benchmark)}.`);
+  }
+  lines.push(`In this sample, ${earlier.filter(event=>event.preStock>0).length}/${earlier.length} stocks rose before the release, ${earlier.filter(event=>event.post1Stock>0).length}/${earlier.length} rose on the first post-release session, and ${earlier.filter(event=>event.post7Stock>0).length}/${earlier.length} remained up through T+7. This small sample describes positioning and reaction, not a forecast.`);
+  lines.push(earlier[0].session==="after_close"
+    ? "For after-close earnings, T0 closes before results and T+1 is the first regular-session reaction."
+    : "For before-open earnings, T0 already includes the first regular-session reaction.");
+  if(ticker==="MU"&&eventDate==="2026-09-30") lines.push("At the coming report, PCE and GDP share T0; ISM Manufacturing lands during T+1. Those sessions cannot be attributed to Micron alone.");
+  return lines.join("\n");
+}
+
+function historicalAnalysis(eventId:string,short:string,result:HistoricalResult|undefined,eventType:string,all:HistoricalResult[],index:typeof resultData.eventIndex){
   const eventDate=eventId.slice(0,10);
+  if(eventType==="Earnings") {
+    const earnings=earningsHistoricalAnalysis(eventDate,short.toUpperCase(),result);
+    if(earnings) return earnings;
+  }
   const family=index[eventId as keyof typeof index]?.eventKey??all.map(r=>r.eventId).filter(id=>id.toLowerCase().endsWith(`-${short.toLowerCase()}`)).map(id=>index[id as keyof typeof index]?.eventKey).find(Boolean);
   const peers=all.filter(r=>r.status==="verified"&&family&&index[r.eventId as keyof typeof index]?.eventKey===family&&index[r.eventId as keyof typeof index]?.eventDate<eventDate);
   const lines=[];
@@ -149,7 +179,7 @@ export default function Home() {
           const isReleased = item.date < today;
           const isOpen = !!openResults[eventId];
           const show = (value: string | null | undefined) => value ?? "—";
-          const analysis = historicalAnalysis(eventId,item.short,result,archive.results as HistoricalResult[],archive.eventIndex);
+          const analysis = historicalAnalysis(eventId,item.short,result,item.type,archive.results as HistoricalResult[],archive.eventIndex);
           return <Fragment key={`${item.date}-${index}`}>
             <tr id={`event-${item.date}-${index}`} data-event-date={item.date}><td><time dateTime={item.date}>{prettyDate(item.date)}</time><span className="event-time">{eventTimes[eventId] ?? "Time TBD"}</span><span className={`release-state ${isReleased ? "released" : "upcoming"}`}>{isReleased ? "Released" : item.date === today ? "Today" : "Upcoming"}</span></td><td><strong>{item.event}</strong><span className={`tag tag-${item.type.toLowerCase()}`}>{item.type}</span>{"isNew" in item && item.isNew && <span className="new-badge">New</span>}{"isUpdated" in item && item.isUpdated && <span className="new-badge">Updated</span>}{"lastUpdated" in item && item.lastUpdated && <span className="last-updated">Last updated {item.lastUpdated}</span>}{"sourceUrl" in item && item.sourceUrl && <a className="source-link" href={item.sourceUrl} target="_blank" rel="noreferrer">Verified source</a>}<p className="why">{item.explanation}</p><div className="playbook"><span><b>Watch live</b>{item.watch}</span><span><b>Reaction window</b>{item.window}</span></div>{isReleased && <button className="result-toggle" type="button" aria-expanded={isOpen} onClick={() => setOpenResults(current => ({ ...current, [eventId]: !current[eventId] }))}>{isOpen ? "Hide results" : "View results"}<span aria-hidden="true">{isOpen ? "−" : "+"}</span></button>}</td><td><span className={`importance ${item.importance.toLowerCase()}`}>{item.importance} impact</span><span className={`signal bias-${item.bias.toLowerCase()}`}>{item.bias} bias</span><span className={`signal uncertainty-${item.uncertainty.toLowerCase()}`}>{item.uncertainty} uncertainty</span></td><td className="historical-cell"><div className="historical-label">Observed archive</div>{analysis.split("\n").map((line, lineIndex)=><p key={lineIndex}>{line}</p>)}</td><td>{item.expects}</td><td className="positive">{item.positive}</td><td className="negative">{item.negative}</td></tr>
             {isReleased && isOpen && <tr className="results-row" data-event-date={item.date}><td colSpan={7}><div className="results-panel"><div className="results-heading"><div><p className="kicker">HISTORICAL RESULT</p><h3>{item.event}</h3></div><span className={`capture-state ${result?.status === "verified" ? "verified" : "pending"}`}>{result?.status === "verified" ? "Verified" : "Pending capture"}</span></div><div className="result-metrics"><span><b>Previous</b>{show(result?.previous)}</span><span><b>Expected</b>{show(result?.expected)}</span><span><b>Actual</b>{show(result?.actual)}</span><span><b>Surprise</b>{show(result?.surprise)}</span></div><div className="index-results">{([ ["nasdaq","Nasdaq Composite"], ["sox","SOX (PHLX Semiconductor)"] ] as const).map(([key,label]) => {const levels=result?.indexLevels?.[key];const prior=levels?.priorClose?.value;const preRelease=levels?.beforeRelease?.close;return <div className="index-card" key={key}><h4>{label}</h4><div className="result-metrics"><span><b>P. Day Close</b>{level(prior)}</span><span><b>+15 minutes</b>{levelChange(levels?.at15?.close,preRelease)}</span><span><b>+1 hour</b>{levelChange(levels?.at60?.close,preRelease)}</span><span><b>Event-day close</b>{levelChange(levels?.dayClose?.value,prior)}</span></div>{levels?.releaseTimeET&&result?.indexWindows&&result.indexWindows.length>1&&<p className="index-note">Intraday values shown for {levels.releaseLabel} at {levels.releaseTimeET} ET.</p>}{levels?.intradayStatus==="plan-not-authorized"&&<p className="index-note">Massive does not authorize SOX minute bars on the current plan; intraday values are unavailable.</p>}{levels?.intradayStatus==="exact-bars-unavailable"&&<p className="index-note">No exact index minute bar at this release time, often because the event was before the 09:30 ET market open.</p>}{levels?.intradayStatus==="awaiting-minute-bars"&&<p className="index-note">No single intraday release window was recorded for this event.</p>}{levels?.intradayStatus==="no-single-release-time"&&<p className="index-note">Statements unfolded through the session; +15-minute and +1-hour event quotes are not defined.</p>}{!levels&&<p className="index-note">Index levels have not yet been captured.</p>}</div>})}</div>{result?.indexWindows&&result.indexWindows.length>1&&<div className="result-explanation"><b>Separate release windows</b>{result.indexWindows.map(window=><p key={`${window.label}-${window.releaseTimeET}`}>{window.label} ({window.releaseTimeET} ET): Nasdaq +15m {level(window.nasdaq.at15?.close)}, +1h {level(window.nasdaq.at60?.close)}; SOX +15m {level(window.sox.at15?.close)}, +1h {level(window.sox.at60?.close)}</p>)}</div>}<div className="result-explanation"><b>Why the market reacted</b><p>{result?.explanation ?? "Awaiting verified historical data."}</p>{result?.indexLevels?.nasdaq?.sourceUrl&&<a href={result.indexLevels.nasdaq.sourceUrl} target="_blank" rel="noreferrer">Index data and method</a>}{result?.sourceUrl&&<a href={result.sourceUrl} target="_blank" rel="noreferrer">Verification source</a>}</div></div></td></tr>}
