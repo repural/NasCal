@@ -13,10 +13,16 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(asOf)) throw new Error("--as-of must be YYYY-MM-
 const lookbackMonths = Number(args.months ?? 3);
 if (!Number.isInteger(lookbackMonths) || lookbackMonths < 1 || lookbackMonths > 12) throw new Error("--months must be an integer from 1 to 12");
 const base = new Date(`${asOf.slice(0,7)}-01T00:00:00Z`);
-const months = Array.from({length: lookbackMonths}, (_, i) => lookbackMonths - i).map(n => {
-  const date = new Date(Date.UTC(base.getUTCFullYear(), base.getUTCMonth() - n, 1));
-  return { year: date.getUTCFullYear(), month: String(date.getUTCMonth()+1).padStart(2,"0"), name: date.toLocaleString("en-US",{month:"long",timeZone:"UTC"}) };
-});
+const fromMonth = args.from;
+if (fromMonth && !/^\d{4}-\d{2}$/.test(fromMonth)) throw new Error("--from must be YYYY-MM");
+const monthDates = fromMonth
+  ? Array.from({length: 12}, (_, i) => new Date(Date.UTC(Number(fromMonth.slice(0,4)),Number(fromMonth.slice(5,7))-1+i,1)))
+      .filter(date => date <= base)
+  : Array.from({length: lookbackMonths}, (_, i) => new Date(Date.UTC(base.getUTCFullYear(),base.getUTCMonth()-(lookbackMonths-i),1)));
+const months = monthDates.map(date => ({
+  year: date.getUTCFullYear(), month: String(date.getUTCMonth()+1).padStart(2,"0"),
+  name: date.toLocaleString("en-US",{month:"long",timeZone:"UTC"})
+}));
 const monthNames = Object.fromEntries(months.map(m=>[m.name,m]));
 const archive = JSON.parse(await readFile(new URL("../history/event-results.json",import.meta.url),"utf8"));
 const candidates = new Map();
@@ -104,7 +110,7 @@ fetches.push(source(fedUrl).then(text=>{
   }
 }).catch(e=>errors.push(String(e))));
 await Promise.all(fetches);
-const report={asOf,range:[`${months[0].year}-${months[0].month}`,`${months[2].year}-${months[2].month}`],
+const report={asOf,range:[`${months[0].year}-${months[0].month}`,`${months.at(-1).year}-${months.at(-1).month}`],
   checkedOn:asOf,sources:[beaUrl,retailUrl,ismUrl,fedUrl,...months.map(m=>`https://www.bls.gov/schedule/${m.year}/${m.month}_sched_list.htm`)],
   candidates:[...candidates.values()].sort((a,b)=>a.date.localeCompare(b.date)||a.family.localeCompare(b.family)),fallbacks,errors};
 if (!report.candidates.length || errors.length === report.sources.length) throw new Error(`Discovery failed: ${errors.join("; ")}`);

@@ -30,7 +30,7 @@ jobs:
         env:
           AS_OF: ${{ inputs.as_of }}
         run: |
-          if [ -n "$AS_OF" ]; then node scripts/discover-history.mjs "--as-of=$AS_OF" --months=9; else node scripts/discover-history.mjs --months=9; fi
+          if [ -n "$AS_OF" ]; then node scripts/discover-history.mjs "--as-of=$AS_OF" --from=2026-01; else node scripts/discover-history.mjs --from=2026-01; fi
       - name: Store Nasdaq Composite and SOX previous and event-day closes
         env:
           MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
