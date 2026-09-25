@@ -8,7 +8,7 @@ type HistoricalResult = (typeof resultData.results)[number] & {
   qqq1h?: string | null;
   qqqReaction?: { sourceUrl: string } | null;
   reactionWindows?: Array<{ label: string; releaseTimeET: string; assets: { QQQ: { at15: { pct: number } | null; at60: { pct: number } | null } }; priceSourceUrl: string }>;
-  indexLevels?: Record<string, { priorClose?: {date:string;value:number}|null; at15?: {close:number;minuteET:string}|null; at60?: {close:number;minuteET:string}|null; dayClose?: {date:string;value:number}|null; intradayStatus?:string; sourceUrl?:string }>;
+  indexLevels?: Record<string, { priorClose?: {date:string;value:number}|null; beforeRelease?: {close:number;minuteET:string}|null; at15?: {close:number;minuteET:string}|null; at60?: {close:number;minuteET:string}|null; dayClose?: {date:string;value:number}|null; intradayStatus?:string; sourceUrl?:string }>;
 };
 
 const level=(value:number|undefined)=>value == null ? "—" : new Intl.NumberFormat("en-US",{maximumFractionDigits:2}).format(value);
@@ -23,6 +23,10 @@ function historicalAnalysis(result:HistoricalResult, all:HistoricalResult[], ind
     if(!observations.length){lines.push(`${label}: no comparable prior-close to day-close index observations yet.`);continue;}
     const sorted=[...observations].sort((a,b)=>a-b), median=sorted[Math.floor((sorted.length-1)/2)];
     lines.push(`${label}: ${observations.filter(v=>v>0).length} of ${observations.length} sessions closed higher; median prior-close to event-day-close move ${median>=0?"+":""}${median.toFixed(2)}%.`);
+    for(const [field,window] of [["at15","+15 minutes"],["at60","+1 hour"]] as const){
+      const moves=peers.flatMap(r=>{const levels=r.indexLevels?.[name], before=levels?.beforeRelease?.close, after=levels?.[field]?.close;return before&&after?[100*(after/before-1)]:[];});
+      if(moves.length){const ordered=[...moves].sort((a,b)=>a-b), middle=ordered[Math.floor((ordered.length-1)/2)];lines.push(`${label} ${window}: ${moves.filter(v=>v>0).length} of ${moves.length} rose after release; median ${middle>=0?"+":""}${middle.toFixed(2)}%.`);}
+    }
   }
   lines.push("These are associations across whole trading days, not isolated event effects or a forecast. Other releases and headlines may overlap.");
   return lines.join("\n");
