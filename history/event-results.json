@@ -1241,6 +1241,20 @@
         "Higher oil prices and Treasury yields",
         "Several summit statements with no single timed market release"
       ]
+    },
+    "2026-09-24-7Y": {
+      "eventDate": "2026-09-24",
+      "eventKey": "seven-year-treasury-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "weaker-demand",
+      "nasdaqReactionDirection": "mixed",
+      "dominantDriver": "rate-supply-and-demand",
+      "confounders": [
+        "Trump–Xi summit headlines on the same day",
+        "Broader global bond selloff"
+      ]
     }
   },
   "results": [
@@ -22404,6 +22418,78 @@
           }
         }
       ]
+    },
+    {
+      "eventId": "2026-09-24-7Y",
+      "status": "verified",
+      "previous": "August seven-year auction: 4.512% high yield; 2.50 bid-to-cover.",
+      "expected": "When-issued yield 5.078%; no reliable economist consensus for the auction yield.",
+      "actual": "$44 billion seven-year note auction: 5.085% high yield, 2.42 bid-to-cover, 57.2% indirect bidders.",
+      "surprise": "Yield 0.7 basis points above the 5.078% when-issued yield (a modest tail); bid-to-cover below August's 2.50.",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "explanation": "Demand was slightly weaker than the pre-auction bond market implied, and Treasury yields moved somewhat higher. Nasdaq and SOX day moves also reflect the Trump–Xi summit and the wider bond selloff; they cannot be assigned to this auction alone.",
+      "sourceUrl": "https://www.marketscreener.com/news/seven-year-u-s-treasury-auction-yield-hits-33-year-high-ce785adfd988f42c",
+      "verifiedAt": "2026-09-25",
+      "reactionWindows": [
+        {
+          "label": "seven-year Treasury auction",
+          "releaseTimeET": "13:00",
+          "scheduleSource": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
+          "caveat": "Trump–Xi summit and global bond selling affected the same session",
+          "assets": {}
+        }
+      ],
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-09-23",
+            "value": 26936.03653939892,
+            "open": 27213.51907350036
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-09-24",
+            "value": 26939.37301120382,
+            "open": 26734.50815004199
+          },
+          "intradayStatus": "awaiting-minute-bars",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-24",
+            "value": 26734.50815004199
+          },
+          "releaseLabel": "seven-year Treasury auction",
+          "releaseTimeET": "13:00"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-09-23",
+            "value": 12534.27471305812,
+            "open": 12659.08350147957
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-09-24",
+            "value": 12492.53651950959,
+            "open": 12309.09307455128
+          },
+          "intradayStatus": "awaiting-minute-bars",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "dayOpen": {
+            "date": "2026-09-24",
+            "value": 12309.09307455128
+          },
+          "releaseLabel": "seven-year Treasury auction",
+          "releaseTimeET": "13:00"
+        }
+      }
     },
     {
       "eventId": "2026-09-24-TRUMP–XI",
