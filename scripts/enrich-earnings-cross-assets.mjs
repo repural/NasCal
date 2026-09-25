@@ -8,6 +8,14 @@ const archive=JSON.parse(await readFile(file,"utf8"));
 const key=process.env.MASSIVE_API_KEY;
 if(!key)throw new Error("MASSIVE_API_KEY is required");
 const today=new Date().toISOString().slice(0,10);
+const et=Object.fromEntries(new Intl.DateTimeFormat("en-US",{
+  timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit",
+  hour:"2-digit",hourCycle:"h23"
+}).formatToParts(new Date()).map(part=>[part.type,part.value]));
+const etDate=`${et.year}-${et.month}-${et.day}`;
+// Do not mistake the current, still-changing daily bar for an official close.
+const marketThrough=Number(et.hour)>=17?etDate:
+  new Date(Date.parse(`${etDate}T00:00:00Z`)-86400000).toISOString().slice(0,10);
 const universe={
   semiconductor:["NVDA","AMD","AVGO","TSM","MU"],
   megacap:["AAPL","MSFT","AMZN","GOOGL","META","TSLA"],
@@ -37,7 +45,7 @@ const market={};
 for(const [i,symbol] of symbols.entries()){
   // Use the same daily adjusted aggregates as the existing index and ETF history.
   if(i)await wait(13000);
-  const url=new URL(`https://api.massive.com/v2/aggs/ticker/${symbol}/range/1/day/${from}/${today}`);
+  const url=new URL(`https://api.massive.com/v2/aggs/ticker/${symbol}/range/1/day/${from}/${marketThrough}`);
   for(const [k,v] of Object.entries({adjusted:"true",sort:"asc",limit:"5000"}))url.searchParams.set(k,v);
   let response;
   for(let retry=0;retry<4;retry++){
