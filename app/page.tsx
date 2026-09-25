@@ -3,7 +3,16 @@
 import { Fragment, useEffect, useState } from "react";
 import resultData from "../history/event-results.json";
 import { events, eventTimes, eventView, today } from "../data/calendar";
-type HistoricalResult = (typeof resultData.results)[number] & {
+type HistoricalResult = {
+  eventId:string;
+  status:string;
+  previous?:string|null;
+  expected?:string|null;
+  actual?:string|null;
+  surprise?:string|null;
+  explanation?:string|null;
+  sourceUrl?:string|null;
+  reactionStatus?:string|null;
   qqq15m?: string | null;
   qqq1h?: string | null;
   qqqReaction?: { sourceUrl: string } | null;
