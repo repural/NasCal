@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "range": [
     "2026-06",
     "2026-08"
   ],
-  "checkedOn": "2026-09-24",
+  "checkedOn": "2026-09-25",
   "sources": [
     "https://www.bea.gov/news/schedule/full",
     "https://www.census.gov/retail/release_schedule.html",
@@ -164,8 +164,8 @@
     "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
   ],
   "errors": [
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm"
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm"
   ]
 }
