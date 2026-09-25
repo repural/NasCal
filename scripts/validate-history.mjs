@@ -11,7 +11,9 @@ for(const record of history.results){
   if(record.status==="verified"&&(!record.actual||!/^https:\/\//.test(record.sourceUrl||"")))throw new Error(`Unverified actual/source: ${record.eventId}`);
   if(record.reactionWindows){
     for(const window of record.reactionWindows){
-      if(!window.priceSourceUrl||!window.releaseTimeET)throw new Error(`Missing market-reaction provenance: ${record.eventId}`);
+      if(!window.releaseTimeET||!/^https:\/\//.test(window.scheduleSource??record.sourceUrl??""))throw new Error(`Missing release-window provenance: ${record.eventId}`);
+      const measured=Object.values(window.assets??{}).some(asset=>asset?.at15||asset?.at60);
+      if(measured&&!/^https:\/\//.test(window.priceSourceUrl??""))throw new Error(`Missing measured-market provenance: ${record.eventId}`);
       for(const ticker of ["QQQ","NVDA","SMH"])for(const point of ["at15","at60"]){
         const value=window.assets?.[ticker]?.[point];
         if(value!==null && value!==undefined && (!Number.isFinite(value.pct)||!Number.isFinite(value.before?.close)||!Number.isFinite(value.after?.close)))
