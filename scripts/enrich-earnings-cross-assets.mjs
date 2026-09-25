@@ -65,7 +65,12 @@ for(const [i,symbol] of symbols.entries()){
   }]));
   console.log(`${symbol}: ${rows.length} daily closes`);
 }
-const dates=[...market["I:COMP"].keys()].sort();
+// Index providers can publish a weekend-dated aggregate. Anchor offsets to
+// ordinary U.S. equity sessions confirmed by an ETF close instead.
+const dates=[...market["I:COMP"].keys()].filter(date=>{
+  const day=new Date(`${date}T12:00:00Z`).getUTCDay();
+  return day>=1&&day<=5&&market.QQQ.has(date);
+}).sort();
 const pct=(after,before)=>after!=null&&before>0?Math.round((after/before-1)*10000)/100:null;
 const sourceUrl="https://massive.com/docs/rest/stocks/aggregates/custom-bars";
 let updated=0;
