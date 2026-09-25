@@ -81,7 +81,6 @@ td strong { display:block; color:var(--ink); font-size:13px; margin-bottom:7px; 
 .release-state.upcoming { color:#155b47; background:#ddf6ed; }.release-state.released { color:#647287; background:#e8edf2; }
 .why { margin:10px 0; color:#65758b; }
 .historical-cell { color:#55677d; font-size:11px; line-height:1.5; }
-.historical-label { margin-bottom:7px; color:#183b63; font-size:9px; font-weight:900; letter-spacing:.1em; text-transform:uppercase; }
 .historical-cell p { margin:0 0 8px; }
 .historical-cell p:last-child { margin-bottom:0; }
 .playbook { display:grid; gap:6px; padding:10px; border-left:3px solid #b8c5d5; background:#f7f9fb; }
