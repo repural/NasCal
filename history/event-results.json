@@ -547,6 +547,21 @@
         "Oil-price rise",
         "Paychex earnings weakness"
       ]
+    },
+    "2026-09-24-TRUMP–XI": {
+      "eventDate": "2026-09-24",
+      "eventKey": "trump-xi-summit",
+      "eventType": "Politics",
+      "importance": "Critical",
+      "timeET": "headline-driven",
+      "surpriseDirection": "limited-deal",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "trade-truce-uncertainty",
+      "confounders": [
+        "7-year Treasury auction on the same day",
+        "Higher oil prices and Treasury yields",
+        "Several summit statements with no single timed market release"
+      ]
     }
   },
   "results": [
@@ -9435,6 +9450,24 @@
           }
         }
       ]
+    },
+    {
+      "eventId": "2026-09-24-TRUMP–XI",
+      "status": "verified",
+      "previous": "The U.S.–China trade truce had been due to expire in November.",
+      "expected": "Continued truce widely expected; no reliable consensus for a broader deal.",
+      "actual": "Two-month trade-truce extension; no comprehensive agreement on tariffs, rare earths or technology announced.",
+      "surprise": "Limited extension rather than a durable broader agreement; no numeric consensus or measurable release-time surprise.",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionStatus": "headline-driven-no-single-release",
+      "explanation": "The summit preserved a temporary trade truce but left major tariff, rare-earth, AI and Taiwan questions open. Oil, yields and the 7-year Treasury auction also affected the trading day, so its index moves cannot be assigned to the summit alone.",
+      "sourceUrl": "https://www.reuters.com/world/china/four-takeaways-trumps-summit-with-xi-washington-2026-09-24/",
+      "verifiedAt": "2026-09-25"
     }
   ]
 }
