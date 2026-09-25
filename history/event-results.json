@@ -12,6 +12,415 @@
     "reactionWindows": "Scheduled release time and exact pre-release, +15m, +60m observed closes for QQQ/NVDA/SMH; multiple independently timed releases stay separate; null indicates a missing exact minute bar."
   },
   "eventIndex": {
+    "2026-01-05-ISM-MFG": {
+      "eventDate": "2026-01-05",
+      "eventKey": "ism-manufacturing",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-manufacturing",
+      "confounders": []
+    },
+    "2026-01-07-ISM-SVC": {
+      "eventDate": "2026-01-07",
+      "eventKey": "ism-services",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-services",
+      "confounders": [
+        "JOLTS"
+      ]
+    },
+    "2026-01-07-JOLTS": {
+      "eventDate": "2026-01-07",
+      "eventKey": "jolts",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "jolts",
+      "confounders": [
+        "ISM-SVC"
+      ]
+    },
+    "2026-01-09-JOBS": {
+      "eventDate": "2026-01-09",
+      "eventKey": "employment-report",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-report",
+      "confounders": []
+    },
+    "2026-01-13-CPI": {
+      "eventDate": "2026-01-13",
+      "eventKey": "cpi",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "cpi",
+      "confounders": []
+    },
+    "2026-01-14-PPI": {
+      "eventDate": "2026-01-14",
+      "eventKey": "ppi",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ppi",
+      "confounders": [
+        "RETAIL"
+      ]
+    },
+    "2026-01-14-RETAIL": {
+      "eventDate": "2026-01-14",
+      "eventKey": "retail-sales",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "retail-sales",
+      "confounders": [
+        "PPI"
+      ]
+    },
+    "2026-01-22-GDP": {
+      "eventDate": "2026-01-22",
+      "eventKey": "gdp-updated",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "gdp-updated",
+      "confounders": []
+    },
+    "2026-01-22-PCE": {
+      "eventDate": "2026-01-22",
+      "eventKey": "core-pce",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": []
+    },
+    "2026-01-23-FLASH-PMI": {
+      "eventDate": "2026-01-23",
+      "eventKey": "flash-pmi",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "09:45",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "flash-pmi",
+      "confounders": []
+    },
+    "2026-01-28-FOMC": {
+      "eventDate": "2026-01-28",
+      "eventKey": "fomc-decision",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fomc-decision",
+      "confounders": []
+    },
+    "2026-01-30-PPI": {
+      "eventDate": "2026-01-30",
+      "eventKey": "ppi",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ppi",
+      "confounders": []
+    },
+    "2026-02-02-ISM-MFG": {
+      "eventDate": "2026-02-02",
+      "eventKey": "ism-manufacturing",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-manufacturing",
+      "confounders": []
+    },
+    "2026-02-04-ISM-SVC": {
+      "eventDate": "2026-02-04",
+      "eventKey": "ism-services",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-services",
+      "confounders": []
+    },
+    "2026-02-05-JOLTS": {
+      "eventDate": "2026-02-05",
+      "eventKey": "jolts",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "jolts",
+      "confounders": []
+    },
+    "2026-02-10-ECI": {
+      "eventDate": "2026-02-10",
+      "eventKey": "employment-cost",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-cost",
+      "confounders": [
+        "RETAIL"
+      ]
+    },
+    "2026-02-10-RETAIL": {
+      "eventDate": "2026-02-10",
+      "eventKey": "retail-sales",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "retail-sales",
+      "confounders": [
+        "ECI"
+      ]
+    },
+    "2026-02-11-JOBS": {
+      "eventDate": "2026-02-11",
+      "eventKey": "employment-report",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-report",
+      "confounders": []
+    },
+    "2026-02-13-CPI": {
+      "eventDate": "2026-02-13",
+      "eventKey": "cpi",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "cpi",
+      "confounders": []
+    },
+    "2026-02-20-FLASH-PMI": {
+      "eventDate": "2026-02-20",
+      "eventKey": "flash-pmi",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "09:45",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "flash-pmi",
+      "confounders": []
+    },
+    "2026-02-20-GDP": {
+      "eventDate": "2026-02-20",
+      "eventKey": "gdp-advance",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "gdp-advance",
+      "confounders": [
+        "PCE"
+      ]
+    },
+    "2026-02-20-PCE": {
+      "eventDate": "2026-02-20",
+      "eventKey": "core-pce",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": [
+        "GDP"
+      ]
+    },
+    "2026-02-27-PPI": {
+      "eventDate": "2026-02-27",
+      "eventKey": "ppi",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ppi",
+      "confounders": []
+    },
+    "2026-03-02-ISM-MFG": {
+      "eventDate": "2026-03-02",
+      "eventKey": "ism-manufacturing",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-manufacturing",
+      "confounders": []
+    },
+    "2026-03-04-ISM-SVC": {
+      "eventDate": "2026-03-04",
+      "eventKey": "ism-services",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-services",
+      "confounders": []
+    },
+    "2026-03-06-JOBS": {
+      "eventDate": "2026-03-06",
+      "eventKey": "employment-report",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-report",
+      "confounders": [
+        "RETAIL"
+      ]
+    },
+    "2026-03-06-RETAIL": {
+      "eventDate": "2026-03-06",
+      "eventKey": "retail-sales",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "retail-sales",
+      "confounders": [
+        "JOBS"
+      ]
+    },
+    "2026-03-11-CPI": {
+      "eventDate": "2026-03-11",
+      "eventKey": "cpi",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "cpi",
+      "confounders": []
+    },
+    "2026-03-13-GDP": {
+      "eventDate": "2026-03-13",
+      "eventKey": "gdp-second",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "gdp-second",
+      "confounders": [
+        "PCE"
+      ]
+    },
+    "2026-03-13-JOLTS": {
+      "eventDate": "2026-03-13",
+      "eventKey": "jolts",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "jolts",
+      "confounders": []
+    },
+    "2026-03-13-PCE": {
+      "eventDate": "2026-03-13",
+      "eventKey": "core-pce",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": [
+        "GDP"
+      ]
+    },
+    "2026-03-18-FOMC": {
+      "eventDate": "2026-03-18",
+      "eventKey": "fomc-decision",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fomc-decision",
+      "confounders": []
+    },
+    "2026-03-18-PPI": {
+      "eventDate": "2026-03-18",
+      "eventKey": "ppi",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ppi",
+      "confounders": []
+    },
+    "2026-03-24-FLASH-PMI": {
+      "eventDate": "2026-03-24",
+      "eventKey": "flash-pmi",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "09:45",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "flash-pmi",
+      "confounders": []
+    },
+    "2026-03-31-JOLTS": {
+      "eventDate": "2026-03-31",
+      "eventKey": "jolts",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "jolts",
+      "confounders": []
+    },
     "2026-04-01-ISM-MFG": {
       "eventDate": "2026-04-01",
       "eventKey": "ism-manufacturing",
@@ -796,6 +1205,916 @@
     }
   },
   "results": [
+    {
+      "eventId": "2026-01-05-ISM-MFG",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 manufacturing PMI 47.9",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-01/ism-pmi-reports-roundup-december-2025-manufacturing/",
+          "caveat": null
+        }
+      ],
+      "explanation": "December 2025 manufacturing PMI 47.9. ",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-01/ism-pmi-reports-roundup-december-2025-manufacturing/",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-07-ISM-SVC",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 services PMI 53.8",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-01/ism-pmi-reports-roundup-december-2025-services/",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "December 2025 services PMI 53.8. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-01/ism-pmi-reports-roundup-december-2025-services/",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-07-JOLTS",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "November 2025 job openings 7.1 million",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "November 2025 job openings 7.1 million. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/jolts_01072026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-09-JOBS",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 payroll employment +50,000; unemployment 4.4%",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "December 2025 payroll employment +50,000; unemployment 4.4%. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_01092026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-13-CPI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 CPI +0.3% m/m and +2.7% y/y; core +0.2% m/m",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/cpi_01132026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "December 2025 CPI +0.3% m/m and +2.7% y/y; core +0.2% m/m. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_01132026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-14-PPI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "November 2025 PPI final demand +0.2% m/m",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/ppi_01142026.htm",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "November 2025 PPI final demand +0.2% m/m. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_01142026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-14-RETAIL",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "November 2025 advance retail and food services sales +0.6% m/m",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.census.gov/retail/release_schedule.html",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "November 2025 advance retail and food services sales +0.6% m/m. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-22-GDP",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "2025 Q3 real GDP updated estimate +4.4% annualized",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "gdp-updated",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bea.gov/news/2026/gross-domestic-product-3rd-quarter-2025-updated-estimate-gdp-industry-and-corporate",
+          "caveat": null
+        }
+      ],
+      "explanation": "2025 Q3 real GDP updated estimate +4.4% annualized. ",
+      "sourceUrl": "https://www.bea.gov/news/2026/gross-domestic-product-3rd-quarter-2025-updated-estimate-gdp-industry-and-corporate",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-22-PCE",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "November 2025 core PCE +0.2% m/m and +2.8% y/y; October core PCE +0.2% m/m",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-and-november-2025",
+          "caveat": null
+        }
+      ],
+      "explanation": "November 2025 core PCE +0.2% m/m and +2.8% y/y; October core PCE +0.2% m/m. ",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-and-november-2025",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-23-FLASH-PMI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 flash composite PMI 52.8; services 52.5; manufacturing 51.9",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "flash-pmi",
+          "releaseTimeET": "09:45",
+          "assets": {},
+          "scheduleSource": "https://www.pmi.spglobal.com/Public/Home/PressRelease/0a129f6065114f30907f0b169122e1f3",
+          "caveat": null
+        }
+      ],
+      "explanation": "January 2026 flash composite PMI 52.8; services 52.5; manufacturing 51.9. ",
+      "sourceUrl": "https://www.pmi.spglobal.com/Public/Home/PressRelease/0a129f6065114f30907f0b169122e1f3",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-28-FOMC",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "Fed held federal funds target range at 3.50%–3.75%",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "fomc-decision",
+          "releaseTimeET": "14:00",
+          "assets": {},
+          "scheduleSource": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "Fed held federal funds target range at 3.50%–3.75%. ",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-01-30-PPI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 PPI final demand +0.5% m/m as first reported",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/ppi_01302026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "December 2025 PPI final demand +0.5% m/m as first reported. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_01302026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-02-ISM-MFG",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 manufacturing PMI 52.6",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-02/ism-pmi-reports-roundup-january-2026-manufacturing/",
+          "caveat": null
+        }
+      ],
+      "explanation": "January 2026 manufacturing PMI 52.6. ",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-02/ism-pmi-reports-roundup-january-2026-manufacturing/",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-04-ISM-SVC",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 services PMI 53.8",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/january/",
+          "caveat": null
+        }
+      ],
+      "explanation": "January 2026 services PMI 53.8. ",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/january/",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-05-JOLTS",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 job openings 6.5 million",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/jolts_02052026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "December 2025 job openings 6.5 million. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/jolts_02052026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-10-ECI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "2025 Q4 Employment Cost Index +0.7% q/q and +3.4% y/y",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "employment-cost",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/eci_02102026.htm",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "2025 Q4 Employment Cost Index +0.7% q/q and +3.4% y/y. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/eci_02102026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-10-RETAIL",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 advance retail and food services sales virtually unchanged (+0.0% m/m)",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://content.govdelivery.com/accounts/USCENSUS/bulletins/409263a",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "December 2025 advance retail and food services sales virtually unchanged (+0.0% m/m). Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://content.govdelivery.com/accounts/USCENSUS/bulletins/409263a",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-11-JOBS",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 payroll employment +130,000; unemployment 4.3%",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/empsit_02112026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "January 2026 payroll employment +130,000; unemployment 4.3%. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_02112026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-13-CPI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 CPI +0.2% m/m and +2.4% y/y; core +0.3% m/m",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/cpi_02132026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "January 2026 CPI +0.2% m/m and +2.4% y/y; core +0.3% m/m. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_02132026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-20-FLASH-PMI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "February 2026 flash composite PMI 52.3; services 52.3; manufacturing 51.2",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "flash-pmi",
+          "releaseTimeET": "09:45",
+          "assets": {},
+          "scheduleSource": "https://www.pmi.spglobal.com/Public/Home/PressRelease/de7251a734954460986e49e0ab041b2f",
+          "caveat": null
+        }
+      ],
+      "explanation": "February 2026 flash composite PMI 52.3; services 52.3; manufacturing 51.2. ",
+      "sourceUrl": "https://www.pmi.spglobal.com/Public/Home/PressRelease/de7251a734954460986e49e0ab041b2f",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-20-GDP",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "2025 Q4 real GDP advance estimate +1.4% annualized",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "gdp-advance",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "2025 Q4 real GDP advance estimate +1.4% annualized. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-20-PCE",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "December 2025 core PCE +0.4% m/m and +3.0% y/y",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "December 2025 core PCE +0.4% m/m and +3.0% y/y. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-02-27-PPI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 PPI final demand +0.5% m/m and +2.9% y/y",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/ppi_02272026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "January 2026 PPI final demand +0.5% m/m and +2.9% y/y. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_02272026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-02-ISM-MFG",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "February 2026 manufacturing PMI 52.4",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-03/ism-pmi-reports-roundup-february-2026-manufacturing/",
+          "caveat": null
+        }
+      ],
+      "explanation": "February 2026 manufacturing PMI 52.4. ",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-03/ism-pmi-reports-roundup-february-2026-manufacturing/",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-04-ISM-SVC",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "February 2026 services PMI 56.1",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-03/ism-pmi-reports-roundup-february-2026-services/",
+          "caveat": null
+        }
+      ],
+      "explanation": "February 2026 services PMI 56.1. ",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-03/ism-pmi-reports-roundup-february-2026-services/",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-06-JOBS",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "February 2026 payroll employment -92,000; unemployment 4.4%",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "February 2026 payroll employment -92,000; unemployment 4.4%. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_03062026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-06-RETAIL",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 advance retail and food services sales -0.2% m/m",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.census.gov/svsd/www/marts_current.pdf",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "January 2026 advance retail and food services sales -0.2% m/m. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.census.gov/svsd/www/marts_current.pdf",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-11-CPI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "February 2026 CPI +0.3% m/m and +2.4% y/y; core +0.2% m/m",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "February 2026 CPI +0.3% m/m and +2.4% y/y; core +0.2% m/m. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-13-GDP",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "2025 Q4 real GDP second estimate +0.7% annualized",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "gdp-second",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bea.gov/news/2026/gdp-second-estimate-4th-quarter-and-year-2025",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "2025 Q4 real GDP second estimate +0.7% annualized. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-second-estimate-4th-quarter-and-year-2025",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-13-JOLTS",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 job openings 6.9 million",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/jolts_03132026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "January 2026 job openings 6.9 million. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/jolts_03132026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-13-PCE",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "January 2026 core PCE +0.4% m/m and +3.1% y/y",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+          "caveat": "Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects."
+        }
+      ],
+      "explanation": "January 2026 core PCE +0.4% m/m and +3.1% y/y. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-18-FOMC",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "Fed held federal funds target range at 3.50%–3.75%; released updated economic projections",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "fomc-decision",
+          "releaseTimeET": "14:00",
+          "assets": {},
+          "scheduleSource": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "Fed held federal funds target range at 3.50%–3.75%; released updated economic projections. ",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-18-PPI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "February 2026 PPI final demand +0.7% m/m and +3.4% y/y",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "February 2026 PPI final demand +0.7% m/m and +3.4% y/y. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-24-FLASH-PMI",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "March 2026 flash composite PMI 51.4; February 51.9",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "flash-pmi",
+          "releaseTimeET": "09:45",
+          "assets": {},
+          "scheduleSource": "https://www.pmi.spglobal.com/Public/Home/PressRelease/adc91b5cf42442cbb220d5b66b64ec7d",
+          "caveat": null
+        }
+      ],
+      "explanation": "March 2026 flash composite PMI 51.4; February 51.9. ",
+      "sourceUrl": "https://www.pmi.spglobal.com/Public/Home/PressRelease/adc91b5cf42442cbb220d5b66b64ec7d",
+      "verifiedAt": "2026-09-25"
+    },
+    {
+      "eventId": "2026-03-31-JOLTS",
+      "status": "verified",
+      "previous": null,
+      "expected": null,
+      "actual": "February 2026 job openings 6.9 million",
+      "surprise": "Not assessed: contemporaneous market consensus not verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": null,
+      "qqq1h": null,
+      "reactionWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "assets": {},
+          "scheduleSource": "https://www.bls.gov/news.release/archives/jolts_03312026.htm",
+          "caveat": null
+        }
+      ],
+      "explanation": "February 2026 job openings 6.9 million. ",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/jolts_03312026.htm",
+      "verifiedAt": "2026-09-25"
+    },
     {
       "eventId": "2026-04-01-ISM-MFG",
       "status": "verified",
