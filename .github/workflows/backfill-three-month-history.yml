@@ -1,4 +1,4 @@
-name: Discover and enrich three-month Nasdaq history
+name: Discover and enrich Nasdaq and SOX history
 on:
   schedule:
     - cron: '15 5 * * 2-6'
