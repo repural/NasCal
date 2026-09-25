@@ -1,5 +1,7 @@
 name: Discover and enrich three-month Nasdaq history
 on:
+  schedule:
+    - cron: '15 5 * * 2-6'
   push:
     branches: [main]
     paths:
@@ -15,7 +17,7 @@ permissions:
 jobs:
   history:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,13 +28,17 @@ jobs:
           AS_OF: ${{ inputs.as_of }}
         run: |
           if [ -n "$AS_OF" ]; then node scripts/discover-history.mjs "--as-of=$AS_OF"; else node scripts/discover-history.mjs; fi
-      - name: Compute exact QQQ NVDA SMH windows
+      - name: Store Nasdaq Composite and SOX previous and event-day closes
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: node scripts/enrich-history-index-closes.mjs
+      - name: Compute exact ETF and Nasdaq Composite windows
         env:
           MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
           AS_OF: ${{ inputs.as_of }}
         run: |
           test -n "$MASSIVE_API_KEY" || { echo 'Add MASSIVE_API_KEY to NasCal repository Actions secrets'; exit 1; }
-          if [ -n "$AS_OF" ]; then node scripts/enrich-history-reactions.mjs "--as-of=$AS_OF"; else node scripts/enrich-history-reactions.mjs; fi
+          node scripts/enrich-history-reactions.mjs --from=2026-06 "--through=$(date -u +%Y-%m)"
       - name: Validate history
         run: node scripts/validate-history.mjs
       - name: Commit verified history and discovery queue
