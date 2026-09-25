@@ -22439,7 +22439,132 @@
           "releaseTimeET": "13:00",
           "scheduleSource": "https://home.treasury.gov/system/files/221/Tentative-Auction-Schedule.pdf",
           "caveat": "Trump–Xi summit and global bond selling affected the same session",
-          "assets": {}
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": -0.01,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 741.86
+                },
+                "after": {
+                  "minuteET": "13:14",
+                  "close": 741.77
+                }
+              },
+              "at60": {
+                "pct": -0.31,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 741.86
+                },
+                "after": {
+                  "minuteET": "13:59",
+                  "close": 739.53
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.09,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 224.255
+                },
+                "after": {
+                  "minuteET": "13:14",
+                  "close": 224.46
+                }
+              },
+              "at60": {
+                "pct": -0.14,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 224.255
+                },
+                "after": {
+                  "minuteET": "13:59",
+                  "close": 223.95
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": -0.09,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 600.9
+                },
+                "after": {
+                  "minuteET": "13:14",
+                  "close": 600.38
+                }
+              },
+              "at60": {
+                "pct": -0.57,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 600.9
+                },
+                "after": {
+                  "minuteET": "13:59",
+                  "close": 597.5
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": {
+                "pct": -0.01,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 26957.29883531094
+                },
+                "after": {
+                  "minuteET": "13:14",
+                  "close": 26955.27599936522
+                }
+              },
+              "at60": {
+                "pct": -0.26,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 26957.29883531094
+                },
+                "after": {
+                  "minuteET": "13:59",
+                  "close": 26887.25889163875
+                }
+              }
+            },
+            "I:SOX": {
+              "at15": {
+                "pct": -0.08,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 12494.53511337778
+                },
+                "after": {
+                  "minuteET": "13:14",
+                  "close": 12484.66683597877
+                }
+              },
+              "at60": {
+                "pct": -0.53,
+                "before": {
+                  "minuteET": "12:59",
+                  "close": 12494.53511337778
+                },
+                "after": {
+                  "minuteET": "13:59",
+                  "close": 12427.7356420497
+                }
+              }
+            }
+          },
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25"
         }
       ],
       "indexLevels": {
@@ -22449,14 +22574,20 @@
             "value": 26936.03653939892,
             "open": 27213.51907350036
           },
-          "at15": null,
-          "at60": null,
+          "at15": {
+            "minuteET": "13:14",
+            "close": 26955.27599936522
+          },
+          "at60": {
+            "minuteET": "13:59",
+            "close": 26887.25889163875
+          },
           "dayClose": {
             "date": "2026-09-24",
             "value": 26939.37301120382,
             "open": 26734.50815004199
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "dayOpen": {
@@ -22464,7 +22595,11 @@
             "value": 26734.50815004199
           },
           "releaseLabel": "seven-year Treasury auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "beforeRelease": {
+            "minuteET": "12:59",
+            "close": 26957.29883531094
+          }
         },
         "sox": {
           "priorClose": {
@@ -22472,14 +22607,20 @@
             "value": 12534.27471305812,
             "open": 12659.08350147957
           },
-          "at15": null,
-          "at60": null,
+          "at15": {
+            "minuteET": "13:14",
+            "close": 12484.66683597877
+          },
+          "at60": {
+            "minuteET": "13:59",
+            "close": 12427.7356420497
+          },
           "dayClose": {
             "date": "2026-09-24",
             "value": 12492.53651950959,
             "open": 12309.09307455128
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-09-25",
           "dayOpen": {
@@ -22487,9 +22628,42 @@
             "value": 12309.09307455128
           },
           "releaseLabel": "seven-year Treasury auction",
-          "releaseTimeET": "13:00"
+          "releaseTimeET": "13:00",
+          "beforeRelease": {
+            "minuteET": "12:59",
+            "close": 12494.53511337778
+          }
         }
-      }
+      },
+      "indexWindows": [
+        {
+          "label": "seven-year Treasury auction",
+          "releaseTimeET": "13:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 26955.27599936522
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 26887.25889163875
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "13:14",
+              "close": 12484.66683597877
+            },
+            "at60": {
+              "minuteET": "13:59",
+              "close": 12427.7356420497
+            }
+          }
+        }
+      ],
+      "qqq15m": "-0.01%",
+      "qqq1h": "-0.31%",
+      "reactionStatus": "measured"
     },
     {
       "eventId": "2026-09-24-TRUMP–XI",
