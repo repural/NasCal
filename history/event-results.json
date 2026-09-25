@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 80808)
-Total output lines: 10105
-
 {
   "schemaVersion": 2,
   "lastUpdated": "2026-09-25",
@@ -3736,7 +3733,2667 @@ Total output lines: 10105
                 },
                 "after": {
                   "minuteET": "10:14",
-   …20808 tokens truncated…priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+                  "close": 13232.21002535032
+                }
+              },
+              "at60": {
+                "pct": 0.19,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 13126.50013233148
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 13151.35764706425
+                }
+              }
+            }
+          }
+        }
+      ],
+      "explanation": "The services headline eased while the employment component improved.",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/june/",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-02",
+            "value": 25832.67161315882
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 26107.21763196725
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 26125.81549430423
+          },
+          "dayClose": {
+            "date": "2026-07-06",
+            "value": 26121.15996918518
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 26055.35267678975
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-02",
+            "value": 12626.2214905138
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 13232.21002535032
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 13151.35764706425
+          },
+          "dayClose": {
+            "date": "2026-07-06",
+            "value": 12900.14192407525
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 13126.50013233148
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26107.21763196725
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26125.81549430423
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 13232.21002535032
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 13151.35764706425
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-07-14-CPI",
+      "status": "verified",
+      "previous": "May headline +0.5% m/m; core +0.2% m/m",
+      "expected": "Headline -0.1% m/m; +3.8% y/y (Reuters poll)",
+      "actual": "June headline -0.4% m/m; core 0.0% m/m; headline +3.5% y/y",
+      "surprise": "See actual and archived consensus; compare matching units",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.45%",
+      "qqq1h": "+0.43%",
+      "reactionWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bls.gov/news.release/archives/cpi_07142026.htm",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.45,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 717.17
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 720.4
+                }
+              },
+              "at60": {
+                "pct": 0.43,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 717.17
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 720.28
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.46,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 206.3984
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 207.35
+                }
+              },
+              "at60": {
+                "pct": 0.95,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 206.3984
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 208.35
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": 1.11,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 602.47
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 609.18
+                }
+              },
+              "at60": {
+                "pct": 1.12,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 602.47
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 609.24
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Cooling energy and a flat core reading accompanied the biggest headline monthly decline since 2020.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_07142026.htm",
+      "consensusSourceUrl": "https://www.reuters.com/business/view-cpi-comes-cool-soothing-markets-2026-07-14/",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-13",
+            "value": 25873.17643521548
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-14",
+            "value": 26107.00782088301
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-13",
+            "value": 12347.78360873997
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-14",
+            "value": 12661.93061237234
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-07-15-PPI",
+      "status": "verified",
+      "previous": "May final demand +0.6% m/m (June release vintage)",
+      "expected": null,
+      "actual": "June final demand -0.3% m/m",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.24%",
+      "qqq1h": "+0.29%",
+      "reactionWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bls.gov/news.release/archives/ppi_07152026.htm",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.24,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 721.92
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 723.63
+                }
+              },
+              "at60": {
+                "pct": 0.29,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 721.92
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 723.99
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": -0.03,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 211.09
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 211.0354
+                }
+              },
+              "at60": {
+                "pct": 0.39,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 211.09
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 211.92
+                }
+              }
+            },
+            "SMH": {
+              "at15": null,
+              "at60": null
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Producer prices declined in the original release.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_07152026.htm",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-14",
+            "value": 26107.00782088301
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-15",
+            "value": 26269.22720345757
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-14",
+            "value": 12661.93061237234
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-15",
+            "value": 12398.89330483478
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-07-16-RETAIL",
+      "status": "verified",
+      "previous": "May retail and food services sales +1.0% m/m (revised)",
+      "expected": null,
+      "actual": "June advance retail and food services sales +0.2% m/m",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "-0.08%",
+      "qqq1h": "+0.23%",
+      "reactionWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www2.census.gov/retail/releases/historical/marts/adv2606.pdf",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": -0.08,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 710.45
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 709.9
+                }
+              },
+              "at60": {
+                "pct": 0.23,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 710.45
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 712.07
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": -0.3,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 209.38
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 208.76
+                }
+              },
+              "at60": {
+                "pct": 0.4,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 209.38
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 210.21
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": -0.23,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 574.25
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 572.9214
+                }
+              },
+              "at60": {
+                "pct": 0.25,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 574.25
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 575.7
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "The small advance was within the Census Bureau's sampling uncertainty.",
+      "sourceUrl": "https://www2.census.gov/retail/releases/historical/marts/adv2606.pdf",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-15",
+            "value": 26269.22720345757
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-16",
+            "value": 25881.94632803508
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-15",
+            "value": 12398.89330483478
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-16",
+            "value": 11867.5033212336
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "retail-sales",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-07-29-FOMC",
+      "status": "verified",
+      "previous": "Federal funds target range 3.50%–3.75%",
+      "expected": null,
+      "actual": "Hold at 3.50%–3.75%; 9–3 vote (three preferred +25 bp)",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.29%",
+      "qqq1h": "+1.23%",
+      "reactionWindows": [
+        {
+          "label": "fomc-decision",
+          "releaseTimeET": "14:00",
+          "scheduleSource": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "caveat": "The press conference starts 30 minutes after the statement.",
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.29,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 670.8
+                },
+                "after": {
+                  "minuteET": "14:14",
+                  "close": 672.72
+                }
+              },
+              "at60": {
+                "pct": 1.23,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 670.8
+                },
+                "after": {
+                  "minuteET": "14:59",
+                  "close": 679.05
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.26,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 192.32
+                },
+                "after": {
+                  "minuteET": "14:14",
+                  "close": 192.82
+                }
+              },
+              "at60": {
+                "pct": 1.88,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 192.32
+                },
+                "after": {
+                  "minuteET": "14:59",
+                  "close": 195.9399
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": 0.71,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 514.19
+                },
+                "after": {
+                  "minuteET": "14:14",
+                  "close": 517.86
+                }
+              },
+              "at60": {
+                "pct": 2.5,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 514.19
+                },
+                "after": {
+                  "minuteET": "14:59",
+                  "close": 527.07
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": {
+                "pct": 0.28,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 24751.82222925614
+                },
+                "after": {
+                  "minuteET": "14:14",
+                  "close": 24821.10356782101
+                }
+              },
+              "at60": {
+                "pct": 1.09,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 24751.82222925614
+                },
+                "after": {
+                  "minuteET": "14:59",
+                  "close": 25022.70342688744
+                }
+              }
+            },
+            "I:SOX": {
+              "at15": {
+                "pct": 0.79,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 10672.67301818816
+                },
+                "after": {
+                  "minuteET": "14:14",
+                  "close": 10756.99377442535
+                }
+              },
+              "at60": {
+                "pct": 2.83,
+                "before": {
+                  "minuteET": "13:59",
+                  "close": 10672.67301818816
+                },
+                "after": {
+                  "minuteET": "14:59",
+                  "close": 10974.53948711719
+                }
+              }
+            }
+          }
+        }
+      ],
+      "explanation": "Three members preferred a hike; the one-hour measurement overlaps the press conference.",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-28",
+            "value": 24876.91223848622
+          },
+          "at15": {
+            "minuteET": "14:14",
+            "close": 24821.10356782101
+          },
+          "at60": {
+            "minuteET": "14:59",
+            "close": 25022.70342688744
+          },
+          "dayClose": {
+            "date": "2026-07-29",
+            "value": 24442.94194844618
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "13:59",
+            "close": 24751.82222925614
+          },
+          "releaseLabel": "fomc-decision",
+          "releaseTimeET": "14:00"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-28",
+            "value": 11035.68268292247
+          },
+          "at15": {
+            "minuteET": "14:14",
+            "close": 10756.99377442535
+          },
+          "at60": {
+            "minuteET": "14:59",
+            "close": 10974.53948711719
+          },
+          "dayClose": {
+            "date": "2026-07-29",
+            "value": 10447.48901793499
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "13:59",
+            "close": 10672.67301818816
+          },
+          "releaseLabel": "fomc-decision",
+          "releaseTimeET": "14:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "fomc-decision",
+          "releaseTimeET": "14:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 24821.10356782101
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 25022.70342688744
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "14:14",
+              "close": 10756.99377442535
+            },
+            "at60": {
+              "minuteET": "14:59",
+              "close": 10974.53948711719
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-07-30-GDP",
+      "status": "verified",
+      "previous": "Q1 real GDP +2.1% annualized (as stated in advance Q2 release)",
+      "expected": null,
+      "actual": "Q2 advance real GDP +1.5% annualized",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.13%",
+      "qqq1h": "+0.49%",
+      "reactionWindows": [
+        {
+          "label": "gdp-advance",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+          "caveat": "Same-day releases: PCE; distinguish by release timestamp",
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.13,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 671.55
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 672.39
+                }
+              },
+              "at60": {
+                "pct": 0.49,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 671.55
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 674.87
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.09,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 193.64
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 193.8215
+                }
+              },
+              "at60": {
+                "pct": -0.17,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 193.64
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 193.31
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": 0.62,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 520.68
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 523.9
+                }
+              },
+              "at60": {
+                "pct": 1.67,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 520.68
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 529.38
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Growth decelerated. June PCE was published at the same time.",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-29",
+            "value": 24442.94194844618
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-30",
+            "value": 25122.17714296474
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "gdp-advance",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-29",
+            "value": 10447.48901793499
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-30",
+            "value": 11302.98763776193
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "gdp-advance",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "gdp-advance",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-07-30-PCE",
+      "status": "verified",
+      "previous": "May core PCE +0.3% m/m (July release vintage)",
+      "expected": null,
+      "actual": "June core PCE +0.1% m/m; headline -0.1% m/m",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.13%",
+      "qqq1h": "+0.49%",
+      "reactionWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+          "caveat": "Same-day releases: GDP; distinguish by release timestamp",
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.13,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 671.55
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 672.39
+                }
+              },
+              "at60": {
+                "pct": 0.49,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 671.55
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 674.87
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.09,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 193.64
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 193.8215
+                }
+              },
+              "at60": {
+                "pct": -0.17,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 193.64
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 193.31
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": 0.62,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 520.68
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 523.9
+                }
+              },
+              "at60": {
+                "pct": 1.67,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 520.68
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 529.38
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Core monthly inflation slowed. GDP was released at the same time.",
+      "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-29",
+            "value": 24442.94194844618
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-30",
+            "value": 25122.17714296474
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-29",
+            "value": 10447.48901793499
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-30",
+            "value": 11302.98763776193
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "core-pce",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "core-pce",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-07-31-ECI",
+      "status": "verified",
+      "previous": "Q1 civilian total compensation +0.9% q/q",
+      "expected": null,
+      "actual": "Q2 civilian total compensation +0.9% q/q; wages +0.9% q/q",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "-0.16%",
+      "qqq1h": "+0.28%",
+      "reactionWindows": [
+        {
+          "label": "employment-cost",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bls.gov/news.release/archives/eci_07312026.htm",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": -0.16,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 690.17
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 689.06
+                }
+              },
+              "at60": {
+                "pct": 0.28,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 690.17
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 692.08
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": -0.1,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 196.99
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 196.8
+                }
+              },
+              "at60": {
+                "pct": 0.8,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 196.99
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 198.57
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": -0.38,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 552.68
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 550.6
+                }
+              },
+              "at60": {
+                "pct": 0.97,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 552.68
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 558.03
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Quarterly employment costs remained elevated while year-over-year growth slowed.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/eci_07312026.htm",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-30",
+            "value": 25122.17714296474
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-31",
+            "value": 25373.85341729255
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "employment-cost",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-30",
+            "value": 11302.98763776193
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-07-31",
+            "value": 11311.07520745611
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "employment-cost",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "employment-cost",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-08-03-ISM-MFG",
+      "status": "verified",
+      "previous": "June Manufacturing PMI 53.3",
+      "expected": null,
+      "actual": "July Manufacturing PMI 55.6",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "-0.19%",
+      "qqq1h": "+0.62%",
+      "reactionWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/july/",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": -0.19,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 693.305
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 692
+                }
+              },
+              "at60": {
+                "pct": 0.62,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 693.305
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 697.585
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.96,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 202.2624
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 204.21
+                }
+              },
+              "at60": {
+                "pct": 1.99,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 202.2624
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 206.29
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": -0.05,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 532.82
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 532.53
+                }
+              },
+              "at60": {
+                "pct": 2.24,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 532.82
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 544.76
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": {
+                "pct": -0.06,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 25705.88256802494
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 25690.09468146109
+                }
+              },
+              "at60": {
+                "pct": 0.5,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 25705.88256802494
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 25835.29718461395
+                }
+              }
+            },
+            "I:SOX": {
+              "at15": {
+                "pct": -0.17,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 11107.91311810444
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 11088.64958717592
+                }
+              },
+              "at60": {
+                "pct": 2.7,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 11107.91311810444
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 11408.23392313387
+                }
+              }
+            }
+          }
+        }
+      ],
+      "explanation": "Manufacturing activity accelerated in the original release.",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/july/",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 2.16,
+          "baseline": {
+            "date": "2026-08-03",
+            "timeET": "09:59",
+            "close": 202.2624
+          },
+          "close": {
+            "date": "2026-08-03",
+            "timeET": "16:00",
+            "close": 206.64
+          },
+          "sessionPct": 2.93,
+          "priorSession": {
+            "date": "2026-07-31",
+            "close": 200.75
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+2.16%",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-07-31",
+            "value": 25373.85341729255
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 25690.09468146109
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 25835.29718461395
+          },
+          "dayClose": {
+            "date": "2026-08-03",
+            "value": 25913.8955944159
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 25705.88256802494
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-07-31",
+            "value": 11311.07520745611
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 11088.64958717592
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 11408.23392313387
+          },
+          "dayClose": {
+            "date": "2026-08-03",
+            "value": 11430.35121183354
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 11107.91311810444
+          },
+          "releaseLabel": "ism-manufacturing",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-manufacturing",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 25690.09468146109
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 25835.29718461395
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 11088.64958717592
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 11408.23392313387
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-08-04-JOLTS",
+      "status": "verified",
+      "previous": "May 7.5M openings (revised in this release)",
+      "expected": null,
+      "actual": "June 7.4M openings",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.27%",
+      "qqq1h": "+0.30%",
+      "reactionWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "scheduleSource": "https://www.bls.gov/news.release/archives/jolts_08042026.htm",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.27,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 713.65
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 715.6
+                }
+              },
+              "at60": {
+                "pct": 0.3,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 713.65
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 715.8008
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.09,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 210.04
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 210.22
+                }
+              },
+              "at60": {
+                "pct": -0.23,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 210.04
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 209.56
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": 0.3,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 566.95
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 568.67
+                }
+              },
+              "at60": {
+                "pct": 0.3,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 566.95
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 568.64
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": {
+                "pct": 0.3,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 26247.47895180638
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 26325.13317954475
+                }
+              },
+              "at60": {
+                "pct": 0.33,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 26247.47895180638
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 26333.10112977847
+                }
+              }
+            },
+            "I:SOX": {
+              "at15": {
+                "pct": 0.26,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 11963.84345799304
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 11994.35650913602
+                }
+              },
+              "at60": {
+                "pct": 0.39,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 11963.84345799304
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 12010.81133340179
+                }
+              }
+            }
+          }
+        }
+      ],
+      "explanation": "Openings changed little while hires were stable in the original publication.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/jolts_08042026.htm",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 0.9,
+          "baseline": {
+            "date": "2026-08-04",
+            "timeET": "09:59",
+            "close": 210.04
+          },
+          "close": {
+            "date": "2026-08-04",
+            "timeET": "16:00",
+            "close": 211.94
+          },
+          "sessionPct": 2.56,
+          "priorSession": {
+            "date": "2026-08-03",
+            "close": 206.64
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+0.90%",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-08-03",
+            "value": 25913.8955944159
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 26325.13317954475
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 26333.10112977847
+          },
+          "dayClose": {
+            "date": "2026-08-04",
+            "value": 26584.99301080211
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 26247.47895180638
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-08-03",
+            "value": 11430.35121183354
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 11994.35650913602
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 12010.81133340179
+          },
+          "dayClose": {
+            "date": "2026-08-04",
+            "value": 12179.26269759648
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 11963.84345799304
+          },
+          "releaseLabel": "jolts",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "jolts",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26325.13317954475
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26333.10112977847
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 11994.35650913602
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 12010.81133340179
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-08-05-ISM-SVC",
+      "status": "verified",
+      "previous": "June Services PMI 54.0",
+      "expected": null,
+      "actual": "July Services PMI 54.1",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "-0.18%",
+      "qqq1h": "-0.68%",
+      "reactionWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "scheduleSource": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/july/",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": -0.18,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 727.99
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 726.71
+                }
+              },
+              "at60": {
+                "pct": -0.68,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 727.99
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 723.04
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.35,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 221.155
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 221.94
+                }
+              },
+              "at60": {
+                "pct": -1.06,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 221.155
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 218.8
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": -0.67,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 583.26
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 579.38
+                }
+              },
+              "at60": {
+                "pct": -2.07,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 583.26
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 571.17
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": {
+                "pct": -0.01,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 26709.93314720706
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 26706.42116683336
+                }
+              },
+              "at60": {
+                "pct": -0.37,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 26709.93314720706
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 26612.13612131427
+                }
+              }
+            },
+            "I:SOX": {
+              "at15": {
+                "pct": -0.82,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 12323.10802995111
+                },
+                "after": {
+                  "minuteET": "10:14",
+                  "close": 12221.87476563637
+                }
+              },
+              "at60": {
+                "pct": -2.23,
+                "before": {
+                  "minuteET": "09:59",
+                  "close": 12323.10802995111
+                },
+                "after": {
+                  "minuteET": "10:59",
+                  "close": 12048.55573839975
+                }
+              }
+            }
+          }
+        }
+      ],
+      "explanation": "The services headline was nearly unchanged; employment moved into contraction.",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/services/july/",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": -0.87,
+          "baseline": {
+            "date": "2026-08-05",
+            "timeET": "09:59",
+            "close": 221.155
+          },
+          "close": {
+            "date": "2026-08-05",
+            "timeET": "16:00",
+            "close": 219.22
+          },
+          "sessionPct": 3.43,
+          "priorSession": {
+            "date": "2026-08-04",
+            "close": 211.94
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "-0.87%",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-08-04",
+            "value": 26584.99301080211
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 26706.42116683336
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 26612.13612131427
+          },
+          "dayClose": {
+            "date": "2026-08-05",
+            "value": 26363.43932290228
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 26709.93314720706
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-08-04",
+            "value": 12179.26269759648
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 12221.87476563637
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 12048.55573839975
+          },
+          "dayClose": {
+            "date": "2026-08-05",
+            "value": 12008.88332909537
+          },
+          "intradayStatus": "measured",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 12323.10802995111
+          },
+          "releaseLabel": "ism-services",
+          "releaseTimeET": "10:00"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ism-services",
+          "releaseTimeET": "10:00",
+          "nasdaq": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 26706.42116683336
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 26612.13612131427
+            }
+          },
+          "sox": {
+            "at15": {
+              "minuteET": "10:14",
+              "close": 12221.87476563637
+            },
+            "at60": {
+              "minuteET": "10:59",
+              "close": 12048.55573839975
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-08-07-JOBS",
+      "status": "verified",
+      "previous": "June payrolls +57K as previously reported; later revised to +20K",
+      "expected": "Payrolls +80K; unemployment 4.2% (Reuters poll)",
+      "actual": "July payrolls -23K; unemployment 4.1%",
+      "surprise": "See actual and archived consensus; compare matching units",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.43%",
+      "qqq1h": "+0.14%",
+      "reactionWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bls.gov/news.release/archives/empsit_08072026.htm",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.43,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 719.16
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 722.27
+                }
+              },
+              "at60": {
+                "pct": 0.14,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 719.16
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 720.19
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.64,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 219.9
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 221.2999
+                }
+              },
+              "at60": {
+                "pct": 0.77,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 219.9
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 221.6
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": 1.15,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 578.87
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 585.5
+                }
+              },
+              "at60": {
+                "pct": 0.82,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 578.87
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 583.64
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Payrolls unexpectedly contracted and the prior month was revised down.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/empsit_08072026.htm",
+      "consensusSourceUrl": "https://www.reuters.com/business/view-soft-july-jobs-report-fuels-skepticism-over-possible-fed-rate-hike-2026-08-07/",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 1.85,
+          "baseline": {
+            "date": "2026-08-07",
+            "timeET": "08:29",
+            "close": 219.9
+          },
+          "close": {
+            "date": "2026-08-07",
+            "timeET": "16:00",
+            "close": 223.96
+          },
+          "sessionPct": 2.27,
+          "priorSession": {
+            "date": "2026-08-06",
+            "close": 218.99
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+1.85%",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-08-06",
+            "value": 26348.35217258063
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-08-07",
+            "value": 26690.61500174401
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-08-06",
+            "value": 12048.69290592094
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-08-07",
+            "value": 12356.78738101633
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "employment-report",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "employment-report",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-08-12-CPI",
+      "status": "verified",
+      "previous": "June headline -0.4% m/m; core 0.0% m/m",
+      "expected": "Headline +3.4% y/y (Reuters poll)",
+      "actual": "July headline +0.1% m/m; core +0.2% m/m; headline +3.4% y/y",
+      "surprise": "See actual and archived consensus; compare matching units",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.04%",
+      "qqq1h": "+0.28%",
+      "reactionWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": 0.04,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 725.05
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 725.35
+                }
+              },
+              "at60": {
+                "pct": 0.28,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 725.05
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 727.08
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.34,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 219.78
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 220.52
+                }
+              },
+              "at60": {
+                "pct": 0.58,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 219.78
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 221.05
+                }
+              }
+            },
+            "SMH": {
+              "at15": {
+                "pct": 0.5,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 584.77
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 587.71
+                }
+              },
+              "at60": {
+                "pct": 0.91,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 584.77
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 590.11
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Annual headline inflation eased a little while monthly core inflation resumed.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
+      "consensusSourceUrl": "https://www.reuters.com/business/traders-stick-narrow-bets-september-fed-hold-after-inflation-data-2026-08-12/",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 1.96,
+          "baseline": {
+            "date": "2026-08-12",
+            "timeET": "08:29",
+            "close": 219.78
+          },
+          "close": {
+            "date": "2026-08-12",
+            "timeET": "16:00",
+            "close": 224.09
+          },
+          "sessionPct": 3.03,
+          "priorSession": {
+            "date": "2026-08-11",
+            "close": 217.5
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+1.96%",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-08-11",
+            "value": 26445.4462132026
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-08-12",
+            "value": 26588.48808114044
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-08-11",
+            "value": 12098.47168726342
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-08-12",
+            "value": 12399.37611855021
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "cpi",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "cpi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-08-13-PPI",
+      "status": "verified",
+      "previous": "June final demand -0.1% m/m (revised in July release)",
+      "expected": null,
+      "actual": "July final demand 0.0% m/m; final demand less food, energy and trade +0.4% m/m",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "-0.03%",
+      "qqq1h": "+0.18%",
+      "reactionWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www.bls.gov/news.release/archives/ppi_08132026.htm",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
+          "verifiedAt": "2026-09-25",
+          "assets": {
+            "QQQ": {
+              "at15": {
+                "pct": -0.03,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 723.94
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 723.74
+                }
+              },
+              "at60": {
+                "pct": 0.18,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 723.94
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 725.22
+                }
+              }
+            },
+            "NVDA": {
+              "at15": {
+                "pct": 0.03,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 223.5421
+                },
+                "after": {
+                  "minuteET": "08:44",
+                  "close": 223.601
+                }
+              },
+              "at60": {
+                "pct": 0.7,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 223.5421
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 225.11
+                }
+              }
+            },
+            "SMH": {
+              "at15": null,
+              "at60": {
+                "pct": 0.29,
+                "before": {
+                  "minuteET": "08:29",
+                  "close": 583.5
+                },
+                "after": {
+                  "minuteET": "09:29",
+                  "close": 585.19
+                }
+              }
+            },
+            "I:COMP": {
+              "at15": null,
+              "at60": null
+            },
+            "I:SOX": {
+              "at15": null,
+              "at60": null
+            }
+          }
+        }
+      ],
+      "explanation": "Flat headline producer prices masked firmer underlying services.",
+      "sourceUrl": "https://www.bls.gov/news.release/archives/ppi_08132026.htm",
+      "verifiedAt": "2026-09-24",
+      "reactionStatus": "measured",
+      "closeReactions": {
+        "NVDA": {
+          "pct": 0.79,
+          "baseline": {
+            "date": "2026-08-13",
+            "timeET": "08:29",
+            "close": 223.5421
+          },
+          "close": {
+            "date": "2026-08-13",
+            "timeET": "16:00",
+            "close": 225.3
+          },
+          "sessionPct": 0.54,
+          "priorSession": {
+            "date": "2026-08-12",
+            "close": 224.09
+          },
+          "method": "Exact last completed minute before release versus that day's adjusted official daily close; includes other news and trading through 16:00 ET.",
+          "priceSource": "Massive adjusted daily aggregates and archived adjusted minute baseline",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+          "verifiedAt": "2026-09-24"
+        }
+      },
+      "nvdaClose": "+0.79%",
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-08-12",
+            "value": 26588.48808114044
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-08-13",
+            "value": 26803.02504449171
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-08-12",
+            "value": 12399.37611855021
+          },
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-08-13",
+            "value": 12455.99853265861
+          },
+          "intradayStatus": "exact-bars-unavailable",
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "updatedAt": "2026-09-25",
+          "beforeRelease": null,
+          "releaseLabel": "ppi",
+          "releaseTimeET": "08:30"
+        }
+      },
+      "indexWindows": [
+        {
+          "label": "ppi",
+          "releaseTimeET": "08:30",
+          "nasdaq": {
+            "at15": null,
+            "at60": null
+          },
+          "sox": {
+            "at15": null,
+            "at60": null
+          }
+        }
+      ]
+    },
+    {
+      "eventId": "2026-08-14-RETAIL",
+      "status": "verified",
+      "previous": "June retail and food services sales +0.2% m/m (unrevised)",
+      "expected": null,
+      "actual": "July advance retail and food services sales -0.6% m/m",
+      "surprise": "Not assessed: pre-release consensus not yet verified",
+      "nasdaq15m": null,
+      "nasdaq1h": null,
+      "nasdaqClose": null,
+      "yield10y": null,
+      "qqq15m": "+0.06%",
+      "qqq1h": "-0.01%",
+      "reactionWindows": [
+        {
+          "label": "retail-sales",
+          "releaseTimeET": "08:30",
+          "scheduleSource": "https://www2.census.gov/retail/releases/historical/marts/adv2607.pdf",
+          "caveat": null,
+          "priceSource": "Massive adjusted one-minute aggregate bars",
+          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
           "verifiedAt": "2026-09-25",
           "assets": {
@@ -5341,2108 +7998,3 @@ Total output lines: 10105
           "nasdaq": {
             "at15": {
               "minuteET": "13:14",
-              "close": 26484.44025744184
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 26461.63620218847
-            }
-          },
-          "sox": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 11961.74754342941
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 11933.34240245022
-            }
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "2026-09-09-10Y",
-      "status": "verified",
-      "previous": "4.683% high yield; 2.53 cover",
-      "expected": "When-issued yield near the auction stop",
-      "actual": "4.834% high yield; 2.71 cover; indirects 79.2%",
-      "surprise": "Strong demand; stopped through WI",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": null,
-      "yield10y": "Auction demand contained the yield rise",
-      "explanation": "Investors absorbed the highest 10-year auction yield since 2007 with unusually strong coverage and indirect demand, reducing the risk of an auction-driven yield spike.",
-      "sourceUrl": "https://www.reuters.com/business/bidders-pounce-10-year-notes-auction-achieves-highest-yield-since-2007-2026-09-09/",
-      "verifiedAt": "2026-09-23",
-      "qqq15m": "+0.06%",
-      "qqq1h": "+0.04%",
-      "qqqReaction": {
-        "source": "Massive adjusted one-minute aggregate bars",
-        "sourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-        "releaseTimeET": "13:00",
-        "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-        "at15": {
-          "pct": 0.06,
-          "before": {
-            "minuteET": "12:59",
-            "close": 716.42
-          },
-          "after": {
-            "minuteET": "13:14",
-            "close": 716.87
-          }
-        },
-        "at60": {
-          "pct": 0.04,
-          "before": {
-            "minuteET": "12:59",
-            "close": 716.42
-          },
-          "after": {
-            "minuteET": "13:59",
-            "close": 716.7
-          }
-        }
-      },
-      "reactionWindows": [
-        {
-          "label": "treasury-10y-auction",
-          "releaseTimeET": "13:00",
-          "scheduleSource": "https://www.reuters.com/business/bidders-pounce-10-year-notes-auction-achieves-highest-yield-since-2007-2026-09-09/",
-          "caveat": null,
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": 0.06,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 716.42
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 716.87
-                }
-              },
-              "at60": {
-                "pct": 0.04,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 716.42
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 716.7
-                }
-              },
-              "source": "Existing verified Massive backfill"
-            },
-            "NVDA": {
-              "at15": {
-                "pct": 0.16,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 224.06
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 224.4105
-                }
-              },
-              "at60": {
-                "pct": 0.08,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 224.06
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 224.235
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": 0.14,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 574.42
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 575.24
-                }
-              },
-              "at60": {
-                "pct": 0.01,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 574.42
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 574.49
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": {
-                "pct": 0.03,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 26262.45588339676
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 26270.05985744849
-                }
-              },
-              "at60": {
-                "pct": 0.04,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 26262.45588339676
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 26273.17424304272
-                }
-              }
-            },
-            "I:SOX": {
-              "at15": {
-                "pct": 0.12,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 11936.57864986138
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 11950.65655913415
-                }
-              },
-              "at60": {
-                "pct": -0.03,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 11936.57864986138
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 11932.79181984159
-                }
-              }
-            }
-          }
-        }
-      ],
-      "nvda15m": "+0.16%",
-      "nvda1h": "+0.08%",
-      "smh15m": "+0.14%",
-      "smh1h": "+0.01%",
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-08",
-            "value": 26421.41255477526
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 26270.05985744849
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 26273.17424304272
-          },
-          "dayClose": {
-            "date": "2026-09-09",
-            "value": 26253.33983069593
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 26262.45588339676
-          },
-          "releaseLabel": "treasury-10y-auction",
-          "releaseTimeET": "13:00"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-08",
-            "value": 11887.86947579256
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 11950.65655913415
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 11932.79181984159
-          },
-          "dayClose": {
-            "date": "2026-09-09",
-            "value": 11931.32171861764
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 11936.57864986138
-          },
-          "releaseLabel": "treasury-10y-auction",
-          "releaseTimeET": "13:00"
-        }
-      },
-      "reactionStatus": "measured",
-      "indexWindows": [
-        {
-          "label": "treasury-10y-auction",
-          "releaseTimeET": "13:00",
-          "nasdaq": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 26270.05985744849
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 26273.17424304272
-            }
-          },
-          "sox": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 11950.65655913415
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 11932.79181984159
-            }
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "2026-09-10-PPI + 30Y",
-      "status": "verified",
-      "previous": "Headline +0.1% revised; core +0.3% MoM",
-      "expected": "Headline +0.4%; core +0.2% MoM",
-      "actual": "Headline +0.4%; core +0.2% MoM",
-      "surprise": "Monthly readings matched consensus",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": null,
-      "yield10y": "Inflation kept yields elevated",
-      "explanation": "Monthly PPI matched expectations, but the 5.4% annual headline pace kept inflation concerns alive. A clean combined reaction cannot be attributed because the long-bond auction occurred separately.",
-      "sourceUrl": "https://www.bls.gov/news.release/ppi.nr0.htm",
-      "verifiedAt": "2026-09-23",
-      "reactionWindows": [
-        {
-          "label": "Producer Price Index",
-          "releaseTimeET": "08:30",
-          "scheduleSource": "https://www.bls.gov/schedule/2026/09_sched_list.htm",
-          "caveat": "PPI and auction occurred at different times",
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": -0.42,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 710.9
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 707.92
-                }
-              },
-              "at60": {
-                "pct": -0.47,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 710.9
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 707.55
-                }
-              }
-            },
-            "NVDA": {
-              "at15": {
-                "pct": -0.54,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 222.05
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 220.86
-                }
-              },
-              "at60": {
-                "pct": -0.67,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 222.05
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 220.56
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": -0.69,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 565.4
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 561.5
-                }
-              },
-              "at60": {
-                "pct": -0.78,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 565.4
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 560.99
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": null,
-              "at60": null
-            },
-            "I:SOX": {
-              "at15": null,
-              "at60": null
-            }
-          }
-        },
-        {
-          "label": "30-year Treasury auction",
-          "releaseTimeET": "13:00",
-          "scheduleSource": "https://www.treasurydirect.gov/auctions/announcements-data-results/",
-          "caveat": "PPI and auction occurred at different times",
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": -0.03,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 711.03
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 710.83
-                }
-              },
-              "at60": {
-                "pct": -0.16,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 711.03
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 709.8995
-                }
-              }
-            },
-            "NVDA": {
-              "at15": {
-                "pct": 0,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 218.75
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 218.74
-                }
-              },
-              "at60": {
-                "pct": -0.17,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 218.75
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 218.3709
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": -0.02,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 563.87
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 563.74
-                }
-              },
-              "at60": {
-                "pct": -0.18,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 563.87
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 562.87
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": {
-                "pct": -0.01,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 26155.61898032853
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 26153.13421453093
-                }
-              },
-              "at60": {
-                "pct": -0.14,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 26155.61898032853
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 26119.22804307903
-                }
-              }
-            },
-            "I:SOX": {
-              "at15": {
-                "pct": -0.03,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 11695.43700817128
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 11692.48969063805
-                }
-              },
-              "at60": {
-                "pct": -0.12,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 11695.43700817128
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 11681.33989064967
-                }
-              }
-            }
-          }
-        }
-      ],
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-09",
-            "value": 26253.33983069593
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 26153.13421453093
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 26119.22804307903
-          },
-          "dayClose": {
-            "date": "2026-09-10",
-            "value": 26081.72451301881
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 26155.61898032853
-          },
-          "releaseLabel": "30-year Treasury auction",
-          "releaseTimeET": "13:00"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-09",
-            "value": 11931.32171861764
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 11692.48969063805
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 11681.33989064967
-          },
-          "dayClose": {
-            "date": "2026-09-10",
-            "value": 11614.16685232229
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 11695.43700817128
-          },
-          "releaseLabel": "30-year Treasury auction",
-          "releaseTimeET": "13:00"
-        }
-      },
-      "indexWindows": [
-        {
-          "label": "Producer Price Index",
-          "releaseTimeET": "08:30",
-          "nasdaq": {
-            "at15": null,
-            "at60": null
-          },
-          "sox": {
-            "at15": null,
-            "at60": null
-          }
-        },
-        {
-          "label": "30-year Treasury auction",
-          "releaseTimeET": "13:00",
-          "nasdaq": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 26153.13421453093
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 26119.22804307903
-            }
-          },
-          "sox": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 11692.48969063805
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 11681.33989064967
-            }
-          }
-        }
-      ],
-      "qqq15m": "-0.42%",
-      "qqq1h": "-0.47%",
-      "reactionStatus": "measured"
-    },
-    {
-      "eventId": "2026-09-11-CPI",
-      "status": "verified",
-      "previous": "Core +0.3% MoM",
-      "expected": "Core +0.2% MoM",
-      "actual": "Core +0.3% MoM; core +2.4% YoY; headline +3.4% YoY",
-      "surprise": "Core 0.1 percentage point hotter MoM",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": null,
-      "yield10y": "Higher as markets priced an 85% September-hike probability",
-      "explanation": "The hotter core reading reinforced the case for a Fed hike and increased the discount rate applied to long-duration technology earnings.",
-      "sourceUrl": "https://www.reuters.com/business/fed-seen-likely-raise-rates-next-week-after-inflation-report-2026-09-11/",
-      "verifiedAt": "2026-09-23",
-      "qqq15m": "-0.08%",
-      "qqq1h": "+0.13%",
-      "qqqReaction": {
-        "source": "Massive adjusted one-minute aggregate bars",
-        "sourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-        "releaseTimeET": "08:30",
-        "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-        "at15": {
-          "pct": -0.08,
-          "before": {
-            "minuteET": "08:29",
-            "close": 714.75
-          },
-          "after": {
-            "minuteET": "08:44",
-            "close": 714.17
-          }
-        },
-        "at60": {
-          "pct": 0.13,
-          "before": {
-            "minuteET": "08:29",
-            "close": 714.75
-          },
-          "after": {
-            "minuteET": "09:29",
-            "close": 715.65
-          }
-        }
-      },
-      "reactionWindows": [
-        {
-          "label": "cpi",
-          "releaseTimeET": "08:30",
-          "scheduleSource": "https://www.reuters.com/business/fed-seen-likely-raise-rates-next-week-after-inflation-report-2026-09-11/",
-          "caveat": null,
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": -0.08,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 714.75
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 714.17
-                }
-              },
-              "at60": {
-                "pct": 0.13,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 714.75
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 715.65
-                }
-              },
-              "source": "Existing verified Massive backfill"
-            },
-            "NVDA": {
-              "at15": {
-                "pct": 0.14,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 219.62
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 219.9168
-                }
-              },
-              "at60": {
-                "pct": 0.76,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 219.62
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 221.29
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": -0.12,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 568
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 567.3
-                }
-              },
-              "at60": {
-                "pct": 0.16,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 568
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 568.91
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": null,
-              "at60": null
-            },
-            "I:SOX": {
-              "at15": null,
-              "at60": null
-            }
-          }
-        }
-      ],
-      "nvda15m": "+0.14%",
-      "nvda1h": "+0.76%",
-      "smh15m": "-0.12%",
-      "smh1h": "+0.16%",
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-10",
-            "value": 26081.72451301881
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-11",
-            "value": 26333.03533975296
-          },
-          "intradayStatus": "exact-bars-unavailable",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": null,
-          "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-10",
-            "value": 11614.16685232229
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-11",
-            "value": 11823.99806856453
-          },
-          "intradayStatus": "exact-bars-unavailable",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": null,
-          "releaseLabel": "cpi",
-          "releaseTimeET": "08:30"
-        }
-      },
-      "reactionStatus": "measured",
-      "indexWindows": [
-        {
-          "label": "cpi",
-          "releaseTimeET": "08:30",
-          "nasdaq": {
-            "at15": null,
-            "at60": null
-          },
-          "sox": {
-            "at15": null,
-            "at60": null
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "2026-09-15-FOMC 1",
-      "status": "verified",
-      "previous": "Policy range 3.50%–3.75%",
-      "expected": "Deliberations toward a 25 bp hike",
-      "actual": "Meeting opened; no policy statement on day one",
-      "surprise": "None—decision scheduled for Sep 16",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": null,
-      "yield10y": "Near 5% ahead of the decision",
-      "explanation": "Day one contained no public policy result. Markets remained positioned for a quarter-point hike amid elevated oil prices and inflation.",
-      "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "verifiedAt": "2026-09-23",
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-14",
-            "value": 26186.41334113503
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-15",
-            "value": 25981.57079867358
-          },
-          "intradayStatus": "awaiting-minute-bars",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-14",
-            "value": 11131.281313954
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-15",
-            "value": 11175.54700876069
-          },
-          "intradayStatus": "awaiting-minute-bars",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
-        }
-      }
-    },
-    {
-      "eventId": "2026-09-16-FED + Retail",
-      "status": "verified",
-      "previous": "Fed 3.50%–3.75%; retail sales −0.5% revised",
-      "expected": "25 bp Fed hike; more moderate retail rebound",
-      "actual": "Fed +25 bp to 3.75%–4.00%; retail sales +1.2%; core sales +1.4%",
-      "surprise": "Fed as expected; consumption much stronger",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": null,
-      "yield10y": "Closed near 5.003%, about +0.8 bp",
-      "explanation": "The expected hike was accompanied by projections for another 2026 increase, while strong retail sales reinforced growth and inflation concerns. The combination kept long yields near two-decade highs.",
-      "sourceUrl": "https://www.reuters.com/business/fed-forecasts-see-latest-hike-followed-by-another-before-end-year-2026-09-16/",
-      "verifiedAt": "2026-09-23",
-      "reactionWindows": [
-        {
-          "label": "Retail sales",
-          "releaseTimeET": "08:30",
-          "scheduleSource": "https://www.census.gov/retail/release_schedule.html",
-          "caveat": "Retail sales and Fed decision occurred at different times",
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": -0.2,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 709
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 707.56
-                }
-              },
-              "at60": {
-                "pct": -0.14,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 709
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 708
-                }
-              }
-            },
-            "NVDA": {
-              "at15": {
-                "pct": -0.25,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 214.2944
-                },
-                "after": {
-                  "minuteET": "08:44",
-                  "close": 213.7514
-                }
-              },
-              "at60": {
-                "pct": -0.03,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 214.2944
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 214.23
-                }
-              }
-            },
-            "SMH": {
-              "at15": null,
-              "at60": {
-                "pct": 0.04,
-                "before": {
-                  "minuteET": "08:29",
-                  "close": 549.77
-                },
-                "after": {
-                  "minuteET": "09:29",
-                  "close": 550
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": null,
-              "at60": null
-            },
-            "I:SOX": {
-              "at15": null,
-              "at60": null
-            }
-          }
-        },
-        {
-          "label": "FOMC statement",
-          "releaseTimeET": "14:00",
-          "scheduleSource": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "caveat": "The +1h window overlaps the 14:30 ET Fed press conference.",
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": -0.04,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 710.19
-                },
-                "after": {
-                  "minuteET": "14:14",
-                  "close": 709.89
-                }
-              },
-              "at60": {
-                "pct": -0.83,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 710.19
-                },
-                "after": {
-                  "minuteET": "14:59",
-                  "close": 704.3
-                }
-              }
-            },
-            "NVDA": {
-              "at15": {
-                "pct": 0.2,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 215.24
-                },
-                "after": {
-                  "minuteET": "14:14",
-                  "close": 215.67
-                }
-              },
-              "at60": {
-                "pct": -0.64,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 215.24
-                },
-                "after": {
-                  "minuteET": "14:59",
-                  "close": 213.865
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": -0.15,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 551.29
-                },
-                "after": {
-                  "minuteET": "14:14",
-                  "close": 550.44
-                }
-              },
-              "at60": {
-                "pct": -1.33,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 551.29
-                },
-                "after": {
-                  "minuteET": "14:59",
-                  "close": 543.94
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": {
-                "pct": 0,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 26161.84949311681
-                },
-                "after": {
-                  "minuteET": "14:14",
-                  "close": 26161.29657377087
-                }
-              },
-              "at60": {
-                "pct": -0.78,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 26161.84949311681
-                },
-                "after": {
-                  "minuteET": "14:59",
-                  "close": 25957.69265305037
-                }
-              }
-            },
-            "I:SOX": {
-              "at15": {
-                "pct": -0.19,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 11377.5570048445
-                },
-                "after": {
-                  "minuteET": "14:14",
-                  "close": 11355.7429864452
-                }
-              },
-              "at60": {
-                "pct": -1.52,
-                "before": {
-                  "minuteET": "13:59",
-                  "close": 11377.5570048445
-                },
-                "after": {
-                  "minuteET": "14:59",
-                  "close": 11204.08641671896
-                }
-              }
-            }
-          }
-        }
-      ],
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-15",
-            "value": 25981.57079867358
-          },
-          "at15": {
-            "minuteET": "14:14",
-            "close": 26161.29657377087
-          },
-          "at60": {
-            "minuteET": "14:59",
-            "close": 25957.69265305037
-          },
-          "dayClose": {
-            "date": "2026-09-16",
-            "value": 25978.4248457016
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "13:59",
-            "close": 26161.84949311681
-          },
-          "releaseLabel": "FOMC statement",
-          "releaseTimeET": "14:00"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-15",
-            "value": 11175.54700876069
-          },
-          "at15": {
-            "minuteET": "14:14",
-            "close": 11355.7429864452
-          },
-          "at60": {
-            "minuteET": "14:59",
-            "close": 11204.08641671896
-          },
-          "dayClose": {
-            "date": "2026-09-16",
-            "value": 11246.10706226385
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "13:59",
-            "close": 11377.5570048445
-          },
-          "releaseLabel": "FOMC statement",
-          "releaseTimeET": "14:00"
-        }
-      },
-      "indexWindows": [
-        {
-          "label": "Retail sales",
-          "releaseTimeET": "08:30",
-          "nasdaq": {
-            "at15": null,
-            "at60": null
-          },
-          "sox": {
-            "at15": null,
-            "at60": null
-          }
-        },
-        {
-          "label": "FOMC statement",
-          "releaseTimeET": "14:00",
-          "nasdaq": {
-            "at15": {
-              "minuteET": "14:14",
-              "close": 26161.29657377087
-            },
-            "at60": {
-              "minuteET": "14:59",
-              "close": 25957.69265305037
-            }
-          },
-          "sox": {
-            "at15": {
-              "minuteET": "14:14",
-              "close": 11355.7429864452
-            },
-            "at60": {
-              "minuteET": "14:59",
-              "close": 11204.08641671896
-            }
-          }
-        }
-      ],
-      "qqq15m": "-0.20%",
-      "qqq1h": "-0.14%",
-      "reactionStatus": "measured"
-    },
-    {
-      "eventId": "2026-09-18-Witching",
-      "status": "verified",
-      "previous": "Not applicable",
-      "expected": "Elevated mechanical volume and volatility",
-      "actual": "Heavy expiration-day volume; mixed index performance",
-      "surprise": "No disorderly de-risking",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": "+0.4% to 26,522.55",
-      "yield10y": "Around 5%, with intraday upward pressure",
-      "explanation": "The Nasdaq resisted the pressure from oil and yields as semiconductor strength offset expiration-related volatility. Broader market breadth remained weaker.",
-      "sourceUrl": "https://apnews.com/article/da0dbe004b6f83c36e7d1626a9741a92",
-      "verifiedAt": "2026-09-23",
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-17",
-            "value": 26418.29812464963
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-18",
-            "value": 26522.54530625288
-          },
-          "intradayStatus": "awaiting-minute-bars",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-17",
-            "value": 11599.49224791979
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-18",
-            "value": 11921.6855106185
-          },
-          "intradayStatus": "awaiting-minute-bars",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
-        }
-      }
-    },
-    {
-      "eventId": "2026-09-22-2Y",
-      "status": "verified",
-      "previous": "Six-month average cover about 2.61",
-      "expected": "When-issued yield about 4.785%",
-      "actual": "4.787% high yield; 2.63 cover",
-      "surprise": "About 0.2 bp tail; demand still solid",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": "About +0.4% near record territory",
-      "yield10y": "Around 4.93%–4.94%, lower with oil",
-      "explanation": "The auction tailed only slightly and coverage exceeded the recent average. Falling oil prices and AI optimism were more important for Nasdaq than the modest auction concession.",
-      "sourceUrl": "https://www.wsj.com/finance/investing/investors-demand-highest-yield-at-two-year-u-s-treasury-auction-since-2024-2daca035",
-      "verifiedAt": "2026-09-23",
-      "qqq15m": "+0.00%",
-      "qqq1h": "+0.12%",
-      "qqqReaction": {
-        "source": "Massive adjusted one-minute aggregate bars",
-        "sourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-        "releaseTimeET": "13:00",
-        "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-        "at15": {
-          "pct": 0,
-          "before": {
-            "minuteET": "12:59",
-            "close": 745.285
-          },
-          "after": {
-            "minuteET": "13:14",
-            "close": 745.32
-          }
-        },
-        "at60": {
-          "pct": 0.12,
-          "before": {
-            "minuteET": "12:59",
-            "close": 745.285
-          },
-          "after": {
-            "minuteET": "13:59",
-            "close": 746.1701
-          }
-        }
-      },
-      "reactionWindows": [
-        {
-          "label": "treasury-2y-auction",
-          "releaseTimeET": "13:00",
-          "scheduleSource": "https://www.wsj.com/finance/investing/investors-demand-highest-yield-at-two-year-u-s-treasury-auction-since-2024-2daca035",
-          "caveat": "Auction was not the dominant market driver",
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": 0,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 745.285
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 745.32
-                }
-              },
-              "at60": {
-                "pct": 0.12,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 745.285
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 746.1701
-                }
-              },
-              "source": "Existing verified Massive backfill"
-            },
-            "NVDA": {
-              "at15": {
-                "pct": 0.17,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 229.37
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 229.76
-                }
-              },
-              "at60": {
-                "pct": -0.1,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 229.37
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 229.1402
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": -0.01,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 603.955
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 603.91
-                }
-              },
-              "at60": {
-                "pct": 0.11,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 603.955
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 604.6
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": {
-                "pct": 0.03,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 27206.01204641615
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 27213.23122429713
-                }
-              },
-              "at60": {
-                "pct": 0.14,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 27206.01204641615
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 27243.34844795638
-                }
-              }
-            },
-            "I:SOX": {
-              "at15": {
-                "pct": 0.02,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 12603.90492319828
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 12606.29570216188
-                }
-              },
-              "at60": {
-                "pct": 0.13,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 12603.90492319828
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 12620.02626301095
-                }
-              }
-            }
-          }
-        }
-      ],
-      "nvda15m": "+0.17%",
-      "nvda1h": "-0.10%",
-      "smh15m": "-0.01%",
-      "smh1h": "+0.11%",
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-21",
-            "value": 27122.09418855521
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 27213.23122429713
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 27243.34844795638
-          },
-          "dayClose": {
-            "date": "2026-09-22",
-            "value": 27244.27773356946
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 27206.01204641615
-          },
-          "releaseLabel": "treasury-2y-auction",
-          "releaseTimeET": "13:00"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-21",
-            "value": 12433.17073817218
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 12606.29570216188
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 12620.02626301095
-          },
-          "dayClose": {
-            "date": "2026-09-22",
-            "value": 12689.82031220644
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 12603.90492319828
-          },
-          "releaseLabel": "treasury-2y-auction",
-          "releaseTimeET": "13:00"
-        }
-      },
-      "reactionStatus": "measured",
-      "indexWindows": [
-        {
-          "label": "treasury-2y-auction",
-          "releaseTimeET": "13:00",
-          "nasdaq": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 27213.23122429713
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 27243.34844795638
-            }
-          },
-          "sox": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 12606.29570216188
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 12620.02626301095
-            }
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "2026-09-23-5Y",
-      "status": "verified",
-      "previous": "Prior 5-year auction yield 4.393%",
-      "expected": "When-issued yield about 5.002%",
-      "actual": "$70B 5-year note auction; high yield 5.033%; bid-to-cover 2.21",
-      "surprise": "About 3.1 bp above when-issued yield (auction tail)",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": null,
-      "yield10y": null,
-      "explanation": "The auction cleared at a higher yield than the when-issued market, a sign of weaker demand. Earlier PMI data and same-day bond selling confound attribution of stock moves to this auction alone.",
-      "sourceUrl": "https://www.investing.com/economic-calendar/5-year-note-auction-570",
-      "verifiedAt": "2026-09-24",
-      "reactionWindows": [
-        {
-          "label": "five-year-treasury-auction",
-          "releaseTimeET": "13:00",
-          "scheduleSource": "https://www.investing.com/economic-calendar/5-year-note-auction-570",
-          "caveat": "Earlier flash PMI surprise and broad Treasury selling on the same day",
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": -0.06,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 739.26
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 738.8
-                }
-              },
-              "at60": {
-                "pct": 0.27,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 739.26
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 741.28
-                }
-              }
-            },
-            "NVDA": {
-              "at15": {
-                "pct": -0.08,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 224.5727
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 224.385
-                }
-              },
-              "at60": {
-                "pct": 0.36,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 224.5727
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 225.37
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": -0.19,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 596.445
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 595.315
-                }
-              },
-              "at60": {
-                "pct": 0.59,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 596.445
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 599.97
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": {
-                "pct": -0.06,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 26907.04244711264
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 26890.1291936267
-                }
-              },
-              "at60": {
-                "pct": 0.22,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 26907.04244711264
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 26966.9434315556
-                }
-              }
-            },
-            "I:SOX": {
-              "at15": {
-                "pct": -0.2,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 12429.89236465128
-                },
-                "after": {
-                  "minuteET": "13:14",
-                  "close": 12404.61710024969
-                }
-              },
-              "at60": {
-                "pct": 0.68,
-                "before": {
-                  "minuteET": "12:59",
-                  "close": 12429.89236465128
-                },
-                "after": {
-                  "minuteET": "13:59",
-                  "close": 12514.92485527917
-                }
-              }
-            }
-          }
-        }
-      ],
-      "qqq15m": "-0.06%",
-      "qqq1h": "+0.27%",
-      "nvda15m": "-0.08%",
-      "nvda1h": "+0.36%",
-      "smh15m": "-0.19%",
-      "smh1h": "+0.59%",
-      "qqqReaction": {
-        "source": "Massive adjusted one-minute aggregate bars",
-        "sourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-        "releaseTimeET": "13:00",
-        "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-        "at15": {
-          "pct": -0.06,
-          "before": {
-            "minuteET": "12:59",
-            "close": 739.26
-          },
-          "after": {
-            "minuteET": "13:14",
-            "close": 738.8
-          }
-        },
-        "at60": {
-          "pct": 0.27,
-          "before": {
-            "minuteET": "12:59",
-            "close": 739.26
-          },
-          "after": {
-            "minuteET": "13:59",
-            "close": 741.28
-          }
-        }
-      },
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-22",
-            "value": 27244.27773356946
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 26890.1291936267
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 26966.9434315556
-          },
-          "dayClose": {
-            "date": "2026-09-23",
-            "value": 26936.03653939892
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 26907.04244711264
-          },
-          "releaseLabel": "five-year-treasury-auction",
-          "releaseTimeET": "13:00"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-22",
-            "value": 12689.82031220644
-          },
-          "at15": {
-            "minuteET": "13:14",
-            "close": 12404.61710024969
-          },
-          "at60": {
-            "minuteET": "13:59",
-            "close": 12514.92485527917
-          },
-          "dayClose": {
-            "date": "2026-09-23",
-            "value": 12534.27471305812
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "12:59",
-            "close": 12429.89236465128
-          },
-          "releaseLabel": "five-year-treasury-auction",
-          "releaseTimeET": "13:00"
-        }
-      },
-      "reactionStatus": "measured",
-      "indexWindows": [
-        {
-          "label": "five-year-treasury-auction",
-          "releaseTimeET": "13:00",
-          "nasdaq": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 26890.1291936267
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 26966.9434315556
-            }
-          },
-          "sox": {
-            "at15": {
-              "minuteET": "13:14",
-              "close": 12404.61710024969
-            },
-            "at60": {
-              "minuteET": "13:59",
-              "close": 12514.92485527917
-            }
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "2026-09-23-FLASH PMI",
-      "status": "verified",
-      "previous": "Composite 56.0; manufacturing 53.9; services 56.5",
-      "expected": "Manufacturing 53.6; services 56.0; no reliable composite consensus identified",
-      "actual": "Composite 58.4; manufacturing 57.0; services 58.7",
-      "surprise": "Broad upside surprise; fastest composite growth since July 2021",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": "−1.13% to 26,936.04",
-      "yield10y": "Rose about 14 bp to roughly 5.11%, the highest since 2007",
-      "explanation": "Activity, new orders, employment and price signals were strong enough to raise expectations for an October Fed hike. The resulting surge in Treasury yields increased the discount rate on long-duration technology earnings and reversed the Nasdaq from the prior day’s record. Higher oil and company-specific weakness were additional headwinds, so the full-day move was not attributable to PMI alone.",
-      "sourceUrl": "https://www.fidelity.com/news/article/us-markets/202609231600RTRSNEWSCOMBINED_L6N45F140_1",
-      "verifiedAt": "2026-09-24",
-      "audit": [
-        {
-          "date": "2026-09-24",
-          "field": "nasdaqClose",
-          "previous": "−1.10% to 26,943.61 (preliminary Reuters tally)",
-          "corrected": "−1.13% to 26,936.04 (Nasdaq published value)",
-          "sourceUrl": "https://indexes.nasdaqomx.com/Index/History/COMP"
-        }
-      ],
-      "qqq15m": "-0.22%",
-      "qqq1h": "-0.63%",
-      "qqqReaction": {
-        "source": "Massive adjusted one-minute aggregate bars",
-        "sourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-        "releaseTimeET": "09:45",
-        "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-        "at15": {
-          "pct": -0.22,
-          "before": {
-            "minuteET": "09:44",
-            "close": 744.76
-          },
-          "after": {
-            "minuteET": "09:59",
-            "close": 743.12
-          }
-        },
-        "at60": {
-          "pct": -0.63,
-          "before": {
-            "minuteET": "09:44",
-            "close": 744.76
-          },
-          "after": {
-            "minuteET": "10:44",
-            "close": 740.05
-          }
-        }
-      },
-      "reactionWindows": [
-        {
-          "label": "sp-global-us-flash-pmi",
-          "releaseTimeET": "09:45",
-          "scheduleSource": "https://www.fidelity.com/news/article/us-markets/202609231600RTRSNEWSCOMBINED_L6N45F140_1",
-          "caveat": "Oil-price rise Paychex earnings weakness",
-          "priceSource": "Massive adjusted one-minute aggregate bars",
-          "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
-          "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-09-25",
-          "assets": {
-            "QQQ": {
-              "at15": {
-                "pct": -0.22,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 744.76
-                },
-                "after": {
-                  "minuteET": "09:59",
-                  "close": 743.12
-                }
-              },
-              "at60": {
-                "pct": -0.63,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 744.76
-                },
-                "after": {
-                  "minuteET": "10:44",
-                  "close": 740.05
-                }
-              },
-              "source": "Existing verified Massive backfill"
-            },
-            "NVDA": {
-              "at15": {
-                "pct": -0.45,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 228.745
-                },
-                "after": {
-                  "minuteET": "09:59",
-                  "close": 227.725
-                }
-              },
-              "at60": {
-                "pct": -1.22,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 228.745
-                },
-                "after": {
-                  "minuteET": "10:44",
-                  "close": 225.95
-                }
-              }
-            },
-            "SMH": {
-              "at15": {
-                "pct": -0.34,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 601.8
-                },
-                "after": {
-                  "minuteET": "09:59",
-                  "close": 599.78
-                }
-              },
-              "at60": {
-                "pct": -0.85,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 601.8
-                },
-                "after": {
-                  "minuteET": "10:44",
-                  "close": 596.685
-                }
-              }
-            },
-            "I:COMP": {
-              "at15": {
-                "pct": -0.22,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 27157.83869514727
-                },
-                "after": {
-                  "minuteET": "09:59",
-                  "close": 27096.75229005108
-                }
-              },
-              "at60": {
-                "pct": -0.73,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 27157.83869514727
-                },
-                "after": {
-                  "minuteET": "10:44",
-                  "close": 26960.44143684416
-                }
-              }
-            },
-            "I:SOX": {
-              "at15": {
-                "pct": -0.35,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 12538.03059660895
-                },
-                "after": {
-                  "minuteET": "09:59",
-                  "close": 12494.60976068334
-                }
-              },
-              "at60": {
-                "pct": -0.86,
-                "before": {
-                  "minuteET": "09:44",
-                  "close": 12538.03059660895
-                },
-                "after": {
-                  "minuteET": "10:44",
-                  "close": 12430.62561742011
-                }
-              }
-            }
-          }
-        }
-      ],
-      "nvda15m": "-0.45%",
-      "nvda1h": "-1.22%",
-      "smh15m": "-0.34%",
-      "smh1h": "-0.85%",
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-22",
-            "value": 27244.27773356946
-          },
-          "at15": {
-            "minuteET": "09:59",
-            "close": 27096.75229005108
-          },
-          "at60": {
-            "minuteET": "10:44",
-            "close": 26960.44143684416
-          },
-          "dayClose": {
-            "date": "2026-09-23",
-            "value": 26936.03653939892
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "09:44",
-            "close": 27157.83869514727
-          },
-          "releaseLabel": "sp-global-us-flash-pmi",
-          "releaseTimeET": "09:45"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-22",
-            "value": 12689.82031220644
-          },
-          "at15": {
-            "minuteET": "09:59",
-            "close": 12494.60976068334
-          },
-          "at60": {
-            "minuteET": "10:44",
-            "close": 12430.62561742011
-          },
-          "dayClose": {
-            "date": "2026-09-23",
-            "value": 12534.27471305812
-          },
-          "intradayStatus": "measured",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25",
-          "beforeRelease": {
-            "minuteET": "09:44",
-            "close": 12538.03059660895
-          },
-          "releaseLabel": "sp-global-us-flash-pmi",
-          "releaseTimeET": "09:45"
-        }
-      },
-      "reactionStatus": "measured",
-      "indexWindows": [
-        {
-          "label": "sp-global-us-flash-pmi",
-          "releaseTimeET": "09:45",
-          "nasdaq": {
-            "at15": {
-              "minuteET": "09:59",
-              "close": 27096.75229005108
-            },
-            "at60": {
-              "minuteET": "10:44",
-              "close": 26960.44143684416
-            }
-          },
-          "sox": {
-            "at15": {
-              "minuteET": "09:59",
-              "close": 12494.60976068334
-            },
-            "at60": {
-              "minuteET": "10:44",
-              "close": 12430.62561742011
-            }
-          }
-        }
-      ]
-    },
-    {
-      "eventId": "2026-09-24-TRUMP–XI",
-      "status": "verified",
-      "previous": "The U.S.–China trade truce had been due to expire in November.",
-      "expected": "Continued truce widely expected; no reliable consensus for a broader deal.",
-      "actual": "Two-month trade-truce extension; no comprehensive agreement on tariffs, rare earths or technology announced.",
-      "surprise": "Limited extension rather than a durable broader agreement; no numeric consensus or measurable release-time surprise.",
-      "nasdaq15m": null,
-      "nasdaq1h": null,
-      "nasdaqClose": null,
-      "yield10y": null,
-      "qqq15m": null,
-      "qqq1h": null,
-      "reactionStatus": "headline-driven-no-single-release",
-      "explanation": "The summit preserved a temporary trade truce but left major tariff, rare-earth, AI and Taiwan questions open. Oil, yields and the 7-year Treasury auction also affected the trading day, so its index moves cannot be assigned to the summit alone.",
-      "sourceUrl": "https://www.reuters.com/world/china/four-takeaways-trumps-summit-with-xi-washington-2026-09-24/",
-      "verifiedAt": "2026-09-25",
-      "indexLevels": {
-        "nasdaq": {
-          "priorClose": {
-            "date": "2026-09-23",
-            "value": 26936.03653939892
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-24",
-            "value": 26939.37301120382
-          },
-          "intradayStatus": "no-single-release-time",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
-        },
-        "sox": {
-          "priorClose": {
-            "date": "2026-09-23",
-            "value": 12534.27471305812
-          },
-          "at15": null,
-          "at60": null,
-          "dayClose": {
-            "date": "2026-09-24",
-            "value": 12492.53651950959
-          },
-          "intradayStatus": "no-single-release-time",
-          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-09-25"
-        }
-      }
-    }
-  ]
-}
