@@ -1,8 +1,8 @@
 {
   "asOf": "2026-09-25",
   "range": [
-    "2026-03",
-    "2026-05"
+    "2025-12",
+    "2026-02"
   ],
   "checkedOn": "2026-09-25",
   "sources": [
@@ -10,6 +10,9 @@
     "https://www.census.gov/retail/release_schedule.html",
     "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
     "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://www.bls.gov/schedule/2025/12_sched_list.htm",
+    "https://www.bls.gov/schedule/2026/01_sched_list.htm",
+    "https://www.bls.gov/schedule/2026/02_sched_list.htm",
     "https://www.bls.gov/schedule/2026/03_sched_list.htm",
     "https://www.bls.gov/schedule/2026/04_sched_list.htm",
     "https://www.bls.gov/schedule/2026/05_sched_list.htm",
@@ -19,7 +22,16 @@
   ],
   "candidates": [
     {
-      "date": "2026-03-06",
+      "date": "2025-12-10",
+      "family": "fomc-decision",
+      "label": "FOMC decision",
+      "timeET": "14:00",
+      "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "historyEventId": null,
+      "status": "needs-release-verification"
+    },
+    {
+      "date": "2025-12-16",
       "family": "retail-sales",
       "label": "Advance retail sales",
       "timeET": "08:30",
@@ -28,13 +40,85 @@
       "status": "needs-release-verification"
     },
     {
+      "date": "2025-12-23",
+      "family": "core-pce",
+      "label": "Personal Income and Outlays, November 2026",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": null,
+      "status": "needs-release-verification"
+    },
+    {
+      "date": "2026-01-14",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-01-14-RETAIL",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-01-22",
+      "family": "core-pce",
+      "label": "Personal Income and Outlays, October and November 2025 View",
+      "timeET": "10:00",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-01-22-PCE",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-01-28",
+      "family": "fomc-decision",
+      "label": "FOMC decision",
+      "timeET": "14:00",
+      "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "historyEventId": "2026-01-28-FOMC",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-02-10",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-02-10-RETAIL",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-02-20",
+      "family": "core-pce",
+      "label": "Personal Income and Outlays, December 2025 View",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-02-20-PCE",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-02-20",
+      "family": "gdp-advance",
+      "label": "GDP (Advance Estimate), 4th Quarter and Year 2025 View",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.bea.gov/news/schedule/full",
+      "historyEventId": "2026-02-20-GDP",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-03-06",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-03-06-RETAIL",
+      "status": "recorded"
+    },
+    {
       "date": "2026-03-13",
       "family": "core-pce",
       "label": "Personal Income and Outlays, January 2026 View",
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": null,
-      "status": "needs-release-verification"
+      "historyEventId": "2026-03-13-PCE",
+      "status": "recorded"
     },
     {
       "date": "2026-03-13",
@@ -42,8 +126,8 @@
       "label": "GDP (Second Estimate), 4th Quarter and Year 2025 View",
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": null,
-      "status": "needs-release-verification"
+      "historyEventId": "2026-03-13-GDP",
+      "status": "recorded"
     },
     {
       "date": "2026-03-18",
@@ -51,8 +135,8 @@
       "label": "FOMC decision",
       "timeET": "14:00",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "historyEventId": null,
-      "status": "needs-release-verification"
+      "historyEventId": "2026-03-18-FOMC",
+      "status": "recorded"
     },
     {
       "date": "2026-04-01",
@@ -284,11 +368,14 @@
     "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
   ],
   "errors": [
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2025/12_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm"
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm"
   ]
 }
