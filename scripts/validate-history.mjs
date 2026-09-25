@@ -27,6 +27,29 @@ for(const record of history.results){
        Math.abs(close.pct-Math.round((close.close.close/close.baseline.close-1)*10000)/100)>0.001)
       throw new Error(`Invalid ${ticker} close reaction: ${record.eventId}`);
   }
+  const window=record.earningsCrossAssets;
+  if(window){
+    if(index.eventType!=="Earnings"||!/^https:\/\//.test(window.sourceUrl??""))
+      throw new Error(`Invalid earnings asset provenance: ${record.eventId}`);
+    const symbols=Object.values(window.universe??{}).flat();
+    if(new Set(symbols).size!==symbols.length||symbols.length<11)
+      throw new Error(`Incomplete earnings asset universe: ${record.eventId}`);
+    const offsets=new Set();
+    for(const session of window.sessions??[]){
+      if(offsets.has(session.offset)&&session.offset!==null)throw new Error(`Duplicate earnings offset: ${record.eventId}`);
+      offsets.add(session.offset);
+      for(const symbol of symbols){
+        if(!(symbol in session.assets))throw new Error(`Missing ${symbol} earnings slot: ${record.eventId}`);
+        const asset=session.assets[symbol];
+        if(asset===null)continue;
+        if(!(asset.close>0)||!(asset.previousClose>0)||!Number.isFinite(asset.closeToClosePct)||
+          Math.abs(asset.closeToClosePct-Math.round((asset.close/asset.previousClose-1)*10000)/100)>0.001)
+          throw new Error(`Invalid ${symbol} earnings close: ${record.eventId}`);
+      }
+    }
+    if(window.windowStatus==="complete"&&(![-7,0,1,7].every(offset=>offsets.has(offset))||window.sessions.length!==15))
+      throw new Error(`Incomplete full earnings window: ${record.eventId}`);
+  }
 }
 for(const id of Object.keys(history.eventIndex))if(!seen.has(id))throw new Error(`Index without result: ${id}`);
 try {await stat(new URL("../public/event-results.json",import.meta.url));throw new Error("History must not be duplicated in public/");}
