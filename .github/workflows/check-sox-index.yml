@@ -17,7 +17,7 @@ jobs:
         run: |
           node <<'NODE'
           const key = process.env.MASSIVE_API_KEY;
-          if (!key) { console.log('MASSIVE_API_KEY: not configured'); process.exitCode = 1; return; }
+          if (!key) { console.log('MASSIVE_API_KEY: not configured'); process.exit(1); }
           async function check(label, path) {
             try {
               const url = new URL('https://api.massive.com' + path);
