@@ -8,30 +8,26 @@ const output = new URL('../history/market-reactions.json', import.meta.url);
 const archive = JSON.parse(await readFile(source, 'utf8'));
 const key = process.env.MASSIVE_API_KEY;
 if (!key) throw new Error('MASSIVE_API_KEY must be configured in GitHub Actions');
-const extraWindows = {
-  '2026-09-10-PPI + 30Y': [
-    { label: 'Producer Price Index', timeET: '08:30', scheduleSource: 'https://www.bls.gov/schedule/2026/09_sched_list.htm' },
-    { label: '30-year Treasury auction', timeET: '13:00', scheduleSource: 'https://www.treasurydirect.gov/auctions/announcements-data-results/' }
-  ],
-  '2026-09-16-FED + Retail': [
-    { label: 'Retail sales', timeET: '08:30', scheduleSource: 'https://www.census.gov/retail/release_schedule.html' },
-    { label: 'FOMC statement', timeET: '14:00', scheduleSource: 'https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm', caveat: 'The +1h window overlaps the 14:30 ET Fed press conference.' }
-  ]
-};
 const onlyDate = process.env.BACKFILL_DATE;
 const windows = archive.results.flatMap(record => {
   const indexed = archive.eventIndex[record.eventId];
   const date = indexed.eventDate;
   if (!/^2026-09-/.test(date) || (onlyDate && date !== onlyDate)) return [];
-  const components = extraWindows[record.eventId] ??
-    (/^\d{2}:\d{2}$/.test(indexed.timeET) ? [{label: record.eventId.slice(11), timeET: indexed.timeET, scheduleSource: record.sourceUrl}] : []);
+  const components = (record.reactionWindows ?? [])
+    .filter(window => /^\d{2}:\d{2}$/.test(window.releaseTimeET))
+    .map(window => ({
+      label: window.label, timeET: window.releaseTimeET,
+      scheduleSource: window.scheduleSource ?? record.sourceUrl, caveat: window.caveat
+    }));
+  if (!components.length && /^\d{2}:\d{2}$/.test(indexed.timeET))
+    components.push({label:indexed.eventKey,timeET:indexed.timeET,scheduleSource:record.sourceUrl,caveat:null});
   return components.map(component => ({eventId: record.eventId, date, ...component}));
 });
 const tickerDates = new Map();
 for (const ticker of ['QQQ', 'NVDA', 'SMH']) {
   for (const date of [...new Set(windows.map(w => w.date))]) {
     if (ticker === 'QQQ' && !windows.some(w => w.date === date &&
-      (extraWindows[w.eventId] || !archive.results.find(r => r.eventId === w.eventId)?.qqqReaction))) continue;
+      !archive.results.find(r => r.eventId === w.eventId)?.qqqReaction)) continue;
     tickerDates.set(`${ticker}/${date}`, {ticker, date});
   }
 }
@@ -87,7 +83,7 @@ for(const [id,{ticker,date}] of tickerDates) {
 const out={schemaVersion:1,lastUpdated:new Date().toISOString().slice(0,10),source:'Massive adjusted one-minute aggregate bars',sourceUrl:'https://massive.com/docs/rest/stocks/aggregates/custom-bars',method:'Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.',events:{},errors};
 for(const w of windows) {
   const archived=archive.results.find(x=>x.eventId===w.eventId);
-  const simple=!extraWindows[w.eventId];
+  const simple=true;
   const utc=timestamp(w.date,w.timeET);
   const assets={};
   for(const ticker of ['QQQ','NVDA','SMH']) {
