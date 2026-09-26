@@ -5,6 +5,7 @@ import {readFile,writeFile} from "node:fs/promises";
 
 const file=new URL("../history/event-results.json",import.meta.url);
 const archive=JSON.parse(await readFile(file,"utf8"));
+const megacapManifest=JSON.parse(await readFile(new URL("../history/megacap-earnings-2026.json",import.meta.url),"utf8"));
 const key=process.env.MASSIVE_API_KEY;
 if(!key)throw new Error("MASSIVE_API_KEY is required");
 const today=new Date().toISOString().slice(0,10);
@@ -56,6 +57,32 @@ for(const event of [
       actual:event.actual,surprise:"Not assessed against archived consensus.",
       explanation:"The T0 close precedes the after-close report. T+1 is the first cash-session reaction; daily market moves are not solely attributable to earnings.",
       sourceUrl:event.sourceUrl,verifiedAt:today});
+  }
+}
+// A dated, source-backed manifest keeps each megacap release separate, including
+// simultaneous reports. Each record receives the same full cross-asset window.
+for(const event of megacapManifest.events){
+  const eventId=`${event.date}-${event.symbol}`;
+  const sameDay=megacapManifest.events
+    .filter(other=>other.date===event.date&&other.symbol!==event.symbol)
+    .map(other=>`${other.symbol} earnings on the same date`);
+  if(!archive.eventIndex[eventId]){
+    archive.eventIndex[eventId]={
+      eventDate:event.date,eventKey:`${event.symbol.toLowerCase()}-earnings`,
+      eventType:"Earnings",importance:"High",timeET:event.releaseSession,
+      surpriseDirection:"unassessed",nasdaqReactionDirection:"unverified",
+      dominantDriver:`${event.symbol.toLowerCase()}-earnings`,confounders:sameDay
+    };
+  }
+  if(!archive.results.some(record=>record.eventId===eventId)){
+    archive.results.push({
+      eventId,status:"verified",previous:null,
+      expected:"No reliable archived pre-release consensus is stored.",
+      actual:`${event.symbol} reported ${event.period} results after the close.`,
+      surprise:"Not assessed against archived consensus.",
+      explanation:"T0 is the close before the after-hours report; T+1 is the first regular-session close. Other simultaneous events can affect the observed returns.",
+      sourceUrl:event.sourceUrl,verifiedAt:megacapManifest.verifiedAt
+    });
   }
 }
 const events=archive.results

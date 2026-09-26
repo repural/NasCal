@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/enrich-earnings-cross-assets.yml'
       - 'scripts/enrich-earnings-cross-assets.mjs'
+      - 'history/megacap-earnings-2026.json'
   schedule:
     - cron: '30 2 * * 2-6'
   workflow_dispatch:
