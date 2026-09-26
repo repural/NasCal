@@ -34,6 +34,10 @@ for(const record of history.results){
     const symbols=Object.values(window.universe??{}).flat();
     if(new Set(symbols).size!==symbols.length||symbols.length<11)
       throw new Error(`Incomplete earnings asset universe: ${record.eventId}`);
+    const tracked=["NVDA","AMD","AVGO","TSM","MU","AAPL","MSFT","AMZN",
+      "GOOGL","META","TSLA","QQQ","SMH","SOXX","I:COMP","I:SOX"];
+    if(!tracked.every(symbol=>symbols.includes(symbol)))
+      throw new Error(`Missing tracked earnings asset: ${record.eventId}`);
     const offsets=new Set();
     for(const session of window.sessions??[]){
       if(offsets.has(session.offset)&&session.offset!==null)throw new Error(`Duplicate earnings offset: ${record.eventId}`);
@@ -47,8 +51,17 @@ for(const record of history.results){
           throw new Error(`Invalid ${symbol} earnings close: ${record.eventId}`);
       }
     }
-    if(window.windowStatus==="complete"&&(![-7,0,1,7].every(offset=>offsets.has(offset))||window.sessions.length!==15))
-      throw new Error(`Incomplete full earnings window: ${record.eventId}`);
+    if(window.windowStatus==="complete"){
+      if(window.sessions.length!==15||!Array.from({length:15},(_,i)=>i-7).every(offset=>offsets.has(offset)))
+        throw new Error(`Incomplete full earnings window: ${record.eventId}`);
+      for(const session of window.sessions)for(const symbol of symbols){
+        const asset=session.assets[symbol];
+        if(!asset)throw new Error(`Missing complete-window ${symbol} at T${session.offset}: ${record.eventId}`);
+        if(session.offset>=1&&(!Number.isFinite(asset.cumulativeFromT0Pct)||
+          !Number.isFinite(asset.sinceFirstReactionPct)))
+          throw new Error(`Missing cumulative ${symbol} at T+${session.offset}: ${record.eventId}`);
+      }
+    }
   }
 }
 for(const id of Object.keys(history.eventIndex))if(!seen.has(id))throw new Error(`Index without result: ${id}`);
