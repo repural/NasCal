@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "source": "Massive adjusted daily aggregates",
+  "sourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
+  "capturedAt": "2026-09-26T04:55:08.822Z",
+  "events": {
+    "2026-06-24": [
+      {
+        "offset": -7,
+        "date": "2026-06-12",
+        "close": 205.19,
+        "previousClose": 204.87,
+        "changePct": 0.16,
+        "fromT0Pct": 3.11
+      },
+      {
+        "offset": -6,
+        "date": "2026-06-15",
+        "close": 212.45,
+        "previousClose": 205.19,
+        "changePct": 3.54,
+        "fromT0Pct": 6.76
+      },
+      {
+        "offset": -5,
+        "date": "2026-06-16",
+        "close": 207.41,
+        "previousClose": 212.45,
+        "changePct": -2.37,
+        "fromT0Pct": 4.23
+      },
+      {
+        "offset": -4,
+        "date": "2026-06-17",
+        "close": 204.65,
+        "previousClose": 207.41,
+        "changePct": -1.33,
+        "fromT0Pct": 2.84
+      },
+      {
+        "offset": -3,
+        "date": "2026-06-18",
+        "close": 210.69,
+        "previousClose": 204.65,
+        "changePct": 2.95,
+        "fromT0Pct": 5.87
+      },
+      {
+        "offset": -2,
+        "date": "2026-06-22",
+        "close": 208.65,
+        "previousClose": 210.69,
+        "changePct": -0.97,
+        "fromT0Pct": 4.85
+      },
+      {
+        "offset": -1,
+        "date": "2026-06-23",
+        "close": 200.04,
+        "previousClose": 208.65,
+        "changePct": -4.13,
+        "fromT0Pct": 0.52
+      },
+      {
+        "offset": 0,
+        "date": "2026-06-24",
+        "close": 199,
+        "previousClose": 200.04,
+        "changePct": -0.52,
+        "fromT0Pct": 0
+      },
+      {
+        "offset": 1,
+        "date": "2026-06-25",
+        "close": 195.74,
+        "previousClose": 199,
+        "changePct": -1.64,
+        "fromT0Pct": -1.64
+      },
+      {
+        "offset": 2,
+        "date": "2026-06-26",
+        "close": 192.53,
+        "previousClose": 195.74,
+        "changePct": -1.64,
+        "fromT0Pct": -3.25
+      },
+      {
+        "offset": 3,
+        "date": "2026-06-29",
+        "close": 194.97,
+        "previousClose": 192.53,
+        "changePct": 1.27,
+        "fromT0Pct": -2.03
+      },
+      {
+        "offset": 4,
+        "date": "2026-06-30",
+        "close": 200.09,
+        "previousClose": 194.97,
+        "changePct": 2.63,
+        "fromT0Pct": 0.55
+      },
+      {
+        "offset": 5,
+        "date": "2026-07-01",
+        "close": 197.58,
+        "previousClose": 200.09,
+        "changePct": -1.25,
+        "fromT0Pct": -0.71
+      },
+      {
+        "offset": 6,
+        "date": "2026-07-02",
+        "close": 194.83,
+        "previousClose": 197.58,
+        "changePct": -1.39,
+        "fromT0Pct": -2.1
+      },
+      {
+        "offset": 7,
+        "date": "2026-07-06",
+        "close": 195.55,
+        "previousClose": 194.83,
+        "changePct": 0.37,
+        "fromT0Pct": -1.73
+      }
+    ],
+    "2026-03-18": [
+      {
+        "offset": -7,
+        "date": "2026-03-09",
+        "close": 182.65,
+        "previousClose": 177.82,
+        "changePct": 2.72,
+        "fromT0Pct": 1.25
+      },
+      {
+        "offset": -6,
+        "date": "2026-03-10",
+        "close": 184.77,
+        "previousClose": 182.65,
+        "changePct": 1.16,
+        "fromT0Pct": 2.42
+      },
+      {
+        "offset": -5,
+        "date": "2026-03-11",
+        "close": 186.03,
+        "previousClose": 184.77,
+        "changePct": 0.68,
+        "fromT0Pct": 3.12
+      },
+      {
+        "offset": -4,
+        "date": "2026-03-12",
+        "close": 183.14,
+        "previousClose": 186.03,
+        "changePct": -1.55,
+        "fromT0Pct": 1.52
+      },
+      {
+        "offset": -3,
+        "date": "2026-03-13",
+        "close": 180.25,
+        "previousClose": 183.14,
+        "changePct": -1.58,
+        "fromT0Pct": -0.08
+      },
+      {
+        "offset": -2,
+        "date": "2026-03-16",
+        "close": 183.22,
+        "previousClose": 180.25,
+        "changePct": 1.65,
+        "fromT0Pct": 1.56
+      },
+      {
+        "offset": -1,
+        "date": "2026-03-17",
+        "close": 181.93,
+        "previousClose": 183.22,
+        "changePct": -0.7,
+        "fromT0Pct": 0.85
+      },
+      {
+        "offset": 0,
+        "date": "2026-03-18",
+        "close": 180.4,
+        "previousClose": 181.93,
+        "changePct": -0.84,
+        "fromT0Pct": 0
+      },
+      {
+        "offset": 1,
+        "date": "2026-03-19",
+        "close": 178.56,
+        "previousClose": 180.4,
+        "changePct": -1.02,
+        "fromT0Pct": -1.02
+      },
+      {
+        "offset": 2,
+        "date": "2026-03-20",
+        "close": 172.7,
+        "previousClose": 178.56,
+        "changePct": -3.28,
+        "fromT0Pct": -4.27
+      },
+      {
+        "offset": 3,
+        "date": "2026-03-23",
+        "close": 175.64,
+        "previousClose": 172.7,
+        "changePct": 1.7,
+        "fromT0Pct": -2.64
+      },
+      {
+        "offset": 4,
+        "date": "2026-03-24",
+        "close": 175.2,
+        "previousClose": 175.64,
+        "changePct": -0.25,
+        "fromT0Pct": -2.88
+      },
+      {
+        "offset": 5,
+        "date": "2026-03-25",
+        "close": 178.68,
+        "previousClose": 175.2,
+        "changePct": 1.99,
+        "fromT0Pct": -0.95
+      },
+      {
+        "offset": 6,
+        "date": "2026-03-26",
+        "close": 171.24,
+        "previousClose": 178.68,
+        "changePct": -4.16,
+        "fromT0Pct": -5.08
+      },
+      {
+        "offset": 7,
+        "date": "2026-03-27",
+        "close": 167.52,
+        "previousClose": 171.24,
+        "changePct": -2.17,
+        "fromT0Pct": -7.14
+      }
+    ]
+  }
+}
