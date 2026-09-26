@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-26",
   "range": [
     "2026-01",
     "2026-09"
   ],
-  "checkedOn": "2026-09-25",
+  "checkedOn": "2026-09-26",
   "sources": [
     "https://www.bea.gov/news/schedule/full",
     "https://www.census.gov/retail/release_schedule.html",
@@ -368,14 +368,14 @@
     "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
   ],
   "errors": [
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm"
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm"
   ]
 }
