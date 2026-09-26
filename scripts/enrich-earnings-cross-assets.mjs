@@ -34,6 +34,30 @@ if(!archive.eventIndex[micronId]){
     actual:null,surprise:null,explanation:null,
     sourceUrl:"https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-report-fiscal-fourth-quarter-results-5"});
 }
+// Keep the two recent Micron reports as distinct historical events. Their
+// cross-asset sessions use the same 16-symbol capture as newer earnings.
+for(const event of [
+  {id:"2026-03-18-MU",date:"2026-03-18",key:"micron-fiscal-q2-earnings",
+    actual:"Micron reported fiscal second-quarter 2026 results after the market close.",
+    sourceUrl:"https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Results-for-the-Second-Quarter-of-Fiscal-2026-03-18-2026/default.aspx"},
+  {id:"2026-06-24-MU",date:"2026-06-24",key:"micron-fiscal-q3-earnings",
+    actual:"Micron reported fiscal third-quarter 2026 results after the market close.",
+    sourceUrl:"https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx"}
+]){
+  if(!archive.eventIndex[event.id]){
+    archive.eventIndex[event.id]={eventDate:event.date,eventKey:event.key,
+      eventType:"Earnings",importance:"Critical",timeET:"after-close",
+      surpriseDirection:"unassessed",nasdaqReactionDirection:"unverified",
+      dominantDriver:"micron-earnings",confounders:["Other same-day macro and sector developments"]};
+  }
+  if(!archive.results.some(record=>record.eventId===event.id)){
+    archive.results.push({eventId:event.id,status:"verified",previous:null,
+      expected:"No reliable archived pre-release consensus is stored.",
+      actual:event.actual,surprise:"Not assessed against archived consensus.",
+      explanation:"The T0 close precedes the after-close report. T+1 is the first cash-session reaction; daily market moves are not solely attributable to earnings.",
+      sourceUrl:event.sourceUrl,verifiedAt:today});
+  }
+}
 const events=archive.results
   .map(record=>({record,meta:archive.eventIndex[record.eventId]}))
   .filter(({meta})=>meta?.eventType==="Earnings"&&meta.eventDate<=new Date(Date.now()+20*86400000).toISOString().slice(0,10));
