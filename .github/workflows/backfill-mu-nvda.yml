@@ -1,0 +1,36 @@
+name: Backfill NVDA around MU earnings
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/backfill-mu-nvda.mjs'
+      - '.github/workflows/backfill-mu-nvda.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: mu-nvda-backfill
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Capture adjusted NVDA sessions
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: node scripts/backfill-mu-nvda.mjs
+      - name: Commit verified history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add history/mu-nvda-earnings-2026.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record NVDA sessions around Micron earnings'
+            git pull --rebase origin main
+            git push
+          fi
