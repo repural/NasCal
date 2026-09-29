@@ -2,6 +2,30 @@
 import { readFile, stat } from "node:fs/promises";
 const root=new URL("../history/event-results.json",import.meta.url);
 const history=JSON.parse(await readFile(root,"utf8"));
+const earnings=history.earnings;
+if(!earnings?.asOf||!earnings?.releaseManifest?.verifiedAt||!earnings?.summaries||!earnings?.benchmark)
+  throw new Error("Missing consolidated earnings history");
+const earningsSummaryIds=new Set();
+for(const [symbol,rows] of Object.entries(earnings.summaries)){
+  if(!earnings.benchmark[symbol])throw new Error(`Missing earnings benchmark: ${symbol}`);
+  for(const row of rows){
+    const id=`${row.date}-${symbol}`;
+    if(earningsSummaryIds.has(id))throw new Error(`Duplicate earnings summary: ${id}`);
+    earningsSummaryIds.add(id);
+    if(!/^\d{4}-\d{2}-\d{2}$/.test(row.date)||
+      !["after_close","before_open"].includes(row.session)||
+      !["leadStock","leadBenchmark","firstStock","firstBenchmark","followStock","followBenchmark","totalStock","totalBenchmark"].every(field=>Number.isFinite(row[field])))
+      throw new Error(`Invalid earnings summary: ${id}`);
+  }
+}
+const manifestIds=new Set();
+for(const event of earnings.releaseManifest.events){
+  const id=`${event.date}-${event.symbol}`;
+  if(manifestIds.has(id))throw new Error(`Duplicate earnings release: ${id}`);
+  manifestIds.add(id);
+  if(!earningsSummaryIds.has(id)||!/^https:\/\//.test(event.sourceUrl??""))
+    throw new Error(`Missing summary/source for earnings release: ${id}`);
+}
 const seen=new Set();
 for(const record of history.results){
   if(seen.has(record.eventId))throw new Error(`Duplicate historical result: ${record.eventId}`);
@@ -67,4 +91,8 @@ for(const record of history.results){
 for(const id of Object.keys(history.eventIndex))if(!seen.has(id))throw new Error(`Index without result: ${id}`);
 try {await stat(new URL("../public/event-results.json",import.meta.url));throw new Error("History must not be duplicated in public/");}
 catch(error){if(error.code!=="ENOENT")throw error;}
-console.log(`Validated ${seen.size} historical results, unique event IDs and provenance.`);
+for(const legacy of ["mu-nvda-earnings-2026.json","megacap-earnings-2026.json"]){
+  try {await stat(new URL(`../history/${legacy}`,import.meta.url));throw new Error(`Earnings data still split across files: ${legacy}`);}
+  catch(error){if(error.code!=="ENOENT")throw error;}
+}
+console.log(`Validated ${seen.size} historical results and ${earningsSummaryIds.size} consolidated earnings summaries.`);

@@ -28,7 +28,7 @@ test("renders the calendar and serves the historical archive from history/", asy
   );
   const html = await response.text();
   assert.match(html, /Nasdaq event calendar/);
-  assert.match(html, /href="\/api\/history"/);
+  assert.match(html, /history\/event-results\.json/);
 
   const history = await worker.fetch(
     new Request("http://localhost/api/history"),
@@ -37,5 +37,9 @@ test("renders the calendar and serves the historical archive from history/", asy
   );
   assert.equal(history.status, 200);
   assert.match(history.headers.get("content-disposition") ?? "", /event-results\.json/);
-  assert.ok((await history.json()).results.length > 0);
+  const archive = await history.json();
+  assert.ok(archive.results.length > 0);
+  assert.equal(Object.values(archive.earnings.summaries).flat().length, 32);
+  assert.equal(archive.earnings.releaseManifest.events.length, 18);
+  assert.equal(archive.results.filter(record => record.earningsCrossAssets).length, 24);
 });

@@ -5,7 +5,8 @@ import {readFile,writeFile} from "node:fs/promises";
 
 const file=new URL("../history/event-results.json",import.meta.url);
 const archive=JSON.parse(await readFile(file,"utf8"));
-const megacapManifest=JSON.parse(await readFile(new URL("../history/megacap-earnings-2026.json",import.meta.url),"utf8"));
+const megacapManifest=archive.earnings?.releaseManifest;
+if(!megacapManifest?.events?.length)throw new Error("Missing consolidated megacap earnings manifest");
 const key=process.env.MASSIVE_API_KEY;
 if(!key)throw new Error("MASSIVE_API_KEY is required");
 const today=new Date().toISOString().slice(0,10);
