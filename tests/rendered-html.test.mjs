@@ -42,4 +42,5 @@ test("renders the calendar and serves the historical archive from history/", asy
   assert.equal(Object.values(archive.earnings.summaries).flat().length, 32);
   assert.equal(archive.earnings.releaseManifest.events.length, 18);
   assert.equal(archive.results.filter(record => record.earningsCrossAssets).length, 24);
+  assert.equal(archive.results.filter(record => record.outcomeMetrics?.metric === "core-pce").length, 9);
 });

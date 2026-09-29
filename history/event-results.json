@@ -10,7 +10,8 @@
     "confounders": "Other simultaneous factors that may weaken causal attribution",
     "qqqReaction": "Massive adjusted QQQ minute-bar closes: last completed minute before the release versus last completed minute at +15m and +60m; values are observed QQQ moves, not causal effect or Nasdaq Composite returns",
     "reactionWindows": "Scheduled release time and exact pre-release, +15m, +60m observed closes for QQQ/NVDA/SMH; multiple independently timed releases stay separate; null indicates a missing exact minute bar.",
-    "earnings": "Source-backed earnings release manifest, historical adjusted-close summary, and full cross-asset sessions in results[].earningsCrossAssets; keyed by issuer and release date. Summary is derived and does not replace raw sessions."
+    "earnings": "Source-backed earnings release manifest, historical adjusted-close summary, and full cross-asset sessions in results[].earningsCrossAssets; keyed by issuer and release date. Summary is derived and does not replace raw sessions.",
+    "outcomeMetrics": "Release-vintage reported core PCE month-on-month percentage and reference month from BEA. Consensus and surprise remain null until a contemporaneous forecast source is verified; do not infer surprise from the printed level."
   },
   "eventIndex": {
     "2026-01-05-ISM-MFG": {
@@ -3386,7 +3387,15 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2025-11",
+        "momPct": 0.2,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-and-november-2025"
+      }
     },
     {
       "eventId": "2026-01-23-FLASH-PMI",
@@ -6074,7 +6083,15 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2025-12",
+        "momPct": 0.4,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025"
+      }
     },
     {
       "eventId": "2026-02-27-PPI",
@@ -7868,7 +7885,15 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-01",
+        "momPct": 0.4,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026"
+      }
     },
     {
       "eventId": "2026-03-18-FOMC",
@@ -9629,7 +9654,7 @@
       "status": "verified",
       "previous": "January core PCE +0.4% m/m",
       "expected": null,
-      "actual": "February core PCE (official release); headline PCE +0.4% m/m",
+      "actual": "February core PCE +0.4% m/m and +3.0% y/y; headline PCE +0.4% m/m",
       "surprise": "Not assessed: archived consensus was not consistently verified for this backfill",
       "nasdaq15m": null,
       "nasdaq1h": null,
@@ -9788,6 +9813,17 @@
             "at60": null
           }
         }
+      ],
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-02",
+        "momPct": 0.4,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026"
+      },
+      "auditNotes": [
+        "2026-09-29: filled previously missing core PCE figures from the original BEA release; headline figure retained."
       ]
     },
     {
@@ -11060,7 +11096,15 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-03",
+        "momPct": 0.3,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-march-2026"
+      }
     },
     {
       "eventId": "2026-05-01-ISM-MFG",
@@ -12675,7 +12719,7 @@
       "status": "verified",
       "previous": "March core PCE +0.3% m/m",
       "expected": null,
-      "actual": "April core PCE (official release); headline PCE annual rate 3.8%",
+      "actual": "April core PCE +0.2% m/m and +3.3% y/y; headline PCE +0.4% m/m and +3.8% y/y",
       "surprise": "Not assessed: archived consensus was not consistently verified for this backfill",
       "nasdaq15m": null,
       "nasdaq1h": null,
@@ -12844,6 +12888,17 @@
             "at60": null
           }
         }
+      ],
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-04",
+        "momPct": 0.2,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026"
+      },
+      "auditNotes": [
+        "2026-09-29: filled previously missing core PCE figures from the original BEA release; headline annual figure retained."
       ]
     },
     {
@@ -16578,7 +16633,15 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-05",
+        "momPct": 0.3,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+      }
     },
     {
       "eventId": "2026-06-30-JOLTS",
@@ -18599,7 +18662,15 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-06",
+        "momPct": 0.1,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026"
+      }
     },
     {
       "eventId": "2026-07-31-ECI",
@@ -22638,7 +22709,15 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-07",
+        "momPct": 0.2,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+      }
     },
     {
       "eventId": "2026-09-01-ISM Mfg",
