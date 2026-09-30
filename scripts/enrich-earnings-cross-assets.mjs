@@ -2,9 +2,11 @@
 // One daily aggregate request per instrument enriches every earnings event in the archive.
 // The complete price history stays under history/, separate from the public site build.
 import {readFile,writeFile} from "node:fs/promises";
+import {seedMicron2025,micron2025} from "./seed-micron-earnings-2025.mjs";
 
 const file=new URL("../history/event-results.json",import.meta.url);
 const archive=JSON.parse(await readFile(file,"utf8"));
+seedMicron2025(archive);
 const megacapManifest=archive.earnings?.releaseManifest;
 if(!megacapManifest?.events?.length)throw new Error("Missing consolidated megacap earnings manifest");
 const key=process.env.MASSIVE_API_KEY;
@@ -141,6 +143,7 @@ for(const {record,meta} of events){
       const row=market[symbol].get(date)??null;
       if(!row)return [symbol,null];
       return [symbol,{...row,
+        relativeToT0Pct:offset!=null?pct(row.close,day0[symbol]):null,
         cumulativeFromT0Pct:offset!=null&&offset>=1?pct(row.close,day0[symbol]):null,
         sinceFirstReactionPct:offset!=null&&offset>=firstReactionOffset&&firstDate?pct(row.close,firstClose[symbol]):null
       }];
@@ -153,12 +156,40 @@ for(const {record,meta} of events){
     schemaVersion:1,source:"Massive adjusted daily aggregates",sourceUrl,
     universe,releaseSession:meta.timeET,
     windowStatus:position<0?"pre-event-partial":complete?"complete":"post-event-partial",
-    method:"For every asset, adjusted close and prior trading-session close; close-to-close %, T0-to-T+n cumulative %, and reaction-close-to-T+n %. T0 is the earnings date. Future pre-event observations have dates but no T offsets until T0 exists.",
+    method:"For every asset, adjusted close and prior trading-session close; close-to-close %, every T-7 to T+7 session relative to T0 %, T0-to-T+n cumulative %, and reaction-close-to-T+n %. T0 is the earnings date. Future pre-event observations have dates but no T offsets until T0 exists.",
     sessions
   };
   const {updatedAt:previousUpdate,...previousWindow}=record.earningsCrossAssets??{};
   if(JSON.stringify(previousWindow)!==JSON.stringify(window)){
     record.earningsCrossAssets={...window,updatedAt:today};updated++;
+  }
+  if(micron2025.some(event=>`${event.date}-MU`===record.eventId)&&position>=0){
+    for(const [name,symbol] of [["nasdaq","I:COMP"],["sox","I:SOX"]]){
+      const before=dates[position-1],prior=market[symbol].get(before),close=market[symbol].get(meta.eventDate);
+      record.indexLevels??={};
+      record.indexLevels[name]={priorClose:prior?{date:before,value:prior.close}:null,
+        dayClose:close?{date:meta.eventDate,value:close.close}:null,at15:null,at60:null,
+        intradayStatus:"not-applicable-after-close",
+        intradayReason:"Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
+        sourceUrl:"https://massive.com/docs/rest/indices/aggregates/custom-bars",updatedAt:today};
+    }
+    if(complete){
+      const at=offset=>sessions.find(session=>session.offset===offset).assets;
+      const lead=at(-7),zero=at(0),first=at(1),last=at(7);
+      const summary={date:meta.eventDate,session:"after_close",
+        leadStock:pct(zero.MU.close,lead.MU.close),leadBenchmark:pct(zero["I:SOX"].close,lead["I:SOX"].close),
+        firstStock:pct(first.MU.close,zero.MU.close),firstBenchmark:pct(first["I:SOX"].close,zero["I:SOX"].close),
+        followStock:pct(last.MU.close,first.MU.close),followBenchmark:pct(last["I:SOX"].close,first["I:SOX"].close),
+        totalStock:pct(last.MU.close,zero.MU.close),totalBenchmark:pct(last["I:SOX"].close,zero["I:SOX"].close)};
+      const rows=archive.earnings.summaries.MU??=[];
+      const existing=rows.findIndex(row=>row.date===meta.eventDate);
+      if(existing<0)rows.push(summary);else rows[existing]=summary;
+      rows.sort((a,b)=>a.date.localeCompare(b.date));
+      const release=micron2025.find(event=>event.date===meta.eventDate);
+      if(!megacapManifest.events.some(event=>event.symbol==="MU"&&event.date===meta.eventDate))
+        megacapManifest.events.push({symbol:"MU",date:meta.eventDate,period:release.period,releaseSession:"after-close",sourceUrl:release.sourceUrl});
+      archive.earnings.asOf=today;
+    }
   }
 }
 if(updated){
