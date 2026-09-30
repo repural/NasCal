@@ -15,7 +15,7 @@ on:
     paths:
       - '.github/workflows/refresh-calendar.yml'
       - 'scripts/*calendar*.mjs'
-      - 'tests/calendar-refresh.test.mjs'
+      - 'tests/*calendar*.test.mjs'
 permissions:
   contents: write
 concurrency:
@@ -29,12 +29,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: node --test tests/calendar-refresh.test.mjs
+      - run: node --test tests/calendar-refresh.test.mjs tests/official-calendar-collector.test.mjs
       - run: node scripts/refresh-calendar.mjs --mode=validate
   refresh:
     needs: verify
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -43,32 +43,23 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: Check research credential
+      - name: Collect official calendars and announcements (no AI API)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          if [ -z "$OPENAI_API_KEY" ]; then
-            echo '::error::Add OPENAI_API_KEY to repural/NasCal Actions secrets. Calendar artifacts remain unchanged; retain ChatGPT schedules until a successful run.'
-            exit 1
-          fi
-      - name: Research and reassess calendar
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          NASCAL_RESEARCH_MODEL: ${{ vars.NASCAL_RESEARCH_MODEL }}
           REFRESH_MODE: ${{ inputs.mode || (github.event.schedule == '0 5 1 * *' && 'monthly') || (github.event_name == 'push' && 'monthly') || 'daily' }}
         run: node scripts/refresh-calendar.mjs --mode="$REFRESH_MODE"
       - name: Validate resulting calendar
         run: node scripts/refresh-calendar.mjs --mode=validate
-      - name: Publish changed data and export
+      - name: Store source review report
+        if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/calendar-live.json exports/Nasdaq-Event-Calendar-2026.html history/calendar-refresh/
+          git add history/calendar-refresh/
           if git diff --cached --quiet; then
             echo 'No meaningful changes to publish.'
             exit 0
           fi
-          git commit -m 'Refresh verified Nasdaq calendar and event expectations'
+          git commit -m 'Collect official Nasdaq calendar sources for research review'
           # Rebase onto concurrent historical-data commits. Conflicts fail safely;
           # never force-push or discard another writer's data.
           git pull --rebase origin main

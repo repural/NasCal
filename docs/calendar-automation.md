@@ -1,64 +1,52 @@
-# GitHub calendar refresh
+# API-free calendar collection and ChatGPT review
 
-The calendar's generated source of truth is `data/calendar-live.json`.
-`data/calendar.ts` remains the legacy seed, not the file that scheduled refreshes edit.
-Historical market observations remain in `history/event-results.json`; this refresh never rewrites them.
+`Refresh Nasdaq calendar` runs daily at 07:00 Istanbul and monthly on the first at
+08:00 Istanbul, with manual dispatch and implementation-push triggers. No OpenAI key,
+model or paid AI/search API is used. Standard Actions runner execution is free for public
+repos; storage allowances still apply. Existing Massive enrichment workflows and their
+credentials are unchanged. This migration does not change market-data plan costs.
 
-## Schedule and setup
+## GitHub responsibilities
 
-The **Refresh Nasdaq calendar** Actions workflow has two schedules:
+The collector downloads BLS and BEA iCalendar feeds, checks upcoming entries over 90 days,
+and monitors the Fed announcement RSS feed. It attempts the S&P Global release calendar;
+access blocks or an unreadable schedule are explicit review flags, never inferred dates.
+UTC and Eastern release times are parsed with DST. Major CPI/PPI/jobs/JOLTS/ECI/productivity,
+PCE and GDP observations are compared with the published calendar. Stable source UIDs
+identify observed reschedules; missing source entries never imply cancellation.
 
-- Daily priority-event check: 07:00 Istanbul (04:00 UTC).
-- Full refresh: the first day of each month at 08:00 Istanbul (05:00 UTC).
+Results go to `history/calendar-refresh/official-review.json`, including source health,
+observations, missing/rescheduled/time-changed/cancelled proposals, and recent Fed policy
+headlines. These are research inputs, not confirmed market-moving news. A stale feed does
+not establish forward coverage. Failed feeds are recorded. If all feeds fail or are stale,
+the job fails after saving its report. No historical prices or outcomes are overwritten.
 
-GitHub may delay scheduled jobs. Both modes also support **Run workflow**.
-Pushes changing the refresh implementation run verification plus a full first refresh.
+## ChatGPT responsibilities — retain both existing tasks
 
-Add `OPENAI_API_KEY` in **repural/NasCal → Settings → Secrets and variables → Actions**.
-It must be an OpenAI Platform API key with billing and web-search/model access.
-ChatGPT subscription access is separate. Do not place keys in source or browser code.
-The default model is `gpt-5.5`; optionally set the `NASCAL_RESEARCH_MODEL` Actions variable.
-Hosted OpenAI web search is used directly, so a separate search-service key is unnecessary.
-API calls and search use paid credits. The daily job skips the reassessment batches if
-there is no verified event change; the full job reassesses every displayed event.
+Keep **Nasdaq Priority Events** and **Refresh Nasdaq Calendar** enabled. Read the latest
+GitHub review report first, then research its flags and other unexpected geopolitical,
+trade-policy and company developments from official sources and reputable wires.
+Explicitly verify the next Flash US PMI date at 09:45 ET even if source access failed.
+Before publishing any calendar changes, reassess EVERY displayed event's three distinct
+fields: Market expects, Nasdaq prefers and Main risk, using current sourced information.
+An automated collection timestamp is never an interpretation verification timestamp.
 
-## Publication
+The collector intentionally stages proposals rather than publishing unchecked changes
+with stale market interpretation. ChatGPT completes verification, updates
+`data/calendar-live.json`, regenerates `exports/Nasdaq-Event-Calendar-2026.html`, and
+updates/publishes the existing Site and any separately requested HTML snapshot as needed.
+Do not disable the ChatGPT tasks as part of this hybrid approach. They use existing plan
+allowances; GitHub cannot invoke a ChatGPT subscription as an API.
 
-The existing Site downloads the small calendar JSON on page load with a one-hour
-browser cache. It does not trigger research, per-visitor AI calls, or a rebuild.
-GitHub's raw-file caching can add a short propagation delay. The existing visual design,
-historical results, and date navigation stay in the Site. Production code changes still
-require a normal Sites deployment; GitHub does not have a permanent Sites deployment credential.
+## Publication and storage
 
-`exports/Nasdaq-Event-Calendar-2026.html` is regenerated on a meaningful refresh.
-It preserves the calendar/table styling and date-click navigation. It embeds an offline
-snapshot and checks the same feed when opened online. Historical insights/results link
-back to the full Site; the multi-megabyte market archive is not duplicated in this export.
-The export retains the legacy filename for existing links across year boundaries.
-It is also downloadable as an Actions artifact. The old ChatGPT Library copy is a
-separate snapshot: Actions cannot overwrite it with the current connectors. Use the
-GitHub export for the automatically maintained HTML.
+The Site already loads the shared `data/calendar-live.json` with a one-hour browser cache
+and bundled fallback. Visitors never launch collection or AI research. Data updates need
+no Site code deployment; design changes still require Sites deployment. The standalone
+HTML has the same feed and offline snapshot. Its historical-results links open the Site.
+GitHub export and any separately saved HTML copy are distinct artifacts.
 
-## Verification and audit
-
-- Official confirmation or two independent reputable wires for every event change.
-- Every cited URL must appear in the research response's retrieved sources.
-- Explicit check for next U.S. Flash PMI and its 09:45 ET release.
-- Separate entities for unrelated releases; stable IDs matching history.
-- All three interpretation fields freshly reviewed on publication, with provenance.
-- Unknown consensus explicitly marked uncertain; no manufactured forecasts.
-- Cancellation keeps a labelled entry; rescheduling replaces rather than duplicates it.
-- Failure, missing credentials, incomplete responses, and validation errors retain the last good calendar.
-- Audits are written under `history/calendar-refresh/`; no history files under `public/`.
-- Concurrent calendar refreshes queue; historical-data commits are rebased safely.
-
-These checks establish provenance and structural validity, not infallible financial
-research. Review published sources, especially unexpected political announcements.
-Workflow summaries provide material-change details without creating messages/issues.
-
-## Cutover
-
-Keep the two existing ChatGPT calendar schedules enabled until BOTH a successful
-research/publish run and the deployed Site feed integration have been verified.
-Then disable **Nasdaq Priority Events** and **Refresh Nasdaq Calendar**. Do not disable
-NasDecode monitoring or other unrelated tasks.
+All collection data remains under `history/`, not `public/`. Concurrent refreshes queue;
+publication rebases onto main without force-pushing. The existing calendar remains
+unchanged until researched review is complete. No extra notifications/issues are created
+for routine collection runs.
