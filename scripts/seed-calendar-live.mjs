@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import {eventView,eventTimes} from '../data/calendar.ts';
+import {validateCalendar} from './calendar-refresh-utils.mjs';
+import {renderCalendarHtml} from './render-calendar-html.mjs';
+const file='data/calendar-live.json';
+if(fs.existsSync(file))throw new Error('Seed already exists; use refresh-calendar.mjs for updates');
+const data=validateCalendar({schemaVersion:1,updatedAt:'2026-09-30T08:00:00.000Z',asOf:'2026-09-30',horizonEnd:'2026-12-29',events:eventView.map(e=>({...e,id:`${e.date}-${e.short}`,timeLabel:eventTimes[`${e.date}-${e.short}`],status:'scheduled'}))});
+fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');
+fs.mkdirSync('exports',{recursive:true});
+fs.writeFileSync('exports/Nasdaq-Event-Calendar-2026.html',renderCalendarHtml(data,fs.readFileSync('app/globals.css','utf8')));
+console.log(`Seeded ${data.events.length} existing calendar entries without generating forecasts.`);
