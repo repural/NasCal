@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-30T10:41:55.380Z",
+  "asOf": "2026-09-30",
+  "horizonEnd": "2026-12-29",
+  "mode": "monthly",
+  "sources": [
+    {
+      "key": "bls",
+      "kind": "ics",
+      "url": "https://www.bls.gov/schedule/news_release/bls.ics",
+      "status": "unavailable",
+      "reason": "HTTP 403"
+    },
+    {
+      "key": "bea",
+      "kind": "ics",
+      "url": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "status": "ok",
+      "latestDate": "2026-12-23",
+      "count": 16
+    },
+    {
+      "key": "fed",
+      "kind": "rss",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "key": "pmi",
+      "kind": "monitor",
+      "url": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
+      "status": "unavailable",
+      "reason": "HTTP 403"
+    }
+  ],
+  "observations": [
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "1e85b6fb-a00d-4e0e-85dc-b2bde99e580f",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+      "date": "2026-09-30",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "e28caae2-24c3-4772-8b33-e2334573db41",
+      "title": "Personal Income and Outlays, August 2026",
+      "date": "2026-09-30",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "e5470114-6282-4e32-894d-61734b5e353e",
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "date": "2026-10-06",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "300ed1bc-933c-4c2b-8f89-336010269bbd",
+      "title": "Services Supplied Through Affiliates, 2024",
+      "date": "2026-10-06",
+      "timeET": "10:00",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "afcb09fd-b564-4125-88aa-a0b23b358a6f",
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "date": "2026-10-29",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "ff8bd8ad-bb92-43c5-8a30-7e7b5baa33c2",
+      "title": "Personal Income and Outlays, September 2026",
+      "date": "2026-10-29",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "a270c9cd-70a1-48d2-8924-cdebab79dc9a",
+      "title": "U.S. International Trade in Goods and Services, September 2026",
+      "date": "2026-11-04",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "e2e486f5-b9b2-426b-8e0a-040a31377b60",
+      "title": "Activities of U.S. Multinational Enterprises, 2024",
+      "date": "2026-11-20",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "395d58c3-51cf-44ef-b5bd-d35240623299",
+      "title": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "date": "2026-11-25",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "c6b23055-287a-4975-bcf7-026c2c6dd8e1",
+      "title": "Personal Income and Outlays, October 2026",
+      "date": "2026-11-25",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "24ad66f8-b973-454d-93c1-9fd339a61d9b",
+      "title": "GDP by County and Personal Income by County, 2025",
+      "date": "2026-12-02",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "fcb9a791-4080-4f4b-87cf-b5f189e6d1a2",
+      "title": "U.S. International Trade in Goods and Services, October 2026",
+      "date": "2026-12-08",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "1fedfe18-0b6c-4a41-8079-5d07b8e6e6de",
+      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2025",
+      "date": "2026-12-10",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "4666e9ef-89c0-422f-b8cb-fef7bd2fe8f6",
+      "title": "U.S. International Transactions and Investment Position, 3rd Quarter 2026",
+      "date": "2026-12-18",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "0a2682b1-41aa-4ec7-992e-07c8bfc1b92e",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 3rd Quarter 2026",
+      "date": "2026-12-23",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "715d281b-925d-40f9-8400-6a9096a861ec",
+      "title": "Personal Income and Outlays, November 2026",
+      "date": "2026-12-23",
+      "timeET": "08:30",
+      "status": "scheduled"
+    }
+  ],
+  "sourceObservationHistory": [
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "1e85b6fb-a00d-4e0e-85dc-b2bde99e580f",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
+      "date": "2026-09-30",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "e28caae2-24c3-4772-8b33-e2334573db41",
+      "title": "Personal Income and Outlays, August 2026",
+      "date": "2026-09-30",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "e5470114-6282-4e32-894d-61734b5e353e",
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "date": "2026-10-06",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "300ed1bc-933c-4c2b-8f89-336010269bbd",
+      "title": "Services Supplied Through Affiliates, 2024",
+      "date": "2026-10-06",
+      "timeET": "10:00",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "afcb09fd-b564-4125-88aa-a0b23b358a6f",
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "date": "2026-10-29",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "ff8bd8ad-bb92-43c5-8a30-7e7b5baa33c2",
+      "title": "Personal Income and Outlays, September 2026",
+      "date": "2026-10-29",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "a270c9cd-70a1-48d2-8924-cdebab79dc9a",
+      "title": "U.S. International Trade in Goods and Services, September 2026",
+      "date": "2026-11-04",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "e2e486f5-b9b2-426b-8e0a-040a31377b60",
+      "title": "Activities of U.S. Multinational Enterprises, 2024",
+      "date": "2026-11-20",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "395d58c3-51cf-44ef-b5bd-d35240623299",
+      "title": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "date": "2026-11-25",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "c6b23055-287a-4975-bcf7-026c2c6dd8e1",
+      "title": "Personal Income and Outlays, October 2026",
+      "date": "2026-11-25",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "24ad66f8-b973-454d-93c1-9fd339a61d9b",
+      "title": "GDP by County and Personal Income by County, 2025",
+      "date": "2026-12-02",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "fcb9a791-4080-4f4b-87cf-b5f189e6d1a2",
+      "title": "U.S. International Trade in Goods and Services, October 2026",
+      "date": "2026-12-08",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "1fedfe18-0b6c-4a41-8079-5d07b8e6e6de",
+      "title": "Real Personal Consumption Expenditures by State and Real Personal Income by State, 2025",
+      "date": "2026-12-10",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "4666e9ef-89c0-422f-b8cb-fef7bd2fe8f6",
+      "title": "U.S. International Transactions and Investment Position, 3rd Quarter 2026",
+      "date": "2026-12-18",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "0a2682b1-41aa-4ec7-992e-07c8bfc1b92e",
+      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 3rd Quarter 2026",
+      "date": "2026-12-23",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "715d281b-925d-40f9-8400-6a9096a861ec",
+      "title": "Personal Income and Outlays, November 2026",
+      "date": "2026-12-23",
+      "timeET": "08:30",
+      "status": "scheduled"
+    }
+  ],
+  "proposals": [],
+  "announcements": [],
+  "nextFlashPmi": {
+    "calendarEntryId": "2026-10-23-FLASH PMI",
+    "date": "2026-10-23",
+    "timeET": "09:45 ET · 16:45 Istanbul",
+    "officialDateVerified": false,
+    "requiresReview": true
+  },
+  "publicationStatus": "awaiting-research-review",
+  "reviewInstructions": "ChatGPT calendar tasks: read this report, verify proposals and news; explicitly verify next Flash US PMI at 09:45 ET. Before any calendar/HTML publication re-evaluate ALL displayed Market expects, Nasdaq prefers, and Main risk fields with current sources. Preserve historical results, stable entities, design and navigation. Never infer cancellations from absence or label these machine checks as completed market research."
+}
