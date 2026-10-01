@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-30T10:41:55.380Z",
-  "asOf": "2026-09-30",
-  "horizonEnd": "2026-12-29",
+  "checkedAt": "2026-10-01T08:40:02.097Z",
+  "asOf": "2026-10-01",
+  "horizonEnd": "2026-12-30",
   "mode": "monthly",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "url": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
       "status": "ok",
       "latestDate": "2026-12-23",
-      "count": 16
+      "count": 14
     },
     {
       "key": "fed",
@@ -36,24 +36,6 @@
     }
   ],
   "observations": [
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "1e85b6fb-a00d-4e0e-85dc-b2bde99e580f",
-      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
-      "date": "2026-09-30",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "e28caae2-24c3-4772-8b33-e2334573db41",
-      "title": "Personal Income and Outlays, August 2026",
-      "date": "2026-09-30",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
     {
       "sourceKey": "bea",
       "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
@@ -182,24 +164,6 @@
     }
   ],
   "sourceObservationHistory": [
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "1e85b6fb-a00d-4e0e-85dc-b2bde99e580f",
-      "title": "GDP (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
-      "date": "2026-09-30",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "e28caae2-24c3-4772-8b33-e2334573db41",
-      "title": "Personal Income and Outlays, August 2026",
-      "date": "2026-09-30",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
     {
       "sourceKey": "bea",
       "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
