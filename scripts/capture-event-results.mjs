@@ -62,6 +62,7 @@ for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&
     r.indexLevels??={};const l=r.indexLevels[name]??={};const state=r.capture[name]??={};
     l.sourceUrl='https://massive.com/docs/rest/indices/aggregates/custom-bars';l.releaseTimeET=i.timeET;l.releaseLabel=i.eventKey;
     if(state.retryAt&&Date.parse(state.retryAt)>now)continue;
+    let stage='day';
     try{
       if(!key)throw Error('MASSIVE_API_KEY is missing');
       const closeDue=now>=timestamp(e.date,'16:15');
@@ -76,6 +77,8 @@ for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&
         if(l[field]?.close){state[field]='captured';continue;}
         const due=windowState(i,minutes,now);state[field]=due;
         if(due==='due'){
+          if(state.minuteRetryAt&&Date.parse(state.minuteRetryAt)>now){state[field]='plan-not-authorized';continue;}
+          stage='minute';
           const rows=await bars(ticker,e.date,'minute'),measured=indexMeasurement(rows,i,minutes);
           if(measured){l[field]=measured.after;l.beforeRelease??=measured.before;state[field]='captured';}else state[field]='exact-bars-missing';
         }
@@ -86,7 +89,7 @@ for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&
       else l.intradayStatus='awaiting-minute-bars';
       if(['missing','exact-bars-missing'].some(s=>Object.values(state).includes(s)))state.retryAt=new Date(now+15*60000).toISOString();
       else delete state.retryAt;
-    }catch(error){state.error=error.message;state.checkedAt=new Date(now).toISOString();state.retryAt=new Date(now+(error.message.includes('403')?24*60:15)*60000).toISOString();if(error.message.includes('403'))l.intradayStatus='plan-not-authorized';}
+    }catch(error){state.error=error.message;state.checkedAt=new Date(now).toISOString();state.retryAt=new Date(now+15*60000).toISOString();if(error.message.includes('403')&&stage==='minute'){l.intradayStatus='plan-not-authorized';state.minuteRetryAt=new Date(now+24*3600000).toISOString();}}
   }
   const overdue=release!==null&&now>release+2*3600000;
   if(overdue&&r.status!=='verified')report.issues.push({id:e.id,field:'outcome',reason:r.outcomeError??'Awaiting verified release'});
