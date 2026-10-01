@@ -1,0 +1,67 @@
+{
+  "asOf": "2026-10-01",
+  "mode": "daily-researched",
+  "sourceReportCheckedAt": "2026-09-30T10:41:55.380Z",
+  "changes": [
+    {
+      "action": "new",
+      "id": "2026-11-05-PRODUCTIVITY",
+      "source": "https://www.bls.gov/schedule/2026/11_sched.htm"
+    },
+    {
+      "action": "new",
+      "id": "2026-12-08-PRODUCTIVITY",
+      "source": "https://www.bls.gov/schedule/2026/12_sched.htm"
+    }
+  ],
+  "reassessedEventIds": [
+    "2026-10-01-ISM",
+    "2026-10-02-Jobs",
+    "2026-10-05-ISM Services",
+    "2026-10-07-FOMC MINUTES",
+    "2026-10-08-TSMC",
+    "2026-10-14-CPI",
+    "2026-10-15-PPI",
+    "2026-10-15-Retail",
+    "2026-10-23-FLASH PMI",
+    "2026-10-27-FOMC 1",
+    "2026-10-28-FED",
+    "2026-10-29-GDP",
+    "2026-10-29-PCE",
+    "2026-10-30-ECI",
+    "2026-11-02-ISM MFG",
+    "2026-11-03-MIDTERMS",
+    "2026-11-03-JOLTS",
+    "2026-11-04-ISM SERVICES",
+    "2026-11-06-JOBS",
+    "2026-11-10-CPI",
+    "2026-11-13-PPI",
+    "2026-11-18-FOMC MINUTES",
+    "2026-11-18-APEC",
+    "2026-11-25-GDP",
+    "2026-11-25-PCE",
+    "2026-12-01-ISM MFG",
+    "2026-12-01-JOLTS",
+    "2026-12-03-ISM SERVICES",
+    "2026-12-04-JOBS",
+    "2026-12-09-FED",
+    "2026-12-10-CPI",
+    "2026-12-14-G20",
+    "2026-12-15-PPI",
+    "2026-12-23-GDP",
+    "2026-12-23-PCE",
+    "2026-11-05-PRODUCTIVITY",
+    "2026-12-08-PRODUCTIVITY"
+  ],
+  "nextFlashPmi": {
+    "id": "2026-10-23-FLASH PMI",
+    "timeET": "09:45",
+    "dateOfficiallyReconfirmed": false,
+    "reason": "Official S&P calendar and PDF returned 403; no new date inferred."
+  },
+  "contextSources": [
+    "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
+    "https://www.reuters.com/markets/us/fed-seen-pause-october-after-inflation-data-2026-09-30/"
+  ],
+  "notes": "Preferences and risks are analysis, not forecasts. Distant numeric consensus remains explicitly unavailable. Historical prices/outcomes unchanged."
+}
