@@ -2,11 +2,12 @@
 
 import { Fragment, useEffect, useState } from "react";
 import resultData from "../history/event-results.json";
-import { today } from "../data/calendar";
+import { today as initialToday } from "../data/calendar";
 import calendarSeed from "../data/calendar-live.json";
 import { validFeed, calendarMonths, type CalendarEvent, type CalendarFeed } from "../data/calendar-feed";
 import { earningsBenchmark, earningsHistory, earningsHistoryAsOf } from "../data/earnings-history";
 import { historicalPeers } from "../data/event-family.mjs";
+import { visibleCalendarEvents } from "../data/calendar-window.mjs";
 type HistoricalResult = {
   eventId:string;
   status:string;
@@ -131,10 +132,9 @@ function historicalAnalysis(event:CalendarEvent,result:HistoricalResult|undefine
   return lines.join("\n");
 }
 
-const monthConfig = calendarMonths(today);
 const weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-function Calendar({ name, year, month, days, offset, events, onSelect }: (typeof monthConfig)[number] & { events: CalendarEvent[]; onSelect: (date: string) => void }) {
+function Calendar({ name, year, month, days, offset, events, onSelect }: ReturnType<typeof calendarMonths>[number] & { events: CalendarEvent[]; onSelect: (date: string) => void }) {
   const cells: (number | null)[] = Array.from({ length: offset + days }, (_, i) => i < offset ? null : i - offset + 1);
   while (cells.length % 7) cells.push(null);
   return <article className="calendar-card">
@@ -169,6 +169,12 @@ const prettyDate = (date: string) => new Intl.DateTimeFormat("en-US", { month: "
 
 
 export default function Home() {
+  const [today,setToday]=useState(initialToday);
+  useEffect(()=>{
+    const update=()=>setToday(new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Istanbul',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()));
+    update();const timer=setInterval(update,60000);return ()=>clearInterval(timer);
+  },[]);
+  const monthConfig=calendarMonths(today);
   const [openResults, setOpenResults] = useState<Record<string, boolean>>({});
   const [calendar, setCalendar] = useState<CalendarFeed>(calendarSeed as CalendarFeed);
   useEffect(() => {
@@ -187,7 +193,7 @@ export default function Home() {
       .catch(()=>{});
     return ()=>{active=false;};
   },[]);
-  const eventView=calendar.events;
+  const eventView=visibleCalendarEvents(calendar,today);
   const events=eventView.filter(e=>e.status!=="cancelled");
   const eventTimes=Object.fromEntries(eventView.map(e=>[e.id,e.timeLabel]));
 
@@ -231,7 +237,7 @@ export default function Home() {
       <div><p className="kicker">FORWARD RISK MAP</p><h2>Know the days that can<br/>change the tape.</h2></div>
       <div className="intro-copy"><p>Significant macro releases, Federal Reserve decisions, Treasury auctions, AI earnings signals and the U.S. midterms—all in one decision-ready view.</p><div className="legend"><span><i className="legend-x">×</i> Significant event</span><span><i className="critical-swatch"></i> Critical risk</span></div></div>
     </section>
-    <section className="calendar-section" aria-label="Four month event calendar">{monthConfig.map(month => <Calendar key={`${month.year}-${month.month}`} {...month} events={events} onSelect={goToEvents} />)}</section>
+    <section className="calendar-section" aria-label="Event calendar">{monthConfig.map(month => <Calendar key={`${month.year}-${month.month}`} {...month} events={events} onSelect={goToEvents} />)}</section>
     <section className="history-strip" aria-label="Historical results dataset">
       <div><p className="kicker">ANALYSIS ARCHIVE</p><h2>Every result becomes reusable evidence.</h2><p>The archive preserves expectations, actual results, surprises, Nasdaq reactions, yield effects, dominant drivers and confounding events for later forecast calibration.</p></div>
       <div className="history-stats"><span><b>{verifiedResults}</b> verified outcomes</span><span><b>{eventFamilies}</b> event families</span><a href="/api/history">Download history JSON</a></div>

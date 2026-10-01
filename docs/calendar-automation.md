@@ -1,5 +1,13 @@
 # API-free calendar collection and ChatGPT review
 
+The dashboard includes the preceding month through day 7 inclusive (Istanbul date),
+alongside the four forward months. On day 8 it hides that month and its rows.
+Before removing expired events from `events`, retain the preceding month's complete
+event snapshots in `recentEvents` in `data/calendar-live.json`. Preserve stable IDs,
+release-time expectations and recorded results; do not reinterpret past forecasts as
+current consensus. The UI merges snapshots with current entries, which take precedence.
+`data/calendar-window.mjs` supplies the same date window to the Site and HTML export.
+
 `Refresh Nasdaq calendar` runs daily at 07:00 Istanbul and monthly on the first at
 08:00 Istanbul, with manual dispatch and implementation-push triggers. No OpenAI key,
 model or paid AI/search API is used. Standard Actions runner execution is free for public
