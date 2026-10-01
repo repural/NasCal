@@ -17,6 +17,9 @@ on:
         type: string
 permissions:
   contents: write
+concurrency:
+  group: nascal-history-writer
+  cancel-in-progress: false
 jobs:
   history:
     runs-on: ubuntu-latest

@@ -35,10 +35,13 @@ for(const result of archive.results){
   for(const name of ["nasdaq","sox"]){
     const rows=sessions[name];
     const prior=[...rows].reverse().find(x=>x.date<event.eventDate)??null;
-    const close=rows.find(x=>x.date===event.eventDate)??null;
+    const et=Object.fromEntries(new Intl.DateTimeFormat("en-CA",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).map(p=>[p.type,p.value]));
+    const etDate=`${et.year}-${et.month}-${et.day}`;
+    const finalized=event.eventDate<etDate||(event.eventDate===etDate&&(Number(et.hour)>16||(Number(et.hour)===16&&Number(et.minute)>=15)));
+    const close=finalized?(rows.find(x=>x.date===event.eventDate)??null):null;
     const levels=result.indexLevels[name]??{};
     const open=rows.find(x=>x.date===event.eventDate)?.open ?? null;
-    const updated={...levels,priorClose:prior,dayOpen:open?{date:event.eventDate,value:open}:null,at15:levels.at15??null,at60:levels.at60??null,dayClose:close,
+    const updated={...levels,priorClose:prior??levels.priorClose??null,dayOpen:open?{date:event.eventDate,value:open}:null,at15:levels.at15??null,at60:levels.at60??null,dayClose:close??levels.dayClose??null,
       intradayStatus:event.timeET==="headline-driven"?"no-single-release-time":levels.intradayStatus??"awaiting-minute-bars",sourceUrl:"https://massive.com/docs/rest/indices/aggregates/custom-bars",updatedAt:today};
     if(JSON.stringify(levels)!==JSON.stringify(updated))changed++;
     result.indexLevels[name]=updated;

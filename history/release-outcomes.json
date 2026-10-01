@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "outcomes": {
+    "2026-09-30-PCE": {
+      "actual": "August core PCE rose 0.2% month on month and 3.0% year on year; headline PCE rose 0.3% month on month and 3.4% year on year.",
+      "previous": "Revised July core PCE: +0.1% month on month.",
+      "sourceUrl": "https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026",
+      "verifiedAt": "2026-10-01",
+      "outcomeMetrics": {"metric":"core-pce","referenceMonth":"2026-08","momPct":0.2,"yoyPct":3.0,"consensusMomPct":null,"surpriseMomPp":null,"sourceUrl":"https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026"}
+    },
+    "2026-09-30-GDP": {
+      "actual": "Final Q2 real GDP growth: 2.2% annualized, revised up 0.7 percentage point from the second estimate.",
+      "previous": "Q2 second estimate: 1.5% annualized.",
+      "sourceUrl": "https://www.bea.gov/index.php/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+      "verifiedAt": "2026-10-01",
+      "outcomeMetrics": {"metric":"gdp-final","annualizedPct":2.2,"previousEstimatePct":1.5,"revisionPp":0.7}
+    },
+    "2026-09-30-MU": {
+      "actual": "Fiscal Q4 revenue $54.229 billion; adjusted diluted EPS $33.42. Q1 guidance: revenue $61.5 billion ± $1.5 billion; adjusted EPS $38.15 ± $1.00; adjusted gross margin approximately 86.25%.",
+      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+      "verifiedAt": "2026-10-01",
+      "outcomeMetrics": {"metric":"earnings","revenueBillion":54.229,"adjustedEps":33.42,"guidanceRevenueBillion":61.5,"guidanceAdjustedEps":38.15,"guidanceGrossMarginPct":86.25,"consensusRevenueBillion":null,"consensusAdjustedEps":null}
+    }
+  }
+}

@@ -1,5 +1,23 @@
 # API-free calendar collection and ChatGPT review
 
+Released-event capture runs every 15 minutes between 12:00 and 22:59 UTC on
+weekdays, plus a 02:15 UTC reconciliation the following morning. GitHub schedules
+can be delayed; these are collection intervals, not guaranteed delivery deadlines.
+`scripts/capture-event-results.mjs` creates history slots from stable calendar IDs,
+preserves original expectations, consumes researched official outcomes from
+`history/release-outcomes.json`, and attempts date-guarded official-source parsers
+for PCE, GDP, ISM, employment, CPI and PPI. Unsupported or blocked releases stay in
+the review queue; neither source absence nor a price move verifies an outcome.
+Earnings and policy announcements needing interpretation use reviewed official
+entries in that outcome file. No paid AI API is called.
+Nasdaq/SOX prices are captured independently of outcome verification. Missing
+due windows retry; valid captures survive retries. Pre-open/after-close index
+windows are marked inapplicable rather than filled with ETFs. Report-day close is
+T0 for after-close earnings; their following sessions remain in earnings history.
+Outstanding failures are saved under `history/result-capture/latest.json` and
+make the Action visibly fail after committing valid partial results. The Site
+checks GitHub history every five minutes while visible.
+
 The dashboard includes the preceding month through day 7 inclusive (Istanbul date),
 alongside the four forward months. On day 8 it hides that month and its rows.
 Before removing expired events from `events`, retain the preceding month's complete

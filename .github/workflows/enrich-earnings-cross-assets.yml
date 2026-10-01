@@ -11,7 +11,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: earnings-cross-assets
+  group: nascal-history-writer
   cancel-in-progress: false
 jobs:
   enrich:

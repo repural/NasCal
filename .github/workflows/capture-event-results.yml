@@ -1,0 +1,46 @@
+name: Capture released event outcomes and index windows
+on:
+  schedule:
+    - cron: '*/15 12-22 * * 1-5'
+    - cron: '15 2 * * 2-6'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/capture-event-results.yml'
+      - 'scripts/capture-event-results.mjs'
+      - 'scripts/result-capture-utils.mjs'
+      - 'history/release-outcomes.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: nascal-history-writer
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify outcomes and capture outstanding windows
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+        run: node scripts/capture-event-results.mjs
+      - name: Validate partial results
+        if: always()
+        run: node scripts/validate-history.mjs
+      - name: Preserve captures and report even when a source fails
+        if: always()
+        run: |
+          node scripts/validate-history.mjs
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add history/event-results.json history/result-capture/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Capture event outcomes and due index windows'
+            git pull --rebase origin main
+            git push
+          fi
