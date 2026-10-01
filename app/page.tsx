@@ -6,6 +6,7 @@ import { today } from "../data/calendar";
 import calendarSeed from "../data/calendar-live.json";
 import { validFeed, calendarMonths, type CalendarEvent, type CalendarFeed } from "../data/calendar-feed";
 import { earningsBenchmark, earningsHistory, earningsHistoryAsOf } from "../data/earnings-history";
+import { historicalPeers } from "../data/event-family.mjs";
 type HistoricalResult = {
   eventId:string;
   status:string;
@@ -59,14 +60,14 @@ function earningsHistoricalAnalysis(eventDate:string, ticker:string, result:Hist
   return lines.join("\n");
 }
 
-function historicalAnalysis(eventId:string,short:string,result:HistoricalResult|undefined,eventType:string,all:HistoricalResult[],index:typeof resultData.eventIndex){
+function historicalAnalysis(event:CalendarEvent,result:HistoricalResult|undefined,all:HistoricalResult[],index:typeof resultData.eventIndex){
+  const {id:eventId,short,type:eventType}=event;
   const eventDate=eventId.slice(0,10);
   if(eventType==="Earnings") {
     const earnings=earningsHistoricalAnalysis(eventDate,short.toUpperCase(),result);
     if(earnings) return earnings;
   }
-  const family=index[eventId as keyof typeof index]?.eventKey??all.map(r=>r.eventId).filter(id=>id.toLowerCase().endsWith(`-${short.toLowerCase()}`)).map(id=>index[id as keyof typeof index]?.eventKey).find(Boolean);
-  const peers=all.filter(r=>r.status==="verified"&&family&&index[r.eventId as keyof typeof index]?.eventKey===family&&index[r.eventId as keyof typeof index]?.eventDate<eventDate);
+  const {family,peers}=historicalPeers(event,all,index);
   const lines=[];
   if(result?.status==="verified"){
     lines.push(`Recorded outcome: ${result.actual}`);
@@ -76,7 +77,7 @@ function historicalAnalysis(eventId:string,short:string,result:HistoricalResult|
     }
     if(result.reactionStatus==="headline-driven-no-single-release")lines.push("Several statements and other market catalysts overlapped. A single +15-minute or +1-hour effect cannot be attributed to this event.");
   }
-  if(!peers.length){lines.push("No earlier verified occurrences of this event family are stored, so a comparable historical average is unavailable.");return lines.join("\n");}
+  if(!peers.length){lines.push(family?"No earlier verified occurrences of this event family are stored, so a comparable historical average is unavailable.":"This event has no mapped historical family yet; comparable historical statistics are unavailable.");return lines.join("\n");}
   lines.push(`${peers.length} earlier verified ${family} release${peers.length===1?"":"s"} in the archive. Day-close and intraday sample sizes differ according to available index data.`);
   for(const [name,label] of [["nasdaq","Nasdaq Composite"],["sox","SOX (PHLX Semiconductor)"]]){
     const observations=peers.flatMap(r=>{const p=r.indexLevels?.[name]?.priorClose?.value,c=r.indexLevels?.[name]?.dayClose?.value;return p&&c?[pct(c,p)]:[];});
@@ -245,7 +246,7 @@ export default function Home() {
           const isReleased = item.date < today;
           const isOpen = !!openResults[eventId];
           const show = (value: string | null | undefined) => value ?? "—";
-          const analysis = historicalAnalysis(eventId,item.short,result,item.type,archive.results as HistoricalResult[],archive.eventIndex);
+          const analysis = historicalAnalysis(item,result,archive.results as HistoricalResult[],archive.eventIndex);
           return <Fragment key={item.id}>
             <tr id={`event-${item.id}`} data-event-date={item.date}><td><time dateTime={item.date}>{prettyDate(item.date)}</time><span className="event-time">{eventTimes[eventId] ?? "Time TBD"}</span><span className={`release-state ${isReleased ? "released" : "upcoming"}`}>{isReleased ? "Released" : item.date === today ? "Today" : "Upcoming"}</span></td><td><strong>{item.event}</strong><span className={`tag tag-${item.type.toLowerCase()}`}>{item.type}</span>{"isNew" in item && item.isNew && <span className="new-badge">New</span>}{"isUpdated" in item && item.isUpdated && <span className="new-badge">Updated</span>}{item.status === "cancelled" && <span className="new-badge">Cancelled</span>}{"lastUpdated" in item && item.lastUpdated && <span className="last-updated">Last updated {item.lastUpdated}</span>}{"sourceUrl" in item && item.sourceUrl && <a className="source-link" href={item.sourceUrl} target="_blank" rel="noreferrer">Verified source</a>}<p className="why">{item.explanation}</p><div className="playbook"><span><b>Watch live</b>{item.watch}</span><span><b>Reaction window</b>{item.window}</span></div>{isReleased && <button className="result-toggle" type="button" aria-expanded={isOpen} onClick={() => setOpenResults(current => ({ ...current, [eventId]: !current[eventId] }))}>{isOpen ? "Hide results" : "View results"}<span aria-hidden="true">{isOpen ? "−" : "+"}</span></button>}</td><td><span className={`importance ${item.importance.toLowerCase()}`}>{item.importance} impact</span><span className={`signal bias-${item.bias.toLowerCase()}`}>{item.bias} bias</span><span className={`signal uncertainty-${item.uncertainty.toLowerCase()}`}>{item.uncertainty} uncertainty</span></td><td className="historical-cell">{analysis.split("\n").map((line, lineIndex)=><p key={lineIndex}>{line}</p>)}</td><td>{item.expects}</td><td className="positive">{item.positive}</td><td className="negative">{item.negative}</td></tr>
             {isReleased && isOpen && <tr className="results-row" data-event-date={item.date}><td colSpan={7}><div className="results-panel"><div className="results-heading"><div><p className="kicker">HISTORICAL RESULT</p><h3>{item.event}</h3></div><span className={`capture-state ${result?.status === "verified" ? "verified" : "pending"}`}>{result?.status === "verified" ? "Verified" : "Pending capture"}</span></div><div className="result-metrics"><span><b>Previous</b>{show(result?.previous)}</span><span><b>Expected</b>{show(result?.expected)}</span><span><b>Actual</b>{show(result?.actual)}</span><span><b>Surprise</b>{show(result?.surprise)}</span></div><div className="index-results">{([ ["nasdaq","Nasdaq Composite"], ["sox","SOX (PHLX Semiconductor)"] ] as const).map(([key,label]) => {const levels=result?.indexLevels?.[key];const prior=levels?.priorClose?.value;const preRelease=levels?.beforeRelease?.close;return <div className="index-card" key={key}><h4>{label}</h4><div className="result-metrics"><span><b>P. Day Close</b>{level(prior)}</span><span><b>+15 minutes</b>{levelChange(levels?.at15?.close,preRelease)}</span><span><b>+1 hour</b>{levelChange(levels?.at60?.close,preRelease)}</span><span><b>Event-day close</b>{levelChange(levels?.dayClose?.value,prior)}</span></div>{levels?.releaseTimeET&&result?.indexWindows&&result.indexWindows.length>1&&<p className="index-note">Intraday values shown for {levels.releaseLabel} at {levels.releaseTimeET} ET.</p>}{levels?.intradayStatus==="plan-not-authorized"&&<p className="index-note">Massive does not authorize SOX minute bars on the current plan; intraday values are unavailable.</p>}{levels?.intradayStatus==="exact-bars-unavailable"&&<p className="index-note">No exact index minute bar at this release time, often because the event was before the 09:30 ET market open.</p>}{levels?.intradayStatus==="awaiting-minute-bars"&&<p className="index-note">No single intraday release window was recorded for this event.</p>}{levels?.intradayStatus==="no-single-release-time"&&<p className="index-note">Statements unfolded through the session; +15-minute and +1-hour event quotes are not defined.</p>}{!levels&&<p className="index-note">Index levels have not yet been captured.</p>}</div>})}</div>{result?.indexWindows&&result.indexWindows.length>1&&<div className="result-explanation"><b>Separate release windows</b>{result.indexWindows.map(window=><p key={`${window.label}-${window.releaseTimeET}`}>{window.label} ({window.releaseTimeET} ET): Nasdaq +15m {level(window.nasdaq.at15?.close)}, +1h {level(window.nasdaq.at60?.close)}; SOX +15m {level(window.sox.at15?.close)}, +1h {level(window.sox.at60?.close)}</p>)}</div>}<div className="result-explanation"><b>Why the market reacted</b><p>{result?.explanation ?? "Awaiting verified historical data."}</p>{result?.indexLevels?.nasdaq?.sourceUrl&&<a href={result.indexLevels.nasdaq.sourceUrl} target="_blank" rel="noreferrer">Index data and method</a>}{result?.sourceUrl&&<a href={result.sourceUrl} target="_blank" rel="noreferrer">Verification source</a>}</div></div></td></tr>}

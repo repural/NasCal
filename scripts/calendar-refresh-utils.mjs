@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { resolveEventFamily } from '../data/event-family.mjs';
 
 export const officialDomains = ['bls.gov','bea.gov','census.gov','federalreserve.gov','treasury.gov','treasurydirect.gov','whitehouse.gov','commerce.gov','bis.gov','ustr.gov','state.gov','sec.gov','fec.gov','eac.gov','congress.gov','spglobal.com','ismworld.org','cmegroup.com','cboe.com','nasdaq.com','nyse.com','micron.com','micron.gcs-web.com','nvidia.com','amd.com','broadcom.com','tsmc.com','apple.com','microsoft.com','amazon.com','abc.xyz','google.com','meta.com','tesla.com','fmprc.gov.cn'];
 export const wireDomains = ['reuters.com','apnews.com','bloomberg.com'];
@@ -22,6 +23,9 @@ export function validateCalendar(data) {
   assert(Array.isArray(data.events) && data.events.length, 'Empty calendars cannot replace the last good version');
   const ids=new Set(); const identities=new Set();
   for(const e of data.events) {
+    if(e.eventKey!==undefined)assert(typeof e.eventKey==='string' && e.eventKey.trim(),'Invalid event family key');
+    const family=resolveEventFamily(e);
+    if(family)e.eventKey=family;
     for(const k of ['id','date','short','event','type','importance','explanation','expects','positive','negative','watch','window','bias','uncertainty','timeLabel']) assert(typeof e[k]==='string' && e[k].trim(),`Missing ${k} on ${e.id}`);
     assert(/^\d{4}-\d{2}-\d{2}$/.test(e.date) && new Date(e.date+'T12:00:00Z').toISOString().slice(0,10)===e.date,'Invalid date');
     assert.equal(e.id,`${e.date}-${e.short}`,'ID must match the historical date/short convention');

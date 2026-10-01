@@ -1,5 +1,6 @@
 export type CalendarEvent = {
   id:string;date:string;short:string;event:string;type:string;importance:string;
+  eventKey?:string;
   explanation:string;expects:string;positive:string;negative:string;watch:string;
   window:string;bias:string;uncertainty:string;timeLabel:string;
   sourceUrl?:string;isNew?:boolean;isUpdated?:boolean;lastUpdated?:string;

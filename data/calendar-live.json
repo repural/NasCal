@@ -29,7 +29,8 @@
           "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
           "title": "September 30 market context; Nasdaq preference and risk are analysis"
         }
-      ]
+      ],
+      "eventKey": "ism-manufacturing"
     },
     {
       "expects": "Reuters reported a 100,000 payroll increase expectation on September 25; no newer verified survey located. Wages, unemployment and revisions may matter as much as that dated baseline.",
@@ -61,7 +62,8 @@
           "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "employment-report"
     },
     {
       "expects": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
@@ -88,7 +90,8 @@
           "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
           "title": "September 30 market context; Nasdaq preference and risk are analysis"
         }
-      ]
+      ],
+      "eventKey": "ism-services"
     },
     {
       "expects": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
@@ -121,7 +124,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "fomc-minutes"
     },
     {
       "expects": "No dependable consensus for this monthly revenue update verified. Monthly sales are an activity signal, not earnings or a new guidance commitment.",
@@ -148,7 +152,8 @@
           "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
           "title": "September 30 market context; Nasdaq preference and risk are analysis"
         }
-      ]
+      ],
+      "eventKey": "tsmc-monthly-sales"
     },
     {
       "expects": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
@@ -179,7 +184,8 @@
           "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "cpi"
     },
     {
       "expects": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
@@ -211,7 +217,8 @@
           "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "ppi"
     },
     {
       "expects": "No reliable consensus for this retail sales release verified. Control-group sales and revisions are more informative for underlying consumption than fuel-price effects on the headline.",
@@ -243,7 +250,8 @@
           "url": "https://www.census.gov/retail/release_schedule.html",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "retail-sales"
     },
     {
       "expects": "No reliable October Flash PMI consensus verified. October 23 remains the existing calendar date pending official reconfirmation; standard U.S. release time is 09:45 ET.",
@@ -276,7 +284,8 @@
           "url": "https://www.mtsinsights.com/events/4745/",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "flash-pmi"
     },
     {
       "expects": "This is the first meeting day; no scheduled policy decision is expected on it. The decision comes the following day, after intervening economic data.",
@@ -307,7 +316,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "fomc-day-1"
     },
     {
       "expects": "September 30 futures pricing favored an October pause, with roughly one-third odds of a hike. This dated baseline can change with October jobs and CPI; it is not a live probability.",
@@ -339,7 +349,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "fomc-decision"
     },
     {
       "expects": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
@@ -371,7 +382,8 @@
           "url": "https://www.bea.gov/news/schedule/full",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "gdp-advance"
     },
     {
       "expects": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
@@ -403,7 +415,8 @@
           "url": "https://www.bea.gov/news/schedule/full",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "core-pce"
     },
     {
       "expects": "The Q3 wage-cost release is officially scheduled; no reliable numerical consensus verified. Compensation detail will test whether labor costs allow inflation to cool.",
@@ -436,7 +449,8 @@
           "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "employment-cost"
     },
     {
       "expects": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
@@ -469,7 +483,8 @@
           "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "ism-manufacturing"
     },
     {
       "expects": "No reliable consensus for this openings release verified. Read hires, quits and layoffs alongside openings rather than treating every decline as recessionary.",
@@ -502,7 +517,8 @@
           "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "jolts"
     },
     {
       "expects": "Congressional control is uncertain; no verified national market-implied election probability is used. Policy implementation and fiscal implications matter more than assigning a party a Nasdaq bias.",
@@ -529,7 +545,8 @@
           "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
           "title": "September 30 market context; Nasdaq preference and risk are analysis"
         }
-      ]
+      ],
+      "eventKey": "us-midterm-elections"
     },
     {
       "expects": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
@@ -562,7 +579,8 @@
           "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "ism-services"
     },
     {
       "id": "2026-11-05-PRODUCTIVITY",
@@ -601,7 +619,8 @@
           "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "productivity-costs"
     },
     {
       "expects": "No reliable event-specific payrolls or wage consensus is available yet; subsequent employment reports will update the baseline.",
@@ -634,7 +653,8 @@
           "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "employment-report"
     },
     {
       "expects": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
@@ -667,7 +687,8 @@
           "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "cpi"
     },
     {
       "expects": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
@@ -700,7 +721,8 @@
           "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "ppi"
     },
     {
       "expects": "The November 18–19 leaders gathering is scheduled. A separate Trump–Xi bilateral meeting and any new concessions are not confirmed; recent tariff recommendations are not implemented chip-policy relief.",
@@ -733,7 +755,8 @@
           "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "apec-leaders"
     },
     {
       "expects": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
@@ -766,7 +789,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "fomc-minutes"
     },
     {
       "expects": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
@@ -798,7 +822,8 @@
           "url": "https://www.bea.gov/news/schedule/full",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "gdp-second"
     },
     {
       "expects": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
@@ -830,7 +855,8 @@
           "url": "https://www.bea.gov/news/schedule/full",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "core-pce"
     },
     {
       "expects": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
@@ -863,7 +889,8 @@
           "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "ism-manufacturing"
     },
     {
       "expects": "No reliable consensus for this openings release verified. Read hires, quits and layoffs alongside openings rather than treating every decline as recessionary.",
@@ -896,7 +923,8 @@
           "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "jolts"
     },
     {
       "expects": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
@@ -929,7 +957,8 @@
           "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "ism-services"
     },
     {
       "expects": "No reliable event-specific payrolls or wage consensus is available yet; subsequent employment reports will update the baseline.",
@@ -962,7 +991,8 @@
           "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "employment-report"
     },
     {
       "id": "2026-12-08-PRODUCTIVITY",
@@ -1001,7 +1031,8 @@
           "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "productivity-costs"
     },
     {
       "expects": "No reliable December decision consensus established as of October 1. Pricing still allows further tightening before year-end; intervening jobs and inflation will determine the path.",
@@ -1034,7 +1065,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "fomc-decision"
     },
     {
       "expects": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
@@ -1067,7 +1099,8 @@
           "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "cpi"
     },
     {
       "expects": "No reliable forecast for summit policy outcomes. A separate Trump–Xi meeting remains unconfirmed; recent non-sensitive tariff recommendations do not settle advanced-chip restrictions.",
@@ -1100,7 +1133,8 @@
           "url": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/bmdyzs_664814/xwlb_664816/202609/t20260926_12031663.html",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "g20-leaders"
     },
     {
       "expects": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
@@ -1133,7 +1167,8 @@
           "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "ppi"
     },
     {
       "expects": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
@@ -1165,7 +1200,8 @@
           "url": "https://www.bea.gov/news/schedule/full",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "gdp-final"
     },
     {
       "expects": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
@@ -1197,7 +1233,8 @@
           "url": "https://www.bea.gov/news/schedule/full",
           "title": "Event baseline or official release schedule"
         }
-      ]
+      ],
+      "eventKey": "core-pce"
     }
   ]
 }
