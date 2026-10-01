@@ -1596,6 +1596,446 @@
       "confounders": [
         "Other macro, trade-policy and sector developments across the 15-session window"
       ]
+    },
+    "2026-09-29-AI POLICY": {
+      "eventDate": "2026-09-29",
+      "eventKey": "event-ai-policy",
+      "eventType": "Politics",
+      "importance": "Critical",
+      "timeET": "headline-driven",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "event-ai-policy",
+      "confounders": []
+    },
+    "2026-09-30-PCE": {
+      "eventDate": "2026-09-30",
+      "eventKey": "core-pce",
+      "eventType": "Inflation",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": []
+    },
+    "2026-09-30-GDP": {
+      "eventDate": "2026-09-30",
+      "eventKey": "gdp-final",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "gdp-final",
+      "confounders": []
+    },
+    "2026-10-01-ISM": {
+      "eventDate": "2026-10-01",
+      "eventKey": "ism-manufacturing",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-manufacturing",
+      "confounders": []
+    },
+    "2026-10-02-Jobs": {
+      "eventDate": "2026-10-02",
+      "eventKey": "employment-report",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-report",
+      "confounders": []
+    },
+    "2026-10-05-ISM Services": {
+      "eventDate": "2026-10-05",
+      "eventKey": "ism-services",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-services",
+      "confounders": []
+    },
+    "2026-10-07-FOMC MINUTES": {
+      "eventDate": "2026-10-07",
+      "eventKey": "fomc-minutes",
+      "eventType": "Fed",
+      "importance": "High",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fomc-minutes",
+      "confounders": []
+    },
+    "2026-10-08-TSMC": {
+      "eventDate": "2026-10-08",
+      "eventKey": "tsmc-monthly-sales",
+      "eventType": "Earnings",
+      "importance": "High",
+      "timeET": "after-close",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "tsmc-monthly-sales",
+      "confounders": []
+    },
+    "2026-10-14-CPI": {
+      "eventDate": "2026-10-14",
+      "eventKey": "cpi",
+      "eventType": "Inflation",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "cpi",
+      "confounders": []
+    },
+    "2026-10-15-PPI": {
+      "eventDate": "2026-10-15",
+      "eventKey": "ppi",
+      "eventType": "Inflation",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ppi",
+      "confounders": []
+    },
+    "2026-10-15-Retail": {
+      "eventDate": "2026-10-15",
+      "eventKey": "retail-sales",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "retail-sales",
+      "confounders": []
+    },
+    "2026-10-23-FLASH PMI": {
+      "eventDate": "2026-10-23",
+      "eventKey": "flash-pmi",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "09:45",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "flash-pmi",
+      "confounders": []
+    },
+    "2026-10-27-FOMC 1": {
+      "eventDate": "2026-10-27",
+      "eventKey": "fomc-day-1",
+      "eventType": "Fed",
+      "importance": "Critical",
+      "timeET": "headline-driven",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fomc-day-1",
+      "confounders": []
+    },
+    "2026-10-28-FED": {
+      "eventDate": "2026-10-28",
+      "eventKey": "fomc-decision",
+      "eventType": "Fed",
+      "importance": "Critical",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fomc-decision",
+      "confounders": []
+    },
+    "2026-10-29-GDP": {
+      "eventDate": "2026-10-29",
+      "eventKey": "gdp-advance",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "gdp-advance",
+      "confounders": []
+    },
+    "2026-10-29-PCE": {
+      "eventDate": "2026-10-29",
+      "eventKey": "core-pce",
+      "eventType": "Inflation",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": []
+    },
+    "2026-10-30-ECI": {
+      "eventDate": "2026-10-30",
+      "eventKey": "employment-cost",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-cost",
+      "confounders": []
+    },
+    "2026-11-02-ISM MFG": {
+      "eventDate": "2026-11-02",
+      "eventKey": "ism-manufacturing",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-manufacturing",
+      "confounders": []
+    },
+    "2026-11-03-JOLTS": {
+      "eventDate": "2026-11-03",
+      "eventKey": "jolts",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "jolts",
+      "confounders": []
+    },
+    "2026-11-03-MIDTERMS": {
+      "eventDate": "2026-11-03",
+      "eventKey": "us-midterm-elections",
+      "eventType": "Politics",
+      "importance": "Critical",
+      "timeET": "19:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "us-midterm-elections",
+      "confounders": []
+    },
+    "2026-11-04-ISM SERVICES": {
+      "eventDate": "2026-11-04",
+      "eventKey": "ism-services",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-services",
+      "confounders": []
+    },
+    "2026-11-05-PRODUCTIVITY": {
+      "eventDate": "2026-11-05",
+      "eventKey": "productivity-costs",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "productivity-costs",
+      "confounders": []
+    },
+    "2026-11-06-JOBS": {
+      "eventDate": "2026-11-06",
+      "eventKey": "employment-report",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-report",
+      "confounders": []
+    },
+    "2026-11-10-CPI": {
+      "eventDate": "2026-11-10",
+      "eventKey": "cpi",
+      "eventType": "Inflation",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "cpi",
+      "confounders": []
+    },
+    "2026-11-13-PPI": {
+      "eventDate": "2026-11-13",
+      "eventKey": "ppi",
+      "eventType": "Inflation",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ppi",
+      "confounders": []
+    },
+    "2026-11-18-APEC": {
+      "eventDate": "2026-11-18",
+      "eventKey": "apec-leaders",
+      "eventType": "Politics",
+      "importance": "Critical",
+      "timeET": "headline-driven",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "apec-leaders",
+      "confounders": []
+    },
+    "2026-11-18-FOMC MINUTES": {
+      "eventDate": "2026-11-18",
+      "eventKey": "fomc-minutes",
+      "eventType": "Fed",
+      "importance": "High",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fomc-minutes",
+      "confounders": []
+    },
+    "2026-11-25-GDP": {
+      "eventDate": "2026-11-25",
+      "eventKey": "gdp-second",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "gdp-second",
+      "confounders": []
+    },
+    "2026-11-25-PCE": {
+      "eventDate": "2026-11-25",
+      "eventKey": "core-pce",
+      "eventType": "Inflation",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": []
+    },
+    "2026-12-01-ISM MFG": {
+      "eventDate": "2026-12-01",
+      "eventKey": "ism-manufacturing",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-manufacturing",
+      "confounders": []
+    },
+    "2026-12-01-JOLTS": {
+      "eventDate": "2026-12-01",
+      "eventKey": "jolts",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "jolts",
+      "confounders": []
+    },
+    "2026-12-03-ISM SERVICES": {
+      "eventDate": "2026-12-03",
+      "eventKey": "ism-services",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ism-services",
+      "confounders": []
+    },
+    "2026-12-04-JOBS": {
+      "eventDate": "2026-12-04",
+      "eventKey": "employment-report",
+      "eventType": "Macro",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "employment-report",
+      "confounders": []
+    },
+    "2026-12-08-PRODUCTIVITY": {
+      "eventDate": "2026-12-08",
+      "eventKey": "productivity-costs",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "productivity-costs",
+      "confounders": []
+    },
+    "2026-12-09-FED": {
+      "eventDate": "2026-12-09",
+      "eventKey": "fomc-decision",
+      "eventType": "Fed",
+      "importance": "Critical",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fomc-decision",
+      "confounders": []
+    },
+    "2026-12-10-CPI": {
+      "eventDate": "2026-12-10",
+      "eventKey": "cpi",
+      "eventType": "Inflation",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "cpi",
+      "confounders": []
+    },
+    "2026-12-14-G20": {
+      "eventDate": "2026-12-14",
+      "eventKey": "g20-leaders",
+      "eventType": "Politics",
+      "importance": "Critical",
+      "timeET": "headline-driven",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "g20-leaders",
+      "confounders": []
+    },
+    "2026-12-15-PPI": {
+      "eventDate": "2026-12-15",
+      "eventKey": "ppi",
+      "eventType": "Inflation",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "ppi",
+      "confounders": []
+    },
+    "2026-12-23-GDP": {
+      "eventDate": "2026-12-23",
+      "eventKey": "gdp-final",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "gdp-final",
+      "confounders": []
+    },
+    "2026-12-23-PCE": {
+      "eventDate": "2026-12-23",
+      "eventKey": "core-pce",
+      "eventType": "Inflation",
+      "importance": "Critical",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "core-pce",
+      "confounders": []
     }
   },
   "results": [
@@ -28411,7 +28851,23 @@
             }
           }
         }
-      ]
+      ],
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      }
     },
     {
       "eventId": "2026-09-23-5Y",
@@ -28689,7 +29145,23 @@
             }
           }
         }
-      ]
+      ],
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      }
     },
     {
       "eventId": "2026-09-23-FLASH PMI",
@@ -28977,7 +29449,23 @@
             }
           }
         }
-      ]
+      ],
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      }
     },
     {
       "eventId": "2026-09-24-7Y",
@@ -29154,7 +29642,7 @@
             "date": "2026-09-24",
             "value": 26734.50815004199
           },
-          "releaseLabel": "seven-year Treasury auction",
+          "releaseLabel": "seven-year-treasury-auction",
           "releaseTimeET": "13:00",
           "beforeRelease": {
             "minuteET": "12:59",
@@ -29187,7 +29675,7 @@
             "date": "2026-09-24",
             "value": 12309.09307455128
           },
-          "releaseLabel": "seven-year Treasury auction",
+          "releaseLabel": "seven-year-treasury-auction",
           "releaseTimeET": "13:00",
           "beforeRelease": {
             "minuteET": "12:59",
@@ -29223,7 +29711,23 @@
       ],
       "qqq15m": "-0.01%",
       "qqq1h": "-0.31%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      }
     },
     {
       "eventId": "2026-09-24-TRUMP–XI",
@@ -29256,13 +29760,15 @@
             "value": 26939.37301120382,
             "open": 26734.50815004199
           },
-          "intradayStatus": "no-single-release-time",
+          "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-10-01",
           "dayOpen": {
             "date": "2026-09-24",
             "value": 26734.50815004199
-          }
+          },
+          "releaseTimeET": "headline-driven",
+          "releaseLabel": "trump-xi-summit"
         },
         "sox": {
           "priorClose": {
@@ -29277,25 +29783,43 @@
             "value": 12492.53651950959,
             "open": 12309.09307455128
           },
-          "intradayStatus": "no-single-release-time",
+          "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-10-01",
           "dayOpen": {
             "date": "2026-09-24",
             "value": 12309.09307455128
-          }
+          },
+          "releaseTimeET": "headline-driven",
+          "releaseLabel": "trump-xi-summit"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
         }
       }
     },
     {
       "eventId": "2026-09-30-MU",
-      "status": "pending",
+      "status": "verified",
       "previous": null,
       "expected": null,
-      "actual": null,
-      "surprise": null,
-      "explanation": null,
-      "sourceUrl": "https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-report-fiscal-fourth-quarter-results-5",
+      "actual": "Fiscal Q4 revenue $54.229 billion; adjusted diluted EPS $33.42. Q1 guidance: revenue $61.5 billion ± $1.5 billion; adjusted EPS $38.15 ± $1.00; adjusted gross margin approximately 86.25%.",
+      "surprise": "No verified contemporaneous consensus; surprise not calculated.",
+      "explanation": "Outcome verified. Observed price changes may reflect overlapping catalysts; no isolated causal attribution.",
+      "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
       "earningsCrossAssets": {
         "schemaVersion": 1,
         "source": "Massive adjusted daily aggregates",
@@ -30404,6 +30928,70 @@
           }
         ],
         "updatedAt": "2026-10-01"
+      },
+      "verifiedAt": "2026-10-01",
+      "outcomeMetrics": {
+        "metric": "earnings",
+        "revenueBillion": 54.229,
+        "adjustedEps": 33.42,
+        "guidanceRevenueBillion": 61.5,
+        "guidanceAdjustedEps": 38.15,
+        "guidanceGrossMarginPct": 86.25,
+        "consensusRevenueBillion": null,
+        "consensusAdjustedEps": null
+      },
+      "outcomeStatus": "verified",
+      "auditNotes": [
+        {
+          "at": "2026-10-01",
+          "action": "Official outcome verified; existing price and earnings windows preserved."
+        }
+      ],
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      },
+      "indexLevels": {
+        "nasdaq": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "after-close",
+          "releaseLabel": "micron-fiscal-q4-earnings",
+          "priorClose": {
+            "date": "2026-09-29",
+            "value": 26797.54082498869
+          },
+          "dayClose": {
+            "date": "2026-09-30",
+            "value": 26861.06375308664
+          },
+          "intradayStatus": "outside-index-session"
+        },
+        "sox": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "after-close",
+          "releaseLabel": "micron-fiscal-q4-earnings",
+          "priorClose": {
+            "date": "2026-09-29",
+            "value": 12629.16136787103
+          },
+          "dayClose": {
+            "date": "2026-09-30",
+            "value": 12628.62375005161
+          },
+          "intradayStatus": "outside-index-session"
+        }
       }
     },
     {
@@ -81089,6 +81677,583 @@
           }
         }
       }
+    },
+    {
+      "eventId": "2026-09-29-AI POLICY",
+      "status": "pending",
+      "expected": "Ahead of the meeting, no binding rule or concrete policy package was confirmed; a balance between innovation and oversight was the stated goal.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      },
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
+      "outcomeRetryAt": "2026-10-01T14:54:53.337Z",
+      "indexLevels": {
+        "nasdaq": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "headline-driven",
+          "releaseLabel": "event-ai-policy",
+          "priorClose": {
+            "date": "2026-09-28",
+            "value": 26820.38093014728
+          },
+          "dayClose": {
+            "date": "2026-09-29",
+            "value": 26797.54082498869
+          },
+          "intradayStatus": "awaiting-minute-bars"
+        },
+        "sox": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "headline-driven",
+          "releaseLabel": "event-ai-policy",
+          "priorClose": {
+            "date": "2026-09-28",
+            "value": 12465.24162471531
+          },
+          "dayClose": {
+            "date": "2026-09-29",
+            "value": 12629.16136787103
+          },
+          "intradayStatus": "awaiting-minute-bars"
+        }
+      }
+    },
+    {
+      "eventId": "2026-09-30-PCE",
+      "status": "verified",
+      "expected": "No reliable event-specific consensus yet; inflation remains above target and energy-price volatility adds pass-through risk.",
+      "previous": "Revised July core PCE: +0.1% month on month.",
+      "actual": "August core PCE rose 0.2% month on month and 3.0% year on year; headline PCE rose 0.3% month on month and 3.4% year on year.",
+      "surprise": "No verified contemporaneous consensus; surprise not calculated.",
+      "sourceUrl": "https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026",
+      "verifiedAt": "2026-10-01",
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-08",
+        "momPct": 0.2,
+        "yoyPct": 3,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026"
+      },
+      "outcomeStatus": "verified",
+      "explanation": "Outcome verified. Observed price changes may reflect overlapping catalysts; no isolated causal attribution.",
+      "auditNotes": [
+        {
+          "at": "2026-10-01",
+          "action": "Official outcome verified; existing price and earnings windows preserved."
+        }
+      ],
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      },
+      "indexLevels": {
+        "nasdaq": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "core-pce",
+          "priorClose": {
+            "date": "2026-09-29",
+            "value": 26797.54082498869
+          },
+          "dayClose": {
+            "date": "2026-09-30",
+            "value": 26861.06375308664
+          },
+          "intradayStatus": "outside-index-session"
+        },
+        "sox": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "core-pce",
+          "priorClose": {
+            "date": "2026-09-29",
+            "value": 12629.16136787103
+          },
+          "dayClose": {
+            "date": "2026-09-30",
+            "value": 12628.62375005161
+          },
+          "intradayStatus": "outside-index-session"
+        }
+      }
+    },
+    {
+      "eventId": "2026-09-30-GDP",
+      "status": "verified",
+      "expected": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "previous": "Q2 second estimate: 1.5% annualized.",
+      "actual": "Final Q2 real GDP growth: 2.2% annualized, revised up 0.7 percentage point from the second estimate.",
+      "surprise": "No verified contemporaneous consensus; surprise not calculated.",
+      "sourceUrl": "https://www.bea.gov/index.php/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+      "verifiedAt": "2026-10-01",
+      "outcomeMetrics": {
+        "metric": "gdp-final",
+        "annualizedPct": 2.2,
+        "previousEstimatePct": 1.5,
+        "revisionPp": 0.7
+      },
+      "outcomeStatus": "verified",
+      "explanation": "Outcome verified. Observed price changes may reflect overlapping catalysts; no isolated causal attribution.",
+      "auditNotes": [
+        {
+          "at": "2026-10-01",
+          "action": "Official outcome verified; existing price and earnings windows preserved."
+        }
+      ],
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-01T14:24:53.337Z"
+        }
+      },
+      "indexLevels": {
+        "nasdaq": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "gdp-final",
+          "priorClose": {
+            "date": "2026-09-29",
+            "value": 26797.54082498869
+          },
+          "dayClose": {
+            "date": "2026-09-30",
+            "value": 26861.06375308664
+          },
+          "intradayStatus": "outside-index-session"
+        },
+        "sox": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "gdp-final",
+          "priorClose": {
+            "date": "2026-09-29",
+            "value": 12629.16136787103
+          },
+          "dayClose": {
+            "date": "2026-09-30",
+            "value": 12628.62375005161
+          },
+          "intradayStatus": "outside-index-session"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-01-ISM",
+      "status": "pending",
+      "expected": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "due",
+          "error": "HTTP 403",
+          "checkedAt": "2026-10-01T14:24:53.337Z",
+          "retryAt": "2026-10-02T14:24:53.337Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "due",
+          "error": "HTTP 403",
+          "checkedAt": "2026-10-01T14:24:53.337Z",
+          "retryAt": "2026-10-02T14:24:53.337Z"
+        }
+      },
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Published date or supported outcome fields could not be verified.",
+      "outcomeRetryAt": "2026-10-01T14:54:53.337Z",
+      "indexLevels": {
+        "nasdaq": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "10:00",
+          "releaseLabel": "ism-manufacturing",
+          "priorClose": {
+            "date": "2026-09-30",
+            "value": 26861.06375308664
+          },
+          "intradayStatus": "plan-not-authorized"
+        },
+        "sox": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "10:00",
+          "releaseLabel": "ism-manufacturing",
+          "priorClose": {
+            "date": "2026-09-30",
+            "value": 12628.62375005161
+          },
+          "intradayStatus": "plan-not-authorized"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-02-Jobs",
+      "status": "pending",
+      "expected": "Reuters reported a 100,000 payroll increase expectation on September 25; no newer verified survey located. Wages, unemployment and revisions may matter as much as that dated baseline.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-05-ISM Services",
+      "status": "pending",
+      "expected": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-07-FOMC MINUTES",
+      "status": "pending",
+      "expected": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-08-TSMC",
+      "status": "pending",
+      "expected": "No dependable consensus for this monthly revenue update verified. Monthly sales are an activity signal, not earnings or a new guidance commitment.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-14-CPI",
+      "status": "pending",
+      "expected": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-15-PPI",
+      "status": "pending",
+      "expected": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-15-Retail",
+      "status": "pending",
+      "expected": "No reliable consensus for this retail sales release verified. Control-group sales and revisions are more informative for underlying consumption than fuel-price effects on the headline.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-23-FLASH PMI",
+      "status": "pending",
+      "expected": "No reliable October Flash PMI consensus verified. October 23 remains the existing calendar date pending official reconfirmation; standard U.S. release time is 09:45 ET.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-27-FOMC 1",
+      "status": "pending",
+      "expected": "This is the first meeting day; no scheduled policy decision is expected on it. The decision comes the following day, after intervening economic data.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-28-FED",
+      "status": "pending",
+      "expected": "September 30 futures pricing favored an October pause, with roughly one-third odds of a hike. This dated baseline can change with October jobs and CPI; it is not a live probability.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-29-GDP",
+      "status": "pending",
+      "expected": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-29-PCE",
+      "status": "pending",
+      "expected": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-30-ECI",
+      "status": "pending",
+      "expected": "The Q3 wage-cost release is officially scheduled; no reliable numerical consensus verified. Compensation detail will test whether labor costs allow inflation to cool.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-02-ISM MFG",
+      "status": "pending",
+      "expected": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-03-JOLTS",
+      "status": "pending",
+      "expected": "No reliable consensus for this openings release verified. Read hires, quits and layoffs alongside openings rather than treating every decline as recessionary.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-03-MIDTERMS",
+      "status": "pending",
+      "expected": "Congressional control is uncertain; no verified national market-implied election probability is used. Policy implementation and fiscal implications matter more than assigning a party a Nasdaq bias.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-04-ISM SERVICES",
+      "status": "pending",
+      "expected": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-05-PRODUCTIVITY",
+      "status": "pending",
+      "expected": "Q3 results are not yet known and no dependable consensus is verified. The prior Q2 release reported positive productivity growth and moderate unit labor cost growth.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-06-JOBS",
+      "status": "pending",
+      "expected": "No reliable event-specific payrolls or wage consensus is available yet; subsequent employment reports will update the baseline.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-10-CPI",
+      "status": "pending",
+      "expected": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-13-PPI",
+      "status": "pending",
+      "expected": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-18-APEC",
+      "status": "pending",
+      "expected": "The November 18–19 leaders gathering is scheduled. A separate Trump–Xi bilateral meeting and any new concessions are not confirmed; recent tariff recommendations are not implemented chip-policy relief.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-18-FOMC MINUTES",
+      "status": "pending",
+      "expected": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-25-GDP",
+      "status": "pending",
+      "expected": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-25-PCE",
+      "status": "pending",
+      "expected": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-01-ISM MFG",
+      "status": "pending",
+      "expected": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-01-JOLTS",
+      "status": "pending",
+      "expected": "No reliable consensus for this openings release verified. Read hires, quits and layoffs alongside openings rather than treating every decline as recessionary.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-03-ISM SERVICES",
+      "status": "pending",
+      "expected": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-04-JOBS",
+      "status": "pending",
+      "expected": "No reliable event-specific payrolls or wage consensus is available yet; subsequent employment reports will update the baseline.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-08-PRODUCTIVITY",
+      "status": "pending",
+      "expected": "This revises Q3 productivity and unit labor costs. The November 5 preliminary result is not available yet, and no dependable revision consensus exists.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-09-FED",
+      "status": "pending",
+      "expected": "No reliable December decision consensus established as of October 1. Pricing still allows further tightening before year-end; intervening jobs and inflation will determine the path.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-10-CPI",
+      "status": "pending",
+      "expected": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-14-G20",
+      "status": "pending",
+      "expected": "No reliable forecast for summit policy outcomes. A separate Trump–Xi meeting remains unconfirmed; recent non-sensitive tariff recommendations do not settle advanced-chip restrictions.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-15-PPI",
+      "status": "pending",
+      "expected": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-23-GDP",
+      "status": "pending",
+      "expected": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-23-PCE",
+      "status": "pending",
+      "expected": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
     }
   ],
   "earnings": {
@@ -81722,5 +82887,6 @@
         }
       ]
     }
-  }
+  },
+  "updatedAt": "2026-10-01T14:24:53.337Z"
 }
