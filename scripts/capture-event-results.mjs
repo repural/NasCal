@@ -61,6 +61,8 @@ for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&
   for(const [name,ticker] of [['nasdaq','I:COMP'],['sox','I:SOX']]){
     r.indexLevels??={};const l=r.indexLevels[name]??={};const state=r.capture[name]??={};
     l.sourceUrl='https://massive.com/docs/rest/indices/aggregates/custom-bars';l.releaseTimeET=i.timeET;l.releaseLabel=i.eventKey;
+    // Migrate older minute-only denials without delaying daily close capture.
+    if(state.error?.includes('403')&&l.intradayStatus==='plan-not-authorized'&&!state.minuteRetryAt){state.minuteRetryAt=state.retryAt;delete state.retryAt;}
     if(state.retryAt&&Date.parse(state.retryAt)>now)continue;
     let stage='day';
     try{
@@ -93,7 +95,7 @@ for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&
   }
   const overdue=release!==null&&now>release+2*3600000;
   if(overdue&&r.status!=='verified')report.issues.push({id:e.id,field:'outcome',reason:r.outcomeError??'Awaiting verified release'});
-  for(const [name,state] of Object.entries(r.capture))if(state.error||Object.values(state).includes('missing')||Object.values(state).includes('exact-bars-missing'))report.issues.push({id:e.id,asset:name,reason:state.error??'Due price window not captured'});
+  for(const [name,state] of Object.entries(r.capture))if(state.error||Object.values(state).some(s=>['missing','exact-bars-missing','plan-not-authorized'].includes(s)))report.issues.push({id:e.id,asset:name,reason:state.error??'Due price window unavailable; see capture states'});
 }
 archive.lastUpdated=today;archive.updatedAt=new Date(now).toISOString();
 await fs.writeFile(new URL('history/event-results.json',root),JSON.stringify(archive,null,2)+'\n');

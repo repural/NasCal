@@ -6,20 +6,64 @@
       "previous": "Revised July core PCE: +0.1% month on month.",
       "sourceUrl": "https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026",
       "verifiedAt": "2026-10-01",
-      "outcomeMetrics": {"metric":"core-pce","referenceMonth":"2026-08","momPct":0.2,"yoyPct":3.0,"consensusMomPct":null,"surpriseMomPp":null,"sourceUrl":"https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026"}
+      "outcomeMetrics": {
+        "metric": "core-pce",
+        "referenceMonth": "2026-08",
+        "momPct": 0.2,
+        "yoyPct": 3,
+        "consensusMomPct": null,
+        "surpriseMomPp": null,
+        "sourceUrl": "https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026"
+      }
     },
     "2026-09-30-GDP": {
       "actual": "Final Q2 real GDP growth: 2.2% annualized, revised up 0.7 percentage point from the second estimate.",
       "previous": "Q2 second estimate: 1.5% annualized.",
       "sourceUrl": "https://www.bea.gov/index.php/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
       "verifiedAt": "2026-10-01",
-      "outcomeMetrics": {"metric":"gdp-final","annualizedPct":2.2,"previousEstimatePct":1.5,"revisionPp":0.7}
+      "outcomeMetrics": {
+        "metric": "gdp-final",
+        "annualizedPct": 2.2,
+        "previousEstimatePct": 1.5,
+        "revisionPp": 0.7
+      }
     },
     "2026-09-30-MU": {
       "actual": "Fiscal Q4 revenue $54.229 billion; adjusted diluted EPS $33.42. Q1 guidance: revenue $61.5 billion ± $1.5 billion; adjusted EPS $38.15 ± $1.00; adjusted gross margin approximately 86.25%.",
       "sourceUrl": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
       "verifiedAt": "2026-10-01",
-      "outcomeMetrics": {"metric":"earnings","revenueBillion":54.229,"adjustedEps":33.42,"guidanceRevenueBillion":61.5,"guidanceAdjustedEps":38.15,"guidanceGrossMarginPct":86.25,"consensusRevenueBillion":null,"consensusAdjustedEps":null}
+      "outcomeMetrics": {
+        "metric": "earnings",
+        "revenueBillion": 54.229,
+        "adjustedEps": 33.42,
+        "guidanceRevenueBillion": 61.5,
+        "guidanceAdjustedEps": 38.15,
+        "guidanceGrossMarginPct": 86.25,
+        "consensusRevenueBillion": null,
+        "consensusAdjustedEps": null
+      }
+    },
+    "2026-10-01-ISM": {
+      "actual": "September manufacturing PMI 54.5; new orders 55.3; employment 52.7; prices paid 77.9.",
+      "previous": "August manufacturing PMI 54.6; prices paid 71.1.",
+      "expected": "Reuters economist poll: manufacturing PMI 55.0.",
+      "surprise": "Manufacturing PMI 0.5 point below the Reuters consensus; prices paid increased 6.8 points from August.",
+      "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+      "verifiedAt": "2026-10-01",
+      "outcomeMetrics": {
+        "metric": "ism-manufacturing",
+        "referenceMonth": "2026-09",
+        "actual": 54.5,
+        "previous": 54.6,
+        "consensus": 55,
+        "surprisePoints": -0.5,
+        "newOrders": 55.3,
+        "employment": 52.7,
+        "pricesPaid": 77.9,
+        "previousPricesPaid": 71.1,
+        "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+        "consensusSourceUrl": "https://www.reuters.com/business/us-manufacturing-steady-september-input-prices-increase-2026-10-01/"
+      }
     }
   }
 }
