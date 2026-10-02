@@ -101,4 +101,11 @@ archive.lastUpdated=today;archive.updatedAt=new Date(now).toISOString();
 await fs.writeFile(new URL('history/event-results.json',root),JSON.stringify(archive,null,2)+'\n');
 await fs.mkdir(new URL('history/result-capture/',root),{recursive:true});await fs.writeFile(new URL('history/result-capture/latest.json',root),JSON.stringify(report,null,2)+'\n');
 console.log(`Result capture: ${report.requests} market requests; ${report.issues.length} outstanding issues. See history/result-capture/latest.json.`);
-if(report.issues.length)process.exitCode=1;
+// Missing/delayed/plan-restricted market windows are data-state conditions, not
+// workflow execution failures. Persist them in latest.json and retry on the next
+// scheduled capture without marking the GitHub Action red (which otherwise
+// generates a failure notification every 15 minutes). Uncaught script/runtime,
+// validation, or publish errors still fail the workflow normally.
+if(report.issues.length){
+  console.warn(`Capture completed with ${report.issues.length} outstanding data issue(s); they remain queued for retry.`);
+}
