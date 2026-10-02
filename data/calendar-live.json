@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T08:44:30.776Z",
-  "asOf": "2026-10-01",
-  "horizonEnd": "2026-12-30",
+  "updatedAt": "2026-10-02T04:15:00.000Z",
+  "asOf": "2026-10-02",
+  "horizonEnd": "2026-12-31",
   "events": [
     {
       "expects": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
@@ -21,7 +21,7 @@
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -33,7 +33,7 @@
       "eventKey": "ism-manufacturing"
     },
     {
-      "expects": "Reuters reported a 100,000 payroll increase expectation on September 25; no newer verified survey located. Wages, unemployment and revisions may matter as much as that dated baseline.",
+      "expects": "Reuters economists expect September payrolls to rise 90,000 after 162,000 in August, with unemployment holding at 4.1%. Revisions and wage growth remain important because yields are elevated.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -44,19 +44,19 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The report will test whether August’s strong payroll gain and wage pressure were persistent enough to justify back-to-back tightening.",
-      "positive": "Moderate hiring, slower wage growth and stable unemployment: preserves spending and reduces rate pressure on growth stocks.",
-      "negative": "A wage or payroll upside surprise revives hike pricing; severe job losses would undermine revenue expectations.",
+      "positive": "A controlled cooling in hiring and wages without a sharp rise in unemployment: supports earnings while limiting pressure for another Fed hike.",
+      "negative": "A strong payroll/wage surprise that lifts yields and tightening expectations; the opposite risk is a sharp employment miss that damages growth expectations.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-02",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.reuters.com/business/us-manufacturing-steady-september-input-prices-increase-2026-10-01/",
+          "title": "Reuters employment consensus and current inflation context"
         },
         {
           "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
@@ -82,7 +82,7 @@
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -92,6 +92,39 @@
         }
       ],
       "eventKey": "ism-services"
+    },
+    {
+      "id": "2026-10-07-UST 10Y",
+      "date": "2026-10-07",
+      "short": "UST 10Y",
+      "event": "10-year Treasury note reopening",
+      "timeLabel": "13:00 ET · 20:00 Istanbul",
+      "eventKey": "treasury-10y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
@@ -113,7 +146,7 @@
       "id": "2026-10-07-FOMC MINUTES",
       "timeLabel": "14:00 ET · 21:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -126,6 +159,39 @@
         }
       ],
       "eventKey": "fomc-minutes"
+    },
+    {
+      "id": "2026-10-08-UST 30Y",
+      "date": "2026-10-08",
+      "short": "UST 30Y",
+      "event": "30-year Treasury bond reopening",
+      "timeLabel": "13:00 ET · 20:00 Istanbul",
+      "eventKey": "treasury-30y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "No dependable consensus for this monthly revenue update verified. Monthly sales are an activity signal, not earnings or a new guidance commitment.",
@@ -144,7 +210,7 @@
       "id": "2026-10-08-TSMC",
       "timeLabel": "Publication time not fixed",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -172,7 +238,7 @@
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -205,7 +271,7 @@
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -238,7 +304,7 @@
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -252,6 +318,39 @@
         }
       ],
       "eventKey": "retail-sales"
+    },
+    {
+      "id": "2026-10-21-UST 20Y",
+      "date": "2026-10-21",
+      "short": "UST 20Y",
+      "event": "20-year Treasury bond reopening",
+      "timeLabel": "13:00 ET · 20:00 Istanbul",
+      "eventKey": "treasury-20y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "No reliable October Flash PMI consensus verified. October 23 remains the existing calendar date pending official reconfirmation; standard U.S. release time is 09:45 ET.",
@@ -268,14 +367,18 @@
       "positive": "Continued expansion with easing selling prices and wage pressure, supporting revenue growth without reviving rate-hike bets.",
       "negative": "Stronger selling prices and labor tightness outweigh activity strength, lifting Treasury yields; a sharp demand decline would be the growth risk.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
-      "sourceUrl": "https://www.mtsinsights.com/events/4745/",
+      "lastUpdated": "2026-10-02",
+      "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-02",
+      "isUpdated": true,
       "interpretationSources": [
+        {
+          "url": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
+          "title": "S&P Global PMI release calendar — October 23 at 09:45 ET"
+        },
         {
           "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
           "title": "September 30 market context; Nasdaq preference and risk are analysis"
@@ -304,7 +407,7 @@
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -339,7 +442,7 @@
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "interpretationSources": [
         {
           "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
@@ -370,7 +473,7 @@
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -403,7 +506,7 @@
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -417,6 +520,39 @@
         }
       ],
       "eventKey": "core-pce"
+    },
+    {
+      "id": "2026-10-29-UST 7Y",
+      "date": "2026-10-29",
+      "short": "UST 7Y",
+      "event": "7-year Treasury note auction",
+      "timeLabel": "13:00 ET · 20:00 Istanbul",
+      "eventKey": "treasury-7y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "The Q3 wage-cost release is officially scheduled; no reliable numerical consensus verified. Compensation detail will test whether labor costs allow inflation to cool.",
@@ -438,7 +574,7 @@
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -472,7 +608,7 @@
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -506,7 +642,7 @@
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -537,7 +673,7 @@
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -568,7 +704,7 @@
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -607,7 +743,7 @@
       "negative": "Weak productivity and faster labor costs signal margin pressure and sticky inflation, raising the risk of tighter policy.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": false,
       "interpretationSources": [
@@ -642,7 +778,7 @@
       "id": "2026-11-06-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -676,7 +812,7 @@
       "id": "2026-11-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -689,6 +825,72 @@
         }
       ],
       "eventKey": "cpi"
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "date": "2026-11-10",
+      "short": "UST 10Y",
+      "event": "10-year Treasury note auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-10y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "date": "2026-11-12",
+      "short": "UST 30Y",
+      "event": "30-year Treasury bond auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-30y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
@@ -710,7 +912,7 @@
       "id": "2026-11-13-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -725,38 +927,37 @@
       "eventKey": "ppi"
     },
     {
-      "expects": "The November 18–19 leaders gathering is scheduled. A separate Trump–Xi bilateral meeting and any new concessions are not confirmed; recent tariff recommendations are not implemented chip-policy relief.",
-      "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
-      "window": "Headline-driven; may extend across sessions",
+      "id": "2026-11-18-UST 20Y",
+      "date": "2026-11-18",
+      "short": "UST 20Y",
+      "event": "20-year Treasury bond auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-20y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
-      "date": "2026-11-18",
-      "short": "APEC",
-      "event": "APEC leaders’ meeting; Trump–Xi bilateral unconfirmed",
-      "type": "Politics",
-      "importance": "Critical",
-      "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
-      "positive": "Credible de-escalation and practical critical-mineral access, with stable advanced-technology rules that improve semiconductor planning.",
-      "negative": "New export or mineral restrictions, or expectations of a bilateral agreement that fail to materialize, damage chip supply chains and risk appetite.",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
-      "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
-      "id": "2026-11-18-APEC",
-      "timeLabel": "Nov 18–19 · bilateral time not announced",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
-      "isUpdated": false,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
         },
         {
-          "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
         }
-      ],
-      "eventKey": "apec-leaders"
+      ]
     },
     {
       "expects": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
@@ -778,7 +979,7 @@
       "id": "2026-11-18-FOMC MINUTES",
       "timeLabel": "14:00 ET · 22:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -791,6 +992,40 @@
         }
       ],
       "eventKey": "fomc-minutes"
+    },
+    {
+      "expects": "The November 18–19 leaders gathering is scheduled. A separate Trump–Xi bilateral meeting and any new concessions are not confirmed; recent tariff recommendations are not implemented chip-policy relief.",
+      "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
+      "window": "Headline-driven; may extend across sessions",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-18",
+      "short": "APEC",
+      "event": "APEC leaders’ meeting; Trump–Xi bilateral unconfirmed",
+      "type": "Politics",
+      "importance": "Critical",
+      "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
+      "positive": "Credible de-escalation and practical critical-mineral access, with stable advanced-technology rules that improve semiconductor planning.",
+      "negative": "New export or mineral restrictions, or expectations of a bilateral agreement that fail to materialize, damage chip supply chains and risk appetite.",
+      "isNew": true,
+      "lastUpdated": "2026-10-01",
+      "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
+      "id": "2026-11-18-APEC",
+      "timeLabel": "Nov 18–19 · bilateral time not announced",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-02",
+      "isUpdated": false,
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
+          "title": "September 30 market context; Nasdaq preference and risk are analysis"
+        },
+        {
+          "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
+          "title": "Event baseline or official release schedule"
+        }
+      ],
+      "eventKey": "apec-leaders"
     },
     {
       "expects": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
@@ -810,7 +1045,7 @@
       "id": "2026-11-25-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -843,7 +1078,7 @@
       "id": "2026-11-25-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -857,6 +1092,39 @@
         }
       ],
       "eventKey": "core-pce"
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "date": "2026-11-25",
+      "short": "UST 7Y",
+      "event": "7-year Treasury note auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-7y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
@@ -878,7 +1146,7 @@
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -912,7 +1180,7 @@
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -946,7 +1214,7 @@
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -980,7 +1248,7 @@
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -1019,7 +1287,7 @@
       "negative": "Weak productivity and faster labor costs signal margin pressure and sticky inflation, raising the risk of tighter policy.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": false,
       "interpretationSources": [
@@ -1033,6 +1301,39 @@
         }
       ],
       "eventKey": "productivity-costs"
+    },
+    {
+      "id": "2026-12-08-UST 10Y",
+      "date": "2026-12-08",
+      "short": "UST 10Y",
+      "event": "10-year Treasury note reopening",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-10y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "No reliable December decision consensus established as of October 1. Pricing still allows further tightening before year-end; intervening jobs and inflation will determine the path.",
@@ -1054,7 +1355,7 @@
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -1088,7 +1389,7 @@
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -1101,6 +1402,39 @@
         }
       ],
       "eventKey": "cpi"
+    },
+    {
+      "id": "2026-12-10-UST 30Y",
+      "date": "2026-12-10",
+      "short": "UST 30Y",
+      "event": "30-year Treasury bond reopening",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-30y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     },
     {
       "expects": "No reliable forecast for summit policy outcomes. A separate Trump–Xi meeting remains unconfirmed; recent non-sensitive tariff recommendations do not settle advanced-chip restrictions.",
@@ -1122,7 +1456,7 @@
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -1156,7 +1490,7 @@
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "isUpdated": false,
       "interpretationSources": [
         {
@@ -1188,7 +1522,7 @@
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -1221,7 +1555,7 @@
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-01",
+      "interpretationAsOf": "2026-10-02",
       "lastUpdated": "2026-10-01",
       "isUpdated": true,
       "interpretationSources": [
@@ -1235,6 +1569,72 @@
         }
       ],
       "eventKey": "core-pce"
+    },
+    {
+      "id": "2026-12-23-UST 20Y",
+      "date": "2026-12-23",
+      "short": "UST 20Y",
+      "event": "20-year Treasury bond reopening",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-20y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
+    },
+    {
+      "id": "2026-12-29-UST 7Y",
+      "date": "2026-12-29",
+      "short": "UST 7Y",
+      "event": "7-year Treasury note auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-7y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
+      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-02",
+      "lastUpdated": "2026-10-02",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+          "title": "Official tentative Treasury auction schedule"
+        },
+        {
+          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
+          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+        }
+      ]
     }
   ],
   "recentEvents": [
