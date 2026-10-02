@@ -28990,14 +28990,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       }
     },
@@ -29284,14 +29284,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       }
     },
@@ -29588,14 +29588,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       }
     },
@@ -29774,7 +29774,7 @@
             "date": "2026-09-24",
             "value": 26734.50815004199
           },
-          "releaseLabel": "seven-year Treasury auction",
+          "releaseLabel": "seven-year-treasury-auction",
           "releaseTimeET": "13:00",
           "beforeRelease": {
             "minuteET": "12:59",
@@ -29807,7 +29807,7 @@
             "date": "2026-09-24",
             "value": 12309.09307455128
           },
-          "releaseLabel": "seven-year Treasury auction",
+          "releaseLabel": "seven-year-treasury-auction",
           "releaseTimeET": "13:00",
           "beforeRelease": {
             "minuteET": "12:59",
@@ -29850,14 +29850,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       }
     },
@@ -29892,7 +29892,7 @@
             "value": 26939.37301120382,
             "open": 26734.50815004199
           },
-          "intradayStatus": "no-single-release-time",
+          "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-10-02",
           "dayOpen": {
@@ -29915,7 +29915,7 @@
             "value": 12492.53651950959,
             "open": 12309.09307455128
           },
-          "intradayStatus": "no-single-release-time",
+          "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-10-02",
           "dayOpen": {
@@ -29932,14 +29932,14 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       }
     },
@@ -31219,14 +31219,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       },
       "indexLevels": {
@@ -81976,19 +81976,19 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-02T09:36:18.685Z",
+      "outcomeRetryAt": "2026-10-02T17:45:38.935Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82052,14 +82052,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       },
       "indexLevels": {
@@ -82077,7 +82077,7 @@
             "value": 26861.06375308664,
             "open": 26892.79628463439
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 26892.79628463439
@@ -82101,7 +82101,7 @@
             "value": 12628.62375005161,
             "open": 12665.67187078067
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 12665.67187078067
@@ -82253,14 +82253,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-02T09:06:18.685Z"
+          "checkedAt": "2026-10-02T17:15:38.935Z"
         }
       },
       "indexLevels": {
@@ -82278,7 +82278,7 @@
             "value": 26861.06375308664,
             "open": 26892.79628463439
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 26892.79628463439
@@ -82302,7 +82302,7 @@
             "value": 12628.62375005161,
             "open": 12665.67187078067
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 12665.67187078067
@@ -82437,18 +82437,18 @@
         "nasdaq": {
           "priorClose": "captured",
           "dayClose": "captured",
-          "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-02T09:06:18.685Z",
+          "at15": "captured",
+          "checkedAt": "2026-10-02T17:15:38.935Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
-          "at60": "plan-not-authorized"
+          "at60": "captured"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
-          "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-02T09:06:18.685Z",
+          "at15": "captured",
+          "checkedAt": "2026-10-02T17:15:38.935Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
-          "at60": "plan-not-authorized"
+          "at60": "captured"
         }
       },
       "outcomeStatus": "verified",
@@ -82715,7 +82715,48 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-02T17:15:38.935Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-02T17:15:38.935Z"
+        }
+      },
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Official source HTTP 403",
+      "outcomeRetryAt": "2026-10-02T17:45:38.935Z",
+      "indexLevels": {
+        "nasdaq": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "employment-report",
+          "priorClose": {
+            "date": "2026-10-01",
+            "value": 26871.59502873405
+          },
+          "intradayStatus": "outside-index-session"
+        },
+        "sox": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "employment-report",
+          "priorClose": {
+            "date": "2026-10-01",
+            "value": 12829.00000688464
+          },
+          "intradayStatus": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-10-05-ISM Services",
@@ -84748,5 +84789,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-02T09:06:18.685Z"
+  "updatedAt": "2026-10-02T17:15:38.935Z"
 }

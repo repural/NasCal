@@ -1,16 +1,11 @@
 {
-  "checkedAt": "2026-10-02T09:06:18.685Z",
+  "checkedAt": "2026-10-02T17:15:38.935Z",
   "issues": [
     {
-      "id": "2026-10-01-ISM",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-01-ISM",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
+      "id": "2026-10-02-Jobs",
+      "field": "outcome",
+      "reason": "Official source HTTP 403"
     }
   ],
-  "requests": 0
+  "requests": 2
 }
