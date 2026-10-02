@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-10-01",
+  "lastUpdated": "2026-10-02",
   "datasetPurpose": "Append-only event outcomes for historical analysis and forecast calibration. Existing records should be corrected with an audit note, never silently overwritten. QQQ 15m and 1h measure price changes at exact release windows when available.",
   "analysisFields": {
     "eventKey": "Stable recurring event family used to compare like-for-like releases",
@@ -2035,6 +2035,138 @@
       "surpriseDirection": "unassessed",
       "nasdaqReactionDirection": "unverified",
       "dominantDriver": "core-pce",
+      "confounders": []
+    },
+    "2026-10-07-UST 10Y": {
+      "eventDate": "2026-10-07",
+      "eventKey": "treasury-10y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-10y-auction",
+      "confounders": []
+    },
+    "2026-10-08-UST 30Y": {
+      "eventDate": "2026-10-08",
+      "eventKey": "treasury-30y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-30y-auction",
+      "confounders": []
+    },
+    "2026-10-21-UST 20Y": {
+      "eventDate": "2026-10-21",
+      "eventKey": "treasury-20y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-20y-auction",
+      "confounders": []
+    },
+    "2026-10-29-UST 7Y": {
+      "eventDate": "2026-10-29",
+      "eventKey": "treasury-7y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-7y-auction",
+      "confounders": []
+    },
+    "2026-11-10-UST 10Y": {
+      "eventDate": "2026-11-10",
+      "eventKey": "treasury-10y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-10y-auction",
+      "confounders": []
+    },
+    "2026-11-12-UST 30Y": {
+      "eventDate": "2026-11-12",
+      "eventKey": "treasury-30y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-30y-auction",
+      "confounders": []
+    },
+    "2026-11-18-UST 20Y": {
+      "eventDate": "2026-11-18",
+      "eventKey": "treasury-20y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-20y-auction",
+      "confounders": []
+    },
+    "2026-11-25-UST 7Y": {
+      "eventDate": "2026-11-25",
+      "eventKey": "treasury-7y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-7y-auction",
+      "confounders": []
+    },
+    "2026-12-08-UST 10Y": {
+      "eventDate": "2026-12-08",
+      "eventKey": "treasury-10y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-10y-auction",
+      "confounders": []
+    },
+    "2026-12-10-UST 30Y": {
+      "eventDate": "2026-12-10",
+      "eventKey": "treasury-30y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-30y-auction",
+      "confounders": []
+    },
+    "2026-12-23-UST 20Y": {
+      "eventDate": "2026-12-23",
+      "eventKey": "treasury-20y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-20y-auction",
+      "confounders": []
+    },
+    "2026-12-29-UST 7Y": {
+      "eventDate": "2026-12-29",
+      "eventKey": "treasury-7y-auction",
+      "eventType": "Rates",
+      "importance": "High",
+      "timeET": "13:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "treasury-7y-auction",
       "confounders": []
     }
   },
@@ -28858,14 +28990,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       }
     },
@@ -29152,14 +29284,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       }
     },
@@ -29456,14 +29588,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       }
     },
@@ -29718,14 +29850,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       }
     },
@@ -29800,14 +29932,14 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       }
     },
@@ -30953,14 +31085,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       },
       "indexLevels": {
@@ -81692,19 +81824,19 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-01T23:54:55.011Z",
+      "outcomeRetryAt": "2026-10-02T09:03:31.113Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -81768,14 +81900,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       },
       "indexLevels": {
@@ -81838,14 +81970,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-01T23:24:55.011Z"
+          "checkedAt": "2026-10-02T08:33:31.113Z"
         }
       },
       "indexLevels": {
@@ -81890,21 +82022,19 @@
       "capture": {
         "nasdaq": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-01T23:24:55.011Z",
+          "checkedAt": "2026-10-02T08:33:31.113Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
-          "at60": "plan-not-authorized",
-          "retryAt": "2026-10-01T23:39:55.011Z"
+          "at60": "plan-not-authorized"
         },
         "sox": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-01T23:24:55.011Z",
+          "checkedAt": "2026-10-02T08:33:31.113Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
-          "at60": "plan-not-authorized",
-          "retryAt": "2026-10-01T23:39:55.011Z"
+          "at60": "plan-not-authorized"
         }
       },
       "outcomeStatus": "verified",
@@ -81919,7 +82049,11 @@
             "date": "2026-09-30",
             "value": 26861.06375308664
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "dayClose": {
+            "date": "2026-10-01",
+            "value": 26871.59502873405
+          }
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -81929,7 +82063,11 @@
             "date": "2026-09-30",
             "value": 12628.62375005161
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "dayClose": {
+            "date": "2026-10-01",
+            "value": 12829.00000688464
+          }
         }
       },
       "verifiedAt": "2026-10-01",
@@ -82274,6 +82412,114 @@
       "eventId": "2026-12-23-PCE",
       "status": "pending",
       "expected": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-07-UST 10Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-08-UST 30Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-21-UST 20Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-29-UST 7Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-10-UST 10Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-12-UST 30Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-18-UST 20Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-11-25-UST 7Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-08-UST 10Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-10-UST 30Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-23-UST 20Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-29-UST 7Y",
+      "status": "pending",
+      "expected": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
       "previous": null,
       "actual": null,
       "surprise": null,
@@ -82912,5 +83158,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-01T23:24:55.011Z"
+  "updatedAt": "2026-10-02T08:33:31.113Z"
 }
