@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "range": [
     "2026-01",
     "2026-10"
   ],
-  "checkedOn": "2026-10-01",
+  "checkedOn": "2026-10-02",
   "sources": [
     "https://www.bea.gov/news/schedule/full",
     "https://www.census.gov/retail/release_schedule.html",
@@ -361,8 +361,8 @@
       "label": "Personal Income and Outlays, August 2026 View",
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": null,
-      "status": "needs-release-verification"
+      "historyEventId": "2026-09-30-PCE",
+      "status": "recorded"
     },
     {
       "date": "2026-10-15",
@@ -370,8 +370,8 @@
       "label": "Advance retail sales",
       "timeET": "08:30",
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
-      "historyEventId": null,
-      "status": "needs-release-verification"
+      "historyEventId": "2026-10-15-Retail",
+      "status": "recorded"
     },
     {
       "date": "2026-10-29",
@@ -379,8 +379,8 @@
       "label": "Personal Income and Outlays, September 2026",
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": null,
-      "status": "needs-release-verification"
+      "historyEventId": "2026-10-29-PCE",
+      "status": "recorded"
     },
     {
       "date": "2026-10-29",
@@ -388,23 +388,23 @@
       "label": "GDP (Advance Estimate), 3rd Quarter 2026",
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": null,
-      "status": "needs-release-verification"
+      "historyEventId": "2026-10-29-GDP",
+      "status": "recorded"
     }
   ],
   "fallbacks": [
     "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
   ],
   "errors": [
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/10_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/10_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm"
   ]
 }
