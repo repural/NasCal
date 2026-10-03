@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T04:15:00.000Z",
-  "asOf": "2026-10-02",
+  "updatedAt": "2026-10-03T03:55:07.211Z",
+  "asOf": "2026-10-03",
   "horizonEnd": "2026-12-31",
   "events": [
     {
-      "expects": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
+      "expects": "Pre-release expectation retained for comparison: Reuters economist poll: manufacturing PMI 55.0.. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -16,24 +16,24 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "After September business activity accelerated, prices paid and employment will help determine whether another Fed hike is needed.",
-      "positive": "Steady orders with easing prices paid: supports earnings while limiting pressure on discount rates.",
-      "negative": "Higher prices paid and stronger demand together revive tightening expectations; a sharp orders collapse is the growth downside.",
+      "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
+      "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing"
     },
     {
-      "expects": "Reuters economists expect September payrolls to rise 90,000 after 162,000 in August, with unemployment holding at 4.1%. Revisions and wage growth remain important because yields are elevated.",
+      "expects": "Pre-release expectation retained for comparison: Reuters reported a 100,000 payroll increase expectation on September 25; no newer verified survey located. Wages, unemployment and revisions may matter as much as that dated baseline.. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -44,29 +44,25 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The report will test whether August’s strong payroll gain and wage pressure were persistent enough to justify back-to-back tightening.",
-      "positive": "A controlled cooling in hiring and wages without a sharp rise in unemployment: supports earnings while limiting pressure for another Fed hike.",
-      "negative": "A strong payroll/wage surprise that lifts yields and tightening expectations; the opposite risk is a sharp employment miss that damages growth expectations.",
+      "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
+      "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-02",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-manufacturing-steady-september-input-prices-increase-2026-10-01/",
-          "title": "Reuters employment consensus and current inflation context"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report"
     },
     {
-      "expects": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
+      "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether the post-jobs expectation of an October pause is sustainable.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -76,22 +72,52 @@
       "event": "ISM Services PMI",
       "type": "Macro",
       "importance": "High",
-      "explanation": "Services prices and employment are especially important with inflation still elevated and October Fed pricing near a close call.",
-      "positive": "Cooling service costs and wages with continued expansion, supporting a pause without a recession signal.",
-      "negative": "Persistent service inflation forces renewed tightening despite the softer latest PCE; weak orders would instead threaten growth.",
+      "explanation": "Services prices and employment will test whether softer hiring allows a Fed pause without a material growth slowdown.",
+      "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
+      "negative": "Persistent service inflation reprices the Fed more hawkishly, or weak orders turn the pause into a growth warning.",
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services"
+    },
+    {
+      "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
+      "watch": "Decision, statement changes, vote, projections and press conference",
+      "window": "14:00–15:30 ET",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-10-07",
+      "short": "FOMC MINUTES",
+      "event": "Minutes of the September FOMC meeting",
+      "type": "Fed",
+      "importance": "High",
+      "explanation": "The minutes can reveal how broadly officials supported the September rate increase and how they assessed inflation, jobs and the case for another hike.",
+      "positive": "Officials show scope to assess inflation and growth before tightening again.",
+      "negative": "A stronger commitment to repeated hikes than markets infer overwhelms softer hiring evidence.",
+      "isNew": true,
+      "lastUpdated": "2026-10-03",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "id": "2026-10-07-FOMC MINUTES",
+      "timeLabel": "14:00 ET · 21:00 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        }
+      ],
+      "eventKey": "fomc-minutes"
     },
     {
       "id": "2026-10-07-UST 10Y",
@@ -103,62 +129,53 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
-        }
-      ]
-    },
-    {
-      "expects": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
-      "watch": "Decision, statement changes, vote, projections and press conference",
-      "window": "14:00–15:30 ET",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-10-07",
-      "short": "FOMC MINUTES",
-      "event": "Minutes of the September FOMC meeting",
-      "type": "Fed",
-      "importance": "High",
-      "explanation": "The minutes can reveal how broadly officials supported the September rate increase and how they assessed inflation, jobs and the case for another hike.",
-      "positive": "Discussion shows flexibility if inflation cools and limited need for prolonged restriction, reducing uncertainty for growth valuations.",
-      "negative": "Broader support for repeated hikes or tighter financial conditions than markets currently assume; remember that minutes predate later data.",
-      "isNew": true,
-      "lastUpdated": "2026-10-01",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
-      "id": "2026-10-07-FOMC MINUTES",
-      "timeLabel": "14:00 ET · 21:00 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
-      "interpretationSources": [
-        {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "fomc-minutes"
+      "isUpdated": true
+    },
+    {
+      "expects": "No dependable monthly-sales consensus verified. Quarterly guidance provides context; monthly sales alone do not confirm earnings or a new outlook.",
+      "watch": "Guidance, AI revenue, margins, order timing and capex commentary",
+      "window": "After-hours move and next regular session",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-10-08",
+      "short": "TSMC",
+      "event": "TSMC monthly sales update",
+      "type": "Earnings",
+      "importance": "High",
+      "explanation": "The release provides a timely read on advanced-node and AI accelerator demand after a strong semiconductor run.",
+      "positive": "Broad advanced-node demand and healthy utilization support the semiconductor earnings outlook.",
+      "negative": "Weak revenue or customer concentration raises doubts about sustained AI demand.",
+      "id": "2026-10-08-TSMC",
+      "timeLabel": "Publication time not fixed",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        }
+      ],
+      "eventKey": "tsmc-monthly-sales"
     },
     {
       "id": "2026-10-08-UST 30Y",
@@ -170,59 +187,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
-        }
-      ]
-    },
-    {
-      "expects": "No dependable consensus for this monthly revenue update verified. Monthly sales are an activity signal, not earnings or a new guidance commitment.",
-      "watch": "Guidance, AI revenue, margins, order timing and capex commentary",
-      "window": "After-hours move and next regular session",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-10-08",
-      "short": "TSMC",
-      "event": "TSMC monthly sales update",
-      "type": "Earnings",
-      "importance": "High",
-      "explanation": "The release provides a timely read on advanced-node and AI accelerator demand after a strong semiconductor run.",
-      "positive": "AI-related demand broadens alongside resilient non-AI sales, supporting semiconductor revenue expectations despite financing costs.",
-      "negative": "A revenue slowdown or narrow AI dependence weakens the semiconductor leadership supporting Nasdaq; monthly timing can also distort comparisons.",
-      "id": "2026-10-08-TSMC",
-      "timeLabel": "Publication time not fixed",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "tsmc-monthly-sales"
+      "isUpdated": true
     },
     {
-      "expects": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
+      "expects": "No reliable numerical consensus verified. Energy and core services will test whether the current preference for an October Fed pause lasts.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -233,28 +219,24 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "With oil elevated and the Fed projecting another 2026 hike, this is the decisive inflation test before the October meeting.",
-      "positive": "Broad core disinflation with stable demand, allowing less restrictive policy expectations and lower valuation pressure.",
-      "negative": "Core services or shelter accelerate, undoing the recent inflation relief and pushing Treasury yields higher.",
+      "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
+      "negative": "Sticky core services or energy pass-through reverses the pause trade and lifts yields.",
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi"
     },
     {
-      "expects": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
+      "expects": "No dependable release-specific forecast verified. PCE-relevant service components and cost pass-through matter alongside the headline.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -265,29 +247,25 @@
       "type": "Inflation",
       "importance": "High",
       "explanation": "Producer-price components influence October rate expectations and estimates for the next PCE release. Retail sales is simultaneous.",
-      "positive": "Softer PCE-relevant producer costs without an abrupt demand contraction, protecting margins and the inflation outlook.",
-      "negative": "Hot trade, healthcare or other PCE-relevant services raise core-inflation estimates and tightening expectations.",
+      "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
+      "negative": "Supply disruptions or service-price increases lift the prospective PCE reading and rate expectations.",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi"
     },
     {
-      "expects": "No reliable consensus for this retail sales release verified. Control-group sales and revisions are more informative for underlying consumption than fuel-price effects on the headline.",
+      "expects": "No reliable economist consensus verified. Control-group sales and revisions will clarify consumption after softer hiring; nominal strength may reflect prices.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -298,26 +276,61 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Consumer spending tests demand ahead of the Fed meeting. PPI is released at the same time, so immediate market reactions overlap.",
-      "positive": "Resilient real demand with restrained nominal price effects, sustaining technology and advertising revenues without renewed yield pressure.",
-      "negative": "A broad nominal spending surge revives overheating concerns, or weak control-group sales challenge the resilient-consumer baseline.",
+      "positive": "Resilient real consumption with contained inflation, sustaining commerce, advertising and cloud demand.",
+      "negative": "A broad spending slowdown weakens earnings, or an inflation-heavy beat revives higher-rate expectations.",
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.census.gov/retail/release_schedule.html",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "retail-sales"
+    },
+    {
+      "date": "2026-10-15",
+      "short": "TSM Earnings",
+      "event": "TSMC Q3 earnings and conference call",
+      "eventKey": "tsm-earnings",
+      "type": "Earnings",
+      "importance": "Critical",
+      "timeLabel": "02:00 ET · 09:00 Istanbul (conference call)",
+      "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+      "expects": "Official Q3 guidance: revenue $44.6–45.8 billion, gross margin 65–67%, operating margin 56–58%. These are company ranges, not a verified analyst consensus.",
+      "positive": "Revenue and forward demand exceed the guidance baseline with durable margins and broad AI demand, supporting SOX and Nasdaq despite rate sensitivity.",
+      "negative": "Disappointing advanced-node demand, weaker forward guidance or margin pressure challenges the AI earnings premium.",
+      "explanation": "Officially scheduled quarterly results are distinct from the October 8 monthly sales update. Conference-call time is confirmed; a separate initial results-publication time was not verified.",
+      "watch": "Revenue, gross margin, advanced-node demand, packaging capacity, capex and next-quarter guidance",
+      "window": "Taiwan release and call through the following U.S. session",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "id": "2026-10-15-TSM Earnings",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-03",
+      "interpretationAsOf": "2026-10-03",
+      "sources": [
+        {
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "title": "Official confirmation"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+          "title": "Official baseline; preference and risk are analysis"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current rate and inflation context"
+        }
+      ]
     },
     {
       "id": "2026-10-21-UST 20Y",
@@ -329,31 +342,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     },
     {
-      "expects": "No reliable October Flash PMI consensus verified. October 23 remains the existing calendar date pending official reconfirmation; standard U.S. release time is 09:45 ET.",
+      "expects": "No dependable October consensus verified. October 23 at 09:45 ET is present in the calendar and secondary listings, but official reconfirmation remains blocked. Activity, employment and prices must be read together.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -364,34 +374,26 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The first broad October read on private-sector activity, jobs and prices can change expectations for the October Fed decision and Treasury yields.",
-      "positive": "Continued expansion with easing selling prices and wage pressure, supporting revenue growth without reviving rate-hike bets.",
-      "negative": "Stronger selling prices and labor tightness outweigh activity strength, lifting Treasury yields; a sharp demand decline would be the growth risk.",
+      "positive": "Resilient activity with slower price increases and balanced employment, supporting technology demand and the pause case.",
+      "negative": "Renewed price pressure reverses the pause trade; a broad activity drop instead weakens the earnings outlook.",
       "isNew": true,
-      "lastUpdated": "2026-10-02",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
-          "title": "S&P Global PMI release calendar — October 23 at 09:45 ET"
-        },
-        {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.mtsinsights.com/events/4745/",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "flash-pmi"
     },
     {
-      "expects": "This is the first meeting day; no scheduled policy decision is expected on it. The decision comes the following day, after intervening economic data.",
+      "expects": "Deliberations begin; the scheduled decision is the following day. No rate announcement is expected on this first meeting day.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -402,28 +404,24 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "Officials enter the meeting after signaling one more 2026 hike, while incoming inflation and labor data determine whether it comes immediately.",
-      "positive": "A calm lead-in with stable yields and no unexpected hawkish communication; the supportive policy outcome is assessed on decision day.",
-      "negative": "Surprise policy headlines or a bond selloff before the decision amplify uncertainty and compress technology multiples.",
+      "positive": "Orderly positioning and stable yields ahead of the policy decision.",
+      "negative": "Unexpected communication or a geopolitical shock reprices rates before the scheduled decision.",
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-day-1"
     },
     {
-      "expects": "September 30 futures pricing favored an October pause, with roughly one-third odds of a hike. This dated baseline can change with October jobs and CPI; it is not a live probability.",
+      "expects": "October 2 Reuters reporting puts an October pause ahead of another hike, while December tightening remains a material expectation. No live probability is verified.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -434,29 +432,25 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "After September 29 jobs and Fed comments, October hike odds moved back toward an even chance; the decision and Warsh’s guidance will reset the December path.",
-      "positive": "A pause backed by credible disinflation, with guidance that avoids an unnecessarily higher future rate path and preserves growth.",
-      "negative": "A hike or a higher projected terminal rate surprises a market hoping for inflation relief; concern over persistent prices lifts yields.",
+      "positive": "A credible, measured path with improving inflation and stable growth, avoiding a higher terminal rate than feared.",
+      "negative": "A hike or more hawkish guidance surprises investors, or worsening growth makes a pause look defensive.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-decision"
     },
     {
-      "expects": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
+      "expects": "No dependable Q3 consensus verified. Private demand, investment and price detail matter more than inventory or trade contributions alone.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -467,29 +461,25 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "The first estimate of Q3 growth arrives alongside September PCE; the immediate market reaction reflects both.",
-      "positive": "Resilient final demand and productive investment with milder inflation: earnings support without renewed pressure on bond yields.",
-      "negative": "Growth or inflation strength drives long yields higher; alternatively, a large private-demand downgrade weakens earnings expectations.",
+      "positive": "Sustainable private demand and productive investment with restrained prices.",
+      "negative": "An inflation-heavy growth beat threatens tightening; weak domestic demand threatens earnings.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bea.gov/news/schedule/full",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-advance"
     },
     {
-      "expects": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
+      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -500,23 +490,19 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "Monthly core inflation tests the Fed outlook the morning after its decision. GDP is released at the same time.",
-      "positive": "Continued core disinflation with resilient real spending: supports earnings while containing the rate burden on Nasdaq.",
-      "negative": "Core services or upward revisions reverse the latest inflation relief; a spending slump would threaten earnings instead.",
+      "positive": "Further underlying disinflation with resilient real spending, supporting a pause and technology valuations.",
+      "negative": "Core services or revisions reaccelerate inflation; weak spending introduces a separate earnings risk.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bea.gov/news/schedule/full",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce"
@@ -531,31 +517,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     },
     {
-      "expects": "The Q3 wage-cost release is officially scheduled; no reliable numerical consensus verified. Compensation detail will test whether labor costs allow inflation to cool.",
+      "expects": "No dependable compensation consensus verified. Slower payroll-survey wages do not establish this broader wage-and-benefits outcome.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -566,30 +549,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Broad compensation trends offer a less noisy wage-inflation check than a single payroll report.",
-      "positive": "Slower broad wage-cost growth without evidence of a collapsing labor market, easing the Fed constraint on technology valuations.",
-      "negative": "Wages or benefits accelerate and suggest persistent service inflation, bringing additional tightening back into focus.",
+      "positive": "Moderating compensation with stable employment, reducing persistent service-price pressure.",
+      "negative": "Sticky benefits or wages undermine the case for delaying another rate increase.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/10_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-cost"
     },
     {
-      "expects": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
+      "expects": "No reliable consensus verified for this forthcoming survey. The latest manufacturing report combines expansion with increased cost pressure; a headline beat alone is not uniformly supportive.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -600,30 +579,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "October factory orders, employment and prices paid will test whether growth is staying strong without further inflation pressure after the Fed decision.",
-      "positive": "Steady orders with easing prices paid: supports earnings while limiting pressure on discount rates.",
-      "negative": "Higher prices paid and stronger demand together revive tightening expectations; a sharp orders collapse is the growth downside.",
+      "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
+      "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing"
     },
     {
-      "expects": "No reliable consensus for this openings release verified. Read hires, quits and layoffs alongside openings rather than treating every decline as recessionary.",
+      "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -634,30 +609,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Labor-demand data arrive on election day and may change the Fed-rate narrative before the vote results.",
-      "positive": "Orderly cooling in vacancies and quits with contained layoffs: less wage pressure while technology demand remains supported.",
-      "negative": "Renewed vacancy tightness revives wage inflation, or a broad hiring/layoff deterioration signals weakening demand.",
+      "positive": "Balanced labor demand, few layoffs and lower wage pressure, sustaining the soft-landing interpretation.",
+      "negative": "Layoffs rise sharply and threaten growth, or hiring competition reignites wage pressure.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "jolts"
     },
     {
-      "expects": "Congressional control is uncertain; no verified national market-implied election probability is used. Policy implementation and fiscal implications matter more than assigning a party a Nasdaq bias.",
+      "expects": "Congressional control is uncertain; no dependable national market-implied probability is used. Inflation and borrowing costs remain important policy issues.",
       "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
       "window": "Headline-driven; may extend across sessions",
       "bias": "Neutral",
@@ -668,24 +639,24 @@
       "type": "Politics",
       "importance": "Critical",
       "explanation": "Control of Congress will affect expectations for tariffs, deficits, AI oversight, technology regulation and the Iran-war policy path.",
-      "positive": "An orderly, accepted outcome with predictable fiscal and technology policy and limited extra term-premium pressure.",
-      "negative": "A disputed outcome or destabilizing fiscal, tariff or technology-policy expectations lift uncertainty and long yields.",
+      "positive": "An orderly result and predictable technology, trade and fiscal policy with limited bond-yield pressure.",
+      "negative": "Contested outcomes or unexpected fiscal and trade proposals increase uncertainty and discount rates.",
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "us-midterm-elections"
     },
     {
-      "expects": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
+      "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether the post-jobs expectation of an October pause is sustainable.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -695,25 +666,21 @@
       "event": "ISM Services PMI",
       "type": "Macro",
       "importance": "High",
-      "explanation": "Services activity, employment and prices paid arrive while election results are still being assessed, making market attribution difficult.",
-      "positive": "Cooling service costs and wages with continued expansion, supporting a pause without a recession signal.",
-      "negative": "Persistent service inflation forces renewed tightening despite the softer latest PCE; weak orders would instead threaten growth.",
+      "explanation": "Services prices and employment will test whether softer hiring allows a Fed pause without a material growth slowdown.",
+      "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
+      "negative": "Persistent service inflation reprices the Fed more hawkishly, or weak orders turn the pause into a growth warning.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services"
@@ -738,28 +705,24 @@
         }
       ],
       "isNew": true,
-      "expects": "Q3 results are not yet known and no dependable consensus is verified. The prior Q2 release reported positive productivity growth and moderate unit labor cost growth.",
-      "positive": "Stronger output per hour with restrained unit labor costs: supports profit margins and disinflation without relying on weaker demand.",
-      "negative": "Weak productivity and faster labor costs signal margin pressure and sticky inflation, raising the risk of tighter policy.",
+      "expects": "No reliable forecast verified for this vintage. Preliminary and revised productivity estimates must remain distinct when judging unit labor costs.",
+      "positive": "Productivity improves and unit labor costs stay contained, allowing investment and wage growth without more inflation.",
+      "negative": "Weak productivity or upward labor-cost revisions challenge the disinflation benefit expected from AI investment.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "productivity-costs"
     },
     {
-      "expects": "No reliable event-specific payrolls or wage consensus is available yet; subsequent employment reports will update the baseline.",
+      "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -770,30 +733,26 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "Payrolls, wages and unemployment will reset growth and December Fed expectations.",
-      "positive": "Moderate hiring, slower wage growth and stable unemployment: preserves spending and reduces rate pressure on growth stocks.",
-      "negative": "A wage or payroll upside surprise revives hike pricing; severe job losses would undermine revenue expectations.",
+      "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
+      "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-06-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report"
     },
     {
-      "expects": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
+      "expects": "No reliable numerical consensus verified. Energy and core services will test whether the current preference for an October Fed pause lasts.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -804,24 +763,20 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "Core and services inflation will test the Fed's December rate path.",
-      "positive": "Broad core disinflation with stable demand, allowing less restrictive policy expectations and lower valuation pressure.",
-      "negative": "Core services or shelter accelerate, undoing the recent inflation relief and pushing Treasury yields higher.",
+      "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
+      "negative": "Sticky core services or energy pass-through reverses the pause trade and lifts yields.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi"
@@ -836,28 +791,25 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     },
     {
       "id": "2026-11-12-UST 30Y",
@@ -869,31 +821,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     },
     {
-      "expects": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
+      "expects": "No dependable release-specific forecast verified. PCE-relevant service components and cost pass-through matter alongside the headline.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -904,27 +853,83 @@
       "type": "Inflation",
       "importance": "High",
       "explanation": "Producer prices can change the estimate for the forthcoming core PCE release.",
-      "positive": "Softer PCE-relevant producer costs without an abrupt demand contraction, protecting margins and the inflation outlook.",
-      "negative": "Hot trade, healthcare or other PCE-relevant services raise core-inflation estimates and tightening expectations.",
+      "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
+      "negative": "Supply disruptions or service-price increases lift the prospective PCE reading and rate expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-13-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi"
+    },
+    {
+      "expects": "A separate Trump–Xi bilateral or advanced-chip concessions remain unconfirmed. Existing trade dialogue does not establish new technology relief.",
+      "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
+      "window": "Headline-driven; may extend across sessions",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-18",
+      "short": "APEC",
+      "event": "APEC leaders’ meeting; Trump–Xi bilateral unconfirmed",
+      "type": "Politics",
+      "importance": "Critical",
+      "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
+      "positive": "Implementable cooperation reduces technology supply-chain and trade uncertainty.",
+      "negative": "New export restrictions or diplomatic escalation offsets recent dialogue; weak deliverables disappoint.",
+      "isNew": true,
+      "lastUpdated": "2026-10-03",
+      "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
+      "id": "2026-11-18-APEC",
+      "timeLabel": "Nov 18–19 · bilateral time not announced",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        }
+      ],
+      "eventKey": "apec-leaders"
+    },
+    {
+      "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
+      "watch": "Decision, statement changes, vote, projections and press conference",
+      "window": "14:00–15:30 ET",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-18",
+      "short": "FOMC MINUTES",
+      "event": "Minutes of the October FOMC meeting",
+      "type": "Fed",
+      "importance": "High",
+      "explanation": "The minutes clarify the committee's debate after the October decision and can shift December rate expectations.",
+      "positive": "Officials show scope to assess inflation and growth before tightening again.",
+      "negative": "A stronger commitment to repeated hikes than markets infer overwhelms softer hiring evidence.",
+      "isNew": true,
+      "lastUpdated": "2026-10-03",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "id": "2026-11-18-FOMC MINUTES",
+      "timeLabel": "14:00 ET · 22:00 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        }
+      ],
+      "eventKey": "fomc-minutes"
     },
     {
       "id": "2026-11-18-UST 20Y",
@@ -936,99 +941,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
-        }
-      ]
-    },
-    {
-      "expects": "The official baseline is the record of the preceding FOMC meeting, not a new rate decision. No dependable numerical market consensus applies.",
-      "watch": "Decision, statement changes, vote, projections and press conference",
-      "window": "14:00–15:30 ET",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-18",
-      "short": "FOMC MINUTES",
-      "event": "Minutes of the October FOMC meeting",
-      "type": "Fed",
-      "importance": "High",
-      "explanation": "The minutes clarify the committee's debate after the October decision and can shift December rate expectations.",
-      "positive": "Discussion shows flexibility if inflation cools and limited need for prolonged restriction, reducing uncertainty for growth valuations.",
-      "negative": "Broader support for repeated hikes or tighter financial conditions than markets currently assume; remember that minutes predate later data.",
-      "isNew": true,
-      "lastUpdated": "2026-10-01",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "id": "2026-11-18-FOMC MINUTES",
-      "timeLabel": "14:00 ET · 22:00 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
-      "interpretationSources": [
-        {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "fomc-minutes"
+      "isUpdated": true
     },
     {
-      "expects": "The November 18–19 leaders gathering is scheduled. A separate Trump–Xi bilateral meeting and any new concessions are not confirmed; recent tariff recommendations are not implemented chip-policy relief.",
-      "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
-      "window": "Headline-driven; may extend across sessions",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-18",
-      "short": "APEC",
-      "event": "APEC leaders’ meeting; Trump–Xi bilateral unconfirmed",
-      "type": "Politics",
-      "importance": "Critical",
-      "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
-      "positive": "Credible de-escalation and practical critical-mineral access, with stable advanced-technology rules that improve semiconductor planning.",
-      "negative": "New export or mineral restrictions, or expectations of a bilateral agreement that fail to materialize, damage chip supply chains and risk appetite.",
-      "isNew": true,
-      "lastUpdated": "2026-10-01",
-      "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
-      "id": "2026-11-18-APEC",
-      "timeLabel": "Nov 18–19 · bilateral time not announced",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
-      "interpretationSources": [
-        {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
-          "title": "Event baseline or official release schedule"
-        }
-      ],
-      "eventKey": "apec-leaders"
-    },
-    {
-      "expects": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
+      "expects": "No reliable revision consensus verified; the October 29 Q3 advance estimate is still ahead. An earlier-quarter result is not this release's forecast.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -1039,29 +973,25 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "The second estimate updates third-quarter growth and is released alongside October PCE.",
-      "positive": "Resilient final demand and productive investment with milder inflation: earnings support without renewed pressure on bond yields.",
-      "negative": "Growth or inflation strength drives long yields higher; alternatively, a large private-demand downgrade weakens earnings expectations.",
+      "positive": "Revisions preserve healthy private demand and improve the inflation mix.",
+      "negative": "Upward price revisions or weaker final demand undermine the valuation or growth case.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-11-25-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bea.gov/news/schedule/full",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-second"
     },
     {
-      "expects": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
+      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -1072,23 +1002,19 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "Monthly inflation informs the December Fed outlook. GDP is released simultaneously, so price-window attribution will be shared.",
-      "positive": "Continued core disinflation with resilient real spending: supports earnings while containing the rate burden on Nasdaq.",
-      "negative": "Core services or upward revisions reverse the latest inflation relief; a spending slump would threaten earnings instead.",
+      "positive": "Further underlying disinflation with resilient real spending, supporting a pause and technology valuations.",
+      "negative": "Core services or revisions reaccelerate inflation; weak spending introduces a separate earnings risk.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-11-25-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bea.gov/news/schedule/full",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce"
@@ -1103,31 +1029,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     },
     {
-      "expects": "No dependable September ISM consensus verified as of October 1. Watch orders and prices alongside the latest moderation in PCE; survey strength alone does not establish renewed inflation.",
+      "expects": "No reliable consensus verified for this forthcoming survey. The latest manufacturing report combines expansion with increased cost pressure; a headline beat alone is not uniformly supportive.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -1138,30 +1061,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "November factory activity and prices paid arrive at the same time as JOLTS, ahead of the December Fed decision.",
-      "positive": "Steady orders with easing prices paid: supports earnings while limiting pressure on discount rates.",
-      "negative": "Higher prices paid and stronger demand together revive tightening expectations; a sharp orders collapse is the growth downside.",
+      "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
+      "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing"
     },
     {
-      "expects": "No reliable consensus for this openings release verified. Read hires, quits and layoffs alongside openings rather than treating every decline as recessionary.",
+      "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -1172,30 +1091,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Vacancies and quits test labor demand before the December Fed meeting. ISM Manufacturing is released simultaneously, so immediate index moves reflect both.",
-      "positive": "Orderly cooling in vacancies and quits with contained layoffs: less wage pressure while technology demand remains supported.",
-      "negative": "Renewed vacancy tightness revives wage inflation, or a broad hiring/layoff deterioration signals weakening demand.",
+      "positive": "Balanced labor demand, few layoffs and lower wage pressure, sustaining the soft-landing interpretation.",
+      "negative": "Layoffs rise sharply and threaten growth, or hiring competition reignites wage pressure.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched.htm",
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "jolts"
     },
     {
-      "expects": "No reliable release-specific services consensus verified. Services prices, employment and orders are the baseline indicators for the Fed and technology demand.",
+      "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether the post-jobs expectation of an October pause is sustainable.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -1205,31 +1120,27 @@
       "event": "ISM Services PMI",
       "type": "Macro",
       "importance": "High",
-      "explanation": "November services activity, employment and prices paid are a final broad business survey before the December Fed decision.",
-      "positive": "Cooling service costs and wages with continued expansion, supporting a pause without a recession signal.",
-      "negative": "Persistent service inflation forces renewed tightening despite the softer latest PCE; weak orders would instead threaten growth.",
+      "explanation": "Services prices and employment will test whether softer hiring allows a Fed pause without a material growth slowdown.",
+      "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
+      "negative": "Persistent service inflation reprices the Fed more hawkishly, or weak orders turn the pause into a growth warning.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services"
     },
     {
-      "expects": "No reliable event-specific payrolls or wage consensus is available yet; subsequent employment reports will update the baseline.",
+      "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -1240,24 +1151,20 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The final payroll report before December's FOMC meeting can reprice its rate decision.",
-      "positive": "Moderate hiring, slower wage growth and stable unemployment: preserves spending and reduces rate pressure on growth stocks.",
-      "negative": "A wage or payroll upside surprise revives hike pricing; severe job losses would undermine revenue expectations.",
+      "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
+      "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report"
@@ -1282,22 +1189,18 @@
         }
       ],
       "isNew": true,
-      "expects": "This revises Q3 productivity and unit labor costs. The November 5 preliminary result is not available yet, and no dependable revision consensus exists.",
-      "positive": "Stronger output per hour with restrained unit labor costs: supports profit margins and disinflation without relying on weaker demand.",
-      "negative": "Weak productivity and faster labor costs signal margin pressure and sticky inflation, raising the risk of tighter policy.",
+      "expects": "No reliable forecast verified for this vintage. Preliminary and revised productivity estimates must remain distinct when judging unit labor costs.",
+      "positive": "Productivity improves and unit labor costs stay contained, allowing investment and wage growth without more inflation.",
+      "negative": "Weak productivity or upward labor-cost revisions challenge the disinflation benefit expected from AI investment.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "productivity-costs"
@@ -1312,31 +1215,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     },
     {
-      "expects": "No reliable December decision consensus established as of October 1. Pricing still allows further tightening before year-end; intervening jobs and inflation will determine the path.",
+      "expects": "October 2 Reuters reporting indicates markets still anticipate December tightening despite an October pause. No live December probability is verified; intervening data can change that view.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -1347,30 +1247,26 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "Updated dot plot, rate decision and press conference will set the 2027 policy baseline.",
-      "positive": "A pause backed by credible disinflation, with guidance that avoids an unnecessarily higher future rate path and preserves growth.",
-      "negative": "A hike or a higher projected terminal rate surprises a market hoping for inflation relief; concern over persistent prices lifts yields.",
+      "positive": "Inflation improves enough for a less restrictive path than feared without undermining confidence in growth.",
+      "negative": "A higher projected rate path or more tightening than expected compresses technology valuations.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-decision"
     },
     {
-      "expects": "No verified consensus for this CPI release. Separate energy effects from shelter and core services; the latest PCE moderation does not settle the CPI outlook.",
+      "expects": "No reliable numerical consensus verified. Energy and core services will test whether the current preference for an October Fed pause lasts.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -1381,24 +1277,20 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "First major inflation test immediately after the December Fed decision.",
-      "positive": "Broad core disinflation with stable demand, allowing less restrictive policy expectations and lower valuation pressure.",
-      "negative": "Core services or shelter accelerate, undoing the recent inflation relief and pushing Treasury yields higher.",
+      "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
+      "negative": "Sticky core services or energy pass-through reverses the pause trade and lifts yields.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi"
@@ -1413,31 +1305,28 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     },
     {
-      "expects": "No reliable forecast for summit policy outcomes. A separate Trump–Xi meeting remains unconfirmed; recent non-sensitive tariff recommendations do not settle advanced-chip restrictions.",
+      "expects": "No dependable forecast for summit outcomes or confirmed separate Trump–Xi bilateral emerged in this review.",
       "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
       "window": "Headline-driven; may extend across sessions",
       "bias": "Neutral",
@@ -1448,30 +1337,26 @@
       "type": "Politics",
       "importance": "Critical",
       "explanation": "The U.S.-hosted G20 leaders’ summit is scheduled for December 14–15 in Miami. China says Xi and Trump intend to attend each other's summits; a bilateral meeting time or agenda is unconfirmed. Trade, export controls and geopolitical statements may move technology shares.",
-      "positive": "Practical trade and supply-chain progress with fewer oil or tariff inflation risks, supporting global technology demand and valuation stability.",
-      "negative": "Trade or geopolitical confrontation intensifies export restrictions, energy costs or bond yields instead of producing implementable agreements.",
+      "positive": "Credible energy and trade cooperation reduces supply risks and uncertainty for technology demand.",
+      "negative": "Escalation raises energy costs or disrupts chip supply, worsening the inflation-and-growth tradeoff.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/bmdyzs_664814/xwlb_664816/202609/t20260926_12031663.html",
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/bmdyzs_664814/xwlb_664816/202609/t20260926_12031663.html",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "g20-leaders"
     },
     {
-      "expects": "No dependable release-specific PPI consensus verified. Services components relevant to core PCE matter more than the headline alone.",
+      "expects": "No dependable release-specific forecast verified. PCE-relevant service components and cost pass-through matter alongside the headline.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -1482,30 +1367,26 @@
       "type": "Inflation",
       "importance": "High",
       "explanation": "Pipeline inflation influences estimates for the subsequent core PCE report.",
-      "positive": "Softer PCE-relevant producer costs without an abrupt demand contraction, protecting margins and the inflation outlook.",
-      "negative": "Hot trade, healthcare or other PCE-relevant services raise core-inflation estimates and tightening expectations.",
+      "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
+      "negative": "Supply disruptions or service-price increases lift the prospective PCE reading and rate expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-01",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "isUpdated": false,
+      "interpretationAsOf": "2026-10-03",
+      "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bls.gov/schedule/2026/12_sched.htm",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi"
     },
     {
-      "expects": "No dependable consensus yet for this GDP estimate. Evaluate private demand, AI-related investment and prices together; a strong headline alone need not be bullish.",
+      "expects": "No dependable final-estimate consensus verified; preceding Q3 estimates have not yet been released. Component revisions will establish the comparison.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -1516,29 +1397,25 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "The final third-quarter growth revision arrives alongside November PCE.",
-      "positive": "Resilient final demand and productive investment with milder inflation: earnings support without renewed pressure on bond yields.",
-      "negative": "Growth or inflation strength drives long yields higher; alternatively, a large private-demand downgrade weakens earnings expectations.",
+      "positive": "Stable real private demand with contained price revisions and productive investment.",
+      "negative": "Higher inflation or weaker underlying demand alters the Fed or earnings outlook despite a modest headline revision.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bea.gov/news/schedule/full",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-final"
     },
     {
-      "expects": "No reliable consensus yet for this forthcoming release. The latest August report softened inflation concerns; energy, revisions and underlying service prices still need reassessment.",
+      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -1549,23 +1426,19 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "The final scheduled monthly PCE release of 2026; GDP is published simultaneously, so observed moves cannot isolate one report.",
-      "positive": "Continued core disinflation with resilient real spending: supports earnings while containing the rate burden on Nasdaq.",
-      "negative": "Core services or upward revisions reverse the latest inflation relief; a spending slump would threaten earnings instead.",
+      "positive": "Further underlying disinflation with resilient real spending, supporting a pause and technology valuations.",
+      "negative": "Core services or revisions reaccelerate inflation; weak spending introduces a separate earnings risk.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-01",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isUpdated": true,
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/us-stock-futures-inch-up-yields-ease-inflation-report-looms-2026-09-30/",
-          "title": "September 30 market context; Nasdaq preference and risk are analysis"
-        },
-        {
-          "url": "https://www.bea.gov/news/schedule/full",
-          "title": "Event baseline or official release schedule"
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce"
@@ -1580,26 +1453,101 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        }
+      ],
+      "isUpdated": true
+    },
+    {
+      "date": "2026-12-27",
+      "short": "China Green Probe",
+      "event": "China U.S. green-products trade-barrier investigation deadline",
+      "eventKey": "china-us-green-products-investigation",
+      "type": "Politics",
+      "importance": "High",
+      "timeLabel": "Time not announced · China deadline (Sunday)",
+      "sourceUrl": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
+      "expects": "MOFCOM Announcement 42 extends this distinct investigation to December 27. No finding, tariff rate or implementation date is confirmed.",
+      "positive": "Resolution without wider retaliation reduces cross-border investment and policy risk for technology-linked supply chains.",
+      "negative": "New trade barriers or U.S. countermeasures broaden the dispute beyond green products and weaken risk appetite.",
+      "explanation": "Separate official investigation into U.S. barriers affecting green-product trade; it shares a deadline with the supply-chain case but remains a distinct entity.",
+      "watch": "Findings, covered products, remedies and retaliation",
+      "window": "Any announcement through the next tradable U.S. session",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "id": "2026-12-27-China Green Probe",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-03",
+      "interpretationAsOf": "2026-10-03",
+      "sources": [
+        {
+          "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
+          "title": "Official confirmation"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
+          "title": "Official baseline; preference and risk are analysis"
         },
         {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current rate and inflation context"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-27",
+      "short": "China Supply Probe",
+      "event": "China U.S. supply-chain trade-barrier investigation deadline",
+      "eventKey": "china-us-supply-chain-investigation",
+      "type": "Politics",
+      "importance": "High",
+      "timeLabel": "Time not announced · China deadline (Sunday)",
+      "sourceUrl": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
+      "expects": "MOFCOM Announcement 41 extends the investigation to December 27. No outcome or resulting trade measure is confirmed; the deadline does not guarantee sanctions.",
+      "positive": "A negotiated or limited outcome avoids new restrictions on global technology supply chains and reduces policy uncertainty.",
+      "negative": "Adverse findings trigger restrictions or retaliation affecting chip inputs, equipment or broader technology trade.",
+      "explanation": "Official deadline for the separate investigation into U.S. measures affecting global industrial and supply chains. No publication time or automatic policy action has been announced.",
+      "watch": "MOFCOM findings, scope, effective dates and U.S. response",
+      "window": "Any announcement through the next tradable U.S. session",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "id": "2026-12-27-China Supply Probe",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-03",
+      "interpretationAsOf": "2026-10-03",
+      "sources": [
+        {
+          "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
+          "title": "Official confirmation"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
+          "title": "Official baseline; preference and risk are analysis"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current rate and inflation context"
         }
       ]
     },
@@ -1613,33 +1561,30 @@
       "type": "Rates",
       "importance": "High",
       "status": "scheduled",
-      "expects": "Auction sizes and security details are confirmed only with the formal announcement. Until then, there is no dependable consensus for the stop-through/tail, bid-to-cover ratio or indirect-bidder share.",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
       "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
       "window": "13:00 ET result through the cash close",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with solid indirect demand that stabilizes or lowers long yields; this eases the discount-rate pressure on Nasdaq.",
-      "negative": "A meaningful tail or weak indirect demand that pushes long yields higher, with rate-sensitive technology and semiconductor valuations most exposed.",
+      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
+      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-02",
-      "lastUpdated": "2026-10-02",
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
       "isNew": true,
       "interpretationSources": [
         {
-          "url": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-          "title": "Official tentative Treasury auction schedule"
-        },
-        {
-          "url": "https://www.reuters.com/markets/econ-world/yield-gain-housing-pain-2026-10-01/",
-          "title": "Current bond-market context; Nasdaq preference and risk are analysis"
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "isUpdated": true
     }
   ],
   "recentEvents": [
     {
-      "expects": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "expects": "Historical pre-event baseline: August PMI 55.2. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Bearish",
@@ -1650,18 +1595,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Factory activity and prices paid inform growth and inflation expectations. JOLTS was released at the same time, so observed moves reflect both releases.",
-      "positive": "Expansion with easing input prices",
-      "negative": "A jump in prices paid or falling orders",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/manufacturing/august/",
       "id": "2026-09-01-ISM Mfg",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
       "eventKey": "ism-manufacturing",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-09/ism-pmi-reports-roundup-august-2026-manufacturing/",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "expects": "Historical pre-event baseline: July openings 7.496M. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Bearish",
@@ -1672,18 +1625,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Openings and quits inform labor tightness and the Fed outlook. ISM Manufacturing was released at the same time, so observed moves reflect both releases.",
-      "positive": "Orderly cooling in labor demand",
-      "negative": "Unexpectedly tight hiring conditions",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.bls.gov/news.release/jolts.htm",
       "id": "2026-09-01-JOLTS",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
       "eventKey": "jolts",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.bls.gov/news.release/jolts.htm",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "A high AI-demand bar; guidance, margins and capex quality matter more than a headline beat.",
+      "expects": "Historical pre-event baseline: Revenue about $29.2B. Event completed; see recorded results.",
       "watch": "Guidance, AI revenue, margins, order timing and capex commentary",
       "window": "After-hours move and next regular session",
       "bias": "Neutral",
@@ -1694,17 +1655,25 @@
       "type": "Earnings",
       "importance": "High",
       "explanation": "A direct read on custom AI accelerators, networking demand and hyperscaler capital spending.",
-      "positive": "Strong AI orders and guidance",
-      "negative": "Weak order timing or cautious guidance",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-02-AVGO",
       "timeLabel": "After U.S. close · about 23:00 Istanbul",
       "status": "scheduled",
       "eventKey": "broadcom-earnings",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/broadcom-forecasts-quarterly-revenue-below-estimates-2026-09-02/",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "expects": "Historical pre-event baseline: Below the 55.4 result. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Bearish",
@@ -1715,17 +1684,25 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Services prices are central to the Fed’s inflation assessment and can move Treasury yields quickly.",
-      "positive": "Cooling prices with continued expansion",
-      "negative": "Sticky prices-paid reading",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-03-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
       "eventKey": "ism-services",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/strong-demand-boosts-us-services-sector-activity-august-2026-09-03/",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "expects": "Historical pre-event baseline: About +65K payrolls; 4.1% unemployment. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Bearish",
@@ -1736,17 +1713,25 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "Payrolls, unemployment, wages and revisions determine whether the labor market is cooling in an orderly way.",
-      "positive": "Slower wages and moderate hiring",
-      "negative": "Overheating or recession-level weakness",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-04-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
       "eventKey": "employment-report",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://apnews.com/article/1af16359af43eb8abc66445465f633c8",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "The 10-year Treasury yield was near 5.28% on September 29, keeping Nasdaq sensitive to weak auction demand and higher discount rates.",
+      "expects": "Historical pre-event baseline: When-issued yield about 4.475%. Event completed; see recorded results.",
       "watch": "High yield, tail, bid-to-cover and indirect bidders",
       "window": "Auction release through the cash close",
       "bias": "Bearish",
@@ -1757,17 +1742,25 @@
       "type": "Rates",
       "importance": "High",
       "explanation": "Auction demand influences short-term yields and the market’s required return for growth stocks.",
-      "positive": "Strong demand and stable yields",
-      "negative": "Weak bid-to-cover and rising yields",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-08-3Y",
       "timeLabel": "13:00 ET · 20:00 Istanbul",
       "status": "scheduled",
       "eventKey": "treasury-3y-auction",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://finance.yahoo.com/markets/currencies/articles/us-3-auction-high-yield-170642361.html",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "The 10-year Treasury yield was near 5.28% on September 29, keeping Nasdaq sensitive to weak auction demand and higher discount rates.",
+      "expects": "Historical pre-event baseline: When-issued yield near the auction stop. Event completed; see recorded results.",
       "watch": "High yield, tail, bid-to-cover and indirect bidders",
       "window": "Auction release through the cash close",
       "bias": "Bearish",
@@ -1778,17 +1771,25 @@
       "type": "Rates",
       "importance": "High",
       "explanation": "The 10-year yield is a key discount rate for long-duration technology earnings.",
-      "positive": "Strong demand lowers yields",
-      "negative": "Auction tail pushes yields higher",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-09-10Y",
       "timeLabel": "13:00 ET · 20:00 Istanbul",
       "status": "scheduled",
       "eventKey": "treasury-10y-auction",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/bidders-pounce-10-year-notes-auction-achieves-highest-yield-since-2007-2026-09-09/",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; inflation remains above target and energy-price volatility adds pass-through risk.",
+      "expects": "Historical pre-event baseline: August headline +0.4%; core +0.2% m/m. Event completed; see recorded results.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Bearish",
@@ -1799,18 +1800,26 @@
       "type": "Inflation",
       "importance": "High",
       "explanation": "Producer-price components shape core PCE estimates and Treasury yields.",
-      "positive": "Cooling pipeline inflation",
-      "negative": "Upside services or goods inflation",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.bls.gov/schedule/2026/09_sched_list.htm",
       "id": "2026-09-10-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
       "eventKey": "ppi",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "The 10-year Treasury yield was near 5.28% on September 29, keeping Nasdaq sensitive to weak auction demand and higher discount rates.",
+      "expects": "Historical event: a dependable contemporaneous consensus was not re-established in this review. See recorded results.",
       "watch": "High yield, tail, bid-to-cover and indirect bidders",
       "window": "Auction release through the cash close",
       "bias": "Bearish",
@@ -1821,18 +1830,26 @@
       "type": "Rates",
       "importance": "High",
       "explanation": "Long-bond demand can move yields independently of the morning PPI release.",
-      "positive": "Strong bidding contains long yields",
-      "negative": "Weak demand pushes long yields up",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.treasurydirect.gov/auctions/announcements-data-results/",
       "id": "2026-09-10-30Y",
       "timeLabel": "13:00 ET · 20:00 Istanbul",
       "status": "scheduled",
       "eventKey": "treasury-30y-auction",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://fedpolicy.org/releases/2026-09-10/29y11m-bond-auction-sept-10-2026/",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; inflation remains above target and energy-price volatility adds pass-through risk.",
+      "expects": "Historical pre-event baseline: Core +0.2% MoM. Event completed; see recorded results.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Bearish",
@@ -1843,17 +1860,25 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "The last major consumer-inflation report before the September Fed decision.",
-      "positive": "Core and services CPI at or below forecast",
-      "negative": "Broad upside inflation surprise",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-11-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
       "eventKey": "cpi",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/fed-seen-likely-raise-rates-next-week-after-inflation-report-2026-09-11/",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "Late-September pricing was near evenly split on an October hike; the exact path remains data-dependent rather than a settled consensus.",
+      "expects": "Historical pre-event baseline: Deliberations toward a 25 bp hike. Event completed; see recorded results.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Bearish",
@@ -1864,17 +1889,25 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "Policy deliberations begin with markets positioned for a possible rate increase.",
-      "positive": "Stable yields into the decision",
-      "negative": "Late jump in hike expectations",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-15-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
       "eventKey": "fomc-day-1",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "expects": "Historical event: a dependable contemporaneous consensus was not re-established in this review. See recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Bearish",
@@ -1885,18 +1918,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Consumer demand arrives before the Fed announcement and can reshape the growth outlook.",
-      "positive": "Moderate sales without renewed inflation pressure",
-      "negative": "An upside spending surprise lifts yields",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
       "id": "2026-09-16-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
       "eventKey": "retail-sales",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.census.gov/retail/sales.html",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "Late-September pricing was near evenly split on an October hike; the exact path remains data-dependent rather than a settled consensus.",
+      "expects": "Historical pre-event baseline: 25 bp hike anticipated. Event completed; see recorded results.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Bearish",
@@ -1907,18 +1948,26 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "The statement, updated projections and press conference set the expected interest-rate path.",
-      "positive": "Flexible guidance that steadies yields",
-      "negative": "A more hawkish path than markets anticipated",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-09-16-FED",
       "timeLabel": "Decision 14:00 ET · 21:00 Istanbul; press 14:30 ET · 21:30 Istanbul",
       "status": "scheduled",
       "eventKey": "fomc-decision",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "Elevated mechanical volume against a fragile backdrop of high yields and oil volatility.",
+      "expects": "Historical pre-event baseline: Elevated mechanical volume and volatility. Event completed; see recorded results.",
       "watch": "Index breadth, closing imbalance and dealer positioning",
       "window": "Final two trading hours",
       "bias": "Neutral",
@@ -1929,17 +1978,25 @@
       "type": "Market",
       "importance": "High",
       "explanation": "Equity options, index options and futures expire, often increasing mechanical volume and volatility.",
-      "positive": "Orderly positioning and broad participation",
-      "negative": "Disorderly de-risking into the close",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-18-Witching",
       "timeLabel": "Expiration into 16:00 ET close · 23:00 Istanbul",
       "status": "scheduled",
       "eventKey": "triple-witching",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://apnews.com/article/da0dbe004b6f83c36e7d1626a9741a92",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "The 10-year Treasury yield was near 5.28% on September 29, keeping Nasdaq sensitive to weak auction demand and higher discount rates.",
+      "expects": "Historical pre-event baseline: When-issued yield about 4.785%. Event completed; see recorded results.",
       "watch": "High yield, tail, bid-to-cover and indirect bidders",
       "window": "Auction release through the cash close",
       "bias": "Bearish",
@@ -1950,17 +2007,25 @@
       "type": "Rates",
       "importance": "High",
       "explanation": "Tests demand for the maturity most closely linked to the expected Fed path.",
-      "positive": "Strong demand",
-      "negative": "Yield spike after weak demand",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-22-2Y",
       "timeLabel": "13:00 ET · 20:00 Istanbul",
       "status": "scheduled",
       "eventKey": "treasury-2y-auction",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.wsj.com/finance/investing/investors-demand-highest-yield-at-two-year-u-s-treasury-auction-since-2024-2daca035",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "expects": "Historical pre-event baseline: Manufacturing 53.6; services 56.0; no reliable composite consensus identified. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Bearish",
@@ -1971,19 +2036,26 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The earliest broad monthly read on U.S. private-sector activity, employment and prices. A strong growth-and-price surprise can rapidly lift Fed-hike expectations and Treasury yields, pressuring long-duration technology shares.",
-      "positive": "Growth near expectations with cooling output-price and employment pressures",
-      "negative": "A broad upside growth or price surprise that raises Fed-hike odds and long yields",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "isNew": false,
-      "lastUpdated": "24 Sep 2026",
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/us-flash-pmi-signals-fastest-growth-for-over-five-years-in-september",
       "id": "2026-09-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
       "eventKey": "sp-global-us-flash-pmi",
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.fidelity.com/news/article/us-markets/202609231600RTRSNEWSCOMBINED_L6N45F140_1",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "The 10-year Treasury yield was near 5.28% on September 29, keeping Nasdaq sensitive to weak auction demand and higher discount rates.",
+      "expects": "Historical pre-event baseline: When-issued yield about 5.002%. Event completed; see recorded results.",
       "watch": "High yield, tail, bid-to-cover and indirect bidders",
       "window": "Auction release through the cash close",
       "bias": "Bearish",
@@ -1994,17 +2066,25 @@
       "type": "Rates",
       "importance": "High",
       "explanation": "A mid-curve demand check immediately after the Fed meeting.",
-      "positive": "Contained yields",
-      "negative": "Weak auction broadens rate pressure",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-23-5Y",
       "timeLabel": "13:00 ET · 20:00 Istanbul",
       "status": "scheduled",
       "eventKey": "five-year-treasury-auction",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.investing.com/economic-calendar/5-year-note-auction-570",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "The 10-year Treasury yield was near 5.28% on September 29, keeping Nasdaq sensitive to weak auction demand and higher discount rates.",
+      "expects": "Historical pre-event baseline: When-issued yield 5.078%; no reliable economist consensus for the auction yield.. Event completed; see recorded results.",
       "watch": "High yield, tail, bid-to-cover and indirect bidders",
       "window": "Auction release through the cash close",
       "bias": "Bearish",
@@ -2015,17 +2095,25 @@
       "type": "Rates",
       "importance": "High",
       "explanation": "With the 10-year yield near its highest since 2007, today’s auction is an important test of duration demand.",
-      "positive": "A through-stop with strong indirect demand that contains long yields",
-      "negative": "A meaningful tail that pushes the 10-year yield higher",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "id": "2026-09-24-7Y",
       "timeLabel": "13:00 ET · 20:00 Istanbul",
       "status": "scheduled",
       "eventKey": "seven-year-treasury-auction",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.marketscreener.com/news/seven-year-u-s-treasury-auction-yield-hits-33-year-high-ce785adfd988f42c",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "Ahead of the meeting, truce maintenance was the prevailing expectation; there was no reliable consensus for a comprehensive deal.",
+      "expects": "Historical pre-event baseline: Continued truce widely expected; no reliable consensus for a broader deal.. Event completed; see recorded results.",
       "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
       "window": "Headline-driven; may extend across sessions",
       "bias": "Neutral",
@@ -2036,19 +2124,26 @@
       "type": "Politics",
       "importance": "Critical",
       "explanation": "The leaders extended their trade truce by two months and announced limited tariff cuts on non-sensitive goods, without a broader rare-earth or technology deal. Taiwan and AI remain unresolved. The summit unfolded through multiple statements, so there is no single release time for an isolated 15-minute market reaction.",
-      "positive": "A durable, clearly implemented reduction in tariff and chip-control uncertainty",
-      "negative": "Short extension expires without a broader deal, or new Taiwan, chip or rare-earth restrictions",
-      "isUpdated": false,
-      "lastUpdated": "25 Sep 2026",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.reuters.com/world/china/four-takeaways-trumps-summit-with-xi-washington-2026-09-24/",
       "id": "2026-09-24-TRUMP–XI",
       "timeLabel": "Talks and statements through the day · no single market release time",
       "status": "scheduled",
       "eventKey": "trump-xi-summit",
-      "isNew": false
+      "isNew": false,
+      "interpretationAsOf": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/world/china/four-takeaways-trumps-summit-with-xi-washington-2026-09-24/",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "Ahead of the meeting, no binding rule or concrete policy package was confirmed; a balance between innovation and oversight was the stated goal.",
+      "expects": "Historical pre-event baseline: Ahead of the meeting, no binding rule or concrete policy package was confirmed; a balance between innovation and oversight was the stated goal.. Event completed; see recorded results.",
       "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
       "window": "Headline-driven; may extend across sessions",
       "bias": "Neutral",
@@ -2059,19 +2154,26 @@
       "type": "Politics",
       "importance": "Critical",
       "explanation": "At the September 29 meeting, Trump announced a voluntary AI safety pact with major technology firms, backed rapid data-center expansion and discussed independent audits. No binding new AI restriction was announced.",
-      "positive": "Clear support for AI investment and permitting without new broad restrictions on models, chips or data centers",
-      "negative": "New safety limits, procurement restrictions or export-control signals hit AI leaders and semiconductors",
-      "isUpdated": false,
-      "lastUpdated": "30 Sep 2026",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-03",
       "sourceUrl": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/",
       "id": "2026-09-29-AI POLICY",
       "timeLabel": "White House meeting · exact time not publicly confirmed",
       "status": "scheduled",
       "eventKey": "event-ai-policy",
-      "isNew": false
+      "isNew": false,
+      "interpretationAsOf": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current context; historical consensus not re-established"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; inflation remains above target and energy-price volatility adds pass-through risk.",
+      "expects": "Historical event: a dependable contemporaneous consensus was not re-established in this review. See recorded results.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Bearish",
@@ -2082,18 +2184,26 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "The Fed’s preferred monthly core inflation gauge is released alongside a GDP revision; their immediate market reactions overlap.",
-      "positive": "Cooling core inflation with stable long yields",
-      "negative": "An upside core-inflation surprise raises rate expectations",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-09-30-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
       "eventKey": "core-pce",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://bea.gov/index.php/news/2026/personal-income-and-outlays-august-2026",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "No reliable event-specific consensus yet; strong September activity and rising costs are the baseline, while late-September October-hike pricing was near evenly split. Prices and wages remain decisive.",
+      "expects": "Historical event: a dependable contemporaneous consensus was not re-established in this review. See recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Bearish",
@@ -2104,18 +2214,26 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "BEA’s third estimate revises second-quarter growth and is released alongside August PCE; immediate market reactions overlap.",
-      "positive": "Resilient growth without an inflation upgrade",
-      "negative": "Weak growth or an upward inflation revision",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-09-30-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
       "eventKey": "gdp-final",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://www.bea.gov/index.php/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     },
     {
-      "expects": "A high AI-demand bar; guidance, margins and capex quality matter more than a headline beat.",
+      "expects": "Historical event: a dependable contemporaneous consensus was not re-established in this review. See recorded results.",
       "watch": "Guidance, AI revenue, margins, order timing and capex commentary",
       "window": "After-hours move and next regular session",
       "bias": "Neutral",
@@ -2126,15 +2244,23 @@
       "type": "Earnings",
       "importance": "Critical",
       "explanation": "The after-close results and 16:30 ET call test AI memory demand, high-bandwidth memory supply and margin expectations.",
-      "positive": "Guidance validates strong HBM demand and margins",
-      "negative": "Guidance falls below a high expectations bar",
+      "positive": "For this completed event, a supportive outcome meant resilient demand with less inflation, rate or supply-chain pressure. Compare the recorded result with the price windows; overlapping catalysts limit attribution.",
+      "negative": "The adverse scenario was weaker demand or higher inflation, yields or supply-chain risk. Observed moves are not proof that this single event caused them.",
       "sourceUrl": "https://micron.gcs-web.com/news-releases/news-release-details/micron-technology-report-fiscal-fourth-quarter-results-5",
       "id": "2026-09-30-MU",
       "timeLabel": "After U.S. close; call 16:30 ET · 23:30 Istanbul",
       "status": "scheduled",
       "eventKey": "micron-fiscal-q4-earnings",
       "isNew": false,
-      "isUpdated": false
+      "isUpdated": true,
+      "interpretationAsOf": "2026-10-03",
+      "lastUpdated": "2026-10-03",
+      "interpretationSources": [
+        {
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
+          "title": "Stored verified result; retrospective interpretation, not a new forecast"
+        }
+      ]
     }
   ]
 }

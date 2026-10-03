@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-03T03:56:04.710Z",
+  "asOf": "2026-10-03",
+  "inputReportCheckedAt": "2026-10-02T10:06:56.668Z",
+  "inputSourceHealth": {
+    "bls": "403 in collector; latest employment release independently read",
+    "bea": "ok",
+    "fed": "RSS ok with zero items; independently read October 1 speech and October 2 Reuters coverage",
+    "pmi": "official calendar and PDF both 403"
+  },
+  "changes": [
+    {
+      "id": "2026-10-15-TSM Earnings",
+      "action": "new",
+      "verification": "Official quarterly-results page confirms date, conference time and guidance"
+    },
+    {
+      "id": "2026-12-27-China Supply Probe",
+      "action": "new",
+      "verification": "MOFCOM Announcement 41"
+    },
+    {
+      "id": "2026-12-27-China Green Probe",
+      "action": "new",
+      "verification": "MOFCOM Announcement 42"
+    }
+  ],
+  "nextFlashPmi": {
+    "calendarEntryId": "2026-10-23-FLASH PMI",
+    "present": true,
+    "timeET": "09:45",
+    "officialDateVerified": false,
+    "requiresReview": true,
+    "secondaryListingsAgree": true,
+    "note": "Preserved existing date; no new claim of official reconfirmation."
+  },
+  "interpretations": {
+    "eventsReviewed": 52,
+    "recentEventsReviewed": 23,
+    "marketExpects": "Latest verified baselines or explicit uncertainty; completed events retain historical comparison, not a future forecast",
+    "nasdaqPrefers": "Conditional scenario analysis after softer hiring and wage growth; inflation and longer-yield risks remain",
+    "mainRisk": "Family-specific inflation, growth, rate and policy surprises",
+    "livePositioning": "No independently verified current position estimate used",
+    "fedPricing": "Dated Reuters October 2 qualitative pricing; no live probabilities represented"
+  },
+  "verificationSources": [
+    "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+    "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+    "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
+    "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/september/",
+    "https://investor.tsmc.com/english/quarterly-results/2026/q3",
+    "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
+    "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11"
+  ],
+  "notes": [
+    "No cancellation inferred from source absence.",
+    "No paid OpenAI API calls.",
+    "Historical results and earnings prices not changed.",
+    "Two investigations share a deadline but remain distinct events.",
+    "TSMC time denotes the conference call; initial release time not independently verified."
+  ]
+}
