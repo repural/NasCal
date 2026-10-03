@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-10-02",
+  "lastUpdated": "2026-10-03",
   "datasetPurpose": "Append-only event outcomes for historical analysis and forecast calibration. Existing records should be corrected with an audit note, never silently overwritten. QQQ 15m and 1h measure price changes at exact release windows when available.",
   "analysisFields": {
     "eventKey": "Stable recurring event family used to compare like-for-like releases",
@@ -2167,6 +2167,39 @@
       "surpriseDirection": "unassessed",
       "nasdaqReactionDirection": "unverified",
       "dominantDriver": "treasury-7y-auction",
+      "confounders": []
+    },
+    "2026-10-15-TSM Earnings": {
+      "eventDate": "2026-10-15",
+      "eventKey": "tsm-earnings",
+      "eventType": "Earnings",
+      "importance": "Critical",
+      "timeET": "02:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "tsm-earnings",
+      "confounders": []
+    },
+    "2026-12-27-China Green Probe": {
+      "eventDate": "2026-12-27",
+      "eventKey": "china-us-green-products-investigation",
+      "eventType": "Politics",
+      "importance": "High",
+      "timeET": "headline-driven",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "china-us-green-products-investigation",
+      "confounders": []
+    },
+    "2026-12-27-China Supply Probe": {
+      "eventDate": "2026-12-27",
+      "eventKey": "china-us-supply-chain-investigation",
+      "eventType": "Politics",
+      "importance": "High",
+      "timeET": "headline-driven",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "china-us-supply-chain-investigation",
       "confounders": []
     }
   },
@@ -29284,14 +29317,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       }
     },
@@ -29588,14 +29621,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       }
     },
@@ -29850,14 +29883,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       }
     },
@@ -29932,14 +29965,14 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       }
     },
@@ -31219,14 +31252,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       },
       "indexLevels": {
@@ -81976,19 +82009,19 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-03T01:05:49.492Z",
+      "outcomeRetryAt": "2026-10-03T08:37:33.750Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82052,14 +82085,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       },
       "indexLevels": {
@@ -82253,14 +82286,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       },
       "indexLevels": {
@@ -82438,7 +82471,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z",
+          "checkedAt": "2026-10-03T08:07:33.750Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         },
@@ -82446,7 +82479,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-03T00:35:49.492Z",
+          "checkedAt": "2026-10-03T08:07:33.750Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         }
@@ -82719,24 +82752,22 @@
       "capture": {
         "nasdaq": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z",
-          "retryAt": "2026-10-03T00:50:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         },
         "sox": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T00:35:49.492Z",
-          "retryAt": "2026-10-03T00:50:49.492Z"
+          "checkedAt": "2026-10-03T08:07:33.750Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official source HTTP 403",
-      "outcomeRetryAt": "2026-10-03T01:05:49.492Z",
+      "outcomeRetryAt": "2026-10-03T08:37:33.750Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82746,7 +82777,11 @@
             "date": "2026-10-01",
             "value": 26871.59502873405
           },
-          "intradayStatus": "outside-index-session"
+          "intradayStatus": "outside-index-session",
+          "dayClose": {
+            "date": "2026-10-02",
+            "value": 27190.86397170832
+          }
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82756,7 +82791,11 @@
             "date": "2026-10-01",
             "value": 12829.00000688464
           },
-          "intradayStatus": "outside-index-session"
+          "intradayStatus": "outside-index-session",
+          "dayClose": {
+            "date": "2026-10-02",
+            "value": 13136.67451205267
+          }
         }
       }
     },
@@ -84157,6 +84196,33 @@
       "actual": null,
       "surprise": null,
       "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-15-TSM Earnings",
+      "status": "pending",
+      "expected": "Official Q3 guidance: revenue $44.6–45.8 billion, gross margin 65–67%, operating margin 56–58%. These are company ranges, not a verified analyst consensus.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-27-China Green Probe",
+      "status": "pending",
+      "expected": "MOFCOM Announcement 42 extends this distinct investigation to December 27. No finding, tariff rate or implementation date is confirmed.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
+    },
+    {
+      "eventId": "2026-12-27-China Supply Probe",
+      "status": "pending",
+      "expected": "MOFCOM Announcement 41 extends the investigation to December 27. No outcome or resulting trade measure is confirmed; the deadline does not guarantee sanctions.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
     }
   ],
   "earnings": {
@@ -84791,5 +84857,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-03T00:35:49.492Z"
+  "updatedAt": "2026-10-03T08:07:33.750Z"
 }
