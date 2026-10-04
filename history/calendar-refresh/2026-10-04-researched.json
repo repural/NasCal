@@ -1,0 +1,36 @@
+{
+  "asOf": "2026-10-04",
+  "mode": "daily-researched",
+  "sourceReportCheckedAt": "2026-10-03T09:29:32.726Z",
+  "changes": [
+    {
+      "action": "new",
+      "id": "2026-10-21-TSLA Earnings",
+      "source": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+      "reason": "Tesla officially confirmed Q3 results after market close and a 17:30 ET webcast on October 21."
+    }
+  ],
+  "reassessedAllDisplayedEvents": true,
+  "nextFlashPmi": {
+    "id": "2026-10-23-FLASH PMI",
+    "timeET": "09:45",
+    "dateOfficiallyReconfirmed": false,
+    "reason": "The official S&P calendar remained unavailable; multiple current secondary calendars still list October 23 at 09:45 ET, so the event remains scheduled but explicitly unverified by the official source."
+  },
+  "sourceHealth": {
+    "blsCalendar": "unavailable-403",
+    "beaCalendar": "healthy",
+    "fedRss": "healthy-no-new-items",
+    "spGlobalPmiCalendar": "unavailable-403"
+  },
+  "officialReview": {
+    "proposals": 0,
+    "announcements": 0,
+    "cancellationsInferredFromAbsence": false
+  },
+  "contextSources": [
+    "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
+    "https://www.reuters.com/business/autos-transportation/tesla-posts-stronger-than-expected-quarterly-deliveries-2026-10-02/"
+  ],
+  "notes": "Market-expectation, Nasdaq-preference and main-risk wording was re-evaluated for every displayed event. No dependable new consensus or official baseline required changes to the existing wording outside the newly added Tesla event. Preferences and risks remain conditional analysis, not forecasts."
+}
