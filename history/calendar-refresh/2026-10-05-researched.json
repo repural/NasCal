@@ -1,0 +1,42 @@
+{
+  "asOf": "2026-10-05",
+  "mode": "daily-researched",
+  "sourceReportCheckedAt": "2026-10-04T10:16:39.108Z",
+  "changes": [
+    {
+      "action": "interpretation-update",
+      "ids": [
+        "2026-10-05-ISM Services",
+        "2026-10-14-CPI",
+        "2026-10-15-PPI",
+        "2026-10-28-FED",
+        "2026-12-09-FED"
+      ],
+      "source": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
+      "reason": "Rate futures moved to less than 20% odds of an October hike while December tightening remained heavily priced."
+    }
+  ],
+  "reassessedAllDisplayedEvents": true,
+  "nextFlashPmi": {
+    "id": "2026-10-23-FLASH PMI",
+    "timeET": "09:45",
+    "dateOfficiallyReconfirmed": false,
+    "reason": "The official S&P Global calendar remained unavailable. Multiple current secondary listings continue to show October 23 at 09:45 ET, so the existing entry is retained with official reconfirmation pending."
+  },
+  "sourceHealth": {
+    "blsCalendar": "unavailable-403",
+    "beaCalendar": "healthy",
+    "fedRss": "healthy-no-new-items",
+    "spGlobalPmiCalendar": "unavailable-403"
+  },
+  "officialReview": {
+    "proposals": 0,
+    "announcements": 0,
+    "cancellationsInferredFromAbsence": false
+  },
+  "contextSources": [
+    "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
+    "https://www.reuters.com/business/fed-seen-skipping-october-rate-hike-job-market-cools-2026-10-02/"
+  ],
+  "notes": "No new verified date, rescheduling or cancellation was found. Every displayed Market expects, Nasdaq prefers and Main risk field was re-evaluated; targeted wording changed where the current rate-market baseline materially affected the event setup."
+}
