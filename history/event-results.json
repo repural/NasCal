@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-10-03",
+  "lastUpdated": "2026-10-05",
   "datasetPurpose": "Append-only event outcomes for historical analysis and forecast calibration. Existing records should be corrected with an audit note, never silently overwritten. QQQ 15m and 1h measure price changes at exact release windows when available.",
   "analysisFields": {
     "eventKey": "Stable recurring event family used to compare like-for-like releases",
@@ -2200,6 +2200,17 @@
       "surpriseDirection": "unassessed",
       "nasdaqReactionDirection": "unverified",
       "dominantDriver": "china-us-supply-chain-investigation",
+      "confounders": []
+    },
+    "2026-10-21-TSLA Earnings": {
+      "eventDate": "2026-10-21",
+      "eventKey": "tsla-earnings",
+      "eventType": "Earnings",
+      "importance": "Critical",
+      "timeET": "17:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "tsla-earnings",
       "confounders": []
     }
   },
@@ -31386,14 +31397,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         }
       },
       "indexLevels": {
@@ -82143,19 +82154,19 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-03T08:37:33.750Z",
+      "outcomeRetryAt": "2026-10-05T20:44:53.243Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82219,14 +82230,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         }
       },
       "indexLevels": {
@@ -82244,7 +82255,7 @@
             "value": 26861.06375308664,
             "open": 26892.79628463439
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 26892.79628463439
@@ -82268,7 +82279,7 @@
             "value": 12628.62375005161,
             "open": 12665.67187078067
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 12665.67187078067
@@ -82420,14 +82431,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         }
       },
       "indexLevels": {
@@ -82445,7 +82456,7 @@
             "value": 26861.06375308664,
             "open": 26892.79628463439
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 26892.79628463439
@@ -82469,7 +82480,7 @@
             "value": 12628.62375005161,
             "open": 12665.67187078067
           },
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "dayOpen": {
             "date": "2026-09-30",
             "value": 12665.67187078067
@@ -82605,7 +82616,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-03T08:07:33.750Z",
+          "checkedAt": "2026-10-05T20:14:53.243Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         },
@@ -82613,7 +82624,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-03T08:07:33.750Z",
+          "checkedAt": "2026-10-05T20:14:53.243Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         }
@@ -82889,19 +82900,19 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-03T08:07:33.750Z"
+          "checkedAt": "2026-10-05T20:14:53.243Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official source HTTP 403",
-      "outcomeRetryAt": "2026-10-03T08:37:33.750Z",
+      "outcomeRetryAt": "2026-10-05T20:44:53.243Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82940,7 +82951,52 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "due",
+          "error": "HTTP 403",
+          "checkedAt": "2026-10-05T20:14:53.243Z",
+          "retryAt": "2026-10-05T20:29:53.243Z",
+          "minuteRetryAt": "2026-10-06T20:14:53.243Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "due",
+          "error": "HTTP 403",
+          "checkedAt": "2026-10-05T20:14:53.243Z",
+          "retryAt": "2026-10-05T20:29:53.243Z",
+          "minuteRetryAt": "2026-10-06T20:14:53.243Z"
+        }
+      },
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Published date or supported outcome fields could not be verified.",
+      "outcomeRetryAt": "2026-10-05T20:44:53.243Z",
+      "indexLevels": {
+        "nasdaq": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "10:00",
+          "releaseLabel": "ism-services",
+          "priorClose": {
+            "date": "2026-10-02",
+            "value": 27190.86397170832
+          },
+          "intradayStatus": "plan-not-authorized"
+        },
+        "sox": {
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "10:00",
+          "releaseLabel": "ism-services",
+          "priorClose": {
+            "date": "2026-10-02",
+            "value": 13136.67451205267
+          },
+          "intradayStatus": "plan-not-authorized"
+        }
+      }
     },
     {
       "eventId": "2026-10-07-FOMC MINUTES",
@@ -85332,6 +85388,15 @@
       "actual": null,
       "surprise": null,
       "sourceUrl": null
+    },
+    {
+      "eventId": "2026-10-21-TSLA Earnings",
+      "status": "pending",
+      "expected": "Q3 deliveries were 486,532 versus a Visible Alpha consensus of 456,896, while energy-storage deployments were 13.7 GWh. No dependable current EPS, revenue or margin consensus was verified, so those figures are operating baselines rather than an earnings forecast.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null
     }
   ],
   "earnings": {
@@ -85966,5 +86031,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-03T08:07:33.750Z"
+  "updatedAt": "2026-10-05T20:14:53.243Z"
 }
