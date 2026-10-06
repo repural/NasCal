@@ -31531,14 +31531,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         }
       },
       "indexLevels": {
@@ -82288,19 +82288,19 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-06T18:15:26.268Z",
+      "outcomeRetryAt": "2026-10-06T22:39:17.296Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82364,14 +82364,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         }
       },
       "indexLevels": {
@@ -82565,14 +82565,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         }
       },
       "indexLevels": {
@@ -82750,7 +82750,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-06T17:45:26.268Z",
+          "checkedAt": "2026-10-06T22:09:17.296Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         },
@@ -82758,7 +82758,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-06T17:45:26.268Z",
+          "checkedAt": "2026-10-06T22:09:17.296Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         }
@@ -83034,19 +83034,19 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-06T17:45:26.268Z"
+          "checkedAt": "2026-10-06T22:09:17.296Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official source HTTP 403",
-      "outcomeRetryAt": "2026-10-06T18:15:26.268Z",
+      "outcomeRetryAt": "2026-10-06T22:39:17.296Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -83090,23 +83090,23 @@
         "nasdaq": {
           "priorClose": "captured",
           "dayClose": "captured",
-          "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-06T17:45:26.268Z",
+          "at15": "captured",
+          "checkedAt": "2026-10-06T22:09:17.296Z",
           "minuteRetryAt": "2026-10-06T20:14:53.243Z",
-          "at60": "plan-not-authorized"
+          "at60": "captured"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
-          "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-06T17:45:26.268Z",
+          "at15": "captured",
+          "checkedAt": "2026-10-06T22:09:17.296Z",
           "minuteRetryAt": "2026-10-06T20:14:53.243Z",
-          "at60": "plan-not-authorized"
+          "at60": "captured"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Published date or supported outcome fields could not be verified.",
-      "outcomeRetryAt": "2026-10-06T18:15:26.268Z",
+      "outcomeRetryAt": "2026-10-06T22:39:17.296Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -83116,10 +83116,22 @@
             "date": "2026-10-02",
             "value": 27190.86397170832
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "dayClose": {
             "date": "2026-10-05",
             "value": 27477.31021108756
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 27350.3522809139
+          },
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 27330.71461193322
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 27395.12130425596
           }
         },
         "sox": {
@@ -83130,10 +83142,22 @@
             "date": "2026-10-02",
             "value": 13136.67451205267
           },
-          "intradayStatus": "awaiting-minute-bars",
+          "intradayStatus": "measured",
           "dayClose": {
             "date": "2026-10-05",
             "value": 13172.73640951796
+          },
+          "at15": {
+            "minuteET": "10:14",
+            "close": 13056.03769086293
+          },
+          "beforeRelease": {
+            "minuteET": "09:59",
+            "close": 13050.16309932926
+          },
+          "at60": {
+            "minuteET": "10:59",
+            "close": 13129.93238299897
           }
         }
       }
@@ -87146,5 +87170,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-06T17:45:26.268Z"
+  "updatedAt": "2026-10-06T22:09:17.296Z"
 }
