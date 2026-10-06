@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T20:14:53.243Z",
+  "checkedAt": "2026-10-06T01:17:31.965Z",
   "issues": [
     {
       "id": "2026-10-02-Jobs",
@@ -14,13 +14,13 @@
     {
       "id": "2026-10-05-ISM Services",
       "asset": "nasdaq",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     },
     {
       "id": "2026-10-05-ISM Services",
       "asset": "sox",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     }
   ],
-  "requests": 4
+  "requests": 2
 }

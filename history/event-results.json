@@ -31397,14 +31397,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         }
       },
       "indexLevels": {
@@ -82154,19 +82154,19 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-05T20:44:53.243Z",
+      "outcomeRetryAt": "2026-10-06T01:47:31.965Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82230,14 +82230,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         }
       },
       "indexLevels": {
@@ -82431,14 +82431,14 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         }
       },
       "indexLevels": {
@@ -82616,7 +82616,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-05T20:14:53.243Z",
+          "checkedAt": "2026-10-06T01:17:31.965Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         },
@@ -82624,7 +82624,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-05T20:14:53.243Z",
+          "checkedAt": "2026-10-06T01:17:31.965Z",
           "minuteRetryAt": "2026-10-02T14:24:53.337Z",
           "at60": "captured"
         }
@@ -82900,19 +82900,19 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-05T20:14:53.243Z"
+          "checkedAt": "2026-10-06T01:17:31.965Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official source HTTP 403",
-      "outcomeRetryAt": "2026-10-05T20:44:53.243Z",
+      "outcomeRetryAt": "2026-10-06T01:47:31.965Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82955,26 +82955,26 @@
       "capture": {
         "nasdaq": {
           "priorClose": "captured",
-          "dayClose": "pending",
-          "at15": "due",
-          "error": "HTTP 403",
-          "checkedAt": "2026-10-05T20:14:53.243Z",
-          "retryAt": "2026-10-05T20:29:53.243Z",
-          "minuteRetryAt": "2026-10-06T20:14:53.243Z"
+          "dayClose": "missing",
+          "at15": "plan-not-authorized",
+          "checkedAt": "2026-10-06T01:17:31.965Z",
+          "retryAt": "2026-10-06T01:32:31.965Z",
+          "minuteRetryAt": "2026-10-06T20:14:53.243Z",
+          "at60": "plan-not-authorized"
         },
         "sox": {
           "priorClose": "captured",
-          "dayClose": "pending",
-          "at15": "due",
-          "error": "HTTP 403",
-          "checkedAt": "2026-10-05T20:14:53.243Z",
-          "retryAt": "2026-10-05T20:29:53.243Z",
-          "minuteRetryAt": "2026-10-06T20:14:53.243Z"
+          "dayClose": "missing",
+          "at15": "plan-not-authorized",
+          "checkedAt": "2026-10-06T01:17:31.965Z",
+          "retryAt": "2026-10-06T01:32:31.965Z",
+          "minuteRetryAt": "2026-10-06T20:14:53.243Z",
+          "at60": "plan-not-authorized"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Published date or supported outcome fields could not be verified.",
-      "outcomeRetryAt": "2026-10-05T20:44:53.243Z",
+      "outcomeRetryAt": "2026-10-06T01:47:31.965Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82984,7 +82984,7 @@
             "date": "2026-10-02",
             "value": 27190.86397170832
           },
-          "intradayStatus": "plan-not-authorized"
+          "intradayStatus": "awaiting-minute-bars"
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82994,7 +82994,7 @@
             "date": "2026-10-02",
             "value": 13136.67451205267
           },
-          "intradayStatus": "plan-not-authorized"
+          "intradayStatus": "awaiting-minute-bars"
         }
       }
     },
@@ -86031,5 +86031,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-05T20:14:53.243Z"
+  "updatedAt": "2026-10-06T01:17:31.965Z"
 }
