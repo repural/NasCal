@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T08:40:54.223Z",
+  "checkedAt": "2026-10-07T18:17:08.125Z",
   "issues": [
     {
       "id": "2026-10-02-Jobs",
@@ -9,8 +9,28 @@
     {
       "id": "2026-10-05-ISM Services",
       "field": "outcome",
-      "reason": "Official source HTTP 503"
+      "reason": "Published date or supported outcome fields could not be verified."
+    },
+    {
+      "id": "2026-10-07-FOMC MINUTES",
+      "asset": "nasdaq",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-07-FOMC MINUTES",
+      "asset": "sox",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-07-UST 10Y",
+      "asset": "nasdaq",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-07-UST 10Y",
+      "asset": "sox",
+      "reason": "HTTP 403"
     }
   ],
-  "requests": 0
+  "requests": 4
 }
