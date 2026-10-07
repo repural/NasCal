@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-06T10:51:57.858Z",
-  "asOf": "2026-10-06",
-  "horizonEnd": "2027-01-04",
+  "checkedAt": "2026-10-07T10:39:17.562Z",
+  "asOf": "2026-10-07",
+  "horizonEnd": "2027-01-05",
   "mode": "daily",
   "sources": [
     {
@@ -18,7 +18,7 @@
       "url": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
       "status": "ok",
       "latestDate": "2026-12-23",
-      "count": 14
+      "count": 12
     },
     {
       "key": "fed",
@@ -36,24 +36,6 @@
     }
   ],
   "observations": [
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "e5470114-6282-4e32-894d-61734b5e353e",
-      "title": "U.S. International Trade in Goods and Services, August 2026",
-      "date": "2026-10-06",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "300ed1bc-933c-4c2b-8f89-336010269bbd",
-      "title": "Services Supplied Through Affiliates, 2024",
-      "date": "2026-10-06",
-      "timeET": "10:00",
-      "status": "scheduled"
-    },
     {
       "sourceKey": "bea",
       "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
@@ -164,24 +146,6 @@
     }
   ],
   "sourceObservationHistory": [
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "e5470114-6282-4e32-894d-61734b5e353e",
-      "title": "U.S. International Trade in Goods and Services, August 2026",
-      "date": "2026-10-06",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
-    {
-      "sourceKey": "bea",
-      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
-      "sourceUid": "300ed1bc-933c-4c2b-8f89-336010269bbd",
-      "title": "Services Supplied Through Affiliates, 2024",
-      "date": "2026-10-06",
-      "timeET": "10:00",
-      "status": "scheduled"
-    },
     {
       "sourceKey": "bea",
       "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
