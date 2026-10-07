@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T18:17:08.125Z",
+  "checkedAt": "2026-10-07T23:13:49.589Z",
   "issues": [
     {
       "id": "2026-10-02-Jobs",
@@ -13,24 +13,34 @@
     },
     {
       "id": "2026-10-07-FOMC MINUTES",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+    },
+    {
+      "id": "2026-10-07-FOMC MINUTES",
       "asset": "nasdaq",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     },
     {
       "id": "2026-10-07-FOMC MINUTES",
       "asset": "sox",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-10-07-UST 10Y",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event."
     },
     {
       "id": "2026-10-07-UST 10Y",
       "asset": "nasdaq",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     },
     {
       "id": "2026-10-07-UST 10Y",
       "asset": "sox",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     }
   ],
-  "requests": 4
+  "requests": 2
 }
