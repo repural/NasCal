@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-10-07",
+  "lastUpdated": "2026-10-08",
   "datasetPurpose": "Append-only event outcomes for historical analysis and forecast calibration. Existing records should be corrected with an audit note, never silently overwritten. QQQ 15m and 1h measure price changes at exact release windows when available.",
   "analysisFields": {
     "eventKey": "Stable recurring event family used to compare like-for-like releases",
@@ -2223,6 +2223,72 @@
       "nasdaqReactionDirection": "unverified",
       "dominantDriver": "amd-earnings",
       "confounders": []
+    },
+    "2026-10-29-FCC China Labs": {
+      "eventDate": "2026-10-29",
+      "eventKey": "fcc-china-labs-vote",
+      "eventType": "Politics",
+      "importance": "High",
+      "timeET": "headline-driven",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "fcc-china-labs-vote",
+      "confounders": []
+    },
+    "2026-10-29-INTC Earnings": {
+      "eventDate": "2026-10-29",
+      "eventKey": "intc-earnings",
+      "eventType": "Earnings",
+      "importance": "Critical",
+      "timeET": "17:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "intc-earnings",
+      "confounders": []
+    },
+    "2026-10-29-STM Earnings": {
+      "eventDate": "2026-10-29",
+      "eventKey": "stm-earnings",
+      "eventType": "Earnings",
+      "importance": "High",
+      "timeET": "after-close",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "stm-earnings",
+      "confounders": []
+    },
+    "2026-11-04-ARM Earnings": {
+      "eventDate": "2026-11-04",
+      "eventKey": "arm-earnings",
+      "eventType": "Earnings",
+      "importance": "Critical",
+      "timeET": "17:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "arm-earnings",
+      "confounders": []
+    },
+    "2026-11-10-TSMC Sales": {
+      "eventDate": "2026-11-10",
+      "eventKey": "tsmc-monthly-sales",
+      "eventType": "Earnings",
+      "importance": "High",
+      "timeET": "00:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "tsmc-monthly-sales",
+      "confounders": []
+    },
+    "2026-12-10-TSMC Sales": {
+      "eventDate": "2026-12-10",
+      "eventKey": "tsmc-monthly-sales",
+      "eventType": "Earnings",
+      "importance": "High",
+      "timeET": "00:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "tsmc-monthly-sales",
+      "confounders": []
     }
   },
   "results": [
@@ -2470,7 +2536,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-01-07-ISM-SVC",
@@ -2716,7 +2804,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-01-07-JOLTS",
@@ -2962,7 +3072,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-01-09-JOBS",
@@ -3128,7 +3260,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-01-13-CPI",
@@ -3304,7 +3458,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-01-14-PPI",
@@ -3480,7 +3656,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-01-14-RETAIL",
@@ -3656,7 +3854,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-01-22-GDP",
@@ -3832,7 +4052,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-01-22-PCE",
@@ -4086,6 +4328,28 @@
         "consensusMomPct": null,
         "surpriseMomPp": null,
         "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-and-november-2025"
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
       }
     },
     {
@@ -4332,7 +4596,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-01-28-FOMC",
@@ -4578,7 +4864,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-01-30-PPI",
@@ -4754,7 +5062,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-02-02-ISM-MFG",
@@ -5000,7 +5330,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-02-04-ISM-SVC",
@@ -5246,7 +5598,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-02-05-JOLTS",
@@ -5492,7 +5866,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-02-10-ECI",
@@ -5668,7 +6064,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-02-10-RETAIL",
@@ -5844,7 +6262,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-02-11-JOBS",
@@ -6020,7 +6460,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-02-13-CPI",
@@ -6196,7 +6658,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-02-20-FLASH-PMI",
@@ -6442,7 +6926,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-02-20-GDP",
@@ -6608,7 +7114,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-02-20-PCE",
@@ -6782,6 +7310,28 @@
         "consensusMomPct": null,
         "surpriseMomPp": null,
         "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025"
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -6958,7 +7508,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-03-02-ISM-MFG",
@@ -7204,7 +7776,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-03-04-ISM-SVC",
@@ -7450,7 +8044,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-03-06-JOBS",
@@ -7626,7 +8242,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-03-06-RETAIL",
@@ -7802,7 +8440,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-03-11-CPI",
@@ -7978,7 +8638,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-03-13-GDP",
@@ -8154,7 +8836,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-03-13-JOLTS",
@@ -8400,7 +9104,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-03-13-PCE",
@@ -8584,6 +9310,28 @@
         "consensusMomPct": null,
         "surpriseMomPp": null,
         "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026"
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -8830,7 +9578,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-03-18-PPI",
@@ -9006,7 +9776,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-03-24-FLASH-PMI",
@@ -9252,7 +10044,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-03-31-JOLTS",
@@ -9498,7 +10312,29 @@
           }
         }
       ],
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-04-01-ISM-MFG",
@@ -9744,7 +10580,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-04-03-JOBS",
@@ -9807,7 +10662,7 @@
           "at15": null,
           "at60": null,
           "dayClose": null,
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-10-07",
           "beforeRelease": null,
@@ -9824,7 +10679,7 @@
           "at15": null,
           "at60": null,
           "dayClose": null,
-          "intradayStatus": "exact-bars-unavailable",
+          "intradayStatus": "outside-index-session",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "updatedAt": "2026-10-07",
           "beforeRelease": null,
@@ -9846,7 +10701,32 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification",
+          "reason": "No verified source value"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "missing",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
+          "retryAt": "2026-10-08T07:55:22.453Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "missing",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
+          "retryAt": "2026-10-08T07:55:22.453Z"
+        }
+      },
+      "captureAttemptAt": "2026-10-08T07:40:22.453Z"
     },
     {
       "eventId": "2026-04-06-ISM-SVC",
@@ -10092,7 +10972,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-04-07-JOLTS",
@@ -10338,7 +11237,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-04-09-PCE",
@@ -10515,7 +11433,26 @@
       },
       "auditNotes": [
         "2026-09-29: filled previously missing core PCE figures from the original BEA release; headline figure retained."
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-04-10-CPI",
@@ -10691,7 +11628,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-04-14-PPI",
@@ -10847,7 +11803,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-04-16-RETAIL",
@@ -11013,7 +11988,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-04-29-FOMC",
@@ -11259,7 +12253,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-04-30-ECI",
@@ -11435,7 +12448,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-04-30-GDP",
@@ -11611,7 +12643,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-04-30-PCE",
@@ -11795,6 +12846,25 @@
         "consensusMomPct": null,
         "surpriseMomPp": null,
         "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-march-2026"
+      },
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -12041,7 +13111,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-05-05-ISM-SVC",
@@ -12287,7 +13376,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-05-05-JOLTS",
@@ -12533,7 +13641,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-05-08-JOBS",
@@ -12709,7 +13836,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-05-12-CPI",
@@ -12885,7 +14031,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-05-13-PPI",
@@ -13061,7 +14226,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-05-14-RETAIL",
@@ -13227,7 +14411,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-05-28-GDP",
@@ -13403,7 +14606,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-05-28-PCE",
@@ -13590,7 +14812,26 @@
       },
       "auditNotes": [
         "2026-09-29: filled previously missing core PCE figures from the original BEA release; headline annual figure retained."
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-06-01-ISM-MFG",
@@ -13836,7 +15077,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-06-02-JOLTS",
@@ -14082,7 +15342,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-06-03-AVGO",
@@ -14122,7 +15401,8 @@
           "dayOpen": {
             "date": "2026-06-03",
             "value": 27092.84453694551
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -14143,7 +15423,8 @@
           "dayOpen": {
             "date": "2026-06-03",
             "value": 13971.14839628968
-          }
+          },
+          "beforeRelease": null
         }
       },
       "earningsCrossAssets": {
@@ -16192,6 +17473,25 @@
           }
         ],
         "updatedAt": "2026-09-30"
+      },
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -16438,7 +17738,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-06-05-JOBS",
@@ -16614,7 +17933,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-06-10-CPI",
@@ -16790,7 +18128,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-06-11-PPI",
@@ -16966,7 +18323,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-06-17-FOMC",
@@ -17212,7 +18588,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-06-17-RETAIL",
@@ -17388,7 +18783,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-06-25-PCE",
@@ -17572,6 +18986,25 @@
         "consensusMomPct": null,
         "surpriseMomPp": null,
         "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+      },
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -17818,7 +19251,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-07-01-ISM-MFG",
@@ -18064,7 +19516,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-07-02-JOBS",
@@ -18240,7 +19711,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-07-06-ISM-SVC",
@@ -18486,7 +19976,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-07-14-CPI",
@@ -18663,7 +20172,22 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-07-15-PPI",
@@ -18819,7 +20343,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-07-16-RETAIL",
@@ -18995,7 +20538,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-07-29-FOMC",
@@ -19241,7 +20803,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-07-30-GDP",
@@ -19417,7 +20998,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-07-30-PCE",
@@ -19601,6 +21201,25 @@
         "consensusMomPct": null,
         "surpriseMomPp": null,
         "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026"
+      },
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -19777,7 +21396,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-08-03-ISM-MFG",
@@ -20048,7 +21686,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-08-04-JOLTS",
@@ -20319,7 +21976,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-08-05-ISM-SVC",
@@ -20590,7 +22266,26 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-08-07-JOBS",
@@ -20792,7 +22487,22 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-08-12-CPI",
@@ -20994,7 +22704,22 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-08-13-PPI",
@@ -21185,7 +22910,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-08-14-RETAIL",
@@ -21386,7 +23130,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-08-26-GDP",
@@ -21567,7 +23330,26 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-08-26-NVDA",
@@ -21629,7 +23411,8 @@
           "dayOpen": {
             "date": "2026-08-26",
             "value": 26099.57640220714
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -21650,7 +23433,8 @@
           "dayOpen": {
             "date": "2026-08-26",
             "value": 11564.43525415462
-          }
+          },
+          "beforeRelease": null
         }
       },
       "earningsCrossAssets": {
@@ -23699,6 +25483,25 @@
           }
         ],
         "updatedAt": "2026-09-30"
+      },
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -23888,6 +25691,25 @@
         "consensusMomPct": null,
         "surpriseMomPp": null,
         "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+      },
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -24167,7 +25989,22 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-09-01-JOLTS",
@@ -24446,7 +26283,22 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-09-02-AVGO",
@@ -24482,7 +26334,8 @@
           "dayOpen": {
             "date": "2026-09-02",
             "value": 26094.00436766905
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -24503,7 +26356,8 @@
           "dayOpen": {
             "date": "2026-09-02",
             "value": 11243.54560637204
-          }
+          },
+          "beforeRelease": null
         }
       },
       "earningsCrossAssets": {
@@ -26552,6 +28406,21 @@
           }
         ],
         "updatedAt": "2026-09-30"
+      },
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
       }
     },
     {
@@ -26831,7 +28700,22 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-09-04-Jobs",
@@ -27040,7 +28924,22 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-09-08-3Y",
@@ -27319,7 +29218,22 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-09-09-10Y",
@@ -27598,7 +29512,22 @@
             }
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-09-10-30Y",
@@ -27844,7 +29773,29 @@
       ],
       "qqq15m": "-0.03%",
       "qqq1h": "-0.16%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-09-10-PPI",
@@ -28020,7 +29971,22 @@
       ],
       "qqq15m": "-0.42%",
       "qqq1h": "-0.47%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-09-11-CPI",
@@ -28229,7 +30195,22 @@
             "at60": null
           }
         }
-      ]
+      ],
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-09-15-FOMC 1",
@@ -28265,7 +30246,8 @@
           "dayOpen": {
             "date": "2026-09-15",
             "value": 26140.22737743617
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -28286,7 +30268,23 @@
           "dayOpen": {
             "date": "2026-09-15",
             "value": 11233.0434712247
-          }
+          },
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time"
         }
       }
     },
@@ -28534,7 +30532,22 @@
       ],
       "qqq15m": "-0.04%",
       "qqq1h": "-0.83%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "captured",
+          "at60": "captured"
+        }
+      }
     },
     {
       "eventId": "2026-09-16-Retail",
@@ -28700,7 +30713,26 @@
       ],
       "qqq15m": "-0.20%",
       "qqq1h": "-0.14%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {
+        "expected": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        }
+      }
     },
     {
       "eventId": "2026-09-18-Witching",
@@ -28736,7 +30768,8 @@
           "dayOpen": {
             "date": "2026-09-18",
             "value": 26522.0904690094
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -28757,7 +30790,23 @@
           "dayOpen": {
             "date": "2026-09-18",
             "value": 11691.00442187154
-          }
+          },
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "no-single-release-time",
+          "at60": "no-single-release-time"
         }
       }
     },
@@ -29054,7 +31103,8 @@
           "at60": "captured",
           "checkedAt": "2026-10-02T21:23:55.373Z"
         }
-      }
+      },
+      "missingFields": {}
     },
     {
       "eventId": "2026-09-23-5Y",
@@ -29348,7 +31398,8 @@
           "at60": "captured",
           "checkedAt": "2026-10-03T08:07:33.750Z"
         }
-      }
+      },
+      "missingFields": {}
     },
     {
       "eventId": "2026-09-23-FLASH PMI",
@@ -29652,7 +31703,8 @@
           "at60": "captured",
           "checkedAt": "2026-10-03T08:07:33.750Z"
         }
-      }
+      },
+      "missingFields": {}
     },
     {
       "eventId": "2026-09-24-7Y",
@@ -29914,7 +31966,8 @@
           "at60": "captured",
           "checkedAt": "2026-10-03T08:07:33.750Z"
         }
-      }
+      },
+      "missingFields": {}
     },
     {
       "eventId": "2026-09-24-TRUMP–XI",
@@ -29955,7 +32008,8 @@
             "value": 26734.50815004199
           },
           "releaseTimeET": "headline-driven",
-          "releaseLabel": "trump-xi-summit"
+          "releaseLabel": "trump-xi-summit",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -29978,7 +32032,8 @@
             "value": 12309.09307455128
           },
           "releaseTimeET": "headline-driven",
-          "releaseLabel": "trump-xi-summit"
+          "releaseLabel": "trump-xi-summit",
+          "beforeRelease": null
         }
       },
       "capture": {
@@ -29996,7 +32051,8 @@
           "at60": "no-single-release-time",
           "checkedAt": "2026-10-03T08:07:33.750Z"
         }
-      }
+      },
+      "missingFields": {}
     },
     {
       "eventId": "2026-09-30-MU",
@@ -31708,7 +33764,8 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -31731,7 +33788,16 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "expected": {
+          "status": "awaiting-verification"
         }
       }
     },
@@ -33812,7 +35878,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -33833,7 +35900,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -35914,7 +38001,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -35935,7 +38023,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -38016,7 +40124,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -38037,7 +40146,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -40118,7 +42247,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -40139,7 +42269,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -42220,7 +44370,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -42241,7 +44392,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -44322,7 +46493,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -44343,7 +46515,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -46424,7 +48616,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -46445,7 +48638,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -48526,7 +50739,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -48547,7 +50761,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -50628,7 +52862,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -50649,7 +52884,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -52730,7 +54985,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -52751,7 +55007,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -54832,7 +57108,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -54853,7 +57130,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -56934,7 +59231,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -56955,7 +59253,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -59036,7 +61354,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -59057,7 +61376,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -61138,7 +63477,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -61159,7 +63499,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -63240,7 +65600,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -63261,7 +65622,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -65342,7 +67723,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -65363,7 +67745,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -67444,7 +69846,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -67465,7 +69868,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -69546,7 +71969,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -69567,7 +71991,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -71648,7 +74092,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -71669,7 +74114,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -73750,7 +76215,8 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -73771,7 +76237,27 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-07"
+          "updatedAt": "2026-10-07",
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -75910,7 +78396,8 @@
           "dayOpen": {
             "date": "2025-03-20",
             "value": 17586.06083346552
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -75932,7 +78419,23 @@
           "dayOpen": {
             "date": "2025-03-20",
             "value": 4579.06435495359
-          }
+          },
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -78071,7 +80574,8 @@
           "dayOpen": {
             "date": "2025-06-25",
             "value": 20013.9466033208
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -78093,7 +80597,23 @@
           "dayOpen": {
             "date": "2025-06-25",
             "value": 5461.15239762711
-          }
+          },
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -80232,7 +82752,8 @@
           "dayOpen": {
             "date": "2025-09-23",
             "value": 22782.71776693207
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -80254,7 +82775,23 @@
           "dayOpen": {
             "date": "2025-09-23",
             "value": 6336.52797447176
-          }
+          },
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -82393,7 +84930,8 @@
           "dayOpen": {
             "date": "2025-12-17",
             "value": 23135.60942927654
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -82415,7 +84953,23 @@
           "dayOpen": {
             "date": "2025-12-17",
             "value": 6993.09968316837
-          }
+          },
+          "beforeRelease": null
+        }
+      },
+      "missingFields": {},
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session"
         }
       }
     },
@@ -82433,19 +84987,19 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-07T23:13:49.589Z"
+          "checkedAt": "2026-10-08T07:40:22.453Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-10-07T23:13:49.589Z"
+          "checkedAt": "2026-10-08T07:40:22.453Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-07T23:43:49.589Z",
+      "outcomeRetryAt": "2026-10-08T08:10:22.453Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82459,7 +85013,10 @@
             "date": "2026-09-29",
             "value": 26797.54082498869
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -82473,9 +85030,27 @@
             "date": "2026-09-29",
             "value": 12629.16136787103
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null
         }
-      }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        },
+        "actual": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        },
+        "surprise": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        }
+      },
+      "captureAttemptAt": "2026-10-08T07:40:22.453Z"
     },
     {
       "eventId": "2026-09-30-PCE",
@@ -82679,7 +85254,8 @@
       ],
       "qqq15m": "+0.32%",
       "qqq1h": "+0.26%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {}
     },
     {
       "eventId": "2026-09-30-GDP",
@@ -82880,7 +85456,8 @@
       ],
       "qqq15m": "+0.32%",
       "qqq1h": "+0.26%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {}
     },
     {
       "eventId": "2026-10-01-ISM",
@@ -83163,7 +85740,8 @@
       ],
       "qqq15m": "-0.29%",
       "qqq1h": "-0.36%",
-      "reactionStatus": "measured"
+      "reactionStatus": "measured",
+      "missingFields": {}
     },
     {
       "eventId": "2026-10-02-Jobs",
@@ -83179,19 +85757,19 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-07T23:13:49.589Z"
+          "checkedAt": "2026-10-08T07:40:22.453Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-07T23:13:49.589Z"
+          "checkedAt": "2026-10-08T07:40:22.453Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official source HTTP 403",
-      "outcomeRetryAt": "2026-10-07T23:43:49.589Z",
+      "outcomeRetryAt": "2026-10-08T08:10:22.453Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -83205,7 +85783,10 @@
           "dayClose": {
             "date": "2026-10-02",
             "value": 27190.86397170832
-          }
+          },
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -83219,9 +85800,27 @@
           "dayClose": {
             "date": "2026-10-02",
             "value": 13136.67451205267
-          }
+          },
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null
         }
-      }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "source-unavailable",
+          "reason": "Official source HTTP 403"
+        },
+        "actual": {
+          "status": "source-unavailable",
+          "reason": "Official source HTTP 403"
+        },
+        "surprise": {
+          "status": "source-unavailable",
+          "reason": "Official source HTTP 403"
+        }
+      },
+      "captureAttemptAt": "2026-10-08T07:40:22.453Z"
     },
     {
       "eventId": "2026-10-05-ISM Services",
@@ -83236,7 +85835,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-07T23:13:49.589Z",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
           "minuteRetryAt": "2026-10-06T20:14:53.243Z",
           "at60": "captured"
         },
@@ -83244,14 +85843,14 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-07T23:13:49.589Z",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
           "minuteRetryAt": "2026-10-06T20:14:53.243Z",
           "at60": "captured"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Published date or supported outcome fields could not be verified.",
-      "outcomeRetryAt": "2026-10-07T23:43:49.589Z",
+      "outcomeRetryAt": "2026-10-08T08:10:22.453Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -83305,7 +85904,22 @@
             "close": 13129.93238299897
           }
         }
-      }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "source-unavailable",
+          "reason": "Published date or supported outcome fields could not be verified."
+        },
+        "actual": {
+          "status": "source-unavailable",
+          "reason": "Published date or supported outcome fields could not be verified."
+        },
+        "surprise": {
+          "status": "source-unavailable",
+          "reason": "Published date or supported outcome fields could not be verified."
+        }
+      },
+      "captureAttemptAt": "2026-10-08T07:40:22.453Z"
     },
     {
       "eventId": "2026-10-07-FOMC MINUTES",
@@ -83318,26 +85932,24 @@
       "capture": {
         "nasdaq": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-07T23:13:49.589Z",
-          "retryAt": "2026-10-07T23:28:49.589Z",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         },
         "sox": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-07T23:13:49.589Z",
-          "retryAt": "2026-10-07T23:28:49.589Z",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-07T23:43:49.589Z",
+      "outcomeRetryAt": "2026-10-08T08:10:22.453Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -83347,7 +85959,14 @@
             "date": "2026-10-06",
             "value": 27599.88607542234
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-10-07",
+            "value": 27538.69065575934
+          }
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -83357,9 +85976,31 @@
             "date": "2026-10-06",
             "value": 13217.82294179828
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-10-07",
+            "value": 13066.14985237909
+          }
         }
-      }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        },
+        "actual": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        },
+        "surprise": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        }
+      },
+      "captureAttemptAt": "2026-10-08T07:40:22.453Z"
     },
     {
       "eventId": "2026-10-08-TSMC",
@@ -84343,6 +86984,47 @@
           }
         ],
         "updatedAt": "2026-10-07"
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      },
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": null,
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": null
+        },
+        "sox": {
+          "priorClose": null,
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": null
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "missing",
+          "dayClose": "pending",
+          "at15": "pending",
+          "at60": "pending"
+        },
+        "sox": {
+          "priorClose": "missing",
+          "dayClose": "pending",
+          "at15": "pending",
+          "at60": "pending"
+        }
       }
     },
     {
@@ -84352,7 +87034,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-15-PPI",
@@ -84361,7 +87054,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-15-Retail",
@@ -84370,7 +87074,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-23-FLASH PMI",
@@ -84379,7 +87094,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-27-FOMC 1",
@@ -84388,7 +87114,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-28-FED",
@@ -84397,7 +87134,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-29-GDP",
@@ -84406,7 +87154,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-29-PCE",
@@ -84415,7 +87174,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-30-ECI",
@@ -84424,7 +87194,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-02-ISM MFG",
@@ -84433,7 +87214,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-03-JOLTS",
@@ -84442,7 +87234,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-03-MIDTERMS",
@@ -84451,7 +87254,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-04-ISM SERVICES",
@@ -84460,7 +87274,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-05-PRODUCTIVITY",
@@ -84469,7 +87294,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-06-JOBS",
@@ -84478,7 +87314,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-10-CPI",
@@ -84487,7 +87334,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-13-PPI",
@@ -84496,7 +87354,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-18-APEC",
@@ -84505,7 +87374,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-18-FOMC MINUTES",
@@ -84514,7 +87394,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-25-GDP",
@@ -84523,7 +87414,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-25-PCE",
@@ -84532,7 +87434,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-01-ISM MFG",
@@ -84541,7 +87454,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-01-JOLTS",
@@ -84550,7 +87474,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-03-ISM SERVICES",
@@ -84559,7 +87494,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-04-JOBS",
@@ -84568,7 +87514,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-08-PRODUCTIVITY",
@@ -84577,7 +87534,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-09-FED",
@@ -84586,7 +87554,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-10-CPI",
@@ -84595,7 +87574,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-14-G20",
@@ -84604,7 +87594,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-15-PPI",
@@ -84613,7 +87614,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-23-GDP",
@@ -84622,7 +87634,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-23-PCE",
@@ -84631,7 +87654,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-07-UST 10Y",
@@ -84644,26 +87678,24 @@
       "capture": {
         "nasdaq": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-07T23:13:49.589Z",
-          "retryAt": "2026-10-07T23:28:49.589Z",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         },
         "sox": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-07T23:13:49.589Z",
-          "retryAt": "2026-10-07T23:28:49.589Z",
+          "checkedAt": "2026-10-08T07:40:22.453Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         }
       },
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-07T23:43:49.589Z",
+      "outcomeRetryAt": "2026-10-08T08:10:22.453Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -84673,7 +87705,14 @@
             "date": "2026-10-06",
             "value": 27599.88607542234
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-10-07",
+            "value": 27538.69065575934
+          }
         },
         "sox": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -84683,9 +87722,31 @@
             "date": "2026-10-06",
             "value": 13217.82294179828
           },
-          "intradayStatus": "awaiting-minute-bars"
+          "intradayStatus": "awaiting-minute-bars",
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-10-07",
+            "value": 13066.14985237909
+          }
         }
-      }
+      },
+      "missingFields": {
+        "previous": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        },
+        "actual": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        },
+        "surprise": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+        }
+      },
+      "captureAttemptAt": "2026-10-08T07:40:22.453Z"
     },
     {
       "eventId": "2026-10-08-UST 30Y",
@@ -84694,7 +87755,48 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      },
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": null,
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": null
+        },
+        "sox": {
+          "priorClose": null,
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": null
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "missing",
+          "dayClose": "pending",
+          "at15": "pending",
+          "at60": "pending"
+        },
+        "sox": {
+          "priorClose": "missing",
+          "dayClose": "pending",
+          "at15": "pending",
+          "at60": "pending"
+        }
+      }
     },
     {
       "eventId": "2026-10-21-UST 20Y",
@@ -84703,7 +87805,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-29-UST 7Y",
@@ -84712,7 +87825,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-10-UST 10Y",
@@ -84721,7 +87845,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-12-UST 30Y",
@@ -84730,7 +87865,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-18-UST 20Y",
@@ -84739,7 +87885,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-11-25-UST 7Y",
@@ -84748,7 +87905,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-08-UST 10Y",
@@ -84757,7 +87925,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-10-UST 30Y",
@@ -84766,7 +87945,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-23-UST 20Y",
@@ -84775,7 +87965,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-29-UST 7Y",
@@ -84784,7 +87985,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-15-TSM Earnings",
@@ -85768,6 +88980,17 @@
           }
         ],
         "updatedAt": "2026-10-07"
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
       }
     },
     {
@@ -85777,7 +89000,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-12-27-China Supply Probe",
@@ -85786,7 +89020,18 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     },
     {
       "eventId": "2026-10-21-TSLA Earnings",
@@ -86770,6 +90015,17 @@
           }
         ],
         "updatedAt": "2026-10-07"
+      },
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
       }
     },
     {
@@ -86779,7 +90035,138 @@
       "previous": null,
       "actual": null,
       "surprise": null,
-      "sourceUrl": null
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-29-FCC China Labs",
+      "status": "pending",
+      "expected": "The FCC has announced a vote to bar Chinese laboratories and certification bodies from testing electronics for U.S. use. Passage is the stated policy direction; implementation is slated for December 2028.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-29-INTC Earnings",
+      "status": "pending",
+      "expected": "Intel has confirmed the date and call time. No dependable current revenue, EPS or margin consensus was independently verified, so uncertainty should be treated explicitly.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-29-STM Earnings",
+      "status": "pending",
+      "expected": "STMicroelectronics confirms October 29 for Q3 results. No dependable current analyst consensus or final release time was independently verified.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-04-ARM Earnings",
+      "status": "pending",
+      "expected": "Arm confirms a November 4 webcast at 17:00 ET. No dependable current revenue, EPS or royalty-growth consensus was independently verified.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-10-TSMC Sales",
+      "status": "pending",
+      "expected": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-10-TSMC Sales",
+      "status": "pending",
+      "expected": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     }
   ],
   "earnings": {
@@ -87414,5 +90801,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-07T23:13:49.589Z"
+  "updatedAt": "2026-10-08T07:40:22.453Z"
 }
