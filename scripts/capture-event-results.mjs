@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import {resolveEventFamily} from '../data/event-family.mjs';
 import {timestamp} from './market-reaction-utils.mjs';
-import {etParts,releaseTimestamp,windowState,indexMeasurement,parseOutcome} from './result-capture-utils.mjs';
+import {etParts,releaseTimestamp,windowState,indexMeasurement,parseOutcome,parseMarketWatchOutcome} from './result-capture-utils.mjs';
 const now=Date.now(),parts=etParts(now),today=`${parts.year}-${parts.month}-${parts.day}`;
 const root=new URL('../',import.meta.url);
 const read=async path=>JSON.parse(await fs.readFile(new URL(path,root),'utf8'));
@@ -35,6 +35,12 @@ for(const e of events){
   }
 }
 const key=process.env.MASSIVE_API_KEY,cache=new Map();let lastRequest=0;
+const fallbackUrl='https://www.marketwatch.com/economy-politics/calendar';let marketWatchPage;
+async function fallbackOutcome(e){
+  marketWatchPage??=fetch(fallbackUrl,{signal:AbortSignal.timeout(20000),headers:{'User-Agent':'NasCal economic result verification'}}).then(async response=>{if(!response.ok)throw Error(`MarketWatch HTTP ${response.status}`);return response.text();});
+  const result=parseMarketWatchOutcome(await marketWatchPage,e.date,resolveEventFamily(e),today);
+  if(!result)throw Error('No unambiguous dated MarketWatch actual; retry retained');return result;
+}
 async function request(url){
   const wait=13000-(Date.now()-lastRequest);if(wait>0)await new Promise(r=>setTimeout(r,wait));lastRequest=Date.now();report.requests++;
   const response=await fetch(url,{headers:{Authorization:`Bearer ${key}`},signal:AbortSignal.timeout(25000)});
@@ -78,7 +84,16 @@ for(const e of candidates){
       const text=(await response.text()).replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/\s+/g,' ');
       const parsed=parseOutcome(resolveEventFamily(e),text,e.date);if(!parsed)throw Error('Published date or supported outcome fields could not be verified.');
       Object.assign(r,{status:'verified',outcomeStatus:'verified',actual:parsed.actual,sourceUrl:url,verifiedAt:new Date(now).toISOString(),outcomeMetrics:{...parsed.metrics,sourceUrl:url}});
-    }catch(error){r.outcomeStatus='awaiting-verification';r.outcomeError=error.message;r.outcomeRetryAt=new Date(now+30*60000).toISOString();}
+    }catch(error){
+      try{
+        const parsed=await fallbackOutcome(e);
+        Object.assign(r,{status:'verified',outcomeStatus:'verified',actual:parsed.actual,sourceUrl:fallbackUrl,sourceType:'secondary-calendar',verifiedAt:new Date(now).toISOString(),outcomeMetrics:{...parsed.metrics,sourceUrl:fallbackUrl}});
+        if(r.previous==null&&parsed.previous!=null)r.previous=parsed.previous;
+        if(parsed.expected!=null)r.expected=parsed.expected;
+        r.auditNotes??=[];r.auditNotes.push({at:new Date(now).toISOString(),action:'MarketWatch dated Actual fallback captured',primarySourceError:error.message,sourceUrl:fallbackUrl});
+        delete r.outcomeError;delete r.outcomeRetryAt;
+      }catch(fallbackError){r.outcomeStatus='awaiting-verification';r.outcomeError=error.message+'; '+fallbackError.message;r.outcomeRetryAt=new Date(now+30*60000).toISOString();}
+    }
   }
   for(const [name,ticker] of [['nasdaq','I:COMP'],['sox','I:SOX']]){
     r.indexLevels??={};const l=r.indexLevels[name]??={};const state=r.capture[name]??={};
