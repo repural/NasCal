@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T03:50:00.000Z",
-  "asOf": "2026-10-07",
+  "updatedAt": "2026-10-08T03:55:00.000Z",
+  "asOf": "2026-10-08",
   "horizonEnd": "2026-12-31",
   "events": [
     {
@@ -21,8 +21,8 @@
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -32,6 +32,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing"
@@ -51,12 +55,12 @@
       "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
       "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "interpretationSources": [
         {
           "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
@@ -65,6 +69,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report"
@@ -82,12 +90,12 @@
       "importance": "High",
       "explanation": "Services prices and employment will test whether softer hiring allows a Fed pause without a material growth slowdown.",
       "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
-      "negative": "A strong prices-paid surprise revives October-hike risk from below 20%, or weak orders turn the pause into a growth warning.",
+      "negative": "A strong prices-paid surprise revives October-hike risk from 21.6%, or weak orders turn the pause into a growth warning.",
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -97,6 +105,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services"
@@ -116,12 +128,12 @@
       "positive": "Officials show scope to assess inflation and growth before tightening again.",
       "negative": "A stronger commitment to repeated hikes than markets infer overwhelms softer hiring evidence.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "id": "2026-10-07-FOMC MINUTES",
       "timeLabel": "14:00 ET · 21:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -131,6 +143,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-minutes"
@@ -154,8 +170,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -165,6 +181,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -186,8 +206,8 @@
       "id": "2026-10-08-TSMC",
       "timeLabel": "Publication time not fixed",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -197,6 +217,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "tsmc-monthly-sales"
@@ -220,8 +244,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -231,6 +255,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -248,12 +276,12 @@
       "importance": "Critical",
       "explanation": "With oil elevated and the Fed projecting another 2026 hike, this is the decisive inflation test before the October meeting.",
       "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
-      "negative": "A broad upside inflation surprise sharply raises October-hike odds from below 20% and lifts yields; weak demand-sensitive inflation could instead reinforce growth concerns.",
+      "negative": "A broad upside inflation surprise sharply raises October-hike odds from 21.6% and lifts yields; weak demand-sensitive inflation could instead reinforce growth concerns.",
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -263,6 +291,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi"
@@ -285,8 +317,8 @@
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -296,6 +328,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi"
@@ -318,8 +354,8 @@
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -329,6 +365,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "retail-sales"
@@ -353,8 +393,8 @@
       "id": "2026-10-15-TSM Earnings",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
-      "interpretationAsOf": "2026-10-07",
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
@@ -373,6 +413,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ]
     },
@@ -395,8 +439,8 @@
       "positive": "Better margins and cash generation accompany strong deliveries, while credible AI, robotaxi and energy growth supports the valuation without a large capex shock.",
       "negative": "Price cuts, weaker margins or cash flow, an energy shortfall, or heavier AI and robotaxi spending overwhelm the delivery beat and pressure megacap growth multiples.",
       "sourceUrl": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "sources": [
         {
@@ -412,6 +456,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ]
     },
@@ -434,8 +482,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -445,6 +493,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -464,12 +516,12 @@
       "positive": "Resilient activity with slower price increases and balanced employment, supporting technology demand and the pause case.",
       "negative": "Renewed price pressure reverses the pause trade; a broad activity drop instead weakens the earnings outlook.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -479,6 +531,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "flash-pmi"
@@ -500,8 +556,8 @@
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -511,6 +567,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-day-1"
@@ -530,12 +590,12 @@
       "positive": "A pause paired with data-dependent guidance and confidence that inflation can improve without a sharp growth slowdown, limiting upward pressure on long yields.",
       "negative": "An October hike would be a large hawkish surprise; alternatively, guidance that validates near-certain December tightening or a pause framed around labor weakness could pressure technology shares.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "interpretationSources": [
         {
           "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
@@ -544,9 +604,48 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-decision"
+    },
+    {
+      "status": "scheduled",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "id": "2026-10-29-FCC China Labs",
+      "date": "2026-10-29",
+      "short": "FCC China Labs",
+      "event": "FCC vote on Chinese electronics-testing laboratories",
+      "eventKey": "fcc-china-labs-vote",
+      "type": "Politics",
+      "importance": "High",
+      "timeLabel": "FCC meeting · exact vote time not yet verified",
+      "expects": "The FCC has announced a vote to bar Chinese laboratories and certification bodies from testing electronics for U.S. use. Passage is the stated policy direction; implementation is slated for December 2028.",
+      "positive": "A clear, phased rule with workable U.S. and allied testing capacity limits near-term compliance disruption while improving supply-chain certainty.",
+      "negative": "A broader-than-expected rule or retaliatory response raises device-certification costs and deepens U.S.–China technology friction.",
+      "watch": "Final scope, transition provisions, reciprocal-treatment test, affected laboratories and implementation timetable",
+      "window": "FCC vote and publication of the final rule",
+      "explanation": "The policy could affect certification paths for smartphones, computers and other electronics. Its delayed implementation reduces immediate earnings impact, but the vote is a significant technology-policy signal.",
+      "sourceUrl": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/",
+          "title": "Reuters confirmation of FCC-announced vote"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/",
+          "title": "Confirmed policy scope and timing"
+        }
+      ]
     },
     {
       "expects": "No dependable Q3 consensus verified. Private demand, investment and price detail matter more than inventory or trade contributions alone.",
@@ -566,8 +665,8 @@
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -577,9 +676,52 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-advance"
+    },
+    {
+      "status": "scheduled",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "id": "2026-10-29-INTC Earnings",
+      "date": "2026-10-29",
+      "short": "INTC Earnings",
+      "event": "Intel Q3 earnings and conference call",
+      "eventKey": "intc-earnings",
+      "type": "Earnings",
+      "importance": "Critical",
+      "timeLabel": "After close · call 17:00 ET / 00:00 Istanbul Oct 30",
+      "expects": "Intel has confirmed the date and call time. No dependable current revenue, EPS or margin consensus was independently verified, so uncertainty should be treated explicitly.",
+      "positive": "Improving foundry execution, data-center demand and credible margin guidance support semiconductor breadth beyond AI accelerators.",
+      "negative": "Weak foundry milestones, margin pressure or cautious data-center guidance undermine confidence in a broader semiconductor recovery.",
+      "watch": "Data center, foundry milestones, gross margin, capex, cash flow and forward guidance",
+      "window": "After-hours release and 17:00 ET call through the next U.S. session",
+      "explanation": "Intel is a major semiconductor bellwether. The release coincides with GDP, PCE, a Treasury auction, other chip earnings and the FCC vote, so market attribution may overlap.",
+      "sourceUrl": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+      "sources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+          "title": "Official reporting-date announcement"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-reports-third-quarter-2026-financial-results.html",
+          "title": "Official schedule; preferences and risks are analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Current rate-market context"
+        }
+      ]
     },
     {
       "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
@@ -599,8 +741,8 @@
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -610,9 +752,52 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce"
+    },
+    {
+      "status": "scheduled",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "id": "2026-10-29-STM Earnings",
+      "date": "2026-10-29",
+      "short": "STM Earnings",
+      "event": "STMicroelectronics Q3 earnings",
+      "eventKey": "stm-earnings",
+      "type": "Earnings",
+      "importance": "High",
+      "timeLabel": "European pre-market timing expected · exact time not verified",
+      "expects": "STMicroelectronics confirms October 29 for Q3 results. No dependable current analyst consensus or final release time was independently verified.",
+      "positive": "Industrial and automotive demand stabilize while margins and inventory improve, broadening semiconductor participation.",
+      "negative": "Further industrial or automotive weakness, inventory correction or margin pressure weighs on cyclical chip demand.",
+      "watch": "Automotive and industrial demand, inventories, gross margin, utilization and guidance",
+      "window": "European release through the U.S. cash close",
+      "explanation": "STMicroelectronics provides a cyclical semiconductor read distinct from AI accelerators. Same-day U.S. macro releases and Intel earnings can overlap with the market reaction.",
+      "sourceUrl": "https://investors.st.com/events-and-presentations",
+      "sources": [
+        {
+          "url": "https://investors.st.com/events-and-presentations",
+          "title": "Official financial calendar"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://investors.st.com/events-and-presentations",
+          "title": "Official schedule; preferences and risks are analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Current rate-market context"
+        }
+      ]
     },
     {
       "id": "2026-10-29-UST 7Y",
@@ -633,8 +818,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -644,6 +829,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -663,12 +852,12 @@
       "positive": "Moderating compensation with stable employment, reducing persistent service-price pressure.",
       "negative": "Sticky benefits or wages undermine the case for delaying another rate increase.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -678,6 +867,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-cost"
@@ -697,12 +890,12 @@
       "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
       "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -712,9 +905,56 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing"
+    },
+    {
+      "id": "2026-11-03-AMD Earnings",
+      "date": "2026-11-03",
+      "short": "AMD Earnings",
+      "event": "AMD Q3 earnings and conference call",
+      "eventKey": "amd-earnings",
+      "type": "Earnings",
+      "importance": "Critical",
+      "timeLabel": "After close · call 17:00 ET / 01:00 Istanbul Nov 4",
+      "status": "scheduled",
+      "expects": "Company Q3 guidance is revenue $13.0 billion ±$0.3 billion and non-GAAP gross margin about 56%. No dependable current analyst consensus verified; company guidance is the baseline.",
+      "positive": "AI accelerator and EPYC demand exceed the guidance baseline with durable margins and credible forward orders, supporting semiconductor earnings while yields ease.",
+      "negative": "A modest beat with disappointing forward AI demand or margin pressure falls short of elevated expectations; export restrictions could further constrain sales.",
+      "watch": "Instinct and EPYC revenue, gross margin, forward guidance, deployment timing and export restrictions",
+      "window": "After-hours release and 17:00 ET call through the next U.S. session",
+      "explanation": "AMD confirmed November 3 results after market close. The 17:00 ET call is distinct from the initial release. Earnings share the date with U.S. midterms; next-session moves may reflect both.",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "sources": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+          "title": "Official October 6 reporting-date announcement"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+          "title": "Official Q3 guidance"
+        },
+        {
+          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
+          "title": "Current market context; preferences and risks are analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+        }
+      ]
     },
     {
       "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
@@ -731,12 +971,12 @@
       "positive": "Balanced labor demand, few layoffs and lower wage pressure, sustaining the soft-landing interpretation.",
       "negative": "Layoffs rise sharply and threaten growth, or hiring competition reignites wage pressure.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -746,6 +986,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "jolts"
@@ -767,8 +1011,8 @@
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -778,46 +1022,50 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "us-midterm-elections"
     },
     {
-      "id": "2026-11-03-AMD Earnings",
-      "date": "2026-11-03",
-      "short": "AMD Earnings",
-      "event": "AMD Q3 earnings and conference call",
-      "eventKey": "amd-earnings",
-      "type": "Earnings",
-      "importance": "Critical",
-      "timeLabel": "After close · call 17:00 ET / 01:00 Istanbul Nov 4",
       "status": "scheduled",
-      "expects": "Company Q3 guidance is revenue $13.0 billion ±$0.3 billion and non-GAAP gross margin about 56%. No dependable current analyst consensus verified; company guidance is the baseline.",
-      "positive": "AI accelerator and EPYC demand exceed the guidance baseline with durable margins and credible forward orders, supporting semiconductor earnings while yields ease.",
-      "negative": "A modest beat with disappointing forward AI demand or margin pressure falls short of elevated expectations; export restrictions could further constrain sales.",
-      "watch": "Instinct and EPYC revenue, gross margin, forward guidance, deployment timing and export restrictions",
-      "window": "After-hours release and 17:00 ET call through the next U.S. session",
-      "explanation": "AMD confirmed November 3 results after market close. The 17:00 ET call is distinct from the initial release. Earnings share the date with U.S. midterms; next-session moves may reflect both.",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
-      "interpretationAsOf": "2026-10-07",
-      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "id": "2026-11-04-ARM Earnings",
+      "date": "2026-11-04",
+      "short": "ARM Earnings",
+      "event": "Arm fiscal Q2 2027 earnings and webcast",
+      "eventKey": "arm-earnings",
+      "type": "Earnings",
+      "importance": "Critical",
+      "timeLabel": "17:00 ET · 01:00 Istanbul Nov 5",
+      "expects": "Arm confirms a November 4 webcast at 17:00 ET. No dependable current revenue, EPS or royalty-growth consensus was independently verified.",
+      "positive": "AI, data-center and edge royalty growth exceed expectations with resilient licensing demand and constructive guidance.",
+      "negative": "Royalty growth, licensing timing or forward guidance disappoints an elevated valuation and pressures AI-linked semiconductor sentiment.",
+      "watch": "Royalty revenue, licensing, data-center adoption, v9 mix, China exposure and guidance",
+      "window": "After-hours release and webcast through the next U.S. session",
+      "explanation": "Arm is a central architecture supplier across mobile, data-center and edge markets. Its results can affect the broader semiconductor complex even though its business mix differs from chip manufacturers.",
+      "sourceUrl": "https://investors.arm.com/financials/quarterly-annual-results",
       "sources": [
         {
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
-          "title": "Official October 6 reporting-date announcement"
+          "url": "https://investors.arm.com/financials/quarterly-annual-results",
+          "title": "Official quarterly-results schedule"
         }
       ],
       "interpretationSources": [
         {
-          "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
-          "title": "Official Q3 guidance"
+          "url": "https://investors.arm.com/financials/quarterly-annual-results",
+          "title": "Official schedule; preferences and risks are analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "Current market context; preferences and risks are analysis"
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Current rate-market context"
         }
       ]
     },
@@ -836,12 +1084,12 @@
       "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
       "negative": "Persistent service inflation reprices the Fed more hawkishly, or weak orders turn the pause into a growth warning.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -851,6 +1099,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services"
@@ -880,8 +1132,8 @@
       "negative": "Weak productivity or upward labor-cost revisions challenge the disinflation benefit expected from AI investment.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -891,6 +1143,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "productivity-costs"
@@ -910,12 +1166,12 @@
       "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
       "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-06-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -925,6 +1181,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report"
@@ -944,12 +1204,12 @@
       "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
       "negative": "Sticky core services or energy pass-through reverses the pause trade and lifts yields.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -959,9 +1219,52 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi"
+    },
+    {
+      "status": "scheduled",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "id": "2026-11-10-TSMC Sales",
+      "date": "2026-11-10",
+      "short": "TSMC Sales",
+      "event": "TSMC monthly sales update — October 2026",
+      "eventKey": "tsmc-monthly-sales",
+      "type": "Earnings",
+      "importance": "High",
+      "timeLabel": "13:30 Taipei · 00:30 ET · 08:30 Istanbul",
+      "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
+      "positive": "Advanced-node and AI-related demand remain broad enough to support utilization, margins and semiconductor earnings expectations.",
+      "negative": "A material sequential slowdown or weaker customer mix raises doubts about the durability of AI and advanced-node demand.",
+      "watch": "Monthly revenue growth, sequential trend, advanced-node demand and consistency with quarterly guidance",
+      "window": "Taiwan publication through the U.S. cash session",
+      "explanation": "The monthly revenue update is a timely demand signal, but one month does not establish a full-quarter outcome and currency or shipment timing can distort comparisons.",
+      "sourceUrl": "https://investor.cld.tsmc.com/english/financial-calendar",
+      "sources": [
+        {
+          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
+          "title": "Official TSMC financial calendar"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
+          "title": "Official schedule; preferences and risks are analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Current rate-market context"
+        }
+      ]
     },
     {
       "id": "2026-11-10-UST 10Y",
@@ -982,8 +1285,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -993,6 +1296,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -1016,8 +1323,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1027,6 +1334,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -1046,12 +1357,12 @@
       "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
       "negative": "Supply disruptions or service-price increases lift the prospective PCE reading and rate expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-13-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1061,6 +1372,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi"
@@ -1080,12 +1395,12 @@
       "positive": "Implementable cooperation reduces technology supply-chain and trade uncertainty.",
       "negative": "New export restrictions or diplomatic escalation offsets recent dialogue; weak deliverables disappoint.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
       "id": "2026-11-18-APEC",
       "timeLabel": "Nov 18–19 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1095,6 +1410,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "apec-leaders"
@@ -1114,12 +1433,12 @@
       "positive": "Officials show scope to assess inflation and growth before tightening again.",
       "negative": "A stronger commitment to repeated hikes than markets infer overwhelms softer hiring evidence.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "id": "2026-11-18-FOMC MINUTES",
       "timeLabel": "14:00 ET · 22:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1129,6 +1448,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-minutes"
@@ -1152,8 +1475,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1163,6 +1486,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -1185,8 +1512,8 @@
       "id": "2026-11-25-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1196,6 +1523,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-second"
@@ -1218,8 +1549,8 @@
       "id": "2026-11-25-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1229,6 +1560,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce"
@@ -1252,8 +1587,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1263,6 +1598,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -1282,12 +1621,12 @@
       "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
       "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1297,6 +1636,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing"
@@ -1316,12 +1659,12 @@
       "positive": "Balanced labor demand, few layoffs and lower wage pressure, sustaining the soft-landing interpretation.",
       "negative": "Layoffs rise sharply and threaten growth, or hiring competition reignites wage pressure.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched.htm",
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1331,6 +1674,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "jolts"
@@ -1350,12 +1697,12 @@
       "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
       "negative": "Persistent service inflation reprices the Fed more hawkishly, or weak orders turn the pause into a growth warning.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1365,6 +1712,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services"
@@ -1384,12 +1735,12 @@
       "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
       "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1399,6 +1750,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report"
@@ -1428,8 +1783,8 @@
       "negative": "Weak productivity or upward labor-cost revisions challenge the disinflation benefit expected from AI investment.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1439,6 +1794,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "productivity-costs"
@@ -1462,8 +1821,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1473,12 +1832,16 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
     },
     {
-      "expects": "After the September jobs report, markets price a December hike at nearly 90% even as October-hike odds fell about 20%. Intervening inflation and labor data can materially change that baseline.",
+      "expects": "After the September jobs report, markets price a December hike at 68.6% even as October-hike odds fell about 20%. Intervening inflation and labor data can materially change that baseline.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -1492,12 +1855,12 @@
       "positive": "Inflation improves enough for a less restrictive path than feared without undermining confidence in growth.",
       "negative": "A hike plus guidance for further tightening, or an upward shift in the projected rate path, extends the high-yield regime and compresses technology valuations.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1507,6 +1870,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-decision"
@@ -1526,12 +1893,12 @@
       "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
       "negative": "Sticky core services or energy pass-through reverses the pause trade and lifts yields.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1541,9 +1908,52 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi"
+    },
+    {
+      "status": "scheduled",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "id": "2026-12-10-TSMC Sales",
+      "date": "2026-12-10",
+      "short": "TSMC Sales",
+      "event": "TSMC monthly sales update — November 2026",
+      "eventKey": "tsmc-monthly-sales",
+      "type": "Earnings",
+      "importance": "High",
+      "timeLabel": "13:30 Taipei · 00:30 ET · 08:30 Istanbul",
+      "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
+      "positive": "Advanced-node and AI-related demand remain broad enough to support utilization, margins and semiconductor earnings expectations.",
+      "negative": "A material sequential slowdown or weaker customer mix raises doubts about the durability of AI and advanced-node demand.",
+      "watch": "Monthly revenue growth, sequential trend, advanced-node demand and consistency with quarterly guidance",
+      "window": "Taiwan publication through the U.S. cash session",
+      "explanation": "The monthly revenue update is a timely demand signal, but one month does not establish a full-quarter outcome and currency or shipment timing can distort comparisons.",
+      "sourceUrl": "https://investor.cld.tsmc.com/english/financial-calendar",
+      "sources": [
+        {
+          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
+          "title": "Official TSMC financial calendar"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
+          "title": "Official schedule; preferences and risks are analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Current rate-market context"
+        }
+      ]
     },
     {
       "id": "2026-12-10-UST 30Y",
@@ -1564,8 +1974,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1575,6 +1985,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -1594,12 +2008,12 @@
       "positive": "Credible energy and trade cooperation reduces supply risks and uncertainty for technology demand.",
       "negative": "Escalation raises energy costs or disrupts chip supply, worsening the inflation-and-growth tradeoff.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/bmdyzs_664814/xwlb_664816/202609/t20260926_12031663.html",
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1609,6 +2023,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "g20-leaders"
@@ -1628,12 +2046,12 @@
       "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
       "negative": "Supply disruptions or service-price increases lift the prospective PCE reading and rate expectations.",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
+      "lastUpdated": "2026-10-08",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1643,6 +2061,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi"
@@ -1665,8 +2087,8 @@
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1676,6 +2098,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-final"
@@ -1698,8 +2124,8 @@
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1709,6 +2135,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce"
@@ -1732,8 +2162,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1743,6 +2173,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
@@ -1767,8 +2201,8 @@
       "id": "2026-12-27-China Green Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
-      "interpretationAsOf": "2026-10-07",
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
       "sources": [
         {
           "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
@@ -1787,6 +2221,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ]
     },
@@ -1810,8 +2248,8 @@
       "id": "2026-12-27-China Supply Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-07",
-      "interpretationAsOf": "2026-10-07",
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
       "sources": [
         {
           "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
@@ -1830,6 +2268,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ]
     },
@@ -1852,8 +2294,8 @@
       "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
       "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-07",
-      "lastUpdated": "2026-10-07",
+      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-08",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1863,6 +2305,10 @@
         {
           "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
           "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true
