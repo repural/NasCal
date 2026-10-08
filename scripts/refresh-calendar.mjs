@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {validateCalendar} from './calendar-refresh-utils.mjs';
-import {sources,parseIcs,parseRss,compareEvents} from './official-calendar-collector.mjs';
+import {sources,parseIcs,parseRss,compareEvents,parseEconomicCalendar,parseClaimsSchedule} from './official-calendar-collector.mjs';
 const mode=process.argv.find(a=>a.startsWith('--mode='))?.split('=')[1]??'daily';
 assert(['daily','monthly','validate'].includes(mode),'Unknown refresh mode');
 const current=validateCalendar(JSON.parse(fs.readFileSync('data/calendar-live.json','utf8')));
@@ -17,7 +17,11 @@ for(const source of sources){
     try{
       const response=await fetch(source.url,{headers:{'User-Agent':'NasCal official-source monitor','Accept':'text/calendar, application/rss+xml, text/html;q=0.8'},signal:AbortSignal.timeout(30000)});
       assert(response.ok,`HTTP ${response.status}`);const body=await response.text();
-      if(source.kind==='ics'){
+      if(source.kind==='economic-calendar'||source.kind==='claims-schedule'){
+        const parsed=source.kind==='economic-calendar'?parseEconomicCalendar(body,source,asOf):parseClaimsSchedule(body,source,asOf,endDate);
+        const relevant=parsed.filter(e=>e.date>=asOf&&e.date<=endDate);observations.push(...relevant);
+        reports.push({...source,status:'ok',count:relevant.length,requiresOfficialVerification:source.kind==='economic-calendar'});
+      }else if(source.kind==='ics'){
         const parsed=parseIcs(body,source);assert(parsed.length,'Empty feed');
         const relevant=parsed.filter(e=>e.date>=asOf&&e.date<=endDate);observations.push(...relevant);
         const latestDate=parsed.map(e=>e.date).sort().at(-1);
