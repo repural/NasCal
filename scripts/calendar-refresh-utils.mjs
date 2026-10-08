@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { resolveEventFamily } from '../data/event-family.mjs';
 
 export const officialDomains = ['bls.gov','bea.gov','census.gov','federalreserve.gov','treasury.gov','treasurydirect.gov','whitehouse.gov','commerce.gov','bis.gov','ustr.gov','state.gov','sec.gov','fec.gov','eac.gov','congress.gov','spglobal.com','ismworld.org','cmegroup.com','cboe.com','nasdaq.com','nyse.com','micron.com','micron.gcs-web.com','nvidia.com','amd.com','broadcom.com','tsmc.com','apple.com','microsoft.com','amazon.com','abc.xyz','google.com','meta.com','tesla.com','fmprc.gov.cn'];
+officialDomains.push('dol.gov','doleta.gov','umich.edu');
 export const wireDomains = ['reuters.com','apnews.com','bloomberg.com'];
 const belongs = (host, domains) => domains.some(d => host === d || host.endsWith('.'+d));
 export function sourceKind(url) {
