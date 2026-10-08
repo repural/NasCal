@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-08T10:59:58.079Z",
+  "checkedAt": "2026-10-08T13:59:15.858Z",
   "asOf": "2026-10-08",
   "horizonEnd": "2027-01-06",
-  "mode": "daily",
+  "mode": "monthly",
   "sources": [
+    {
+      "key": "marketwatch",
+      "kind": "economic-calendar",
+      "url": "https://www.marketwatch.com/economy-politics/calendar",
+      "status": "unavailable",
+      "reason": "HTTP 401"
+    },
+    {
+      "key": "dol",
+      "kind": "claims-schedule",
+      "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "status": "ok",
+      "count": 13,
+      "requiresOfficialVerification": false
+    },
     {
       "key": "bls",
       "kind": "ics",
@@ -36,6 +51,123 @@
     }
   ],
   "observations": [
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-08",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-08",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-15",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-15",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-22",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-22",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-29",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-29",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-05",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-05",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-12",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-12",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-19",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-19",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-25",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-25",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-03",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-03",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-10",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-10",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-17",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-17",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-24",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-24",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-31",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-31",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
     {
       "sourceKey": "bea",
       "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
@@ -146,6 +278,123 @@
     }
   ],
   "sourceObservationHistory": [
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-08",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-08",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-15",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-15",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-22",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-22",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-10-29",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-10-29",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-05",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-05",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-12",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-12",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-19",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-19",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-11-25",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-11-25",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-03",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-03",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-10",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-10",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-17",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-17",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-24",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-24",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2026-12-31",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2026-12-31",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
     {
       "sourceKey": "bea",
       "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
