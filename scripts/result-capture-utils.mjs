@@ -52,3 +52,32 @@ export function parseOutcome(family,text,date) {
   }
   return null;
 }
+
+// Secondary-source fallback: only exact dated table rows, never forecasts or dash placeholders.
+export function parseMarketWatchOutcome(html,eventDate,family,asOf) {
+  if(eventDate.slice(0,4)!==asOf.slice(0,4))return null;
+  const labels={
+    'weekly-jobless-claims':/^Weekly Jobless Claims$/i,
+    'cpi':/^CPI$/i,'ppi':/^PPI$/i,'retail-sales':/^Retail Sales$/i,
+    'industrial-production':/^Industrial Production,?\s*M\/M%$/i,
+    'michigan-sentiment-preliminary':/^U\.? Michigan Prelim Consumer Survey$/i,
+    'ism-manufacturing':/^ISM (?:Report On Business )?Manufacturing PMI$/i,
+    'ism-services':/^ISM (?:Report On Business )?Services PMI$/i,
+  };
+  const pattern=labels[family];if(!pattern)return null;
+  const clean=s=>s.replace(/<[^>]*>/g,' ').replace(/&nbsp;|&#160;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
+  const months=['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];let date=null;const matches=[];
+  for(const row of html.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)){
+    const cells=[...row[1].matchAll(/<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi)].map(m=>clean(m[1]));
+    const heading=cells.join(' ').match(/(?:Monday|Tuesday|Wednesday|Thursday|Friday),?\s+([A-Za-z]+)\.?\s+(\d{1,2})/i);
+    if(heading){const month=months.indexOf(heading[1].slice(0,3).toLowerCase());date=month<0?null:`${asOf.slice(0,4)}-${String(month+1).padStart(2,'0')}-${heading[2].padStart(2,'0')}`;continue;}
+    if(date!==eventDate)continue;
+    const n=cells.findIndex(c=>pattern.test(c));if(n<0||!/^\d{1,2}:\d{2}\s*[AP]M$/i.test(cells[n-1]??''))continue;
+    const [period,actual,forecast,previous]=cells.slice(n+1,n+5);
+    if(!/^[+−-]?\d[\d,.]*(?:%|K|M|B)?$/i.test(actual??''))continue;
+    const valid=v=>/^[+−-]?\d[\d,.]*(?:%|K|M|B)?$/i.test(v??'');
+    matches.push({actual:`${cells[n]}: ${actual} (${period}).`,previous:valid(previous)?previous:null,expected:valid(forecast)?forecast:null,metrics:{metric:family,referencePeriod:period,actualRaw:actual,consensusRaw:valid(forecast)?forecast:null,previousRaw:valid(previous)?previous:null}});
+  }
+  const unique=[...new Map(matches.map(m=>[JSON.stringify(m),m])).values()];
+  return unique.length===1?unique[0]:null;
+}
