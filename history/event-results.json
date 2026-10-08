@@ -2289,6 +2289,281 @@
       "nasdaqReactionDirection": "unverified",
       "dominantDriver": "tsmc-monthly-sales",
       "confounders": []
+    },
+    "2026-10-01-CLAIMS": {
+      "eventDate": "2026-10-01",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-10-08-CLAIMS": {
+      "eventDate": "2026-10-08",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-10-09-MICH PRE": {
+      "eventDate": "2026-10-09",
+      "eventKey": "michigan-sentiment-preliminary",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "michigan-sentiment-preliminary",
+      "confounders": []
+    },
+    "2026-10-14-BEIGE BOOK": {
+      "eventDate": "2026-10-14",
+      "eventKey": "beige-book",
+      "eventType": "Fed",
+      "importance": "High",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "beige-book",
+      "confounders": []
+    },
+    "2026-10-15-CLAIMS": {
+      "eventDate": "2026-10-15",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-10-16-IND PROD": {
+      "eventDate": "2026-10-16",
+      "eventKey": "industrial-production",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "09:15",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "industrial-production",
+      "confounders": []
+    },
+    "2026-10-22-CLAIMS": {
+      "eventDate": "2026-10-22",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-10-23-MICH FIN": {
+      "eventDate": "2026-10-23",
+      "eventKey": "michigan-sentiment-final",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "michigan-sentiment-final",
+      "confounders": []
+    },
+    "2026-10-29-CLAIMS": {
+      "eventDate": "2026-10-29",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-11-05-CLAIMS": {
+      "eventDate": "2026-11-05",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-11-06-MICH PRE": {
+      "eventDate": "2026-11-06",
+      "eventKey": "michigan-sentiment-preliminary",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "michigan-sentiment-preliminary",
+      "confounders": []
+    },
+    "2026-11-12-CLAIMS": {
+      "eventDate": "2026-11-12",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-11-17-IND PROD": {
+      "eventDate": "2026-11-17",
+      "eventKey": "industrial-production",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "09:15",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "industrial-production",
+      "confounders": []
+    },
+    "2026-11-19-CLAIMS": {
+      "eventDate": "2026-11-19",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-11-20-MICH FIN": {
+      "eventDate": "2026-11-20",
+      "eventKey": "michigan-sentiment-final",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "michigan-sentiment-final",
+      "confounders": []
+    },
+    "2026-11-25-BEIGE BOOK": {
+      "eventDate": "2026-11-25",
+      "eventKey": "beige-book",
+      "eventType": "Fed",
+      "importance": "High",
+      "timeET": "14:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "beige-book",
+      "confounders": []
+    },
+    "2026-11-25-CLAIMS": {
+      "eventDate": "2026-11-25",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-12-03-CLAIMS": {
+      "eventDate": "2026-12-03",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-12-04-MICH PRE": {
+      "eventDate": "2026-12-04",
+      "eventKey": "michigan-sentiment-preliminary",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "michigan-sentiment-preliminary",
+      "confounders": []
+    },
+    "2026-12-10-CLAIMS": {
+      "eventDate": "2026-12-10",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-12-16-IND PROD": {
+      "eventDate": "2026-12-16",
+      "eventKey": "industrial-production",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "09:15",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "industrial-production",
+      "confounders": []
+    },
+    "2026-12-17-CLAIMS": {
+      "eventDate": "2026-12-17",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-12-18-MICH FIN": {
+      "eventDate": "2026-12-18",
+      "eventKey": "michigan-sentiment-final",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "10:00",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "michigan-sentiment-final",
+      "confounders": []
+    },
+    "2026-12-24-CLAIMS": {
+      "eventDate": "2026-12-24",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
+    },
+    "2026-12-31-CLAIMS": {
+      "eventDate": "2026-12-31",
+      "eventKey": "weekly-jobless-claims",
+      "eventType": "Macro",
+      "importance": "High",
+      "timeET": "08:30",
+      "surpriseDirection": "unassessed",
+      "nasdaqReactionDirection": "unverified",
+      "dominantDriver": "weekly-jobless-claims",
+      "confounders": []
     }
   },
   "results": [
@@ -10704,8 +10979,7 @@
       ],
       "missingFields": {
         "expected": {
-          "status": "awaiting-verification",
-          "reason": "No verified source value"
+          "status": "awaiting-verification"
         }
       },
       "capture": {
@@ -78530,7 +78804,8 @@
           "dayOpen": {
             "date": "2025-03-20",
             "value": 17586.06083346552
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -78552,7 +78827,8 @@
           "dayOpen": {
             "date": "2025-03-20",
             "value": 4579.06435495359
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -80706,7 +80982,8 @@
           "dayOpen": {
             "date": "2025-06-25",
             "value": 20013.9466033208
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -80728,7 +81005,8 @@
           "dayOpen": {
             "date": "2025-06-25",
             "value": 5461.15239762711
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -82882,7 +83160,8 @@
           "dayOpen": {
             "date": "2025-09-23",
             "value": 22782.71776693207
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -82904,7 +83183,8 @@
           "dayOpen": {
             "date": "2025-09-23",
             "value": 6336.52797447176
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -85058,7 +85338,8 @@
           "dayOpen": {
             "date": "2025-12-17",
             "value": 23135.60942927654
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -85080,7 +85361,8 @@
           "dayOpen": {
             "date": "2025-12-17",
             "value": 6993.09968316837
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -85164,16 +85446,13 @@
       },
       "missingFields": {
         "previous": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "status": "awaiting-verification"
         },
         "actual": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "status": "awaiting-verification"
         },
         "surprise": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "status": "awaiting-verification"
         }
       },
       "captureAttemptAt": "2026-10-08T08:59:36.812Z"
@@ -85883,19 +86162,19 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-08T08:59:36.812Z"
+          "checkedAt": "2026-10-08T14:56:51.804Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-10-08T08:59:36.812Z"
+          "checkedAt": "2026-10-08T14:56:51.804Z"
         }
       },
       "outcomeStatus": "awaiting-verification",
-      "outcomeError": "Official source HTTP 403",
-      "outcomeRetryAt": "2026-10-08T09:29:36.812Z",
+      "outcomeError": "Official source HTTP 403; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-10-08T15:26:51.804Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -85935,18 +86214,18 @@
       "missingFields": {
         "previous": {
           "status": "source-unavailable",
-          "reason": "Official source HTTP 403"
+          "reason": "Official source HTTP 403; MarketWatch HTTP 401"
         },
         "actual": {
           "status": "source-unavailable",
-          "reason": "Official source HTTP 403"
+          "reason": "Official source HTTP 403; MarketWatch HTTP 401"
         },
         "surprise": {
           "status": "source-unavailable",
-          "reason": "Official source HTTP 403"
+          "reason": "Official source HTTP 403; MarketWatch HTTP 401"
         }
       },
-      "captureAttemptAt": "2026-10-08T08:59:36.812Z"
+      "captureAttemptAt": "2026-10-08T14:56:51.804Z"
     },
     {
       "eventId": "2026-10-05-ISM Services",
@@ -85961,7 +86240,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-08T08:59:36.812Z",
+          "checkedAt": "2026-10-08T14:56:51.804Z",
           "minuteRetryAt": "2026-10-06T20:14:53.243Z",
           "at60": "captured"
         },
@@ -85969,14 +86248,14 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "captured",
-          "checkedAt": "2026-10-08T08:59:36.812Z",
+          "checkedAt": "2026-10-08T14:56:51.804Z",
           "minuteRetryAt": "2026-10-06T20:14:53.243Z",
           "at60": "captured"
         }
       },
       "outcomeStatus": "awaiting-verification",
-      "outcomeError": "Official source HTTP 503",
-      "outcomeRetryAt": "2026-10-08T09:29:36.812Z",
+      "outcomeError": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-10-08T15:26:51.804Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -86034,18 +86313,18 @@
       "missingFields": {
         "previous": {
           "status": "source-unavailable",
-          "reason": "Official source HTTP 503"
+          "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
         },
         "actual": {
           "status": "source-unavailable",
-          "reason": "Official source HTTP 503"
+          "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
         },
         "surprise": {
           "status": "source-unavailable",
-          "reason": "Official source HTTP 503"
+          "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
         }
       },
-      "captureAttemptAt": "2026-10-08T08:59:36.812Z"
+      "captureAttemptAt": "2026-10-08T14:56:51.804Z"
     },
     {
       "eventId": "2026-10-07-FOMC MINUTES",
@@ -86060,7 +86339,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-08T08:59:36.812Z",
+          "checkedAt": "2026-10-08T14:56:51.804Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         },
@@ -86068,14 +86347,14 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-08T08:59:36.812Z",
+          "checkedAt": "2026-10-08T14:56:51.804Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         }
       },
       "outcomeStatus": "awaiting-verification",
-      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-08T09:29:36.812Z",
+      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-10-08T15:26:51.804Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -86115,18 +86394,18 @@
       "missingFields": {
         "previous": {
           "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
           "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
           "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
-      "captureAttemptAt": "2026-10-08T08:59:36.812Z"
+      "captureAttemptAt": "2026-10-08T14:56:51.804Z"
     },
     {
       "eventId": "2026-10-08-TSMC",
@@ -87806,7 +88085,7 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-08T08:59:36.812Z",
+          "checkedAt": "2026-10-08T14:56:51.804Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         },
@@ -87814,14 +88093,14 @@
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "plan-not-authorized",
-          "checkedAt": "2026-10-08T08:59:36.812Z",
+          "checkedAt": "2026-10-08T14:56:51.804Z",
           "minuteRetryAt": "2026-10-08T18:17:08.125Z",
           "at60": "plan-not-authorized"
         }
       },
       "outcomeStatus": "awaiting-verification",
-      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.",
-      "outcomeRetryAt": "2026-10-08T09:29:36.812Z",
+      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-10-08T15:26:51.804Z",
       "indexLevels": {
         "nasdaq": {
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
@@ -87861,18 +88140,18 @@
       "missingFields": {
         "previous": {
           "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
           "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
           "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
-      "captureAttemptAt": "2026-10-08T08:59:36.812Z"
+      "captureAttemptAt": "2026-10-08T14:56:51.804Z"
     },
     {
       "eventId": "2026-10-08-UST 30Y",
@@ -90293,6 +90572,618 @@
           "status": "awaiting-verification"
         }
       }
+    },
+    {
+      "eventId": "2026-10-01-CLAIMS",
+      "status": "pending",
+      "expected": "Released: initial claims 197,000 in the original Oct 1 release, later revised to 199,000 on Oct 8. No verified contemporaneous consensus retained.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+        },
+        "actual": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+        },
+        "surprise": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+        }
+      },
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-09-30",
+            "value": 26861.06375308664
+          },
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-10-01",
+            "value": 26871.59502873405
+          },
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "weekly-jobless-claims",
+          "intradayStatus": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-09-30",
+            "value": 12628.62375005161
+          },
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": {
+            "date": "2026-10-01",
+            "value": 12829.00000688464
+          },
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "weekly-jobless-claims",
+          "intradayStatus": "outside-index-session"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-08T14:56:51.804Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "captured",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-08T14:56:51.804Z"
+        }
+      },
+      "captureAttemptAt": "2026-10-08T14:56:51.804Z",
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-10-08T15:26:51.804Z"
+    },
+    {
+      "eventId": "2026-10-08-CLAIMS",
+      "status": "pending",
+      "expected": "Released: 197,000 initial claims versus MarketWatch forecast 200,000; prior week revised to 199,000. Continuing claims 1.716 million. A small downside claims surprise signals limited layoffs; no isolated market effect inferred.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+        },
+        "actual": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+        },
+        "surprise": {
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+        }
+      },
+      "indexLevels": {
+        "nasdaq": {
+          "priorClose": {
+            "date": "2026-10-07",
+            "value": 27538.69065575934
+          },
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": null,
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "weekly-jobless-claims",
+          "intradayStatus": "outside-index-session"
+        },
+        "sox": {
+          "priorClose": {
+            "date": "2026-10-07",
+            "value": 13066.14985237909
+          },
+          "beforeRelease": null,
+          "at15": null,
+          "at60": null,
+          "dayClose": null,
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "weekly-jobless-claims",
+          "intradayStatus": "outside-index-session"
+        }
+      },
+      "capture": {
+        "nasdaq": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-08T14:56:51.804Z"
+        },
+        "sox": {
+          "priorClose": "captured",
+          "dayClose": "pending",
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-10-08T14:56:51.804Z"
+        }
+      },
+      "captureAttemptAt": "2026-10-08T14:56:51.804Z",
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-10-08T15:26:51.804Z"
+    },
+    {
+      "eventId": "2026-10-09-MICH PRE",
+      "status": "pending",
+      "expected": "MarketWatch lists a sentiment forecast of 48.0. Official September final baseline is 48.1 (MarketWatch displays 47.8); use the issuer baseline. No verified inflation-expectations consensus.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-14-BEIGE BOOK",
+      "status": "pending",
+      "expected": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-15-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-16-IND PROD",
+      "status": "pending",
+      "expected": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-22-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-23-MICH FIN",
+      "status": "pending",
+      "expected": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-10-29-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-05-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-06-MICH PRE",
+      "status": "pending",
+      "expected": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-12-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-17-IND PROD",
+      "status": "pending",
+      "expected": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-19-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-20-MICH FIN",
+      "status": "pending",
+      "expected": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-25-BEIGE BOOK",
+      "status": "pending",
+      "expected": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-11-25-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-03-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-04-MICH PRE",
+      "status": "pending",
+      "expected": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-10-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-16-IND PROD",
+      "status": "pending",
+      "expected": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-17-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-18-MICH FIN",
+      "status": "pending",
+      "expected": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-24-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
+    },
+    {
+      "eventId": "2026-12-31-CLAIMS",
+      "status": "pending",
+      "expected": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "previous": null,
+      "actual": null,
+      "surprise": null,
+      "sourceUrl": null,
+      "missingFields": {
+        "previous": {
+          "status": "awaiting-verification"
+        },
+        "actual": {
+          "status": "awaiting-verification"
+        },
+        "surprise": {
+          "status": "awaiting-verification"
+        }
+      }
     }
   ],
   "earnings": {
@@ -90927,5 +91818,5 @@
       ]
     }
   },
-  "updatedAt": "2026-10-08T08:59:36.812Z"
+  "updatedAt": "2026-10-08T14:56:51.804Z"
 }

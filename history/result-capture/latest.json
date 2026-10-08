@@ -1,10 +1,20 @@
 {
-  "checkedAt": "2026-10-08T08:59:36.812Z",
+  "checkedAt": "2026-10-08T14:56:51.804Z",
   "issues": [
+    {
+      "id": "2026-10-08-CLAIMS",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-01-CLAIMS",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
     {
       "id": "2026-10-07-FOMC MINUTES",
       "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
       "id": "2026-10-07-FOMC MINUTES",
@@ -19,7 +29,7 @@
     {
       "id": "2026-10-07-UST 10Y",
       "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event."
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
       "id": "2026-10-07-UST 10Y",
@@ -34,23 +44,13 @@
     {
       "id": "2026-10-05-ISM Services",
       "field": "outcome",
-      "reason": "Official source HTTP 503"
+      "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
     },
     {
       "id": "2026-10-02-Jobs",
       "field": "outcome",
-      "reason": "Official source HTTP 403"
-    },
-    {
-      "id": "2026-04-03-JOBS",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-04-03-JOBS",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
     }
   ],
-  "requests": 2
+  "requests": 4
 }
