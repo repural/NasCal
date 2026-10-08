@@ -1,9 +1,38 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T03:55:00.000Z",
+  "updatedAt": "2026-10-08T13:57:23.165663Z",
   "asOf": "2026-10-08",
   "horizonEnd": "2026-12-31",
   "events": [
+    {
+      "id": "2026-10-01-CLAIMS",
+      "date": "2026-10-01",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 15:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "Released: initial claims 197,000 in the original Oct 1 release, later revised to 199,000 on Oct 8. No verified contemporaneous consensus retained.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
     {
       "expects": "Pre-release expectation retained for comparison: Reuters economist poll: manufacturing PMI 55.0.. Event completed; see recorded results.",
       "watch": "Headline, prices paid, employment, wages and revisions",
@@ -190,6 +219,39 @@
       "isUpdated": true
     },
     {
+      "id": "2026-10-08-CLAIMS",
+      "date": "2026-10-08",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 15:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.dol.gov/ui/data.pdf",
+          "title": "October 8 official outcome"
+        }
+      ],
+      "expects": "Released: 197,000 initial claims versus MarketWatch forecast 200,000; prior week revised to 199,000. Continuing claims 1.716 million. A small downside claims surprise signals limited layoffs; no isolated market effect inferred.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "expects": "No dependable monthly-sales consensus verified. Quarterly guidance provides context; monthly sales alone do not confirm earnings or a new outlook.",
       "watch": "Guidance, AI revenue, margins, order timing and capex commentary",
       "window": "After-hours move and next regular session",
@@ -264,6 +326,64 @@
       "isUpdated": true
     },
     {
+      "id": "2026-10-09-MICH PRE",
+      "date": "2026-10-09",
+      "short": "MICH PRE",
+      "event": "Michigan consumer sentiment and inflation expectations — preliminary",
+      "eventKey": "michigan-sentiment-preliminary",
+      "timeLabel": "10:00 ET · 17:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "MarketWatch lists a sentiment forecast of 48.0. Official September final baseline is 48.1 (MarketWatch displays 47.8); use the issuer baseline. No verified inflation-expectations consensus.",
+      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
+      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
+      "id": "2026-10-14-BEIGE BOOK",
+      "date": "2026-10-14",
+      "short": "BEIGE BOOK",
+      "event": "Federal Reserve Beige Book",
+      "eventKey": "beige-book",
+      "timeLabel": "14:00 ET · 21:00 Istanbul",
+      "type": "Fed",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
+      "positive": "Cooling price and wage pressure with continued activity.",
+      "negative": "Broadening price pressure strengthens further-tightening arguments, or weaker activity undermines earnings.",
+      "watch": "District price pressure, labor demand, consumer spending and credit conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "expects": "No reliable release-specific numerical consensus was verified. Markets price about a 20% chance of an October hike, so energy and core services must be strong enough to overturn a firm pause baseline.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
@@ -298,6 +418,35 @@
         }
       ],
       "eventKey": "cpi"
+    },
+    {
+      "id": "2026-10-15-CLAIMS",
+      "date": "2026-10-15",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 15:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "expects": "No dependable release-specific forecast was verified. With an October hike priced about 20%, PCE-relevant service components and cost pass-through must be unusually firm to change the pause baseline.",
@@ -421,6 +570,35 @@
       ]
     },
     {
+      "id": "2026-10-16-IND PROD",
+      "date": "2026-10-16",
+      "short": "IND PROD",
+      "event": "Industrial production and capacity utilization",
+      "eventKey": "industrial-production",
+      "timeLabel": "09:15 ET · 16:15 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "positive": "Steady manufacturing output with no overheating or cost shock, supporting cyclical and semiconductor demand.",
+      "negative": "Manufacturing contraction weakens demand, or unexpectedly strong utilization reinforces inflation and yield pressure.",
+      "watch": "Manufacturing output, capacity utilization and prior-month revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "id": "2026-10-21-TSLA Earnings",
       "date": "2026-10-21",
       "short": "TSLA Earnings",
@@ -502,6 +680,35 @@
       "isUpdated": true
     },
     {
+      "id": "2026-10-22-CLAIMS",
+      "date": "2026-10-22",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 15:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "expects": "No dependable October consensus verified. October 23 at 09:45 ET is present in the calendar and secondary listings, but official reconfirmation remains blocked. Activity, employment and prices must be read together.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
@@ -538,6 +745,35 @@
         }
       ],
       "eventKey": "flash-pmi"
+    },
+    {
+      "id": "2026-10-23-MICH FIN",
+      "date": "2026-10-23",
+      "short": "MICH FIN",
+      "event": "Michigan consumer sentiment and inflation expectations — final",
+      "eventKey": "michigan-sentiment-final",
+      "timeLabel": "10:00 ET · 17:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
+      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "expects": "Deliberations begin; the scheduled decision is the following day. No rate announcement is expected on this first meeting day.",
@@ -611,6 +847,35 @@
         }
       ],
       "eventKey": "fomc-decision"
+    },
+    {
+      "id": "2026-10-29-CLAIMS",
+      "date": "2026-10-29",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 15:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "status": "scheduled",
@@ -1108,6 +1373,35 @@
       "eventKey": "ism-services"
     },
     {
+      "id": "2026-11-05-CLAIMS",
+      "date": "2026-11-05",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "id": "2026-11-05-PRODUCTIVITY",
       "date": "2026-11-05",
       "short": "PRODUCTIVITY",
@@ -1188,6 +1482,35 @@
         }
       ],
       "eventKey": "employment-report"
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "date": "2026-11-06",
+      "short": "MICH PRE",
+      "event": "Michigan consumer sentiment and inflation expectations — preliminary",
+      "eventKey": "michigan-sentiment-preliminary",
+      "timeLabel": "10:00 ET · 18:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
+      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "expects": "No reliable numerical consensus verified. Energy and core services will test whether the current preference for an October Fed pause lasts.",
@@ -1305,6 +1628,35 @@
       "isUpdated": true
     },
     {
+      "id": "2026-11-12-CLAIMS",
+      "date": "2026-11-12",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "id": "2026-11-12-UST 30Y",
       "date": "2026-11-12",
       "short": "UST 30Y",
@@ -1379,6 +1731,35 @@
         }
       ],
       "eventKey": "ppi"
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "date": "2026-11-17",
+      "short": "IND PROD",
+      "event": "Industrial production and capacity utilization",
+      "eventKey": "industrial-production",
+      "timeLabel": "09:15 ET · 17:15 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "positive": "Steady manufacturing output with no overheating or cost shock, supporting cyclical and semiconductor demand.",
+      "negative": "Manufacturing contraction weakens demand, or unexpectedly strong utilization reinforces inflation and yield pressure.",
+      "watch": "Manufacturing output, capacity utilization and prior-month revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "expects": "A separate Trump–Xi bilateral or advanced-chip concessions remain unconfirmed. Existing trade dialogue does not establish new technology relief.",
@@ -1493,6 +1874,122 @@
         }
       ],
       "isUpdated": true
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "date": "2026-11-19",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "date": "2026-11-20",
+      "short": "MICH FIN",
+      "event": "Michigan consumer sentiment and inflation expectations — final",
+      "eventKey": "michigan-sentiment-final",
+      "timeLabel": "10:00 ET · 18:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
+      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "date": "2026-11-25",
+      "short": "BEIGE BOOK",
+      "event": "Federal Reserve Beige Book",
+      "eventKey": "beige-book",
+      "timeLabel": "14:00 ET · 22:00 Istanbul",
+      "type": "Fed",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
+      "positive": "Cooling price and wage pressure with continued activity.",
+      "negative": "Broadening price pressure strengthens further-tightening arguments, or weaker activity undermines earnings.",
+      "watch": "District price pressure, labor demand, consumer spending and credit conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "date": "2026-11-25",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "expects": "No reliable revision consensus verified; the October 29 Q3 advance estimate is still ahead. An earlier-quarter result is not this release's forecast.",
@@ -1683,6 +2180,35 @@
       "eventKey": "jolts"
     },
     {
+      "id": "2026-12-03-CLAIMS",
+      "date": "2026-12-03",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
@@ -1757,6 +2283,35 @@
         }
       ],
       "eventKey": "employment-report"
+    },
+    {
+      "id": "2026-12-04-MICH PRE",
+      "date": "2026-12-04",
+      "short": "MICH PRE",
+      "event": "Michigan consumer sentiment and inflation expectations — preliminary",
+      "eventKey": "michigan-sentiment-preliminary",
+      "timeLabel": "10:00 ET · 18:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
+      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "id": "2026-12-08-PRODUCTIVITY",
@@ -1877,6 +2432,35 @@
         }
       ],
       "eventKey": "fomc-decision"
+    },
+    {
+      "id": "2026-12-10-CLAIMS",
+      "date": "2026-12-10",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "expects": "No reliable numerical consensus verified. Energy and core services will test whether the current preference for an October Fed pause lasts.",
@@ -2070,6 +2654,93 @@
       "eventKey": "ppi"
     },
     {
+      "id": "2026-12-16-IND PROD",
+      "date": "2026-12-16",
+      "short": "IND PROD",
+      "event": "Industrial production and capacity utilization",
+      "eventKey": "industrial-production",
+      "timeLabel": "09:15 ET · 17:15 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-december.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-december.htm",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "positive": "Steady manufacturing output with no overheating or cost shock, supporting cyclical and semiconductor demand.",
+      "negative": "Manufacturing contraction weakens demand, or unexpectedly strong utilization reinforces inflation and yield pressure.",
+      "watch": "Manufacturing output, capacity utilization and prior-month revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
+      "id": "2026-12-17-CLAIMS",
+      "date": "2026-12-17",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
+      "id": "2026-12-18-MICH FIN",
+      "date": "2026-12-18",
+      "short": "MICH FIN",
+      "event": "Michigan consumer sentiment and inflation expectations — final",
+      "eventKey": "michigan-sentiment-final",
+      "timeLabel": "10:00 ET · 18:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
+      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
+      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+    },
+    {
       "expects": "No dependable final-estimate consensus verified; preceding Q3 estimates have not yet been released. Component revisions will establish the comparison.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
@@ -2180,6 +2851,35 @@
         }
       ],
       "isUpdated": true
+    },
+    {
+      "id": "2026-12-24-CLAIMS",
+      "date": "2026-12-24",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     },
     {
       "date": "2026-12-27",
@@ -2312,6 +3012,35 @@
         }
       ],
       "isUpdated": true
+    },
+    {
+      "id": "2026-12-31-CLAIMS",
+      "date": "2026-12-31",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-08",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
+      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
     }
   ],
   "recentEvents": [
@@ -2994,5 +3723,37 @@
         }
       ]
     }
-  ]
+  ],
+  "coverageCheck": {
+    "checkedAt": "2026-10-08T13:57:23.165663Z",
+    "comparisonSource": "https://www.marketwatch.com/economy-politics/calendar",
+    "policy": "Major releases only; secondary calendar candidates require official confirmation; never infer cancellation from absence.",
+    "addedIds": [
+      "2026-10-01-CLAIMS",
+      "2026-10-08-CLAIMS",
+      "2026-10-15-CLAIMS",
+      "2026-10-22-CLAIMS",
+      "2026-10-29-CLAIMS",
+      "2026-11-05-CLAIMS",
+      "2026-11-12-CLAIMS",
+      "2026-11-19-CLAIMS",
+      "2026-11-25-CLAIMS",
+      "2026-12-03-CLAIMS",
+      "2026-12-10-CLAIMS",
+      "2026-12-17-CLAIMS",
+      "2026-12-24-CLAIMS",
+      "2026-12-31-CLAIMS",
+      "2026-10-09-MICH PRE",
+      "2026-10-23-MICH FIN",
+      "2026-11-06-MICH PRE",
+      "2026-11-20-MICH FIN",
+      "2026-12-04-MICH PRE",
+      "2026-12-18-MICH FIN",
+      "2026-10-14-BEIGE BOOK",
+      "2026-11-25-BEIGE BOOK",
+      "2026-10-16-IND PROD",
+      "2026-11-17-IND PROD",
+      "2026-12-16-IND PROD"
+    ]
+  }
 }
