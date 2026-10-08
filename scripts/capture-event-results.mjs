@@ -6,7 +6,8 @@ const now=Date.now(),parts=etParts(now),today=`${parts.year}-${parts.month}-${pa
 const root=new URL('../',import.meta.url);
 const read=async path=>JSON.parse(await fs.readFile(new URL(path,root),'utf8'));
 const archive=await read('history/event-results.json'),feed=await read('data/calendar-live.json'),reviewed=await read('history/release-outcomes.json');
-const events=[...new Map([...(feed.recentEvents??[]),...feed.events].map(e=>[e.id,e])).values()];
+const archivedEvents=Object.entries(archive.eventIndex).map(([id,i])=>({id,date:i.eventDate,eventKey:i.eventKey,type:i.eventType,timeLabel:/^\d\d:\d\d$/.test(i.timeET??'')?`${i.timeET} ET`:i.timeET,status:'scheduled'}));
+const events=[...new Map([...archivedEvents,...(feed.recentEvents??[]),...feed.events].map(e=>[e.id,e])).values()];
 const map=new Map(archive.results.map(r=>[r.eventId,r])),report={checkedAt:new Date(now).toISOString(),issues:[],requests:0};
 const cutoff=new Date(now-10*86400000).toISOString().slice(0,10);
 for(const e of events){
@@ -16,6 +17,18 @@ for(const e of events){
   archive.eventIndex[e.id]??={eventDate:e.date,eventKey:resolveEventFamily(e)??e.id,eventType:e.type,importance:e.importance,timeET:time,surpriseDirection:'unassessed',nasdaqReactionDirection:'unverified',dominantDriver:resolveEventFamily(e)??e.short,confounders:[]};
   if(!map.has(e.id)){const r={eventId:e.id,status:'pending',expected:e.expects,previous:null,actual:null,surprise:null,sourceUrl:null};archive.results.push(r);map.set(e.id,r);}
   const r=map.get(e.id),verified=reviewed.outcomes[e.id];
+  for(const field of ['previous','actual','surprise'])r[field]??=null;
+  r.missingFields=Object.fromEntries(['previous','expected','actual','surprise'].filter(f=>r[f]==null).map(f=>[f,{status:'awaiting-verification'}]));
+  if(e.date<=today){
+    r.indexLevels??={};r.capture??={};
+    for(const name of ['nasdaq','sox']){
+      const l=r.indexLevels[name]??={},s=r.capture[name]??={};
+      for(const field of ['priorClose','beforeRelease','at15','at60','dayClose'])l[field]??=null;
+      s.priorClose=l.priorClose?.value?'captured':'missing';
+      s.dayClose=l.dayClose?.value?'captured':now>=timestamp(e.date,'16:15')?'missing':'pending';
+      for(const [f,m] of [['at15',15],['at60',60]])s[f]=l[f]?.close?'captured':windowState(archive.eventIndex[e.id],m,now)==='due'?'missing':windowState(archive.eventIndex[e.id],m,now);
+    }
+  }
   if(verified&&r.status!=='verified'){
     Object.assign(r,verified,{status:'verified',outcomeStatus:'verified',surprise:r.surprise??'No verified contemporaneous consensus; surprise not calculated.',explanation:r.explanation??'Outcome verified. Observed price changes may reflect overlapping catalysts; no isolated causal attribution.'});
     r.auditNotes??=[];r.auditNotes.push({at:reviewed.outcomes[e.id].verifiedAt,action:'Official outcome verified; existing price and earnings windows preserved.'});
@@ -44,10 +57,19 @@ function sourceFor(e){
   if(family==='ism-manufacturing'||family==='ism-services')return `https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/${family==='ism-services'?'services':'pmi'}/${month}/`;
   return null;
 }
-for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&e.date<=today&&e.status!=='cancelled')){
+// Missing history stays eligible after it leaves the visible calendar. Rotate work
+// by last attempt and bound each run to fit the free API's rate limit.
+const candidates=events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date<=today&&e.status!=='cancelled').filter(e=>{
+  const r=map.get(e.id),i=archive.eventIndex[e.id];
+  return r.status!=='verified'||['nasdaq','sox'].some(name=>{
+    const l=r.indexLevels?.[name];
+    return !l?.priorClose?.value||!l?.dayClose?.value||(['at15','at60'].some((f,n)=>!l?.[f]?.close&&windowState(i,n===0?15:60,now)==='due'));
+  });
+}).sort((a,b)=>(map.get(a.id).captureAttemptAt??'').localeCompare(map.get(b.id).captureAttemptAt??'')||b.date.localeCompare(a.date)).slice(0,8);
+for(const e of candidates){
   const r=map.get(e.id),i=archive.eventIndex[e.id],release=releaseTimestamp(i);
   if(release!==null&&now<release)continue;
-  r.capture??={};
+  r.capture??={};r.captureAttemptAt=new Date(now).toISOString();
   if(r.status!=='verified'&&(!r.outcomeRetryAt||Date.parse(r.outcomeRetryAt)<=now)){
     const url=sourceFor(e);
     try{
@@ -60,6 +82,10 @@ for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&
   }
   for(const [name,ticker] of [['nasdaq','I:COMP'],['sox','I:SOX']]){
     r.indexLevels??={};const l=r.indexLevels[name]??={};const state=r.capture[name]??={};
+    for(const field of ['priorClose','beforeRelease','at15','at60','dayClose'])l[field]??=null;
+    state.priorClose=l.priorClose?.value?'captured':'missing';
+    state.dayClose=l.dayClose?.value?'captured':now>=timestamp(e.date,'16:15')?'missing':'pending';
+    for(const [field,minutes] of [['at15',15],['at60',60]])state[field]=l[field]?.close?'captured':windowState(i,minutes,now)==='due'?'missing':windowState(i,minutes,now);
     l.sourceUrl='https://massive.com/docs/rest/indices/aggregates/custom-bars';l.releaseTimeET=i.timeET;l.releaseLabel=i.eventKey;
     // Migrate older minute-only denials without delaying daily close capture.
     if(state.error?.includes('403')&&l.intradayStatus==='plan-not-authorized'&&!state.minuteRetryAt){state.minuteRetryAt=state.retryAt;delete state.retryAt;}
@@ -94,6 +120,7 @@ for(const e of events.filter(e=>!process.env.CAPTURE_SEED_ONLY&&e.date>=cutoff&&
     }catch(error){state.error=error.message;state.checkedAt=new Date(now).toISOString();state.retryAt=new Date(now+15*60000).toISOString();if(error.message.includes('403')&&stage==='minute'){l.intradayStatus='plan-not-authorized';state.minuteRetryAt=new Date(now+24*3600000).toISOString();}}
   }
   const overdue=release!==null&&now>release+2*3600000;
+  r.missingFields=Object.fromEntries(['previous','expected','actual','surprise'].filter(f=>r[f]==null).map(f=>[f,{status:r.outcomeError?'source-unavailable':'awaiting-verification',reason:r.outcomeError??'No verified source value'}]));
   if(overdue&&r.status!=='verified')report.issues.push({id:e.id,field:'outcome',reason:r.outcomeError??'Awaiting verified release'});
   for(const [name,state] of Object.entries(r.capture))if(state.error||Object.values(state).some(s=>['missing','exact-bars-missing','plan-not-authorized'].includes(s)))report.issues.push({id:e.id,asset:name,reason:state.error??'Due price window unavailable; see capture states'});
 }
@@ -101,11 +128,4 @@ archive.lastUpdated=today;archive.updatedAt=new Date(now).toISOString();
 await fs.writeFile(new URL('history/event-results.json',root),JSON.stringify(archive,null,2)+'\n');
 await fs.mkdir(new URL('history/result-capture/',root),{recursive:true});await fs.writeFile(new URL('history/result-capture/latest.json',root),JSON.stringify(report,null,2)+'\n');
 console.log(`Result capture: ${report.requests} market requests; ${report.issues.length} outstanding issues. See history/result-capture/latest.json.`);
-// Missing/delayed/plan-restricted market windows are data-state conditions, not
-// workflow execution failures. Persist them in latest.json and retry on the next
-// scheduled capture without marking the GitHub Action red (which otherwise
-// generates a failure notification every 15 minutes). Uncaught script/runtime,
-// validation, or publish errors still fail the workflow normally.
-if(report.issues.length){
-  console.warn(`Capture completed with ${report.issues.length} outstanding data issue(s); they remain queued for retry.`);
-}
+if(report.issues.length)process.exitCode=1;
