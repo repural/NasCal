@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-08T13:59:44.570Z",
-  "asOf": "2026-10-08",
-  "horizonEnd": "2027-01-06",
-  "mode": "monthly",
+  "checkedAt": "2026-10-09T10:58:57.456Z",
+  "asOf": "2026-10-09",
+  "horizonEnd": "2027-01-07",
+  "mode": "daily",
   "sources": [
     {
       "key": "marketwatch",
@@ -33,7 +33,7 @@
       "url": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
       "status": "ok",
       "latestDate": "2027-12-22",
-      "count": 12
+      "count": 13
     },
     {
       "key": "fed",
@@ -54,15 +54,6 @@
     {
       "sourceKey": "dol",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-      "sourceUid": "claims-2026-10-08",
-      "title": "Unemployment Insurance Weekly Claims",
-      "date": "2026-10-08",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
-    {
-      "sourceKey": "dol",
-      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sourceUid": "claims-2026-10-15",
       "title": "Unemployment Insurance Weekly Claims",
       "date": "2026-10-15",
@@ -165,6 +156,15 @@
       "sourceUid": "claims-2026-12-31",
       "title": "Unemployment Insurance Weekly Claims",
       "date": "2026-12-31",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2027-01-07",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2027-01-07",
       "timeET": "08:30",
       "status": "scheduled"
     },
@@ -273,6 +273,15 @@
       "sourceUid": "715d281b-925d-40f9-8400-6a9096a861ec",
       "title": "Personal Income and Outlays, November 2026",
       "date": "2026-12-23",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "60c2963e-adbe-4467-b7b3-c55ddedcead4",
+      "title": "U.S. International Trade in Goods and Services, November 2026",
+      "date": "2027-01-07",
       "timeET": "08:30",
       "status": "scheduled"
     }
@@ -281,15 +290,6 @@
     {
       "sourceKey": "dol",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-      "sourceUid": "claims-2026-10-08",
-      "title": "Unemployment Insurance Weekly Claims",
-      "date": "2026-10-08",
-      "timeET": "08:30",
-      "status": "scheduled"
-    },
-    {
-      "sourceKey": "dol",
-      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sourceUid": "claims-2026-10-15",
       "title": "Unemployment Insurance Weekly Claims",
       "date": "2026-10-15",
@@ -392,6 +392,15 @@
       "sourceUid": "claims-2026-12-31",
       "title": "Unemployment Insurance Weekly Claims",
       "date": "2026-12-31",
+      "timeET": "08:30",
+      "status": "scheduled"
+    },
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2027-01-07",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2027-01-07",
       "timeET": "08:30",
       "status": "scheduled"
     },
@@ -502,9 +511,33 @@
       "date": "2026-12-23",
       "timeET": "08:30",
       "status": "scheduled"
+    },
+    {
+      "sourceKey": "bea",
+      "sourceUrl": "https://www.bea.gov/news/schedule/ics/online-calendar-subscription.ics",
+      "sourceUid": "60c2963e-adbe-4467-b7b3-c55ddedcead4",
+      "title": "U.S. International Trade in Goods and Services, November 2026",
+      "date": "2027-01-07",
+      "timeET": "08:30",
+      "status": "scheduled"
     }
   ],
-  "proposals": [],
+  "proposals": [
+    {
+      "sourceKey": "dol",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sourceUid": "claims-2027-01-07",
+      "title": "Unemployment Insurance Weekly Claims",
+      "date": "2027-01-07",
+      "timeET": "08:30",
+      "status": "scheduled",
+      "family": "CLAIMS",
+      "action": "missing",
+      "existingIds": [],
+      "previousDate": null,
+      "requiresInterpretationReview": true
+    }
+  ],
   "announcements": [],
   "nextFlashPmi": {
     "calendarEntryId": "2026-10-23-FLASH PMI",
