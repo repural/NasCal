@@ -1,6 +1,21 @@
 {
-  "checkedAt": "2026-10-09T17:51:13.827Z",
+  "checkedAt": "2026-10-09T22:07:20.491Z",
   "issues": [
+    {
+      "id": "2026-10-07-UST 10Y",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-02-Jobs",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-01-CLAIMS",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
     {
       "id": "2026-10-09-MICH PRE",
       "field": "outcome",
@@ -9,25 +24,10 @@
     {
       "id": "2026-10-09-MICH PRE",
       "asset": "nasdaq",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-10-09-MICH PRE",
-      "asset": "sox",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-10-05-ISM Services",
-      "field": "outcome",
-      "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-04-03-JOBS",
-      "asset": "nasdaq",
       "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-04-03-JOBS",
+      "id": "2026-10-09-MICH PRE",
       "asset": "sox",
       "reason": "Due price window unavailable; see capture states"
     },
@@ -42,16 +42,6 @@
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-08-UST 30Y",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-08-UST 30Y",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
       "id": "2026-10-08-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
@@ -62,5 +52,5 @@
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 6
+  "requests": 4
 }
