@@ -1,30 +1,20 @@
 {
-  "checkedAt": "2026-10-08T23:29:15.837Z",
+  "checkedAt": "2026-10-09T09:06:25.333Z",
   "issues": [
     {
-      "id": "2026-10-08-TSMC",
+      "id": "2026-10-02-Jobs",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-01-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
       "id": "2026-10-08-TSMC",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-08-TSMC",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-04-03-JOBS",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-04-03-JOBS",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
       "id": "2026-10-08-UST 30Y",
@@ -45,16 +35,6 @@
       "id": "2026-10-08-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-10-08-CLAIMS",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-08-CLAIMS",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
     },
     {
       "id": "2026-10-07-FOMC MINUTES",
@@ -65,12 +45,7 @@
       "id": "2026-10-07-UST 10Y",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-10-05-ISM Services",
-      "field": "outcome",
-      "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 4
+  "requests": 2
 }
