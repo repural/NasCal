@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-09T10:58:57.456Z",
-  "asOf": "2026-10-09",
-  "horizonEnd": "2027-01-07",
+  "checkedAt": "2026-10-10T10:11:31.811Z",
+  "asOf": "2026-10-10",
+  "horizonEnd": "2027-01-08",
   "mode": "daily",
   "sources": [
     {
@@ -40,7 +40,7 @@
       "kind": "rss",
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
       "status": "ok",
-      "count": 0
+      "count": 1
     },
     {
       "key": "pmi",
@@ -522,23 +522,15 @@
       "status": "scheduled"
     }
   ],
-  "proposals": [
+  "proposals": [],
+  "announcements": [
     {
-      "sourceKey": "dol",
-      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-      "sourceUid": "claims-2027-01-07",
-      "title": "Unemployment Insurance Weekly Claims",
-      "date": "2027-01-07",
-      "timeET": "08:30",
-      "status": "scheduled",
-      "family": "CLAIMS",
-      "action": "missing",
-      "existingIds": [],
-      "previousDate": null,
-      "requiresInterpretationReview": true
+      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "publishedAt": "Fri, 9 Oct 2026 14:00:00 GMT",
+      "sourceUrl": "https://www.federalreserve.gov/feeds/press_all.xml"
     }
   ],
-  "announcements": [],
   "nextFlashPmi": {
     "calendarEntryId": "2026-10-23-FLASH PMI",
     "date": "2026-10-23",
