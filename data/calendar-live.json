@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T13:57:23.165663Z",
-  "asOf": "2026-10-08",
-  "horizonEnd": "2026-12-31",
+  "updatedAt": "2026-10-10T04:23:36.254159+00:00",
+  "asOf": "2026-10-10",
+  "horizonEnd": "2027-01-08",
   "events": [
     {
       "id": "2026-10-01-CLAIMS",
@@ -15,8 +15,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -25,13 +25,14 @@
         }
       ],
       "expects": "Released: initial claims 197,000 in the original Oct 1 release, later revised to 199,000 on Oct 8. No verified contemporaneous consensus retained.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "Pre-release expectation retained for comparison: Reuters economist poll: manufacturing PMI 55.0.. Event completed; see recorded results.",
@@ -45,13 +46,13 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "After September business activity accelerated, prices paid and employment will help determine whether another Fed hike is needed.",
-      "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
-      "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -67,7 +68,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ism-manufacturing"
+      "eventKey": "ism-manufacturing",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "Pre-release expectation retained for comparison: Reuters reported a 100,000 payroll increase expectation on September 25; no newer verified survey located. Wages, unemployment and revisions may matter as much as that dated baseline.. Event completed; see recorded results.",
@@ -81,15 +84,15 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The report will test whether August’s strong payroll gain and wage pressure were persistent enough to justify back-to-back tightening.",
-      "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
-      "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
+      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
+      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "interpretationSources": [
         {
           "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
@@ -104,7 +107,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "employment-report"
+      "eventKey": "employment-report",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "Released: ISM Services PMI 54.9 versus Reuters poll 55.2. Pre-release expectations are retained in history; the outcome is not a forecast for future surveys.",
@@ -118,13 +123,13 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Services prices and employment will test whether softer hiring allows a Fed pause without a material growth slowdown.",
-      "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
-      "negative": "A strong prices-paid surprise revives October-hike risk from 21.6%, or weak orders turn the pause into a growth warning.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -140,7 +145,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ism-services"
+      "eventKey": "ism-services",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
@@ -154,15 +161,15 @@
       "type": "Fed",
       "importance": "High",
       "explanation": "The minutes can reveal how broadly officials supported the September rate increase and how they assessed inflation, jobs and the case for another hike.",
-      "positive": "Officials show scope to assess inflation and growth before tightening again.",
-      "negative": "A stronger commitment to repeated hikes than markets infer overwhelms softer hiring evidence.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "id": "2026-10-07-FOMC MINUTES",
       "timeLabel": "14:00 ET · 21:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -178,7 +185,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "fomc-minutes"
+      "eventKey": "fomc-minutes",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-10-07-UST 10Y",
@@ -196,11 +205,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -216,7 +225,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-10-08-CLAIMS",
@@ -229,8 +240,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -243,13 +254,14 @@
         }
       ],
       "expects": "Released: 197,000 initial claims versus MarketWatch forecast 200,000; prior week revised to 199,000. Continuing claims 1.716 million. A small downside claims surprise signals limited layoffs; no isolated market effect inferred.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable monthly-sales consensus verified. Quarterly guidance provides context; monthly sales alone do not confirm earnings or a new outlook.",
@@ -263,13 +275,13 @@
       "type": "Earnings",
       "importance": "High",
       "explanation": "The release provides a timely read on advanced-node and AI accelerator demand after a strong semiconductor run.",
-      "positive": "Broad advanced-node demand and healthy utilization support the semiconductor earnings outlook.",
-      "negative": "Weak revenue or customer concentration raises doubts about sustained AI demand.",
+      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
+      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
       "id": "2026-10-08-TSMC",
       "timeLabel": "Publication time not fixed",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -285,7 +297,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "tsmc-monthly-sales"
+      "eventKey": "tsmc-monthly-sales",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-10-08-UST 30Y",
@@ -303,11 +317,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -323,7 +337,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-10-09-MICH PRE",
@@ -336,23 +352,62 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
           "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Official October preliminary results"
         }
       ],
-      "expects": "MarketWatch lists a sentiment forecast of 48.0. Official September final baseline is 48.1 (MarketWatch displays 47.8); use the issuer baseline. No verified inflation-expectations consensus.",
-      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
-      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "expects": "Released Oct 9: sentiment 46.3 versus September final 48.1; one-year inflation expectations 4.7% versus 4.6%, long-run 3.5% versus 3.4%. Earlier MarketWatch sentiment forecast was 48.0; no verified inflation-expectations consensus.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
       "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+    },
+    {
+      "id": "2026-10-14-ASML Earnings",
+      "date": "2026-10-14",
+      "short": "ASML Earnings",
+      "event": "ASML Q3 2026 earnings",
+      "eventKey": "asml-earnings",
+      "type": "Earnings",
+      "importance": "High",
+      "status": "scheduled",
+      "timeLabel": "07:00 Central European time · investor call 15:00 (issuer schedule)",
+      "isNew": true,
+      "sourceUrl": "https://investor.asml.com/quarterly-results",
+      "sources": [
+        {
+          "url": "https://investor.asml.com/quarterly-results",
+          "title": "ASML official Q3 release and call schedule"
+        },
+        {
+          "url": "https://investor.asml.com/news-releases/news-release-details/q2-2026-financial-results",
+          "title": "ASML official Q3 guidance"
+        }
+      ],
+      "expects": "Company Q3 guidance: sales €11–12 billion and gross margin 55–57%; full-year sales €43–45 billion. These are issuer ranges; no independently verified current analyst consensus.",
+      "positive": "Orders and guidance confirm profitable AI-driven logic and memory investment, with strong cash conversion supporting semiconductor valuations despite elevated yields.",
+      "negative": "Weak bookings, delivery delays or tighter export restrictions undermine the outlook while AI spending and financing face scrutiny.",
+      "watch": "Net bookings, EUV demand, Q3 margins, 2027 capacity commitments and export restrictions",
+      "window": "European release and call through the U.S. cash session; index +15/+1h unavailable while U.S. cash indices are closed",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A key semiconductor capital-equipment report testing whether AI investment translates into orders and profitable deliveries.",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-14-BEIGE BOOK",
@@ -365,8 +420,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -375,16 +430,17 @@
         }
       ],
       "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
-      "positive": "Cooling price and wage pressure with continued activity.",
-      "negative": "Broadening price pressure strengthens further-tightening arguments, or weaker activity undermines earnings.",
+      "positive": "District reports of slower cost and wage growth with stable demand would ease the policy trade-off.",
+      "negative": "Persistent price pressure alongside weakening hiring and spending points to stagflation.",
       "watch": "District price pressure, labor demand, consumer spending and credit conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
-      "expects": "No reliable release-specific numerical consensus was verified. Markets price about a 20% chance of an October hike, so energy and core services must be strong enough to overturn a firm pause baseline.",
+      "expects": "Reuters Oct 9 economist poll expects September headline CPI 3.7% year on year and core CPI 2.5% year on year. No independently verified monthly consensus retained; energy and services detail may drive the yield reaction.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -395,13 +451,13 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "With oil elevated and the Fed projecting another 2026 hike, this is the decisive inflation test before the October meeting.",
-      "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
-      "negative": "A broad upside inflation surprise sharply raises October-hike odds from 21.6% and lifts yields; weak demand-sensitive inflation could instead reinforce growth concerns.",
+      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
+      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -417,7 +473,14 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "cpi"
+      "eventKey": "cpi",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/wall-st-week-ahead-bank-earnings-cpi-headline-busy-markets-week-sp-500-hovers-2026-10-09/",
+          "title": "Reuters Oct 9 CPI economist poll"
+        }
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-15-CLAIMS",
@@ -430,8 +493,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -440,16 +503,17 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
-      "expects": "No dependable release-specific forecast was verified. With an October hike priced about 20%, PCE-relevant service components and cost pass-through must be unusually firm to change the pause baseline.",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -460,14 +524,14 @@
       "type": "Inflation",
       "importance": "High",
       "explanation": "Producer-price components influence October rate expectations and estimates for the next PCE release. Retail sales is simultaneous.",
-      "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
-      "negative": "A concentrated services or supply-cost surge lifts the prospective PCE reading and revives near-term tightening expectations.",
+      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
+      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -483,7 +547,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ppi"
+      "eventKey": "ppi",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No reliable economist consensus verified. Control-group sales and revisions will clarify consumption after softer hiring; nominal strength may reflect prices.",
@@ -497,14 +563,14 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Consumer spending tests demand ahead of the Fed meeting. PPI is released at the same time, so immediate market reactions overlap.",
-      "positive": "Resilient real consumption with contained inflation, sustaining commerce, advertising and cloud demand.",
-      "negative": "A broad spending slowdown weakens earnings, or an inflation-heavy beat revives higher-rate expectations.",
+      "positive": "Healthy real control-group spending with restrained prices would support revenues without reviving tightening pressure.",
+      "negative": "Nominal strength driven by prices or broad real-spending weakness harms the rates-growth balance.",
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -520,7 +586,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "retail-sales"
+      "eventKey": "retail-sales",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "date": "2026-10-15",
@@ -532,8 +600,8 @@
       "timeLabel": "02:00 ET · 09:00 Istanbul (conference call)",
       "sourceUrl": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
       "expects": "Official Q3 guidance: revenue $44.6–45.8 billion, gross margin 65–67%, operating margin 56–58%. These are company ranges, not a verified analyst consensus.",
-      "positive": "Revenue and forward demand exceed the guidance baseline with durable margins and broad AI demand, supporting SOX and Nasdaq despite rate sensitivity.",
-      "negative": "Disappointing advanced-node demand, weaker forward guidance or margin pressure challenges the AI earnings premium.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "explanation": "Officially scheduled quarterly results are distinct from the October 8 monthly sales update. Conference-call time is confirmed; a separate initial results-publication time was not verified.",
       "watch": "Revenue, gross margin, advanced-node demand, packaging capacity, capex and next-quarter guidance",
       "window": "Taiwan release and call through the following U.S. session",
@@ -542,8 +610,8 @@
       "id": "2026-10-15-TSM Earnings",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
@@ -567,7 +635,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-16-IND PROD",
@@ -580,8 +649,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -590,13 +659,14 @@
         }
       ],
       "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
-      "positive": "Steady manufacturing output with no overheating or cost shock, supporting cyclical and semiconductor demand.",
-      "negative": "Manufacturing contraction weakens demand, or unexpectedly strong utilization reinforces inflation and yield pressure.",
+      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
+      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
       "watch": "Manufacturing output, capacity utilization and prior-month revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-21-TSLA Earnings",
@@ -614,11 +684,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Tesla is a Nasdaq megacap and a major driver of consumer-discretionary and AI positioning. Strong deliveries reduce volume risk, but profitability, cash flow and capital spending will determine whether that strength translates into earnings.",
-      "positive": "Better margins and cash generation accompany strong deliveries, while credible AI, robotaxi and energy growth supports the valuation without a large capex shock.",
-      "negative": "Price cuts, weaker margins or cash flow, an energy shortfall, or heavier AI and robotaxi spending overwhelm the delivery beat and pressure megacap growth multiples.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "sourceUrl": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "sources": [
         {
@@ -639,7 +709,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-21-UST 20Y",
@@ -657,11 +728,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -677,7 +748,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-10-22-CLAIMS",
@@ -690,8 +763,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -700,13 +773,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable October consensus verified. October 23 at 09:45 ET is present in the calendar and secondary listings, but official reconfirmation remains blocked. Activity, employment and prices must be read together.",
@@ -720,15 +794,15 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The first broad October read on private-sector activity, jobs and prices can change expectations for the October Fed decision and Treasury yields.",
-      "positive": "Resilient activity with slower price increases and balanced employment, supporting technology demand and the pause case.",
-      "negative": "Renewed price pressure reverses the pause trade; a broad activity drop instead weakens the earnings outlook.",
+      "positive": "Resilient activity with moderating prices and orderly hiring would support growth without renewed yield pressure.",
+      "negative": "Higher input/output prices alongside weak orders or employment combine inflation risk with slower growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -744,7 +818,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "flash-pmi"
+      "eventKey": "flash-pmi",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-10-23-MICH FIN",
@@ -757,23 +833,28 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
           "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
         }
       ],
-      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
-      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
-      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
       "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "Deliberations begin; the scheduled decision is the following day. No rate announcement is expected on this first meeting day.",
@@ -787,13 +868,13 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "Officials enter the meeting after signaling one more 2026 hike, while incoming inflation and labor data determine whether it comes immediately.",
-      "positive": "Orderly positioning and stable yields ahead of the policy decision.",
-      "negative": "Unexpected communication or a geopolitical shock reprices rates before the scheduled decision.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -809,10 +890,12 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "fomc-day-1"
+      "eventKey": "fomc-day-1",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
-      "expects": "Rate futures price about a 20% chance of an October hike after weak payroll growth and downward revisions, making a pause the dominant baseline. December tightening remains heavily priced.",
+      "expects": "No freshly corroborated meeting-specific rate probability is available in this review. Inflation and labor releases before the decision can change the pause-versus-tightening baseline; earlier precise odds are not current pricing.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -823,15 +906,15 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "Weak September payroll growth and downward revisions pushed October hike odds below 20%; the decision and Warsh’s guidance will reset the December path.",
-      "positive": "A pause paired with data-dependent guidance and confidence that inflation can improve without a sharp growth slowdown, limiting upward pressure on long yields.",
-      "negative": "An October hike would be a large hawkish surprise; alternatively, guidance that validates near-certain December tightening or a pause framed around labor weakness could pressure technology shares.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "interpretationSources": [
         {
           "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
@@ -846,7 +929,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "fomc-decision"
+      "eventKey": "fomc-decision",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-10-29-CLAIMS",
@@ -859,8 +944,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -869,21 +954,22 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "id": "2026-10-29-FCC China Labs",
       "date": "2026-10-29",
       "short": "FCC China Labs",
@@ -893,8 +979,8 @@
       "importance": "High",
       "timeLabel": "FCC meeting · exact vote time not yet verified",
       "expects": "The FCC has announced a vote to bar Chinese laboratories and certification bodies from testing electronics for U.S. use. Passage is the stated policy direction; implementation is slated for December 2028.",
-      "positive": "A clear, phased rule with workable U.S. and allied testing capacity limits near-term compliance disruption while improving supply-chain certainty.",
-      "negative": "A broader-than-expected rule or retaliatory response raises device-certification costs and deepens U.S.–China technology friction.",
+      "positive": "Clear, limited implementation with workable compliance arrangements would reduce supply-chain uncertainty and avoid new earnings disruption.",
+      "negative": "Broader restrictions, retaliation or costly compliance increases technology-sector supply-chain and margin risk.",
       "watch": "Final scope, transition provisions, reciprocal-treatment test, affected laboratories and implementation timetable",
       "window": "FCC vote and publication of the final rule",
       "explanation": "The policy could affect certification paths for smartphones, computers and other electronics. Its delayed implementation reduces immediate earnings impact, but the vote is a significant technology-policy signal.",
@@ -910,7 +996,8 @@
           "url": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/",
           "title": "Confirmed policy scope and timing"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable Q3 consensus verified. Private demand, investment and price detail matter more than inventory or trade contributions alone.",
@@ -924,14 +1011,14 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "The first estimate of Q3 growth arrives alongside September PCE; the immediate market reaction reflects both.",
-      "positive": "Sustainable private demand and productive investment with restrained prices.",
-      "negative": "An inflation-heavy growth beat threatens tightening; weak domestic demand threatens earnings.",
+      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
+      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -947,15 +1034,17 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "gdp-advance"
+      "eventKey": "gdp-advance",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "id": "2026-10-29-INTC Earnings",
       "date": "2026-10-29",
       "short": "INTC Earnings",
@@ -965,8 +1054,8 @@
       "importance": "Critical",
       "timeLabel": "After close · call 17:00 ET / 00:00 Istanbul Oct 30",
       "expects": "Intel has confirmed the date and call time. No dependable current revenue, EPS or margin consensus was independently verified, so uncertainty should be treated explicitly.",
-      "positive": "Improving foundry execution, data-center demand and credible margin guidance support semiconductor breadth beyond AI accelerators.",
-      "negative": "Weak foundry milestones, margin pressure or cautious data-center guidance undermine confidence in a broader semiconductor recovery.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "watch": "Data center, foundry milestones, gross margin, capex, cash flow and forward guidance",
       "window": "After-hours release and 17:00 ET call through the next U.S. session",
       "explanation": "Intel is a major semiconductor bellwether. The release coincides with GDP, PCE, a Treasury auction, other chip earnings and the FCC vote, so market attribution may overlap.",
@@ -986,7 +1075,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
@@ -1000,14 +1090,14 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "Monthly core inflation tests the Fed outlook the morning after its decision. GDP is released at the same time.",
-      "positive": "Further underlying disinflation with resilient real spending, supporting a pause and technology valuations.",
-      "negative": "Core services or revisions reaccelerate inflation; weak spending introduces a separate earnings risk.",
+      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
+      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1023,15 +1113,17 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "core-pce"
+      "eventKey": "core-pce",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "id": "2026-10-29-STM Earnings",
       "date": "2026-10-29",
       "short": "STM Earnings",
@@ -1041,8 +1133,8 @@
       "importance": "High",
       "timeLabel": "European pre-market timing expected · exact time not verified",
       "expects": "STMicroelectronics confirms October 29 for Q3 results. No dependable current analyst consensus or final release time was independently verified.",
-      "positive": "Industrial and automotive demand stabilize while margins and inventory improve, broadening semiconductor participation.",
-      "negative": "Further industrial or automotive weakness, inventory correction or margin pressure weighs on cyclical chip demand.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "watch": "Automotive and industrial demand, inventories, gross margin, utilization and guidance",
       "window": "European release through the U.S. cash close",
       "explanation": "STMicroelectronics provides a cyclical semiconductor read distinct from AI accelerators. Same-day U.S. macro releases and Intel earnings can overlap with the market reaction.",
@@ -1062,7 +1154,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-29-UST 7Y",
@@ -1080,11 +1173,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1100,7 +1193,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No dependable compensation consensus verified. Slower payroll-survey wages do not establish this broader wage-and-benefits outcome.",
@@ -1114,15 +1209,15 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Broad compensation trends offer a less noisy wage-inflation check than a single payroll report.",
-      "positive": "Moderating compensation with stable employment, reducing persistent service-price pressure.",
-      "negative": "Sticky benefits or wages undermine the case for delaying another rate increase.",
+      "positive": "Moderating compensation growth with stable employment would help margins and contain rate pressure.",
+      "negative": "Sticky compensation costs raise inflation persistence and pressure profitability.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1138,7 +1233,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "employment-cost"
+      "eventKey": "employment-cost",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No reliable consensus verified for this forthcoming survey. The latest manufacturing report combines expansion with increased cost pressure; a headline beat alone is not uniformly supportive.",
@@ -1152,15 +1249,15 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "October factory orders, employment and prices paid will test whether growth is staying strong without further inflation pressure after the Fed decision.",
-      "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
-      "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1176,7 +1273,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ism-manufacturing"
+      "eventKey": "ism-manufacturing",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-03-AMD Earnings",
@@ -1189,16 +1288,16 @@
       "timeLabel": "After close · call 17:00 ET / 01:00 Istanbul Nov 4",
       "status": "scheduled",
       "expects": "Company Q3 guidance is revenue $13.0 billion ±$0.3 billion and non-GAAP gross margin about 56%. No dependable current analyst consensus verified; company guidance is the baseline.",
-      "positive": "AI accelerator and EPYC demand exceed the guidance baseline with durable margins and credible forward orders, supporting semiconductor earnings while yields ease.",
-      "negative": "A modest beat with disappointing forward AI demand or margin pressure falls short of elevated expectations; export restrictions could further constrain sales.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "watch": "Instinct and EPYC revenue, gross margin, forward guidance, deployment timing and export restrictions",
       "window": "After-hours release and 17:00 ET call through the next U.S. session",
       "explanation": "AMD confirmed November 3 results after market close. The 17:00 ET call is distinct from the initial release. Earnings share the date with U.S. midterms; next-session moves may reflect both.",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
       "sources": [
         {
@@ -1219,7 +1318,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
@@ -1233,15 +1333,15 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Labor-demand data arrive on election day and may change the Fed-rate narrative before the vote results.",
-      "positive": "Balanced labor demand, few layoffs and lower wage pressure, sustaining the soft-landing interpretation.",
-      "negative": "Layoffs rise sharply and threaten growth, or hiring competition reignites wage pressure.",
+      "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
+      "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1257,7 +1357,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "jolts"
+      "eventKey": "jolts",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "Congressional control is uncertain; no dependable national market-implied probability is used. Inflation and borrowing costs remain important policy issues.",
@@ -1271,13 +1373,13 @@
       "type": "Politics",
       "importance": "Critical",
       "explanation": "Control of Congress will affect expectations for tariffs, deficits, AI oversight, technology regulation and the Iran-war policy path.",
-      "positive": "An orderly result and predictable technology, trade and fiscal policy with limited bond-yield pressure.",
-      "negative": "Contested outcomes or unexpected fiscal and trade proposals increase uncertainty and discount rates.",
+      "positive": "An orderly result with a clearer fiscal and trade-policy outlook would reduce uncertainty without adding inflationary borrowing pressure.",
+      "negative": "A disputed result, disruptive policy shifts or deficit-heavy measures raise uncertainty and Treasury-yield risk.",
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1293,15 +1395,17 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "us-midterm-elections"
+      "eventKey": "us-midterm-elections",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "id": "2026-11-04-ARM Earnings",
       "date": "2026-11-04",
       "short": "ARM Earnings",
@@ -1311,8 +1415,8 @@
       "importance": "Critical",
       "timeLabel": "17:00 ET · 01:00 Istanbul Nov 5",
       "expects": "Arm confirms a November 4 webcast at 17:00 ET. No dependable current revenue, EPS or royalty-growth consensus was independently verified.",
-      "positive": "AI, data-center and edge royalty growth exceed expectations with resilient licensing demand and constructive guidance.",
-      "negative": "Royalty growth, licensing timing or forward guidance disappoints an elevated valuation and pressures AI-linked semiconductor sentiment.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "watch": "Royalty revenue, licensing, data-center adoption, v9 mix, China exposure and guidance",
       "window": "After-hours release and webcast through the next U.S. session",
       "explanation": "Arm is a central architecture supplier across mobile, data-center and edge markets. Its results can affect the broader semiconductor complex even though its business mix differs from chip manufacturers.",
@@ -1332,7 +1436,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -1346,15 +1451,15 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Services prices and employment will test whether softer hiring allows a Fed pause without a material growth slowdown.",
-      "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
-      "negative": "Persistent service inflation reprices the Fed more hawkishly, or weak orders turn the pause into a growth warning.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1370,7 +1475,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ism-services"
+      "eventKey": "ism-services",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-05-CLAIMS",
@@ -1383,8 +1490,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1393,13 +1500,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-05-PRODUCTIVITY",
@@ -1422,12 +1530,12 @@
       ],
       "isNew": true,
       "expects": "No reliable forecast verified for this vintage. Preliminary and revised productivity estimates must remain distinct when judging unit labor costs.",
-      "positive": "Productivity improves and unit labor costs stay contained, allowing investment and wage growth without more inflation.",
-      "negative": "Weak productivity or upward labor-cost revisions challenge the disinflation benefit expected from AI investment.",
+      "positive": "Higher productivity and slower unit labor costs support margins and disinflation.",
+      "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1443,7 +1551,8 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "productivity-costs"
+      "eventKey": "productivity-costs",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
@@ -1457,15 +1566,15 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "Payrolls, wages and unemployment will reset growth and December Fed expectations.",
-      "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
-      "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
+      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
+      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-06-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1481,7 +1590,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "employment-report"
+      "eventKey": "employment-report",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-06-MICH PRE",
@@ -1494,26 +1605,31 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
           "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
         }
       ],
-      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
-      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
-      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
       "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
-      "expects": "No reliable numerical consensus verified. Energy and core services will test whether the current preference for an October Fed pause lasts.",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -1524,15 +1640,15 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "Core and services inflation will test the Fed's December rate path.",
-      "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
-      "negative": "Sticky core services or energy pass-through reverses the pause trade and lifts yields.",
+      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
+      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1548,15 +1664,17 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "cpi"
+      "eventKey": "cpi",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "id": "2026-11-10-TSMC Sales",
       "date": "2026-11-10",
       "short": "TSMC Sales",
@@ -1566,8 +1684,8 @@
       "importance": "High",
       "timeLabel": "13:30 Taipei · 00:30 ET · 08:30 Istanbul",
       "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
-      "positive": "Advanced-node and AI-related demand remain broad enough to support utilization, margins and semiconductor earnings expectations.",
-      "negative": "A material sequential slowdown or weaker customer mix raises doubts about the durability of AI and advanced-node demand.",
+      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
+      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
       "watch": "Monthly revenue growth, sequential trend, advanced-node demand and consistency with quarterly guidance",
       "window": "Taiwan publication through the U.S. cash session",
       "explanation": "The monthly revenue update is a timely demand signal, but one month does not establish a full-quarter outcome and currency or shipment timing can distort comparisons.",
@@ -1587,7 +1705,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-10-UST 10Y",
@@ -1605,11 +1724,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1625,7 +1744,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-12-CLAIMS",
@@ -1638,8 +1759,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1648,13 +1769,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-12-UST 30Y",
@@ -1672,11 +1794,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1692,10 +1814,12 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
-      "expects": "No dependable release-specific forecast verified. PCE-relevant service components and cost pass-through matter alongside the headline.",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -1706,15 +1830,15 @@
       "type": "Inflation",
       "importance": "High",
       "explanation": "Producer prices can change the estimate for the forthcoming core PCE release.",
-      "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
-      "negative": "Supply disruptions or service-price increases lift the prospective PCE reading and rate expectations.",
+      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
+      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-13-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1730,7 +1854,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ppi"
+      "eventKey": "ppi",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-17-IND PROD",
@@ -1743,8 +1869,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -1753,13 +1879,14 @@
         }
       ],
       "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
-      "positive": "Steady manufacturing output with no overheating or cost shock, supporting cyclical and semiconductor demand.",
-      "negative": "Manufacturing contraction weakens demand, or unexpectedly strong utilization reinforces inflation and yield pressure.",
+      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
+      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
       "watch": "Manufacturing output, capacity utilization and prior-month revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "A separate Trump–Xi bilateral or advanced-chip concessions remain unconfirmed. Existing trade dialogue does not establish new technology relief.",
@@ -1773,15 +1900,15 @@
       "type": "Politics",
       "importance": "Critical",
       "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
-      "positive": "Implementable cooperation reduces technology supply-chain and trade uncertainty.",
-      "negative": "New export restrictions or diplomatic escalation offsets recent dialogue; weak deliverables disappoint.",
+      "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
+      "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
       "id": "2026-11-18-APEC",
       "timeLabel": "Nov 18–19 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1797,7 +1924,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "apec-leaders"
+      "eventKey": "apec-leaders",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
@@ -1811,15 +1940,15 @@
       "type": "Fed",
       "importance": "High",
       "explanation": "The minutes clarify the committee's debate after the October decision and can shift December rate expectations.",
-      "positive": "Officials show scope to assess inflation and growth before tightening again.",
-      "negative": "A stronger commitment to repeated hikes than markets infer overwhelms softer hiring evidence.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "id": "2026-11-18-FOMC MINUTES",
       "timeLabel": "14:00 ET · 22:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1835,7 +1964,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "fomc-minutes"
+      "eventKey": "fomc-minutes",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-18-UST 20Y",
@@ -1853,11 +1984,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1873,7 +2004,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-19-CLAIMS",
@@ -1886,8 +2019,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1896,13 +2029,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-20-MICH FIN",
@@ -1915,23 +2049,28 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
           "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
         }
       ],
-      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
-      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
-      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
       "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-25-BEIGE BOOK",
@@ -1944,8 +2083,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -1954,13 +2093,14 @@
         }
       ],
       "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
-      "positive": "Cooling price and wage pressure with continued activity.",
-      "negative": "Broadening price pressure strengthens further-tightening arguments, or weaker activity undermines earnings.",
+      "positive": "District reports of slower cost and wage growth with stable demand would ease the policy trade-off.",
+      "negative": "Persistent price pressure alongside weakening hiring and spending points to stagflation.",
       "watch": "District price pressure, labor demand, consumer spending and credit conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-25-CLAIMS",
@@ -1973,8 +2113,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1983,13 +2123,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable revision consensus verified; the October 29 Q3 advance estimate is still ahead. An earlier-quarter result is not this release's forecast.",
@@ -2003,14 +2144,14 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "The second estimate updates third-quarter growth and is released alongside October PCE.",
-      "positive": "Revisions preserve healthy private demand and improve the inflation mix.",
-      "negative": "Upward price revisions or weaker final demand undermine the valuation or growth case.",
+      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
+      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-11-25-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2026,7 +2167,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "gdp-second"
+      "eventKey": "gdp-second",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
@@ -2040,14 +2183,14 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "Monthly inflation informs the December Fed outlook. GDP is released simultaneously, so price-window attribution will be shared.",
-      "positive": "Further underlying disinflation with resilient real spending, supporting a pause and technology valuations.",
-      "negative": "Core services or revisions reaccelerate inflation; weak spending introduces a separate earnings risk.",
+      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
+      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-11-25-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2063,7 +2206,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "core-pce"
+      "eventKey": "core-pce",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-11-25-UST 7Y",
@@ -2081,11 +2226,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2101,7 +2246,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No reliable consensus verified for this forthcoming survey. The latest manufacturing report combines expansion with increased cost pressure; a headline beat alone is not uniformly supportive.",
@@ -2115,15 +2262,15 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "November factory activity and prices paid arrive at the same time as JOLTS, ahead of the December Fed decision.",
-      "positive": "Steady orders with cooling input costs, supporting semiconductor demand while allowing the Fed to wait.",
-      "negative": "Rising prices or delivery delays revive tightening concerns; an orders slump instead threatens earnings demand.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2139,7 +2286,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ism-manufacturing"
+      "eventKey": "ism-manufacturing",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
@@ -2153,15 +2302,15 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Vacancies and quits test labor demand before the December Fed meeting. ISM Manufacturing is released simultaneously, so immediate index moves reflect both.",
-      "positive": "Balanced labor demand, few layoffs and lower wage pressure, sustaining the soft-landing interpretation.",
-      "negative": "Layoffs rise sharply and threaten growth, or hiring competition reignites wage pressure.",
+      "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
+      "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched.htm",
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2177,7 +2326,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "jolts"
+      "eventKey": "jolts",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-12-03-CLAIMS",
@@ -2190,8 +2341,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2200,13 +2351,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -2220,15 +2372,15 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "Services prices and employment will test whether softer hiring allows a Fed pause without a material growth slowdown.",
-      "positive": "Continued expansion with slower service costs, protecting growth without forcing faster tightening.",
-      "negative": "Persistent service inflation reprices the Fed more hawkishly, or weak orders turn the pause into a growth warning.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2244,7 +2396,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ism-services"
+      "eventKey": "ism-services",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
@@ -2258,15 +2412,15 @@
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The final payroll report before December's FOMC meeting can reprice its rate decision.",
-      "positive": "Stable hiring and moderate wages, preserving consumption without reviving rapid tightening.",
-      "negative": "Unexpected wage acceleration lifts yields, or weak hiring and revisions materially damage growth expectations.",
+      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
+      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2282,7 +2436,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "employment-report"
+      "eventKey": "employment-report",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-12-04-MICH PRE",
@@ -2295,23 +2451,28 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
           "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
         }
       ],
-      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
-      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
-      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
       "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-08-PRODUCTIVITY",
@@ -2334,12 +2495,12 @@
       ],
       "isNew": true,
       "expects": "No reliable forecast verified for this vintage. Preliminary and revised productivity estimates must remain distinct when judging unit labor costs.",
-      "positive": "Productivity improves and unit labor costs stay contained, allowing investment and wage growth without more inflation.",
-      "negative": "Weak productivity or upward labor-cost revisions challenge the disinflation benefit expected from AI investment.",
+      "positive": "Higher productivity and slower unit labor costs support margins and disinflation.",
+      "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2355,7 +2516,8 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "productivity-costs"
+      "eventKey": "productivity-costs",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-08-UST 10Y",
@@ -2373,11 +2535,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2393,10 +2555,12 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
-      "expects": "After the September jobs report, markets price a December hike at 68.6% even as October-hike odds fell about 20%. Intervening inflation and labor data can materially change that baseline.",
+      "expects": "No freshly corroborated meeting-specific rate probability is available in this review. Inflation and labor releases before the decision can change the pause-versus-tightening baseline; earlier precise odds are not current pricing.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -2407,15 +2571,15 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "Updated dot plot, rate decision and press conference will set the 2027 policy baseline.",
-      "positive": "Inflation improves enough for a less restrictive path than feared without undermining confidence in growth.",
-      "negative": "A hike plus guidance for further tightening, or an upward shift in the projected rate path, extends the high-yield regime and compresses technology valuations.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2431,7 +2595,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "fomc-decision"
+      "eventKey": "fomc-decision",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-12-10-CLAIMS",
@@ -2444,8 +2610,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2454,16 +2620,17 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
-      "expects": "No reliable numerical consensus verified. Energy and core services will test whether the current preference for an October Fed pause lasts.",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -2474,15 +2641,15 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "First major inflation test immediately after the December Fed decision.",
-      "positive": "Lower underlying inflation with stable demand and contained expectations, easing valuation pressure.",
-      "negative": "Sticky core services or energy pass-through reverses the pause trade and lifts yields.",
+      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
+      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2498,15 +2665,17 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "cpi"
+      "eventKey": "cpi",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "id": "2026-12-10-TSMC Sales",
       "date": "2026-12-10",
       "short": "TSMC Sales",
@@ -2516,8 +2685,8 @@
       "importance": "High",
       "timeLabel": "13:30 Taipei · 00:30 ET · 08:30 Istanbul",
       "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
-      "positive": "Advanced-node and AI-related demand remain broad enough to support utilization, margins and semiconductor earnings expectations.",
-      "negative": "A material sequential slowdown or weaker customer mix raises doubts about the durability of AI and advanced-node demand.",
+      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
+      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
       "watch": "Monthly revenue growth, sequential trend, advanced-node demand and consistency with quarterly guidance",
       "window": "Taiwan publication through the U.S. cash session",
       "explanation": "The monthly revenue update is a timely demand signal, but one month does not establish a full-quarter outcome and currency or shipment timing can distort comparisons.",
@@ -2537,7 +2706,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-10-UST 30Y",
@@ -2555,11 +2725,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2575,7 +2745,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No dependable forecast for summit outcomes or confirmed separate Trump–Xi bilateral emerged in this review.",
@@ -2589,15 +2761,15 @@
       "type": "Politics",
       "importance": "Critical",
       "explanation": "The U.S.-hosted G20 leaders’ summit is scheduled for December 14–15 in Miami. China says Xi and Trump intend to attend each other's summits; a bilateral meeting time or agenda is unconfirmed. Trade, export controls and geopolitical statements may move technology shares.",
-      "positive": "Credible energy and trade cooperation reduces supply risks and uncertainty for technology demand.",
-      "negative": "Escalation raises energy costs or disrupts chip supply, worsening the inflation-and-growth tradeoff.",
+      "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
+      "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/bmdyzs_664814/xwlb_664816/202609/t20260926_12031663.html",
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2613,10 +2785,12 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "g20-leaders"
+      "eventKey": "g20-leaders",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
-      "expects": "No dependable release-specific forecast verified. PCE-relevant service components and cost pass-through matter alongside the headline.",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -2627,15 +2801,15 @@
       "type": "Inflation",
       "importance": "High",
       "explanation": "Pipeline inflation influences estimates for the subsequent core PCE report.",
-      "positive": "Cooling producer costs with adequate demand, supporting margins and future disinflation.",
-      "negative": "Supply disruptions or service-price increases lift the prospective PCE reading and rate expectations.",
+      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
+      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
+      "lastUpdated": "2026-10-10",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2651,7 +2825,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "ppi"
+      "eventKey": "ppi",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-12-16-IND PROD",
@@ -2664,8 +2840,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "sources": [
         {
@@ -2674,13 +2850,14 @@
         }
       ],
       "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
-      "positive": "Steady manufacturing output with no overheating or cost shock, supporting cyclical and semiconductor demand.",
-      "negative": "Manufacturing contraction weakens demand, or unexpectedly strong utilization reinforces inflation and yield pressure.",
+      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
+      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
       "watch": "Manufacturing output, capacity utilization and prior-month revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-17-CLAIMS",
@@ -2693,8 +2870,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2703,13 +2880,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-18-MICH FIN",
@@ -2722,23 +2900,28 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
           "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
         }
       ],
-      "expects": "No dependable release-specific consensus verified. September official baseline: sentiment 48.1; one-year inflation expectations 4.6%, long-run 3.4%.",
-      "positive": "Lower inflation expectations with stabilizing sentiment, easing rate pressure without implying collapsing consumption.",
-      "negative": "Higher long-run inflation expectations force a hawkish repricing, or falling sentiment confirms weakening consumer demand.",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
       "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable final-estimate consensus verified; preceding Q3 estimates have not yet been released. Component revisions will establish the comparison.",
@@ -2752,14 +2935,14 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "The final third-quarter growth revision arrives alongside November PCE.",
-      "positive": "Stable real private demand with contained price revisions and productive investment.",
-      "negative": "Higher inflation or weaker underlying demand alters the Fed or earnings outlook despite a modest headline revision.",
+      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
+      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2775,7 +2958,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "gdp-final"
+      "eventKey": "gdp-final",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
@@ -2789,14 +2974,14 @@
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "The final scheduled monthly PCE release of 2026; GDP is published simultaneously, so observed moves cannot isolate one report.",
-      "positive": "Further underlying disinflation with resilient real spending, supporting a pause and technology valuations.",
-      "negative": "Core services or revisions reaccelerate inflation; weak spending introduces a separate earnings risk.",
+      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
+      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2812,7 +2997,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "eventKey": "core-pce"
+      "eventKey": "core-pce",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-12-23-UST 20Y",
@@ -2830,11 +3017,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2850,7 +3037,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-12-24-CLAIMS",
@@ -2863,8 +3052,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2873,13 +3062,14 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "date": "2026-12-27",
@@ -2891,8 +3081,8 @@
       "timeLabel": "Time not announced · China deadline (Sunday)",
       "sourceUrl": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
       "expects": "MOFCOM Announcement 42 extends this distinct investigation to December 27. No finding, tariff rate or implementation date is confirmed.",
-      "positive": "Resolution without wider retaliation reduces cross-border investment and policy risk for technology-linked supply chains.",
-      "negative": "New trade barriers or U.S. countermeasures broaden the dispute beyond green products and weaken risk appetite.",
+      "positive": "Clear, limited implementation with workable compliance arrangements would reduce supply-chain uncertainty and avoid new earnings disruption.",
+      "negative": "Broader restrictions, retaliation or costly compliance increases technology-sector supply-chain and margin risk.",
       "explanation": "Separate official investigation into U.S. barriers affecting green-product trade; it shares a deadline with the supply-chain case but remains a distinct entity.",
       "watch": "Findings, covered products, remedies and retaliation",
       "window": "Any announcement through the next tradable U.S. session",
@@ -2901,8 +3091,8 @@
       "id": "2026-12-27-China Green Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sources": [
         {
           "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
@@ -2926,7 +3116,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "date": "2026-12-27",
@@ -2938,8 +3129,8 @@
       "timeLabel": "Time not announced · China deadline (Sunday)",
       "sourceUrl": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
       "expects": "MOFCOM Announcement 41 extends the investigation to December 27. No outcome or resulting trade measure is confirmed; the deadline does not guarantee sanctions.",
-      "positive": "A negotiated or limited outcome avoids new restrictions on global technology supply chains and reduces policy uncertainty.",
-      "negative": "Adverse findings trigger restrictions or retaliation affecting chip inputs, equipment or broader technology trade.",
+      "positive": "Clear, limited implementation with workable compliance arrangements would reduce supply-chain uncertainty and avoid new earnings disruption.",
+      "negative": "Broader restrictions, retaliation or costly compliance increases technology-sector supply-chain and margin risk.",
       "explanation": "Official deadline for the separate investigation into U.S. measures affecting global industrial and supply chains. No publication time or automatic policy action has been announced.",
       "watch": "MOFCOM findings, scope, effective dates and U.S. response",
       "window": "Any announcement through the next tradable U.S. session",
@@ -2948,8 +3139,8 @@
       "id": "2026-12-27-China Supply Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sources": [
         {
           "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
@@ -2973,7 +3164,8 @@
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
-      ]
+      ],
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-29-UST 7Y",
@@ -2991,11 +3183,11 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "Strong demand with little or no auction tail stabilizes yields and eases technology valuation pressure.",
-      "negative": "A sizeable tail or weak end-investor demand lifts long yields despite softer hiring.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-08",
-      "lastUpdated": "2026-10-08",
+      "interpretationAsOf": "2026-10-10",
+      "lastUpdated": "2026-10-10",
       "isNew": true,
       "interpretationSources": [
         {
@@ -3011,7 +3203,9 @@
           "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
         }
       ],
-      "isUpdated": true
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": []
     },
     {
       "id": "2026-12-31-CLAIMS",
@@ -3024,8 +3218,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-08",
-      "interpretationAsOf": "2026-10-08",
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3034,13 +3228,44 @@
         }
       ],
       "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Modest labor cooling without a layoffs surge, containing wage pressure while preserving earnings demand.",
-      "negative": "Very low claims revive tightening risk, or a sharp rise in initial and continuing claims signals weaker demand.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations."
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+    },
+    {
+      "id": "2027-01-07-CLAIMS",
+      "date": "2027-01-07",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-10",
+      "interpretationAsOf": "2026-10-10",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 10: elevated yields, energy-price pressure and scrutiny of AI spending/financing. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     }
   ],
   "recentEvents": [
@@ -3754,6 +3979,8 @@
       "2026-10-16-IND PROD",
       "2026-11-17-IND PROD",
       "2026-12-16-IND PROD"
-    ]
+    ],
+    "lastResearchDate": "2026-10-10",
+    "researchNotes": "Added officially confirmed ASML Oct 14 earnings and Jan 7 weekly claims; updated Reuters CPI consensus and Michigan baseline. Re-reviewed every displayed interpretation. October 23 flash PMI at 09:45 ET remains present, with official reconfirmation blocked; no cancellation inferred from absence."
   }
 }
