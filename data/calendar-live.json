@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T04:10:00Z",
-  "asOf": "2026-10-11",
+  "updatedAt": "2026-10-12T03:55:00Z",
+  "asOf": "2026-10-12",
   "horizonEnd": "2027-01-08",
   "events": [
     {
@@ -15,8 +15,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -32,7 +32,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "Pre-release expectation retained for comparison: Reuters economist poll: manufacturing PMI 55.0.. Event completed; see recorded results.",
@@ -51,8 +51,8 @@
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -65,11 +65,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -87,12 +87,12 @@
       "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
       "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "interpretationSources": [
         {
           "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
@@ -104,11 +104,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -128,8 +128,8 @@
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -142,11 +142,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -164,12 +164,12 @@
       "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
       "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "id": "2026-10-07-FOMC MINUTES",
       "timeLabel": "14:00 ET · 21:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -182,11 +182,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -208,8 +208,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -222,11 +222,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -240,8 +240,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -261,7 +261,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable monthly-sales consensus verified. Quarterly guidance provides context; monthly sales alone do not confirm earnings or a new outlook.",
@@ -280,8 +280,8 @@
       "id": "2026-10-08-TSMC",
       "timeLabel": "Publication time not fixed",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -294,11 +294,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "tsmc-monthly-sales",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -320,8 +320,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -334,11 +334,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -352,8 +352,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -373,7 +373,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-09-RUSSIAN DIESEL WAIVER",
@@ -386,8 +386,8 @@
       "importance": "High",
       "status": "released",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://www.reuters.com/business/energy/trump-big-announcement-coming-up-diesel-2026-10-09/",
       "sources": [
         {
@@ -439,9 +439,9 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A key semiconductor capital-equipment report testing whether AI investment translates into orders and profitable deliveries.",
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-14-BEIGE BOOK",
@@ -454,8 +454,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -471,7 +471,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "Reuters Oct 9 economist poll expects September headline CPI 3.7% year on year and core CPI 2.5% year on year. No independently verified monthly consensus retained; energy and services detail may drive the yield reaction.",
@@ -490,8 +490,8 @@
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -504,7 +504,7 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi",
@@ -514,7 +514,7 @@
           "title": "Reuters Oct 9 CPI economist poll"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-15-CLAIMS",
@@ -527,8 +527,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -544,7 +544,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
@@ -564,8 +564,8 @@
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -578,11 +578,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -603,8 +603,8 @@
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -617,11 +617,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "retail-sales",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -644,8 +644,8 @@
       "id": "2026-10-15-TSM Earnings",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
@@ -667,10 +667,44 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+    },
+    {
+      "id": "2026-10-15-WARSH IMF",
+      "date": "2026-10-15",
+      "short": "Warsh–IMF",
+      "event": "Fed Chair Warsh fireside chat with IMF Managing Director Georgieva",
+      "eventKey": "fed-chair-imf-fireside-chat",
+      "timeLabel": "23:30 ET · 06:30 Istanbul (Oct 16)",
+      "type": "Fed",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+          "title": "Federal Reserve official October calendar"
+        },
+        {
+          "url": "https://www.imfconnect.org/content/imf/en/annual-meetings/calendar/open/2026/10/16/213398.html",
+          "title": "IMF official event page"
+        }
+      ],
+      "expects": "The scheduled discussion concerns forces reshaping the global economy; no prepared-policy decision or dependable speech-specific market consensus is available. Markets will listen for changes in the Chair's inflation, energy-shock and rate outlook.",
+      "positive": "A balanced message that recognizes energy-driven inflation risk while retaining a data-dependent path would limit yield pressure without implying a sharp growth slowdown.",
+      "negative": "A firmer tightening signal in response to energy inflation could lift long yields; unusually defensive growth language could instead weaken the earnings outlook.",
+      "watch": "Inflation persistence, energy shock, rate path, global growth, financial conditions and balance-sheet comments",
+      "window": "Overnight U.S. reaction into the October 16 cash session",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Public remarks by the Fed Chair can reprice rates and Treasury yields even without a scheduled policy decision.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast."
     },
     {
       "id": "2026-10-16-IND PROD",
@@ -683,8 +717,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -700,7 +734,37 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+    },
+    {
+      "id": "2026-10-16-OPEX",
+      "date": "2026-10-16",
+      "short": "OPEX",
+      "event": "Monthly equity and index options expiration",
+      "eventKey": "monthly-options-expiration",
+      "timeLabel": "U.S. cash session and close",
+      "type": "Market Structure",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
+      "sourceUrl": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
+      "sources": [
+        {
+          "url": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
+          "title": "OCC/OIC 2026 options expiration calendar"
+        }
+      ],
+      "expects": "Monthly equity and P.M.-settled index options cease trading on October 16; A.M.-settled monthly index options cease trading October 15. Direction is not reliably forecast from expiration alone and depends on positioning, dealer gamma and contemporaneous catalysts.",
+      "positive": "Orderly expiry flows with positive dealer gamma could damp volatility and allow supportive earnings or macro news to dominate.",
+      "negative": "Large strike concentrations, negative gamma or post-expiry hedge removal could amplify moves around CPI, semiconductor earnings and the Fed Chair's overnight remarks.",
+      "watch": "Nasdaq-100 strike concentration, dealer gamma, volume, open-interest changes, closing imbalances and post-expiry positioning",
+      "window": "October 15 index cutoff through the October 16 cash close and next-session hedge reset",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Monthly expiration can concentrate hedging and closing flows, but it is a volatility catalyst rather than a directional forecast.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast."
     },
     {
       "id": "2026-10-21-TSLA Earnings",
@@ -721,8 +785,8 @@
       "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
       "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "sourceUrl": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "sources": [
         {
@@ -741,10 +805,10 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-21-UST 20Y",
@@ -765,8 +829,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -779,11 +843,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -797,8 +861,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -814,7 +878,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable October consensus verified. October 23 at 09:45 ET is present in the calendar and secondary listings, but official reconfirmation remains blocked. Activity, employment and prices must be read together.",
@@ -831,12 +895,12 @@
       "positive": "Resilient activity with moderating prices and orderly hiring would support growth without renewed yield pressure.",
       "negative": "Higher input/output prices alongside weak orders or employment combine inflation risk with slower growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -849,11 +913,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "flash-pmi",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -867,8 +931,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -888,7 +952,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "Deliberations begin; the scheduled decision is the following day. No rate announcement is expected on this first meeting day.",
@@ -907,8 +971,8 @@
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -921,11 +985,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-day-1",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -943,12 +1007,12 @@
       "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
       "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "interpretationSources": [
         {
           "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
@@ -960,11 +1024,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -978,8 +1042,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -995,15 +1059,15 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "id": "2026-10-29-FCC China Labs",
       "date": "2026-10-29",
       "short": "FCC China Labs",
@@ -1031,7 +1095,7 @@
           "title": "Confirmed policy scope and timing"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable Q3 consensus verified. Private demand, investment and price detail matter more than inventory or trade contributions alone.",
@@ -1051,8 +1115,8 @@
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1065,11 +1129,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-advance",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1077,8 +1141,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "id": "2026-10-29-INTC Earnings",
       "date": "2026-10-29",
       "short": "INTC Earnings",
@@ -1110,7 +1174,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
@@ -1130,8 +1194,8 @@
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1144,11 +1208,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1156,8 +1220,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "id": "2026-10-29-STM Earnings",
       "date": "2026-10-29",
       "short": "STM Earnings",
@@ -1189,7 +1253,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-29-UST 7Y",
@@ -1210,8 +1274,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1224,11 +1288,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1246,12 +1310,12 @@
       "positive": "Moderating compensation growth with stable employment would help margins and contain rate pressure.",
       "negative": "Sticky compensation costs raise inflation persistence and pressure profitability.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1264,11 +1328,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-cost",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1286,12 +1350,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1304,11 +1368,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1330,8 +1394,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
       "sources": [
         {
@@ -1350,10 +1414,10 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
@@ -1370,12 +1434,12 @@
       "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
       "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1388,11 +1452,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1412,8 +1476,8 @@
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1426,11 +1490,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "us-midterm-elections",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1438,8 +1502,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "id": "2026-11-04-ARM Earnings",
       "date": "2026-11-04",
       "short": "ARM Earnings",
@@ -1471,7 +1535,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -1488,12 +1552,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1506,11 +1570,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1524,8 +1588,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1541,7 +1605,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-05-PRODUCTIVITY",
@@ -1568,8 +1632,8 @@
       "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1582,11 +1646,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
@@ -1603,12 +1667,12 @@
       "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
       "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-06-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1621,11 +1685,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1639,8 +1703,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -1660,7 +1724,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
@@ -1677,12 +1741,12 @@
       "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
       "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1695,11 +1759,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1707,8 +1771,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "id": "2026-11-10-TSMC Sales",
       "date": "2026-11-10",
       "short": "TSMC Sales",
@@ -1740,7 +1804,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-10-UST 10Y",
@@ -1761,8 +1825,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1775,11 +1839,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1793,8 +1857,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1810,7 +1874,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-12-UST 30Y",
@@ -1831,8 +1895,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1845,11 +1909,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1867,12 +1931,12 @@
       "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
       "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-13-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1885,11 +1949,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1903,8 +1967,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -1920,7 +1984,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "A separate Trump–Xi bilateral or advanced-chip concessions remain unconfirmed. Existing trade dialogue does not establish new technology relief.",
@@ -1937,12 +2001,12 @@
       "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
       "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
       "id": "2026-11-18-APEC",
       "timeLabel": "Nov 18–19 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1955,11 +2019,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "apec-leaders",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1977,12 +2041,12 @@
       "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
       "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "id": "2026-11-18-FOMC MINUTES",
       "timeLabel": "14:00 ET · 22:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1995,11 +2059,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2021,8 +2085,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2035,11 +2099,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2053,8 +2117,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2070,7 +2134,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-20-MICH FIN",
@@ -2083,8 +2147,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -2104,7 +2168,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-25-BEIGE BOOK",
@@ -2117,8 +2181,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -2134,7 +2198,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-25-CLAIMS",
@@ -2147,8 +2211,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2164,7 +2228,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable revision consensus verified; the October 29 Q3 advance estimate is still ahead. An earlier-quarter result is not this release's forecast.",
@@ -2184,8 +2248,8 @@
       "id": "2026-11-25-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2198,11 +2262,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-second",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2223,8 +2287,8 @@
       "id": "2026-11-25-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2237,11 +2301,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2263,8 +2327,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2277,11 +2341,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2299,12 +2363,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2317,11 +2381,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2339,12 +2403,12 @@
       "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
       "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched.htm",
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2357,11 +2421,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2375,8 +2439,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2392,7 +2456,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -2409,12 +2473,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2427,11 +2491,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2449,12 +2513,12 @@
       "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
       "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2467,11 +2531,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2485,8 +2549,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -2506,7 +2570,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-08-PRODUCTIVITY",
@@ -2533,8 +2597,8 @@
       "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2547,11 +2611,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-08-UST 10Y",
@@ -2572,8 +2636,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2586,11 +2650,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2608,12 +2672,12 @@
       "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
       "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2626,11 +2690,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2644,8 +2708,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2661,7 +2725,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
@@ -2678,12 +2742,12 @@
       "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
       "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2696,11 +2760,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2708,8 +2772,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "id": "2026-12-10-TSMC Sales",
       "date": "2026-12-10",
       "short": "TSMC Sales",
@@ -2741,7 +2805,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-10-UST 30Y",
@@ -2762,8 +2826,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2776,11 +2840,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2798,12 +2862,12 @@
       "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
       "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/bmdyzs_664814/xwlb_664816/202609/t20260926_12031663.html",
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2816,11 +2880,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "g20-leaders",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2838,12 +2902,12 @@
       "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
       "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
+      "lastUpdated": "2026-10-12",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2856,11 +2920,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2874,8 +2938,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "sources": [
         {
@@ -2891,7 +2955,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-17-CLAIMS",
@@ -2904,8 +2968,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2921,7 +2985,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-18-MICH FIN",
@@ -2934,8 +2998,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -2955,7 +3019,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable final-estimate consensus verified; preceding Q3 estimates have not yet been released. Component revisions will establish the comparison.",
@@ -2975,8 +3039,8 @@
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2989,11 +3053,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "gdp-final",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3014,8 +3078,8 @@
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3028,11 +3092,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3054,8 +3118,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -3068,11 +3132,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3086,8 +3150,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3103,7 +3167,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "date": "2026-12-27",
@@ -3125,8 +3189,8 @@
       "id": "2026-12-27-China Green Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sources": [
         {
           "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
@@ -3148,10 +3212,10 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "date": "2026-12-27",
@@ -3173,8 +3237,8 @@
       "id": "2026-12-27-China Supply Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sources": [
         {
           "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
@@ -3196,10 +3260,10 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-29-UST 7Y",
@@ -3220,8 +3284,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-11",
-      "lastUpdated": "2026-10-11",
+      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-12",
       "isNew": true,
       "interpretationSources": [
         {
@@ -3234,11 +3298,11 @@
         },
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "October 7 rate-market baseline: 21.6% October and 68.6% December hike probabilities; preferences and risks are conditional analysis"
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3252,8 +3316,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3269,7 +3333,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2027-01-07-CLAIMS",
@@ -3282,8 +3346,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-11",
-      "interpretationAsOf": "2026-10-11",
+      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-12",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3299,7 +3363,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 11: elevated yields and energy-price pressure remain central; the Russian diesel waiver may ease costs, but its sustained supply effect is unproven. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     }
   ],
   "recentEvents": [
@@ -3984,7 +4048,7 @@
     }
   ],
   "coverageCheck": {
-    "checkedAt": "2026-10-08T13:57:23.165663Z",
+    "checkedAt": "2026-10-12T03:55:00Z",
     "comparisonSource": "https://www.marketwatch.com/economy-politics/calendar",
     "policy": "Major releases only; secondary calendar candidates require official confirmation; never infer cancellation from absence.",
     "addedIds": [
@@ -4012,9 +4076,11 @@
       "2026-11-25-BEIGE BOOK",
       "2026-10-16-IND PROD",
       "2026-11-17-IND PROD",
-      "2026-12-16-IND PROD"
+      "2026-12-16-IND PROD",
+      "2026-10-15-WARSH IMF",
+      "2026-10-16-OPEX"
     ],
-    "lastResearchDate": "2026-10-11",
-    "researchNotes": "Added the confirmed Oct 9 Russian diesel sanctions waiver as a distinct policy event and re-reviewed every displayed interpretation for the resulting energy, inflation and yield context. October 23 flash PMI at 09:45 ET remains present, with official reconfirmation blocked; no cancellation inferred from absence."
+    "lastResearchDate": "2026-10-12",
+    "researchNotes": "Added the officially confirmed Warsh–Georgieva fireside chat and October monthly options expiration as distinct events. Re-reviewed every displayed interpretation for current energy, yield and earnings context. October 23 flash PMI at 09:45 ET remains present, with official reconfirmation blocked; no cancellation inferred from absence."
   }
 }
