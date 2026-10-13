@@ -1,7 +1,10 @@
+Warning: truncated output (original token count: 60624)
+Total output lines: 4095
+
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T03:55:00Z",
-  "asOf": "2026-10-12",
+  "updatedAt": "2026-10-13T04:15:00Z",
+  "asOf": "2026-10-13",
   "horizonEnd": "2027-01-08",
   "events": [
     {
@@ -15,8 +18,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -32,7 +35,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "Pre-release expectation retained for comparison: Reuters economist poll: manufacturing PMI 55.0.. Event completed; see recorded results.",
@@ -51,8 +54,8 @@
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -69,7 +72,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -87,12 +90,12 @@
       "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
       "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "interpretationSources": [
         {
           "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
@@ -108,7 +111,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -128,8 +131,8 @@
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -146,7 +149,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -164,12 +167,12 @@
       "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
       "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "id": "2026-10-07-FOMC MINUTES",
       "timeLabel": "14:00 ET · 21:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -186,7 +189,7 @@
         }
       ],
       "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -208,8 +211,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -226,7 +229,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -240,8 +243,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -261,7 +264,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable monthly-sales consensus verified. Quarterly guidance provides context; monthly sales alone do not confirm earnings or a new outlook.",
@@ -280,8 +283,8 @@
       "id": "2026-10-08-TSMC",
       "timeLabel": "Publication time not fixed",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -298,7 +301,7 @@
         }
       ],
       "eventKey": "tsmc-monthly-sales",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -320,8 +323,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -338,7 +341,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -352,8 +355,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -373,7 +376,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-09-RUSSIAN DIESEL WAIVER",
@@ -386,8 +389,8 @@
       "importance": "High",
       "status": "released",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://www.reuters.com/business/energy/trump-big-announcement-coming-up-diesel-2026-10-09/",
       "sources": [
         {
@@ -439,9 +442,9 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A key semiconductor capital-equipment report testing whether AI investment translates into orders and profitable deliveries.",
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-14-BEIGE BOOK",
@@ -454,8 +457,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -471,10 +474,10 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
-      "expects": "Reuters Oct 9 economist poll expects September headline CPI 3.7% year on year and core CPI 2.5% year on year. No independently verified monthly consensus retained; energy and services detail may drive the yield reaction.",
+      "expects": "Current consensus centers on September headline CPI rising about 0.6% month on month and 3.6–3.7% year on year, with core CPI near 0.2% month on month and 2.5% year on year. The headline-core split implies energy pressure; services and shelter will determine whether the report changes the Fed path.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -490,8 +493,8 @@
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -512,9 +515,13 @@
         {
           "url": "https://www.reuters.com/business/wall-st-week-ahead-bank-earnings-cpi-headline-busy-markets-week-sp-500-hovers-2026-10-09/",
           "title": "Reuters Oct 9 CPI economist poll"
+        },
+        {
+          "url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-10-12/",
+          "title": "Reuters Oct 12 CPI consensus and current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-15-CLAIMS",
@@ -527,8 +534,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -544,7 +551,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
@@ -564,8 +571,8 @@
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -582,7 +589,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -603,8 +610,8 @@
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -621,7 +628,7 @@
         }
       ],
       "eventKey": "retail-sales",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -644,8 +651,8 @@
       "id": "2026-10-15-TSM Earnings",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
@@ -670,7 +677,7 @@
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-15-WARSH IMF",
@@ -683,8 +690,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -704,7 +711,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Public remarks by the Fed Chair can reprice rates and Treasury yields even without a scheduled policy decision.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast."
     },
     {
       "id": "2026-10-16-IND PROD",
@@ -717,8 +724,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -734,7 +741,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-16-OPEX",
@@ -747,8 +754,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
       "sources": [
         {
@@ -764,7 +771,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Monthly expiration can concentrate hedging and closing flows, but it is a volatility catalyst rather than a directional forecast.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast."
     },
     {
       "id": "2026-10-21-TSLA Earnings",
@@ -785,8 +792,8 @@
       "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
       "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "sourceUrl": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "sources": [
         {
@@ -808,7 +815,7 @@
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-21-UST 20Y",
@@ -829,8 +836,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -847,7 +854,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -861,8 +868,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -878,7 +885,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable October consensus verified. October 23 at 09:45 ET is present in the calendar and secondary listings, but official reconfirmation remains blocked. Activity, employment and prices must be read together.",
@@ -895,12 +902,12 @@
       "positive": "Resilient activity with moderating prices and orderly hiring would support growth without renewed yield pressure.",
       "negative": "Higher input/output prices alongside weak orders or employment combine inflation risk with slower growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -917,7 +924,7 @@
         }
       ],
       "eventKey": "flash-pmi",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -931,8 +938,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -952,7 +959,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "Deliberations begin; the scheduled decision is the following day. No rate announcement is expected on this first meeting day.",
@@ -971,8 +978,8 @@
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -989,11 +996,11 @@
         }
       ],
       "eventKey": "fomc-day-1",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
-      "expects": "No freshly corroborated meeting-specific rate probability is available in this review. Inflation and labor releases before the decision can change the pause-versus-tightening baseline; earlier precise odds are not current pricing.",
+      "expects": "Fed funds futures imply an 80.6% probability of no rate change at the October meeting, according to Reuters on Oct 13. CPI and subsequent labor and inflation data can still change that baseline before the decision.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -1003,16 +1010,16 @@
       "event": "Fed rate decision",
       "type": "Fed",
       "importance": "Critical",
-      "explanation": "Weak September payroll growth and downward revisions pushed October hike odds below 20%; the decision and Warsh’s guidance will reset the December path.",
+      "explanation": "The current market baseline favors no October change, but the decision and Warsh’s guidance will reset the path for December and 2027.",
       "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
       "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "interpretationSources": [
         {
           "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
@@ -1028,8 +1035,13 @@
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/world/africa/dollar-holds-near-18-month-high-geopolitical-risks-rise-2026-10-13/",
+          "title": "Reuters Oct 13 rate-futures pricing"
+        }
+      ]
     },
     {
       "id": "2026-10-29-CLAIMS",
@@ -1042,8 +1054,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1059,15 +1071,15 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "id": "2026-10-29-FCC China Labs",
       "date": "2026-10-29",
       "short": "FCC China Labs",
@@ -1095,7 +1107,7 @@
           "title": "Confirmed policy scope and timing"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable Q3 consensus verified. Private demand, investment and price detail matter more than inventory or trade contributions alone.",
@@ -1115,8 +1127,8 @@
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1133,7 +1145,7 @@
         }
       ],
       "eventKey": "gdp-advance",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1141,8 +1153,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "id": "2026-10-29-INTC Earnings",
       "date": "2026-10-29",
       "short": "INTC Earnings",
@@ -1174,7 +1186,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
@@ -1194,8 +1206,8 @@
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1212,7 +1224,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1220,8 +1232,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "id": "2026-10-29-STM Earnings",
       "date": "2026-10-29",
       "short": "STM Earnings",
@@ -1253,7 +1265,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-10-29-UST 7Y",
@@ -1274,8 +1286,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -1292,7 +1304,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1310,12 +1322,12 @@
       "positive": "Moderating compensation growth with stable employment would help margins and contain rate pressure.",
       "negative": "Sticky compensation costs raise inflation persistence and pressure profitability.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1332,7 +1344,7 @@
         }
       ],
       "eventKey": "employment-cost",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1350,12 +1362,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1372,7 +1384,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1394,8 +1406,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
       "sources": [
         {
@@ -1417,7 +1429,7 @@
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
@@ -1434,12 +1446,12 @@
       "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
       "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1456,7 +1468,7 @@
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1476,8 +1488,8 @@
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1494,7 +1506,7 @@
         }
       ],
       "eventKey": "us-midterm-elections",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1502,8 +1514,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "id": "2026-11-04-ARM Earnings",
       "date": "2026-11-04",
       "short": "ARM Earnings",
@@ -1535,7 +1547,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -1552,12 +1564,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1574,7 +1586,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -1588,8 +1600,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1605,7 +1617,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-11-05-PRODUCTIVITY",
@@ -1632,720 +1644,7 @@
       "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
-      "watch": "Headline, prices paid, employment, wages and revisions",
-      "window": "Release through the first 90 minutes",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-06",
-      "short": "JOBS",
-      "event": "October employment report",
-      "type": "Macro",
-      "importance": "Critical",
-      "explanation": "Payrolls, wages and unemployment will reset growth and December Fed expectations.",
-      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
-      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
-      "id": "2026-11-06-JOBS",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "employment-report",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "id": "2026-11-06-MICH PRE",
-      "date": "2026-11-06",
-      "short": "MICH PRE",
-      "event": "Michigan consumer sentiment and inflation expectations — preliminary",
-      "eventKey": "michigan-sentiment-preliminary",
-      "timeLabel": "10:00 ET · 18:00 Istanbul",
-      "type": "Macro",
-      "importance": "High",
-      "status": "scheduled",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
-      "sources": [
-        {
-          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
-          "title": "Official release schedule"
-        },
-        {
-          "url": "https://www.sca.isr.umich.edu/",
-          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
-        }
-      ],
-      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
-      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
-      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
-      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
-      "window": "Release through the next regular session; pre-market releases overlap other news",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
-      "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
-      "window": "08:30 ET release; confirm after yields settle",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-10",
-      "short": "CPI",
-      "event": "October CPI",
-      "type": "Inflation",
-      "importance": "Critical",
-      "explanation": "Core and services inflation will test the Fed's December rate path.",
-      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
-      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
-      "id": "2026-11-10-CPI",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "cpi",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "status": "scheduled",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "id": "2026-11-10-TSMC Sales",
-      "date": "2026-11-10",
-      "short": "TSMC Sales",
-      "event": "TSMC monthly sales update — October 2026",
-      "eventKey": "tsmc-monthly-sales",
-      "type": "Earnings",
-      "importance": "High",
-      "timeLabel": "13:30 Taipei · 00:30 ET · 08:30 Istanbul",
-      "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
-      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
-      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
-      "watch": "Monthly revenue growth, sequential trend, advanced-node demand and consistency with quarterly guidance",
-      "window": "Taiwan publication through the U.S. cash session",
-      "explanation": "The monthly revenue update is a timely demand signal, but one month does not establish a full-quarter outcome and currency or shipment timing can distort comparisons.",
-      "sourceUrl": "https://investor.cld.tsmc.com/english/financial-calendar",
-      "sources": [
-        {
-          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
-          "title": "Official TSMC financial calendar"
-        }
-      ],
-      "interpretationSources": [
-        {
-          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
-          "title": "Official schedule; preferences and risks are analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Current rate-market context"
-        }
-      ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "id": "2026-11-10-UST 10Y",
-      "date": "2026-11-10",
-      "short": "UST 10Y",
-      "event": "10-year Treasury note auction",
-      "timeLabel": "13:00 ET · 21:00 Istanbul",
-      "eventKey": "treasury-10y-auction",
-      "type": "Rates",
-      "importance": "High",
-      "status": "scheduled",
-      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
-      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
-      "window": "13:00 ET result through the cash close",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
-      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
-      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
-      "isNew": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "id": "2026-11-12-CLAIMS",
-      "date": "2026-11-12",
-      "short": "CLAIMS",
-      "event": "Weekly initial and continuing jobless claims",
-      "eventKey": "weekly-jobless-claims",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "type": "Macro",
-      "importance": "High",
-      "status": "scheduled",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-      "sources": [
-        {
-          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-          "title": "Official release schedule"
-        }
-      ],
-      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
-      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
-      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
-      "window": "Release through the next regular session; pre-market releases overlap other news",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "id": "2026-11-12-UST 30Y",
-      "date": "2026-11-12",
-      "short": "UST 30Y",
-      "event": "30-year Treasury bond auction",
-      "timeLabel": "13:00 ET · 21:00 Istanbul",
-      "eventKey": "treasury-30y-auction",
-      "type": "Rates",
-      "importance": "High",
-      "status": "scheduled",
-      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
-      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
-      "window": "13:00 ET result through the cash close",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
-      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
-      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
-      "isNew": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
-      "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
-      "window": "08:30 ET release; confirm after yields settle",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-13",
-      "short": "PPI",
-      "event": "October PPI",
-      "type": "Inflation",
-      "importance": "High",
-      "explanation": "Producer prices can change the estimate for the forthcoming core PCE release.",
-      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
-      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
-      "id": "2026-11-13-PPI",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "id": "2026-11-17-IND PROD",
-      "date": "2026-11-17",
-      "short": "IND PROD",
-      "event": "Industrial production and capacity utilization",
-      "eventKey": "industrial-production",
-      "timeLabel": "09:15 ET · 17:15 Istanbul",
-      "type": "Macro",
-      "importance": "High",
-      "status": "scheduled",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "sources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-          "title": "Official release schedule"
-        }
-      ],
-      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
-      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
-      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
-      "watch": "Manufacturing output, capacity utilization and prior-month revisions",
-      "window": "Release through the next regular session; pre-market releases overlap other news",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "expects": "A separate Trump–Xi bilateral or advanced-chip concessions remain unconfirmed. Existing trade dialogue does not establish new technology relief.",
-      "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
-      "window": "Headline-driven; may extend across sessions",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-18",
-      "short": "APEC",
-      "event": "APEC leaders’ meeting; Trump–Xi bilateral unconfirmed",
-      "type": "Politics",
-      "importance": "Critical",
-      "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
-      "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
-      "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
-      "id": "2026-11-18-APEC",
-      "timeLabel": "Nov 18–19 · bilateral time not announced",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "apec-leaders",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
-      "watch": "Decision, statement changes, vote, projections and press conference",
-      "window": "14:00–15:30 ET",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-18",
-      "short": "FOMC MINUTES",
-      "event": "Minutes of the October FOMC meeting",
-      "type": "Fed",
-      "importance": "High",
-      "explanation": "The minutes clarify the committee's debate after the October decision and can shift December rate expectations.",
-      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
-      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "id": "2026-11-18-FOMC MINUTES",
-      "timeLabel": "14:00 ET · 22:00 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "id": "2026-11-18-UST 20Y",
-      "date": "2026-11-18",
-      "short": "UST 20Y",
-      "event": "20-year Treasury bond auction",
-      "timeLabel": "13:00 ET · 21:00 Istanbul",
-      "eventKey": "treasury-20y-auction",
-      "type": "Rates",
-      "importance": "High",
-      "status": "scheduled",
-      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
-      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
-      "window": "13:00 ET result through the cash close",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
-      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
-      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
-      "isNew": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "id": "2026-11-19-CLAIMS",
-      "date": "2026-11-19",
-      "short": "CLAIMS",
-      "event": "Weekly initial and continuing jobless claims",
-      "eventKey": "weekly-jobless-claims",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "type": "Macro",
-      "importance": "High",
-      "status": "scheduled",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-      "sources": [
-        {
-          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-          "title": "Official release schedule"
-        }
-      ],
-      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
-      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
-      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
-      "window": "Release through the next regular session; pre-market releases overlap other news",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "id": "2026-11-20-MICH FIN",
-      "date": "2026-11-20",
-      "short": "MICH FIN",
-      "event": "Michigan consumer sentiment and inflation expectations — final",
-      "eventKey": "michigan-sentiment-final",
-      "timeLabel": "10:00 ET · 18:00 Istanbul",
-      "type": "Macro",
-      "importance": "High",
-      "status": "scheduled",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
-      "sources": [
-        {
-          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
-          "title": "Official release schedule"
-        },
-        {
-          "url": "https://www.sca.isr.umich.edu/",
-          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
-        }
-      ],
-      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
-      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
-      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
-      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
-      "window": "Release through the next regular session; pre-market releases overlap other news",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "id": "2026-11-25-BEIGE BOOK",
-      "date": "2026-11-25",
-      "short": "BEIGE BOOK",
-      "event": "Federal Reserve Beige Book",
-      "eventKey": "beige-book",
-      "timeLabel": "14:00 ET · 22:00 Istanbul",
-      "type": "Fed",
-      "importance": "High",
-      "status": "scheduled",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "sources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-          "title": "Official release schedule"
-        }
-      ],
-      "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
-      "positive": "District reports of slower cost and wage growth with stable demand would ease the policy trade-off.",
-      "negative": "Persistent price pressure alongside weakening hiring and spending points to stagflation.",
-      "watch": "District price pressure, labor demand, consumer spending and credit conditions",
-      "window": "Release through the next regular session; pre-market releases overlap other news",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "id": "2026-11-25-CLAIMS",
-      "date": "2026-11-25",
-      "short": "CLAIMS",
-      "event": "Weekly initial and continuing jobless claims",
-      "eventKey": "weekly-jobless-claims",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "type": "Macro",
-      "importance": "High",
-      "status": "scheduled",
-      "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
-      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-      "sources": [
-        {
-          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
-          "title": "Official release schedule"
-        }
-      ],
-      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
-      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
-      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
-      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
-      "window": "Release through the next regular session; pre-market releases overlap other news",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
-    },
-    {
-      "expects": "No reliable revision consensus verified; the October 29 Q3 advance estimate is still ahead. An earlier-quarter result is not this release's forecast.",
-      "watch": "Headline, prices paid, employment, wages and revisions",
-      "window": "Release through the first 90 minutes",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-25",
-      "short": "GDP",
-      "event": "Q3 GDP second estimate",
-      "type": "Macro",
-      "importance": "High",
-      "explanation": "The second estimate updates third-quarter growth and is released alongside October PCE.",
-      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
-      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
-      "sourceUrl": "https://www.bea.gov/news/schedule",
-      "id": "2026-11-25-GDP",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "gdp-second",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
-      "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
-      "window": "08:30 ET release; confirm after yields settle",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "date": "2026-11-25",
-      "short": "PCE",
-      "event": "October core PCE inflation",
-      "type": "Inflation",
-      "importance": "Critical",
-      "explanation": "Monthly inflation informs the December Fed outlook. GDP is released simultaneously, so price-window attribution will be shared.",
-      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
-      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
-      "sourceUrl": "https://www.bea.gov/news/schedule",
-      "id": "2026-11-25-PCE",
-      "timeLabel": "08:30 ET · 16:30 Istanbul",
-      "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
-      "isUpdated": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
-    },
-    {
-      "id": "2026-11-25-UST 7Y",
-      "date": "2026-11-25",
-      "short": "UST 7Y",
-      "event": "7-year Treasury note auction",
-      "timeLabel": "13:00 ET · 21:00 Istanbul",
-      "eventKey": "treasury-7y-auction",
-      "type": "Rates",
-      "importance": "High",
-      "status": "scheduled",
-      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
-      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
-      "window": "13:00 ET result through the cash close",
-      "bias": "Neutral",
-      "uncertainty": "High",
-      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
-      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
-      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
-      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
-      "isNew": true,
-      "interpretationSources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-          "title": "Current baseline; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
-          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
-          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
-        }
-      ],
-      "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationAsO…10624 tokens truncated…e $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2363,12 +1662,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2385,7 +1684,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2403,12 +1702,12 @@
       "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
       "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched.htm",
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2425,7 +1724,7 @@
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2439,8 +1738,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2456,7 +1755,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -2473,12 +1772,12 @@
       "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
       "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2495,7 +1794,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2513,12 +1812,12 @@
       "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
       "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2535,7 +1834,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2549,8 +1848,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -2570,7 +1869,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-08-PRODUCTIVITY",
@@ -2597,8 +1896,8 @@
       "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2615,7 +1914,7 @@
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-08-UST 10Y",
@@ -2636,8 +1935,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2654,7 +1953,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2672,12 +1971,12 @@
       "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
       "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2694,7 +1993,7 @@
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2708,8 +2007,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2725,7 +2024,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
@@ -2742,12 +2041,12 @@
       "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
       "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2764,7 +2063,7 @@
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2772,8 +2071,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "id": "2026-12-10-TSMC Sales",
       "date": "2026-12-10",
       "short": "TSMC Sales",
@@ -2805,7 +2104,7 @@
           "title": "Current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-10-UST 30Y",
@@ -2826,8 +2125,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -2844,7 +2143,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2862,12 +2161,12 @@
       "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
       "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.mfa.gov.cn/eng/wjb/zzjg_663340/bmdyzs_664814/xwlb_664816/202609/t20260926_12031663.html",
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2884,7 +2183,7 @@
         }
       ],
       "eventKey": "g20-leaders",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2902,12 +2201,12 @@
       "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
       "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
+      "lastUpdated": "2026-10-13",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2924,7 +2223,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -2938,8 +2237,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "sources": [
         {
@@ -2955,7 +2254,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-17-CLAIMS",
@@ -2968,8 +2267,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2985,7 +2284,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-18-MICH FIN",
@@ -2998,8 +2297,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -3019,7 +2318,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "expects": "No dependable final-estimate consensus verified; preceding Q3 estimates have not yet been released. Component revisions will establish the comparison.",
@@ -3039,8 +2338,8 @@
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3057,7 +2356,7 @@
         }
       ],
       "eventKey": "gdp-final",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3078,8 +2377,8 @@
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3096,7 +2395,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3118,8 +2417,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -3136,7 +2435,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3150,8 +2449,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3167,7 +2466,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "date": "2026-12-27",
@@ -3189,8 +2488,8 @@
       "id": "2026-12-27-China Green Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sources": [
         {
           "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
@@ -3215,7 +2514,7 @@
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "date": "2026-12-27",
@@ -3237,8 +2536,8 @@
       "id": "2026-12-27-China Supply Probe",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sources": [
         {
           "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
@@ -3263,7 +2562,7 @@
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2026-12-29-UST 7Y",
@@ -3284,8 +2583,8 @@
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-12",
-      "lastUpdated": "2026-10-12",
+      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
         {
@@ -3302,7 +2601,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
       "sources": []
     },
     {
@@ -3316,8 +2615,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3333,7 +2632,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     },
     {
       "id": "2027-01-07-CLAIMS",
@@ -3346,8 +2645,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-12",
-      "interpretationAsOf": "2026-10-12",
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-13",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3363,7 +2662,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 12: energy costs and elevated yields remain key constraints while major semiconductor earnings approach. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
     }
   ],
   "recentEvents": [
@@ -4048,7 +3347,7 @@
     }
   ],
   "coverageCheck": {
-    "checkedAt": "2026-10-12T03:55:00Z",
+    "checkedAt": "2026-10-13T04:15:00Z",
     "comparisonSource": "https://www.marketwatch.com/economy-politics/calendar",
     "policy": "Major releases only; secondary calendar candidates require official confirmation; never infer cancellation from absence.",
     "addedIds": [
@@ -4080,7 +3379,7 @@
       "2026-10-15-WARSH IMF",
       "2026-10-16-OPEX"
     ],
-    "lastResearchDate": "2026-10-12",
-    "researchNotes": "Added the officially confirmed Warsh–Georgieva fireside chat and October monthly options expiration as distinct events. Re-reviewed every displayed interpretation for current energy, yield and earnings context. October 23 flash PMI at 09:45 ET remains present, with official reconfirmation blocked; no cancellation inferred from absence."
+    "lastResearchDate": "2026-10-13",
+    "researchNotes": "Updated the October CPI consensus and October FOMC market-pricing baseline using current Reuters reporting. Re-reviewed every displayed interpretation for CPI, elevated yields, oil and semiconductor earnings. October 23 flash PMI at 09:45 ET remains present, with official reconfirmation blocked; no cancellation inferred from absence."
   }
 }
