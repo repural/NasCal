@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "datasetPurpose": "Append-only event outcomes for historical analysis and forecast calibration. Existing records should be corrected with an audit note, never silently overwritten. QQQ 15m and 1h measure price changes at exact release windows when available.",
   "analysisFields": {
     "eventKey": "Stable recurring event family used to compare like-for-like releases",
@@ -79110,48 +79110,34 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-03-19",
-            "value": 17750.79029098091,
-            "open": 17590.11529735734
+            "value": 17750.79029098091
           },
           "dayClose": {
             "date": "2025-03-20",
-            "value": 17691.62608536857,
-            "open": 17586.06083346552
+            "value": 17691.62608536857
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-03-20",
-            "value": 17586.06083346552
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         },
         "sox": {
           "priorClose": {
             "date": "2025-03-19",
-            "value": 4634.53201085307,
-            "open": 4598.92187468199
+            "value": 4634.53201085307
           },
           "dayClose": {
             "date": "2025-03-20",
-            "value": 4601.3732163946,
-            "open": 4579.06435495359
+            "value": 4601.3732163946
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-03-20",
-            "value": 4579.06435495359
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         }
       },
       "missingFields": {},
@@ -81288,48 +81274,34 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-06-24",
-            "value": 19912.5327651522,
-            "open": 19809.61463169094
+            "value": 19912.5327651522
           },
           "dayClose": {
             "date": "2025-06-25",
-            "value": 19973.5519184797,
-            "open": 20013.9466033208
+            "value": 19973.5519184797
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-06-25",
-            "value": 20013.9466033208
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         },
         "sox": {
           "priorClose": {
             "date": "2025-06-24",
-            "value": 5441.86542213532,
-            "open": 5335.2727816281
+            "value": 5441.86542213532
           },
           "dayClose": {
             "date": "2025-06-25",
-            "value": 5493.29796102521,
-            "open": 5461.15239762711
+            "value": 5493.29796102521
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-06-25",
-            "value": 5461.15239762711
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         }
       },
       "missingFields": {},
@@ -83466,48 +83438,34 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-09-22",
-            "value": 22788.97599598129,
-            "open": 22606.59209390842
+            "value": 22788.97599598129
           },
           "dayClose": {
             "date": "2025-09-23",
-            "value": 22573.47349544744,
-            "open": 22782.71776693207
+            "value": 22573.47349544744
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-09-23",
-            "value": 22782.71776693207
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         },
         "sox": {
           "priorClose": {
             "date": "2025-09-22",
-            "value": 6330.1178481799,
-            "open": 6247.82480824534
+            "value": 6330.1178481799
           },
           "dayClose": {
             "date": "2025-09-23",
-            "value": 6308.20486209643,
-            "open": 6336.52797447176
+            "value": 6308.20486209643
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-09-23",
-            "value": 6336.52797447176
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         }
       },
       "missingFields": {},
@@ -85644,48 +85602,34 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-12-16",
-            "value": 23111.46182003316,
-            "open": 22981.81919836458
+            "value": 23111.46182003316
           },
           "dayClose": {
             "date": "2025-12-17",
-            "value": 22693.32286663517,
-            "open": 23135.60942927654
+            "value": 22693.32286663517
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-12-17",
-            "value": 23135.60942927654
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         },
         "sox": {
           "priorClose": {
             "date": "2025-12-16",
-            "value": 6958.43797542561,
-            "open": 6977.90349977952
+            "value": 6958.43797542561
           },
           "dayClose": {
             "date": "2025-12-17",
-            "value": 6695.30865594321,
-            "open": 6993.09968316837
+            "value": 6695.30865594321
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-10",
-          "dayOpen": {
-            "date": "2025-12-17",
-            "value": 6993.09968316837
-          },
-          "beforeRelease": null
+          "updatedAt": "2026-10-13"
         }
       },
       "missingFields": {},
@@ -87992,9 +87936,143 @@
                 "sinceFirstReactionPct": 0
               }
             }
+          },
+          {
+            "date": "2026-10-12",
+            "offset": 2,
+            "assets": {
+              "NVDA": {
+                "close": 226.32,
+                "previousClose": 229.28,
+                "closeToClosePct": -1.29,
+                "relativeToT0Pct": -1.8,
+                "cumulativeFromT0Pct": -1.8,
+                "sinceFirstReactionPct": -1.29
+              },
+              "AMD": {
+                "close": 594.24,
+                "previousClose": 608.1,
+                "closeToClosePct": -2.28,
+                "relativeToT0Pct": -4.26,
+                "cumulativeFromT0Pct": -4.26,
+                "sinceFirstReactionPct": -2.28
+              },
+              "AVGO": {
+                "close": 354.73,
+                "previousClose": 361.54,
+                "closeToClosePct": -1.88,
+                "relativeToT0Pct": -1.5,
+                "cumulativeFromT0Pct": -1.5,
+                "sinceFirstReactionPct": -1.88
+              },
+              "TSM": {
+                "close": 444.35,
+                "previousClose": 453.31,
+                "closeToClosePct": -1.98,
+                "relativeToT0Pct": -2.98,
+                "cumulativeFromT0Pct": -2.98,
+                "sinceFirstReactionPct": -1.98
+              },
+              "MU": {
+                "close": 989.04,
+                "previousClose": 1029,
+                "closeToClosePct": -3.88,
+                "relativeToT0Pct": -4.52,
+                "cumulativeFromT0Pct": -4.52,
+                "sinceFirstReactionPct": -3.88
+              },
+              "AAPL": {
+                "close": 340.97,
+                "previousClose": 336.64,
+                "closeToClosePct": 1.29,
+                "relativeToT0Pct": 0.16,
+                "cumulativeFromT0Pct": 0.16,
+                "sinceFirstReactionPct": 1.29
+              },
+              "MSFT": {
+                "close": 541.15,
+                "previousClose": 535.07,
+                "closeToClosePct": 1.14,
+                "relativeToT0Pct": 3.55,
+                "cumulativeFromT0Pct": 3.55,
+                "sinceFirstReactionPct": 1.14
+              },
+              "AMZN": {
+                "close": 259.53,
+                "previousClose": 262.43,
+                "closeToClosePct": -1.11,
+                "relativeToT0Pct": 2.15,
+                "cumulativeFromT0Pct": 2.15,
+                "sinceFirstReactionPct": -1.11
+              },
+              "GOOGL": {
+                "close": 352.72,
+                "previousClose": 351.66,
+                "closeToClosePct": 0.3,
+                "relativeToT0Pct": 1.27,
+                "cumulativeFromT0Pct": 1.27,
+                "sinceFirstReactionPct": 0.3
+              },
+              "META": {
+                "close": 742.96,
+                "previousClose": 718.67,
+                "closeToClosePct": 3.38,
+                "relativeToT0Pct": 3.06,
+                "cumulativeFromT0Pct": 3.06,
+                "sinceFirstReactionPct": 3.38
+              },
+              "TSLA": {
+                "close": 378.03,
+                "previousClose": 382.7,
+                "closeToClosePct": -1.22,
+                "relativeToT0Pct": 0.81,
+                "cumulativeFromT0Pct": 0.81,
+                "sinceFirstReactionPct": -1.22
+              },
+              "QQQ": {
+                "close": 746.04,
+                "previousClose": 751.27,
+                "closeToClosePct": -0.7,
+                "relativeToT0Pct": -0.21,
+                "cumulativeFromT0Pct": -0.21,
+                "sinceFirstReactionPct": -0.7
+              },
+              "SMH": {
+                "close": 590.99,
+                "previousClose": 603.33,
+                "closeToClosePct": -2.05,
+                "relativeToT0Pct": -2.68,
+                "cumulativeFromT0Pct": -2.68,
+                "sinceFirstReactionPct": -2.05
+              },
+              "SOXX": {
+                "close": 544.85,
+                "previousClose": 559.4,
+                "closeToClosePct": -2.6,
+                "relativeToT0Pct": -3.27,
+                "cumulativeFromT0Pct": -3.27,
+                "sinceFirstReactionPct": -2.6
+              },
+              "I:COMP": {
+                "close": 27245.90248384004,
+                "previousClose": 27352.7028819305,
+                "closeToClosePct": -0.39,
+                "relativeToT0Pct": 0.19,
+                "cumulativeFromT0Pct": 0.19,
+                "sinceFirstReactionPct": -0.44
+              },
+              "I:SOX": {
+                "close": 12236.78835091451,
+                "previousClose": 12572.41972143729,
+                "closeToClosePct": -2.67,
+                "relativeToT0Pct": -3.07,
+                "cumulativeFromT0Pct": -3.07,
+                "sinceFirstReactionPct": -2.67
+              }
+            }
           }
         ],
-        "updatedAt": "2026-10-10"
+        "updatedAt": "2026-10-13"
       },
       "missingFields": {
         "previous": {
@@ -89148,140 +89226,6 @@
         "method": "For every asset, adjusted close and prior trading-session close; close-to-close %, every T-7 to T+7 session relative to T0 %, T0-to-T+n cumulative %, and reaction-close-to-T+n %. T0 is the earnings date. Future pre-event observations have dates but no T offsets until T0 exists.",
         "sessions": [
           {
-            "date": "2026-10-01",
-            "offset": null,
-            "assets": {
-              "NVDA": {
-                "close": 230.86,
-                "previousClose": 228.38,
-                "closeToClosePct": 1.09,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMD": {
-                "close": 615.73,
-                "previousClose": 611.76,
-                "closeToClosePct": 0.65,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AVGO": {
-                "close": 343.64,
-                "previousClose": 351.19,
-                "closeToClosePct": -2.15,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSM": {
-                "close": 459.2,
-                "previousClose": 456.19,
-                "closeToClosePct": 0.66,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MU": {
-                "close": 1097.39,
-                "previousClose": 1065.11,
-                "closeToClosePct": 3.03,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AAPL": {
-                "close": 330.32,
-                "previousClose": 333.02,
-                "closeToClosePct": -0.81,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MSFT": {
-                "close": 512.8,
-                "previousClose": 512.9,
-                "closeToClosePct": -0.02,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMZN": {
-                "close": 248.23,
-                "previousClose": 249.15,
-                "closeToClosePct": -0.37,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "GOOGL": {
-                "close": 338.24,
-                "previousClose": 344.08,
-                "closeToClosePct": -1.7,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "META": {
-                "close": 725.93,
-                "previousClose": 725.18,
-                "closeToClosePct": 0.1,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSLA": {
-                "close": 354.11,
-                "previousClose": 354.81,
-                "closeToClosePct": -0.2,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "QQQ": {
-                "close": 742.03,
-                "previousClose": 739.77,
-                "closeToClosePct": 0.31,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SMH": {
-                "close": 617.81,
-                "previousClose": 609,
-                "closeToClosePct": 1.45,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SOXX": {
-                "close": 576.33,
-                "previousClose": 568.64,
-                "closeToClosePct": 1.35,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:COMP": {
-                "close": 26871.59502873405,
-                "previousClose": 26861.06375308664,
-                "closeToClosePct": 0.04,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:SOX": {
-                "close": 12829.00000688464,
-                "previousClose": 12628.62375005161,
-                "closeToClosePct": 1.59,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              }
-            }
-          },
-          {
             "date": "2026-10-02",
             "offset": null,
             "assets": {
@@ -90084,9 +90028,143 @@
                 "sinceFirstReactionPct": null
               }
             }
+          },
+          {
+            "date": "2026-10-12",
+            "offset": null,
+            "assets": {
+              "NVDA": {
+                "close": 226.32,
+                "previousClose": 229.28,
+                "closeToClosePct": -1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMD": {
+                "close": 594.24,
+                "previousClose": 608.1,
+                "closeToClosePct": -2.28,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AVGO": {
+                "close": 354.73,
+                "previousClose": 361.54,
+                "closeToClosePct": -1.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSM": {
+                "close": 444.35,
+                "previousClose": 453.31,
+                "closeToClosePct": -1.98,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MU": {
+                "close": 989.04,
+                "previousClose": 1029,
+                "closeToClosePct": -3.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AAPL": {
+                "close": 340.97,
+                "previousClose": 336.64,
+                "closeToClosePct": 1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MSFT": {
+                "close": 541.15,
+                "previousClose": 535.07,
+                "closeToClosePct": 1.14,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMZN": {
+                "close": 259.53,
+                "previousClose": 262.43,
+                "closeToClosePct": -1.11,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "GOOGL": {
+                "close": 352.72,
+                "previousClose": 351.66,
+                "closeToClosePct": 0.3,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "META": {
+                "close": 742.96,
+                "previousClose": 718.67,
+                "closeToClosePct": 3.38,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSLA": {
+                "close": 378.03,
+                "previousClose": 382.7,
+                "closeToClosePct": -1.22,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "QQQ": {
+                "close": 746.04,
+                "previousClose": 751.27,
+                "closeToClosePct": -0.7,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SMH": {
+                "close": 590.99,
+                "previousClose": 603.33,
+                "closeToClosePct": -2.05,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SOXX": {
+                "close": 544.85,
+                "previousClose": 559.4,
+                "closeToClosePct": -2.6,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:COMP": {
+                "close": 27245.90248384004,
+                "previousClose": 27352.7028819305,
+                "closeToClosePct": -0.39,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:SOX": {
+                "close": 12236.78835091451,
+                "previousClose": 12572.41972143729,
+                "closeToClosePct": -2.67,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              }
+            }
           }
         ],
-        "updatedAt": "2026-10-10"
+        "updatedAt": "2026-10-13"
       },
       "missingFields": {
         "previous": {
@@ -90183,140 +90261,6 @@
         "method": "For every asset, adjusted close and prior trading-session close; close-to-close %, every T-7 to T+7 session relative to T0 %, T0-to-T+n cumulative %, and reaction-close-to-T+n %. T0 is the earnings date. Future pre-event observations have dates but no T offsets until T0 exists.",
         "sessions": [
           {
-            "date": "2026-10-01",
-            "offset": null,
-            "assets": {
-              "NVDA": {
-                "close": 230.86,
-                "previousClose": 228.38,
-                "closeToClosePct": 1.09,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMD": {
-                "close": 615.73,
-                "previousClose": 611.76,
-                "closeToClosePct": 0.65,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AVGO": {
-                "close": 343.64,
-                "previousClose": 351.19,
-                "closeToClosePct": -2.15,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSM": {
-                "close": 459.2,
-                "previousClose": 456.19,
-                "closeToClosePct": 0.66,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MU": {
-                "close": 1097.39,
-                "previousClose": 1065.11,
-                "closeToClosePct": 3.03,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AAPL": {
-                "close": 330.32,
-                "previousClose": 333.02,
-                "closeToClosePct": -0.81,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MSFT": {
-                "close": 512.8,
-                "previousClose": 512.9,
-                "closeToClosePct": -0.02,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMZN": {
-                "close": 248.23,
-                "previousClose": 249.15,
-                "closeToClosePct": -0.37,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "GOOGL": {
-                "close": 338.24,
-                "previousClose": 344.08,
-                "closeToClosePct": -1.7,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "META": {
-                "close": 725.93,
-                "previousClose": 725.18,
-                "closeToClosePct": 0.1,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSLA": {
-                "close": 354.11,
-                "previousClose": 354.81,
-                "closeToClosePct": -0.2,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "QQQ": {
-                "close": 742.03,
-                "previousClose": 739.77,
-                "closeToClosePct": 0.31,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SMH": {
-                "close": 617.81,
-                "previousClose": 609,
-                "closeToClosePct": 1.45,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SOXX": {
-                "close": 576.33,
-                "previousClose": 568.64,
-                "closeToClosePct": 1.35,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:COMP": {
-                "close": 26871.59502873405,
-                "previousClose": 26861.06375308664,
-                "closeToClosePct": 0.04,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:SOX": {
-                "close": 12829.00000688464,
-                "previousClose": 12628.62375005161,
-                "closeToClosePct": 1.59,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              }
-            }
-          },
-          {
             "date": "2026-10-02",
             "offset": null,
             "assets": {
@@ -91119,9 +91063,143 @@
                 "sinceFirstReactionPct": null
               }
             }
+          },
+          {
+            "date": "2026-10-12",
+            "offset": null,
+            "assets": {
+              "NVDA": {
+                "close": 226.32,
+                "previousClose": 229.28,
+                "closeToClosePct": -1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMD": {
+                "close": 594.24,
+                "previousClose": 608.1,
+                "closeToClosePct": -2.28,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AVGO": {
+                "close": 354.73,
+                "previousClose": 361.54,
+                "closeToClosePct": -1.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSM": {
+                "close": 444.35,
+                "previousClose": 453.31,
+                "closeToClosePct": -1.98,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MU": {
+                "close": 989.04,
+                "previousClose": 1029,
+                "closeToClosePct": -3.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AAPL": {
+                "close": 340.97,
+                "previousClose": 336.64,
+                "closeToClosePct": 1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MSFT": {
+                "close": 541.15,
+                "previousClose": 535.07,
+                "closeToClosePct": 1.14,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMZN": {
+                "close": 259.53,
+                "previousClose": 262.43,
+                "closeToClosePct": -1.11,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "GOOGL": {
+                "close": 352.72,
+                "previousClose": 351.66,
+                "closeToClosePct": 0.3,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "META": {
+                "close": 742.96,
+                "previousClose": 718.67,
+                "closeToClosePct": 3.38,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSLA": {
+                "close": 378.03,
+                "previousClose": 382.7,
+                "closeToClosePct": -1.22,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "QQQ": {
+                "close": 746.04,
+                "previousClose": 751.27,
+                "closeToClosePct": -0.7,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SMH": {
+                "close": 590.99,
+                "previousClose": 603.33,
+                "closeToClosePct": -2.05,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SOXX": {
+                "close": 544.85,
+                "previousClose": 559.4,
+                "closeToClosePct": -2.6,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:COMP": {
+                "close": 27245.90248384004,
+                "previousClose": 27352.7028819305,
+                "closeToClosePct": -0.39,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:SOX": {
+                "close": 12236.78835091451,
+                "previousClose": 12572.41972143729,
+                "closeToClosePct": -2.67,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              }
+            }
           }
         ],
-        "updatedAt": "2026-10-10"
+        "updatedAt": "2026-10-13"
       },
       "missingFields": {
         "previous": {
@@ -91229,140 +91307,6 @@
         "method": "For every asset, adjusted close and prior trading-session close; close-to-close %, every T-7 to T+7 session relative to T0 %, T0-to-T+n cumulative %, and reaction-close-to-T+n %. T0 is the earnings date. Future pre-event observations have dates but no T offsets until T0 exists.",
         "sessions": [
           {
-            "date": "2026-10-01",
-            "offset": null,
-            "assets": {
-              "NVDA": {
-                "close": 230.86,
-                "previousClose": 228.38,
-                "closeToClosePct": 1.09,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMD": {
-                "close": 615.73,
-                "previousClose": 611.76,
-                "closeToClosePct": 0.65,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AVGO": {
-                "close": 343.64,
-                "previousClose": 351.19,
-                "closeToClosePct": -2.15,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSM": {
-                "close": 459.2,
-                "previousClose": 456.19,
-                "closeToClosePct": 0.66,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MU": {
-                "close": 1097.39,
-                "previousClose": 1065.11,
-                "closeToClosePct": 3.03,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AAPL": {
-                "close": 330.32,
-                "previousClose": 333.02,
-                "closeToClosePct": -0.81,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MSFT": {
-                "close": 512.8,
-                "previousClose": 512.9,
-                "closeToClosePct": -0.02,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMZN": {
-                "close": 248.23,
-                "previousClose": 249.15,
-                "closeToClosePct": -0.37,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "GOOGL": {
-                "close": 338.24,
-                "previousClose": 344.08,
-                "closeToClosePct": -1.7,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "META": {
-                "close": 725.93,
-                "previousClose": 725.18,
-                "closeToClosePct": 0.1,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSLA": {
-                "close": 354.11,
-                "previousClose": 354.81,
-                "closeToClosePct": -0.2,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "QQQ": {
-                "close": 742.03,
-                "previousClose": 739.77,
-                "closeToClosePct": 0.31,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SMH": {
-                "close": 617.81,
-                "previousClose": 609,
-                "closeToClosePct": 1.45,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SOXX": {
-                "close": 576.33,
-                "previousClose": 568.64,
-                "closeToClosePct": 1.35,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:COMP": {
-                "close": 26871.59502873405,
-                "previousClose": 26861.06375308664,
-                "closeToClosePct": 0.04,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:SOX": {
-                "close": 12829.00000688464,
-                "previousClose": 12628.62375005161,
-                "closeToClosePct": 1.59,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              }
-            }
-          },
-          {
             "date": "2026-10-02",
             "offset": null,
             "assets": {
@@ -92165,9 +92109,143 @@
                 "sinceFirstReactionPct": null
               }
             }
+          },
+          {
+            "date": "2026-10-12",
+            "offset": null,
+            "assets": {
+              "NVDA": {
+                "close": 226.32,
+                "previousClose": 229.28,
+                "closeToClosePct": -1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMD": {
+                "close": 594.24,
+                "previousClose": 608.1,
+                "closeToClosePct": -2.28,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AVGO": {
+                "close": 354.73,
+                "previousClose": 361.54,
+                "closeToClosePct": -1.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSM": {
+                "close": 444.35,
+                "previousClose": 453.31,
+                "closeToClosePct": -1.98,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MU": {
+                "close": 989.04,
+                "previousClose": 1029,
+                "closeToClosePct": -3.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AAPL": {
+                "close": 340.97,
+                "previousClose": 336.64,
+                "closeToClosePct": 1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MSFT": {
+                "close": 541.15,
+                "previousClose": 535.07,
+                "closeToClosePct": 1.14,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMZN": {
+                "close": 259.53,
+                "previousClose": 262.43,
+                "closeToClosePct": -1.11,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "GOOGL": {
+                "close": 352.72,
+                "previousClose": 351.66,
+                "closeToClosePct": 0.3,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "META": {
+                "close": 742.96,
+                "previousClose": 718.67,
+                "closeToClosePct": 3.38,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSLA": {
+                "close": 378.03,
+                "previousClose": 382.7,
+                "closeToClosePct": -1.22,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "QQQ": {
+                "close": 746.04,
+                "previousClose": 751.27,
+                "closeToClosePct": -0.7,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SMH": {
+                "close": 590.99,
+                "previousClose": 603.33,
+                "closeToClosePct": -2.05,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SOXX": {
+                "close": 544.85,
+                "previousClose": 559.4,
+                "closeToClosePct": -2.6,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:COMP": {
+                "close": 27245.90248384004,
+                "previousClose": 27352.7028819305,
+                "closeToClosePct": -0.39,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:SOX": {
+                "close": 12236.78835091451,
+                "previousClose": 12572.41972143729,
+                "closeToClosePct": -2.67,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              }
+            }
           }
         ],
-        "updatedAt": "2026-10-10"
+        "updatedAt": "2026-10-13"
       }
     },
     {
@@ -92224,140 +92302,6 @@
         "method": "For every asset, adjusted close and prior trading-session close; close-to-close %, every T-7 to T+7 session relative to T0 %, T0-to-T+n cumulative %, and reaction-close-to-T+n %. T0 is the earnings date. Future pre-event observations have dates but no T offsets until T0 exists.",
         "sessions": [
           {
-            "date": "2026-10-01",
-            "offset": null,
-            "assets": {
-              "NVDA": {
-                "close": 230.86,
-                "previousClose": 228.38,
-                "closeToClosePct": 1.09,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMD": {
-                "close": 615.73,
-                "previousClose": 611.76,
-                "closeToClosePct": 0.65,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AVGO": {
-                "close": 343.64,
-                "previousClose": 351.19,
-                "closeToClosePct": -2.15,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSM": {
-                "close": 459.2,
-                "previousClose": 456.19,
-                "closeToClosePct": 0.66,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MU": {
-                "close": 1097.39,
-                "previousClose": 1065.11,
-                "closeToClosePct": 3.03,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AAPL": {
-                "close": 330.32,
-                "previousClose": 333.02,
-                "closeToClosePct": -0.81,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MSFT": {
-                "close": 512.8,
-                "previousClose": 512.9,
-                "closeToClosePct": -0.02,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMZN": {
-                "close": 248.23,
-                "previousClose": 249.15,
-                "closeToClosePct": -0.37,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "GOOGL": {
-                "close": 338.24,
-                "previousClose": 344.08,
-                "closeToClosePct": -1.7,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "META": {
-                "close": 725.93,
-                "previousClose": 725.18,
-                "closeToClosePct": 0.1,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSLA": {
-                "close": 354.11,
-                "previousClose": 354.81,
-                "closeToClosePct": -0.2,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "QQQ": {
-                "close": 742.03,
-                "previousClose": 739.77,
-                "closeToClosePct": 0.31,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SMH": {
-                "close": 617.81,
-                "previousClose": 609,
-                "closeToClosePct": 1.45,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SOXX": {
-                "close": 576.33,
-                "previousClose": 568.64,
-                "closeToClosePct": 1.35,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:COMP": {
-                "close": 26871.59502873405,
-                "previousClose": 26861.06375308664,
-                "closeToClosePct": 0.04,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:SOX": {
-                "close": 12829.00000688464,
-                "previousClose": 12628.62375005161,
-                "closeToClosePct": 1.59,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              }
-            }
-          },
-          {
             "date": "2026-10-02",
             "offset": null,
             "assets": {
@@ -93160,9 +93104,143 @@
                 "sinceFirstReactionPct": null
               }
             }
+          },
+          {
+            "date": "2026-10-12",
+            "offset": null,
+            "assets": {
+              "NVDA": {
+                "close": 226.32,
+                "previousClose": 229.28,
+                "closeToClosePct": -1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMD": {
+                "close": 594.24,
+                "previousClose": 608.1,
+                "closeToClosePct": -2.28,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AVGO": {
+                "close": 354.73,
+                "previousClose": 361.54,
+                "closeToClosePct": -1.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSM": {
+                "close": 444.35,
+                "previousClose": 453.31,
+                "closeToClosePct": -1.98,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MU": {
+                "close": 989.04,
+                "previousClose": 1029,
+                "closeToClosePct": -3.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AAPL": {
+                "close": 340.97,
+                "previousClose": 336.64,
+                "closeToClosePct": 1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MSFT": {
+                "close": 541.15,
+                "previousClose": 535.07,
+                "closeToClosePct": 1.14,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMZN": {
+                "close": 259.53,
+                "previousClose": 262.43,
+                "closeToClosePct": -1.11,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "GOOGL": {
+                "close": 352.72,
+                "previousClose": 351.66,
+                "closeToClosePct": 0.3,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "META": {
+                "close": 742.96,
+                "previousClose": 718.67,
+                "closeToClosePct": 3.38,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSLA": {
+                "close": 378.03,
+                "previousClose": 382.7,
+                "closeToClosePct": -1.22,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "QQQ": {
+                "close": 746.04,
+                "previousClose": 751.27,
+                "closeToClosePct": -0.7,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SMH": {
+                "close": 590.99,
+                "previousClose": 603.33,
+                "closeToClosePct": -2.05,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SOXX": {
+                "close": 544.85,
+                "previousClose": 559.4,
+                "closeToClosePct": -2.6,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:COMP": {
+                "close": 27245.90248384004,
+                "previousClose": 27352.7028819305,
+                "closeToClosePct": -0.39,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:SOX": {
+                "close": 12236.78835091451,
+                "previousClose": 12572.41972143729,
+                "closeToClosePct": -2.67,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              }
+            }
           }
         ],
-        "updatedAt": "2026-10-10"
+        "updatedAt": "2026-10-13"
       }
     },
     {
@@ -93973,140 +94051,6 @@
         "method": "For every asset, adjusted close and prior trading-session close; close-to-close %, every T-7 to T+7 session relative to T0 %, T0-to-T+n cumulative %, and reaction-close-to-T+n %. T0 is the earnings date. Future pre-event observations have dates but no T offsets until T0 exists.",
         "sessions": [
           {
-            "date": "2026-10-01",
-            "offset": null,
-            "assets": {
-              "NVDA": {
-                "close": 230.86,
-                "previousClose": 228.38,
-                "closeToClosePct": 1.09,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMD": {
-                "close": 615.73,
-                "previousClose": 611.76,
-                "closeToClosePct": 0.65,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AVGO": {
-                "close": 343.64,
-                "previousClose": 351.19,
-                "closeToClosePct": -2.15,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSM": {
-                "close": 459.2,
-                "previousClose": 456.19,
-                "closeToClosePct": 0.66,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MU": {
-                "close": 1097.39,
-                "previousClose": 1065.11,
-                "closeToClosePct": 3.03,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AAPL": {
-                "close": 330.32,
-                "previousClose": 333.02,
-                "closeToClosePct": -0.81,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "MSFT": {
-                "close": 512.8,
-                "previousClose": 512.9,
-                "closeToClosePct": -0.02,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "AMZN": {
-                "close": 248.23,
-                "previousClose": 249.15,
-                "closeToClosePct": -0.37,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "GOOGL": {
-                "close": 338.24,
-                "previousClose": 344.08,
-                "closeToClosePct": -1.7,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "META": {
-                "close": 725.93,
-                "previousClose": 725.18,
-                "closeToClosePct": 0.1,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "TSLA": {
-                "close": 354.11,
-                "previousClose": 354.81,
-                "closeToClosePct": -0.2,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "QQQ": {
-                "close": 742.03,
-                "previousClose": 739.77,
-                "closeToClosePct": 0.31,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SMH": {
-                "close": 617.81,
-                "previousClose": 609,
-                "closeToClosePct": 1.45,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "SOXX": {
-                "close": 576.33,
-                "previousClose": 568.64,
-                "closeToClosePct": 1.35,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:COMP": {
-                "close": 26871.59502873405,
-                "previousClose": 26861.06375308664,
-                "closeToClosePct": 0.04,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              },
-              "I:SOX": {
-                "close": 12829.00000688464,
-                "previousClose": 12628.62375005161,
-                "closeToClosePct": 1.59,
-                "relativeToT0Pct": null,
-                "cumulativeFromT0Pct": null,
-                "sinceFirstReactionPct": null
-              }
-            }
-          },
-          {
             "date": "2026-10-02",
             "offset": null,
             "assets": {
@@ -94909,9 +94853,143 @@
                 "sinceFirstReactionPct": null
               }
             }
+          },
+          {
+            "date": "2026-10-12",
+            "offset": null,
+            "assets": {
+              "NVDA": {
+                "close": 226.32,
+                "previousClose": 229.28,
+                "closeToClosePct": -1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMD": {
+                "close": 594.24,
+                "previousClose": 608.1,
+                "closeToClosePct": -2.28,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AVGO": {
+                "close": 354.73,
+                "previousClose": 361.54,
+                "closeToClosePct": -1.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSM": {
+                "close": 444.35,
+                "previousClose": 453.31,
+                "closeToClosePct": -1.98,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MU": {
+                "close": 989.04,
+                "previousClose": 1029,
+                "closeToClosePct": -3.88,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AAPL": {
+                "close": 340.97,
+                "previousClose": 336.64,
+                "closeToClosePct": 1.29,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "MSFT": {
+                "close": 541.15,
+                "previousClose": 535.07,
+                "closeToClosePct": 1.14,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "AMZN": {
+                "close": 259.53,
+                "previousClose": 262.43,
+                "closeToClosePct": -1.11,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "GOOGL": {
+                "close": 352.72,
+                "previousClose": 351.66,
+                "closeToClosePct": 0.3,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "META": {
+                "close": 742.96,
+                "previousClose": 718.67,
+                "closeToClosePct": 3.38,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "TSLA": {
+                "close": 378.03,
+                "previousClose": 382.7,
+                "closeToClosePct": -1.22,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "QQQ": {
+                "close": 746.04,
+                "previousClose": 751.27,
+                "closeToClosePct": -0.7,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SMH": {
+                "close": 590.99,
+                "previousClose": 603.33,
+                "closeToClosePct": -2.05,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "SOXX": {
+                "close": 544.85,
+                "previousClose": 559.4,
+                "closeToClosePct": -2.6,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:COMP": {
+                "close": 27245.90248384004,
+                "previousClose": 27352.7028819305,
+                "closeToClosePct": -0.39,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              },
+              "I:SOX": {
+                "close": 12236.78835091451,
+                "previousClose": 12572.41972143729,
+                "closeToClosePct": -2.67,
+                "relativeToT0Pct": null,
+                "cumulativeFromT0Pct": null,
+                "sinceFirstReactionPct": null
+              }
+            }
           }
         ],
-        "updatedAt": "2026-10-10"
+        "updatedAt": "2026-10-13"
       }
     },
     {
@@ -95055,7 +95133,7 @@
     }
   ],
   "earnings": {
-    "asOf": "2026-10-10",
+    "asOf": "2026-10-13",
     "source": "NasBoard earnings archive, adjusted-close summary; raw T−7…T+7 observations are stored under earningsCrossAssets when captured",
     "benchmark": {
       "NVDA": "SOX",
