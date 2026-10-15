@@ -1,36 +1,71 @@
 {
-  "checkedAt": "2026-10-15T19:52:41.554Z",
+  "checkedAt": "2026-10-15T22:50:24.822Z",
   "issues": [
     {
-      "id": "2026-10-09-MICH PRE",
+      "id": "2026-10-01-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-08-TSMC",
+      "id": "2026-10-15-TSM Earnings",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-08-UST 30Y",
-      "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+      "id": "2026-10-15-TSM Earnings",
+      "asset": "nasdaq",
+      "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-10-07-FOMC MINUTES",
-      "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+      "id": "2026-10-15-TSM Earnings",
+      "asset": "sox",
+      "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-10-07-UST 10Y",
-      "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-10-02-Jobs",
+      "id": "2026-10-14-CPI",
       "field": "outcome",
       "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-14-BEIGE BOOK",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-14-ASML Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-PPI",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-PPI",
+      "asset": "nasdaq",
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-10-15-PPI",
+      "asset": "sox",
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-10-15-Retail",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-Retail",
+      "asset": "nasdaq",
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-10-15-Retail",
+      "asset": "sox",
+      "reason": "Due price window unavailable; see capture states"
     }
   ],
-  "requests": 0
+  "requests": 2
 }
