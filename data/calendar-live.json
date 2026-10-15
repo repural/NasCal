@@ -1,11 +1,8 @@
-Warning: truncated output (original token count: 60624)
-Total output lines: 4095
-
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T04:15:00Z",
-  "asOf": "2026-10-13",
-  "horizonEnd": "2027-01-08",
+  "updatedAt": "2026-10-15T04:08:20Z",
+  "asOf": "2026-10-15",
+  "horizonEnd": "2027-01-13",
   "events": [
     {
       "id": "2026-10-01-CLAIMS",
@@ -534,8 +531,8 @@ Total output lines: 4095
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-15",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -543,7 +540,7 @@ Total output lines: 4095
           "title": "Official release schedule"
         }
       ],
-      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "expects": "Wall Street Journal survey median: 200,000 initial claims for the week ending Oct 10 versus 197,000 previously. This is a modest expected increase, not a recession signal by itself; the recent CPI surprise makes labor strength more rate-sensitive.",
       "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
       "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
       "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
@@ -551,10 +548,21 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/retail-sales-and-producer-prices-on-the-docket-data-week-ahead-ce785dd2de88f424",
+          "title": "WSJ survey medians reproduced in MarketScreener; PPI, retail sales and claims"
+        }
+      ],
+      "isUpdated": true
     },
     {
-      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
+      "expects": "Wall Street Journal survey median: PPI +0.6% m/m and +5.5% y/y; core ex-food-and-energy +0.3% m/m, versus +0.4% and +5.4% for headline previously. After September CPI exceeded forecasts, services and energy pass-through are the key confirmation risks.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -565,14 +573,14 @@ Total output lines: 4095
       "type": "Inflation",
       "importance": "High",
       "explanation": "Producer-price components influence October rate expectations and estimates for the next PCE release. Retail sales is simultaneous.",
-      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
-      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
+      "positive": "Moderating PCE-relevant service and input costs would temper the hot CPI signal, reduce the risk of further tightening and ease margin pressure.",
+      "negative": "Sticky services costs or additional energy pass-through after hot CPI could entrench higher-for-longer pricing, pressuring both yields and margins.",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
-      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -580,20 +588,24 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/retail-sales-and-producer-prices-on-the-docket-data-week-ahead-ce785dd2de88f424",
+          "title": "WSJ survey medians reproduced in MarketScreener; PPI, retail sales and claims"
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
-      "expects": "No reliable economist consensus verified. Control-group sales and revisions will clarify consumption after softer hiring; nominal strength may reflect prices.",
+      "expects": "Wall Street Journal survey median: September retail sales +0.4% m/m and +0.5% excluding autos, versus +1.2% and +1.4% previously. Control-group sales and revisions distinguish real demand from price-driven nominal strength after hot CPI.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -604,14 +616,14 @@ Total output lines: 4095
       "type": "Macro",
       "importance": "High",
       "explanation": "Consumer spending tests demand ahead of the Fed meeting. PPI is released at the same time, so immediate market reactions overlap.",
-      "positive": "Healthy real control-group spending with restrained prices would support revenues without reviving tightening pressure.",
-      "negative": "Nominal strength driven by prices or broad real-spending weakness harms the rates-growth balance.",
+      "positive": "Healthy real control-group spending with restrained prices would support revenues without adding to renewed rate-hike concern.",
+      "negative": "Nominal strength driven by prices or broad real-spending weakness worsens the rates-growth balance after the inflation surprise.",
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
-      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -619,16 +631,20 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/retail-sales-and-producer-prices-on-the-docket-data-week-ahead-ce785dd2de88f424",
+          "title": "WSJ survey medians reproduced in MarketScreener; PPI, retail sales and claims"
         }
       ],
       "eventKey": "retail-sales",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -652,7 +668,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
@@ -669,15 +685,15 @@ Total output lines: 4095
           "title": "Current rate and inflation context"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "id": "2026-10-15-WARSH IMF",
@@ -691,7 +707,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -711,7 +727,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Public remarks by the Fed Chair can reprice rates and Treasury yields even without a scheduled policy decision.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "id": "2026-10-16-IND PROD",
@@ -724,8 +746,8 @@ Total output lines: 4095
       "importance": "High",
       "status": "scheduled",
       "isNew": true,
-      "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "lastUpdated": "2026-10-15",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -733,15 +755,26 @@ Total output lines: 4095
           "title": "Official release schedule"
         }
       ],
-      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
-      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
-      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
+      "expects": "Wall Street Journal survey median: September industrial production +0.4% m/m and capacity utilization 76.5%, versus 0.0% and 76.3% previously. Separate manufacturing from weather-sensitive utilities and volatile mining.",
+      "positive": "Production near the consensus with manageable capacity pressure would support demand without compounding the hot CPI signal.",
+      "negative": "A weak production reading would worsen growth concerns; strong production with tight capacity could add inflation pressure after the CPI surprise.",
       "watch": "Manufacturing output, capacity utilization and prior-month revisions",
       "window": "Release through the next regular session; pre-market releases overlap other news",
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        },
+        {
+          "url": "https://www.marketscreener.com/news/retail-sales-and-producer-prices-on-the-docket-data-week-ahead-ce785dd2de88f424",
+          "title": "WSJ survey medians reproduced in MarketScreener; industrial production and capacity utilization"
+        }
+      ],
+      "isUpdated": true
     },
     {
       "id": "2026-10-16-OPEX",
@@ -755,7 +788,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
       "sources": [
         {
@@ -771,7 +804,69 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Monthly expiration can concentrate hedging and closing flows, but it is a volatility catalyst rather than a directional forecast.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
+      "date": "2026-10-18",
+      "short": "Russia sanctions deadline",
+      "event": "U.S. decision deadline on Russia energy sanctions or waiver",
+      "eventKey": "russia-energy-sanctions-deadline",
+      "timeLabel": "Deadline · exact time not specified",
+      "type": "Policy",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-15",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://www.govinfo.gov/content/pkg/PLAW-119publ111/html/PLAW-119publ111.htm",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ111/html/PLAW-119publ111.htm",
+          "title": "Official Public Law 119-111, signed September 18, 2026"
+        },
+        {
+          "url": "https://uk.marketscreener.com/news/gift-to-our-adversary-more-republicans-balk-at-trump-s-russia-diesel-deal-ce785dddd081f720",
+          "title": "Reuters report reproduced by MarketScreener: October 18 decision deadline and waiver option"
+        },
+        {
+          "url": "https://apnews.com/article/18508ff8f023e0c0791e1e727ec83204",
+          "title": "AP confirmation of the administration's October 18 deadline"
+        }
+      ],
+      "expects": "No dependable market consensus on whether the administration will impose new sanctions/tariffs or waive them. Reuters reported October 13 that the decision had not been disclosed; the deadline follows Public Law 119-111, signed September 18.",
+      "positive": "A narrow or waived measure that avoids disrupting energy flows and contains freight, fuel-cost and Treasury-yield pressure would be the most supportive outcome for Nasdaq.",
+      "negative": "Broad energy sanctions, tariffs, retaliation or supply disruption could lift fuel and freight costs, complicate disinflation and push yields higher, weighing on long-duration technology shares.",
+      "watch": "White House/Treasury action, scope of sanctions or waiver, tariff implementation, retaliation, diesel and crude prices, freight and Treasury yields",
+      "window": "Deadline and subsequent policy headlines; risk may carry into the next U.S. trading session",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A statutory decision point can affect energy-market expectations, inflation risk and geopolitical positioning even though it falls on a Sunday and the final policy choice is unknown.",
+      "interpretationSources": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ111/html/PLAW-119publ111.htm",
+          "title": "Statutory baseline"
+        },
+        {
+          "url": "https://uk.marketscreener.com/news/gift-to-our-adversary-more-republicans-balk-at-trump-s-russia-diesel-deal-ce785dddd081f720",
+          "title": "Reuters reporting on deadline, waiver authority and uncertainty"
+        },
+        {
+          "url": "https://apnews.com/article/18508ff8f023e0c0791e1e727ec83204",
+          "title": "AP reporting on the administration's decision window"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "id": "2026-10-21-TSLA Earnings",
@@ -792,7 +887,7 @@ Total output lines: 4095
       "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
       "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
       "sourceUrl": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isNew": true,
       "sources": [
@@ -807,15 +902,15 @@ Total output lines: 4095
           "title": "Delivery consensus and current market context"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "id": "2026-10-21-UST 20Y",
@@ -836,7 +931,7 @@ Total output lines: 4095
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
@@ -845,16 +940,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -869,7 +964,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -885,10 +980,16 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
-      "expects": "No dependable October consensus verified. October 23 at 09:45 ET is present in the calendar and secondary listings, but official reconfirmation remains blocked. Activity, employment and prices must be read together.",
+      "expects": "No dependable October consensus verified. October 23 at 09:45 ET is listed by a calendar that names S&P Global as the source; direct official calendar access remains blocked. After September CPI ran hot, read activity, employment and prices together rather than treating a headline beat as uniformly supportive.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -899,15 +1000,15 @@ Total output lines: 4095
       "type": "Macro",
       "importance": "Critical",
       "explanation": "The first broad October read on private-sector activity, jobs and prices can change expectations for the October Fed decision and Treasury yields.",
-      "positive": "Resilient activity with moderating prices and orderly hiring would support growth without renewed yield pressure.",
-      "negative": "Higher input/output prices alongside weak orders or employment combine inflation risk with slower growth.",
+      "positive": "Resilient activity with moderating prices and orderly hiring would support growth without validating the inflation shock or adding yield pressure.",
+      "negative": "Higher input/output prices alongside weak orders or employment would compound September's inflation surprise with slower growth, a particularly adverse rates-versus-earnings mix.",
       "isNew": true,
-      "lastUpdated": "2026-10-13",
+      "lastUpdated": "2026-10-15",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -915,17 +1016,26 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        },
+        {
+          "url": "https://www.mtsinsights.com/events/4745/",
+          "title": "Strong secondary confirmation of date and time; S&P Global named as source"
         }
       ],
       "eventKey": "flash-pmi",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
-      "sources": []
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": [
+        {
+          "url": "https://www.mtsinsights.com/events/4745/",
+          "title": "Secondary release listing: Oct 23, 2026 at 09:45 ET; source named as S&P Global"
+        }
+      ]
     },
     {
       "id": "2026-10-23-MICH FIN",
@@ -939,7 +1049,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -959,7 +1069,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "expects": "Deliberations begin; the scheduled decision is the following day. No rate announcement is expected on this first meeting day.",
@@ -978,7 +1094,7 @@ Total output lines: 4095
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
@@ -987,20 +1103,20 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "fomc-day-1",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
-      "expects": "Fed funds futures imply an 80.6% probability of no rate change at the October meeting, according to Reuters on Oct 13. CPI and subsequent labor and inflation data can still change that baseline before the decision.",
+      "expects": "No dependable current probability for an October rate change was verified. After hot September CPI, Reuters reported hike odds briefly rose to about one-third on October 14, then traders pared them on October 15 after cautious Fed remarks; this is a volatile market baseline, not a settled consensus.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -1011,31 +1127,31 @@ Total output lines: 4095
       "type": "Fed",
       "importance": "Critical",
       "explanation": "The current market baseline favors no October change, but the decision and Warsh’s guidance will reset the path for December and 2027.",
-      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
-      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
+      "positive": "No hike and a credible, data-dependent path that contains further tightening risk would be most supportive, especially if the Fed distinguishes energy-led headline pressure from persistent core inflation.",
+      "negative": "A hike or stronger tightening signal after the CPI surprise could lift yields sharply; dovishness framed as a response to abruptly weakening demand would still threaten earnings.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-13",
+      "lastUpdated": "2026-10-15",
       "sourceUrl": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-05/",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "interpretationSources": [
         {
           "url": "https://www.marketscreener.com/news/fed-seen-skipping-october-rate-hike-as-job-market-cools-ce785ddad180f724",
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": [
         {
           "url": "https://www.reuters.com/world/africa/dollar-holds-near-18-month-high-geopolitical-risks-rise-2026-10-13/",
@@ -1055,7 +1171,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1071,7 +1187,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "status": "scheduled",
@@ -1079,7 +1201,7 @@ Total output lines: 4095
       "uncertainty": "High",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "id": "2026-10-29-FCC China Labs",
       "date": "2026-10-29",
       "short": "FCC China Labs",
@@ -1105,9 +1227,13 @@ Total output lines: 4095
         {
           "url": "https://www.reuters.com/world/asia-pacific/us-fcc-vote-ban-chinese-labs-testing-us-electronics-2026-10-07/",
           "title": "Confirmed policy scope and timing"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "expects": "No dependable Q3 consensus verified. Private demand, investment and price detail matter more than inventory or trade contributions alone.",
@@ -1127,7 +1253,7 @@ Total output lines: 4095
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
@@ -1136,16 +1262,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "gdp-advance",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1154,7 +1280,7 @@ Total output lines: 4095
       "uncertainty": "High",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "id": "2026-10-29-INTC Earnings",
       "date": "2026-10-29",
       "short": "INTC Earnings",
@@ -1184,12 +1310,16 @@ Total output lines: 4095
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
-      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
+      "expects": "No reliable September core PCE consensus verified. August's 0.2% monthly increase is the prior published baseline, not a forecast; hotter September CPI raises the importance of PCE-relevant services and energy pass-through.",
       "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
       "window": "08:30 ET release; confirm after yields settle",
       "bias": "Neutral",
@@ -1200,14 +1330,14 @@ Total output lines: 4095
       "type": "Inflation",
       "importance": "Critical",
       "explanation": "Monthly core inflation tests the Fed outlook the morning after its decision. GDP is released at the same time.",
-      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
-      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
+      "positive": "Cooling core prices with resilient real spending would be especially supportive after September CPI ran hot, by easing renewed rate-hike pressure without implying a demand slump.",
+      "negative": "Persistent core inflation after hot September CPI could entrench higher-for-longer pricing; weakening real spending at the same time would compound the rates-versus-growth trade-off.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
-      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1215,16 +1345,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1233,7 +1363,7 @@ Total output lines: 4095
       "uncertainty": "High",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "id": "2026-10-29-STM Earnings",
       "date": "2026-10-29",
       "short": "STM Earnings",
@@ -1263,9 +1393,13 @@ Total output lines: 4095
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "id": "2026-10-29-UST 7Y",
@@ -1286,7 +1420,7 @@ Total output lines: 4095
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
@@ -1295,16 +1429,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1327,7 +1461,7 @@ Total output lines: 4095
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1335,16 +1469,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "employment-cost",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1367,7 +1501,7 @@ Total output lines: 4095
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1375,16 +1509,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1407,7 +1541,7 @@ Total output lines: 4095
       "uncertainty": "High",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
       "sources": [
         {
@@ -1421,15 +1555,15 @@ Total output lines: 4095
           "title": "Official Q3 guidance"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "Current market context; preferences and risks are analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
@@ -1451,7 +1585,7 @@ Total output lines: 4095
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1459,16 +1593,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1488,7 +1622,7 @@ Total output lines: 4095
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
@@ -1497,16 +1631,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "us-midterm-elections",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1515,7 +1649,7 @@ Total output lines: 4095
       "uncertainty": "High",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "id": "2026-11-04-ARM Earnings",
       "date": "2026-11-04",
       "short": "ARM Earnings",
@@ -1545,9 +1679,13 @@ Total output lines: 4095
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -1569,7 +1707,7 @@ Total output lines: 4095
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1577,16 +1715,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1601,7 +1739,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1617,7 +1755,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "id": "2026-11-05-PRODUCTIVITY",
@@ -1644,7 +1788,766 @@ Total output lines: 4095
       "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsO…10624 tokens truncated…e $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-13",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "productivity-costs",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
+    },
+    {
+      "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
+      "watch": "Headline, prices paid, employment, wages and revisions",
+      "window": "Release through the first 90 minutes",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-06",
+      "short": "JOBS",
+      "event": "October employment report",
+      "type": "Macro",
+      "importance": "Critical",
+      "explanation": "Payrolls, wages and unemployment will reset growth and December Fed expectations.",
+      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
+      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "id": "2026-11-06-JOBS",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-15",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "employment-report",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "date": "2026-11-06",
+      "short": "MICH PRE",
+      "event": "Michigan consumer sentiment and inflation expectations — preliminary",
+      "eventKey": "michigan-sentiment-preliminary",
+      "timeLabel": "10:00 ET · 18:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
+        }
+      ],
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
+      "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
+      "window": "08:30 ET release; confirm after yields settle",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-10",
+      "short": "CPI",
+      "event": "October CPI",
+      "type": "Inflation",
+      "importance": "Critical",
+      "explanation": "Core and services inflation will test the Fed's December rate path.",
+      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
+      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "id": "2026-11-10-CPI",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-15",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "cpi",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "status": "scheduled",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "id": "2026-11-10-TSMC Sales",
+      "date": "2026-11-10",
+      "short": "TSMC Sales",
+      "event": "TSMC monthly sales update — October 2026",
+      "eventKey": "tsmc-monthly-sales",
+      "type": "Earnings",
+      "importance": "High",
+      "timeLabel": "13:30 Taipei · 00:30 ET · 08:30 Istanbul",
+      "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
+      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
+      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
+      "watch": "Monthly revenue growth, sequential trend, advanced-node demand and consistency with quarterly guidance",
+      "window": "Taiwan publication through the U.S. cash session",
+      "explanation": "The monthly revenue update is a timely demand signal, but one month does not establish a full-quarter outcome and currency or shipment timing can distort comparisons.",
+      "sourceUrl": "https://investor.cld.tsmc.com/english/financial-calendar",
+      "sources": [
+        {
+          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
+          "title": "Official TSMC financial calendar"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://investor.cld.tsmc.com/english/financial-calendar",
+          "title": "Official schedule; preferences and risks are analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Current rate-market context"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "date": "2026-11-10",
+      "short": "UST 10Y",
+      "event": "10-year Treasury note auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-10y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-13",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "id": "2026-11-12-CLAIMS",
+      "date": "2026-11-12",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "date": "2026-11-12",
+      "short": "UST 30Y",
+      "event": "30-year Treasury bond auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-30y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-13",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
+      "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
+      "window": "08:30 ET release; confirm after yields settle",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-13",
+      "short": "PPI",
+      "event": "October PPI",
+      "type": "Inflation",
+      "importance": "High",
+      "explanation": "Producer prices can change the estimate for the forthcoming core PCE release.",
+      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
+      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "id": "2026-11-13-PPI",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-15",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "ppi",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "date": "2026-11-17",
+      "short": "IND PROD",
+      "event": "Industrial production and capacity utilization",
+      "eventKey": "industrial-production",
+      "timeLabel": "09:15 ET · 17:15 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
+      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
+      "watch": "Manufacturing output, capacity utilization and prior-month revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "expects": "A separate Trump–Xi bilateral or advanced-chip concessions remain unconfirmed. Existing trade dialogue does not establish new technology relief.",
+      "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
+      "window": "Headline-driven; may extend across sessions",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-18",
+      "short": "APEC",
+      "event": "APEC leaders’ meeting; Trump–Xi bilateral unconfirmed",
+      "type": "Politics",
+      "importance": "Critical",
+      "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
+      "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
+      "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "sourceUrl": "https://www.mofa.go.kr/eng/brd/m_5676/view.do?seq=323294",
+      "id": "2026-11-18-APEC",
+      "timeLabel": "Nov 18–19 · bilateral time not announced",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-15",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "apec-leaders",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
+      "watch": "Decision, statement changes, vote, projections and press conference",
+      "window": "14:00–15:30 ET",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-18",
+      "short": "FOMC MINUTES",
+      "event": "Minutes of the October FOMC meeting",
+      "type": "Fed",
+      "importance": "High",
+      "explanation": "The minutes clarify the committee's debate after the October decision and can shift December rate expectations.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "id": "2026-11-18-FOMC MINUTES",
+      "timeLabel": "14:00 ET · 22:00 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-15",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "fomc-minutes",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "id": "2026-11-18-UST 20Y",
+      "date": "2026-11-18",
+      "short": "UST 20Y",
+      "event": "20-year Treasury bond auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-20y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-13",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "date": "2026-11-19",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "date": "2026-11-20",
+      "short": "MICH FIN",
+      "event": "Michigan consumer sentiment and inflation expectations — final",
+      "eventKey": "michigan-sentiment-final",
+      "timeLabel": "10:00 ET · 18:00 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+      "sources": [
+        {
+          "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
+          "title": "Official release schedule"
+        },
+        {
+          "url": "https://www.sca.isr.umich.edu/",
+          "title": "Michigan Oct 9 preliminary baseline, reviewed Oct 10"
+        }
+      ],
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "watch": "One-year and long-run inflation expectations, sentiment and buying conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "date": "2026-11-25",
+      "short": "BEIGE BOOK",
+      "event": "Federal Reserve Beige Book",
+      "eventKey": "beige-book",
+      "timeLabel": "14:00 ET · 22:00 Istanbul",
+      "type": "Fed",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
+      "positive": "District reports of slower cost and wage growth with stable demand would ease the policy trade-off.",
+      "negative": "Persistent price pressure alongside weakening hiring and spending points to stagflation.",
+      "watch": "District price pressure, labor demand, consumer spending and credit conditions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "date": "2026-11-25",
+      "short": "CLAIMS",
+      "event": "Weekly initial and continuing jobless claims",
+      "eventKey": "weekly-jobless-claims",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Macro",
+      "importance": "High",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+      "sources": [
+        {
+          "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
+          "title": "Official release schedule"
+        }
+      ],
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "watch": "Initial claims, continuing claims, four-week average and prior-week revisions",
+      "window": "Release through the next regular session; pre-market releases overlap other news",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "expects": "No reliable revision consensus verified; the October 29 Q3 advance estimate is still ahead. An earlier-quarter result is not this release's forecast.",
+      "watch": "Headline, prices paid, employment, wages and revisions",
+      "window": "Release through the first 90 minutes",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-25",
+      "short": "GDP",
+      "event": "Q3 GDP second estimate",
+      "type": "Macro",
+      "importance": "High",
+      "explanation": "The second estimate updates third-quarter growth and is released alongside October PCE.",
+      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
+      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
+      "sourceUrl": "https://www.bea.gov/news/schedule",
+      "id": "2026-11-25-GDP",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-13",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "gdp-second",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
+      "watch": "Core monthly rate, services, shelter, energy pass-through and revisions",
+      "window": "08:30 ET release; confirm after yields settle",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "date": "2026-11-25",
+      "short": "PCE",
+      "event": "October core PCE inflation",
+      "type": "Inflation",
+      "importance": "Critical",
+      "explanation": "Monthly inflation informs the December Fed outlook. GDP is released simultaneously, so price-window attribution will be shared.",
+      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
+      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
+      "sourceUrl": "https://www.bea.gov/news/schedule",
+      "id": "2026-11-25-PCE",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "status": "scheduled",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-13",
+      "isUpdated": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "eventKey": "core-pce",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "sources": []
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "date": "2026-11-25",
+      "short": "UST 7Y",
+      "event": "7-year Treasury note auction",
+      "timeLabel": "13:00 ET · 21:00 Istanbul",
+      "eventKey": "treasury-7y-auction",
+      "type": "Rates",
+      "importance": "High",
+      "status": "scheduled",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "watch": "High yield versus when-issued yield, tail/stop-through, bid-to-cover and indirect bidders",
+      "window": "13:00 ET result through the cash close",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "Long-duration supply is a direct test of demand while elevated yields and bond volatility remain important constraints on growth-stock valuations.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
+      "interpretationAsOf": "2026-10-15",
+      "lastUpdated": "2026-10-13",
+      "isNew": true,
+      "interpretationSources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+          "title": "Current baseline; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
+          "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "isUpdated": true,
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1667,7 +2570,7 @@ Total output lines: 4095
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1675,16 +2578,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1707,7 +2610,7 @@ Total output lines: 4095
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1715,16 +2618,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1739,7 +2642,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1755,7 +2658,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
@@ -1777,7 +2686,7 @@ Total output lines: 4095
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1785,16 +2694,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1817,7 +2726,7 @@ Total output lines: 4095
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1825,16 +2734,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1849,7 +2758,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -1869,7 +2778,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "id": "2026-12-08-PRODUCTIVITY",
@@ -1896,7 +2811,7 @@ Total output lines: 4095
       "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
@@ -1905,16 +2820,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "id": "2026-12-08-UST 10Y",
@@ -1935,7 +2850,7 @@ Total output lines: 4095
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
@@ -1944,16 +2859,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -1976,7 +2891,7 @@ Total output lines: 4095
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1984,16 +2899,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2008,7 +2923,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2024,7 +2939,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
@@ -2046,7 +2967,7 @@ Total output lines: 4095
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2054,16 +2975,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2072,7 +2993,7 @@ Total output lines: 4095
       "uncertainty": "High",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "id": "2026-12-10-TSMC Sales",
       "date": "2026-12-10",
       "short": "TSMC Sales",
@@ -2102,9 +3023,13 @@ Total output lines: 4095
         {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Current rate-market context"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "id": "2026-12-10-UST 30Y",
@@ -2125,7 +3050,7 @@ Total output lines: 4095
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
@@ -2134,16 +3059,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2166,7 +3091,7 @@ Total output lines: 4095
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2174,16 +3099,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "g20-leaders",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2206,7 +3131,7 @@ Total output lines: 4095
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2214,16 +3139,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2238,7 +3163,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "sources": [
         {
@@ -2254,7 +3179,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "id": "2026-12-17-CLAIMS",
@@ -2268,7 +3199,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2284,7 +3215,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "id": "2026-12-18-MICH FIN",
@@ -2298,7 +3235,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -2318,7 +3255,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "expects": "No dependable final-estimate consensus verified; preceding Q3 estimates have not yet been released. Component revisions will establish the comparison.",
@@ -2338,7 +3281,7 @@ Total output lines: 4095
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
@@ -2347,16 +3290,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "gdp-final",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2377,7 +3320,7 @@ Total output lines: 4095
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isUpdated": true,
       "interpretationSources": [
@@ -2386,16 +3329,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2417,7 +3360,7 @@ Total output lines: 4095
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
@@ -2426,16 +3369,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2450,7 +3393,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2466,7 +3409,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "date": "2026-12-27",
@@ -2489,7 +3438,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sources": [
         {
           "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
@@ -2506,15 +3455,15 @@ Total output lines: 4095
           "title": "Current rate and inflation context"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "date": "2026-12-27",
@@ -2537,7 +3486,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sources": [
         {
           "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
@@ -2554,15 +3503,15 @@ Total output lines: 4095
           "title": "Current rate and inflation context"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     },
     {
       "id": "2026-12-29-UST 7Y",
@@ -2583,7 +3532,7 @@ Total output lines: 4095
       "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
       "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "lastUpdated": "2026-10-13",
       "isNew": true,
       "interpretationSources": [
@@ -2592,16 +3541,16 @@ Total output lines: 4095
           "title": "Current baseline; preferences and risks are conditional analysis"
         },
         {
-          "url": "https://www.reuters.com/business/wall-st-futures-rise-yields-oil-dip-2026-10-06/",
-          "title": "October 6 market context: easing yields, steady oil and strong AI earnings expectations; preferences and risks are conditional analysis"
-        },
-        {
           "url": "https://www.fidelity.com/news/article/default/202610070410RTRSNEWSCOMBINED_L6N45T0BX_1",
           "title": "Earlier October rate-market snapshot; not current pricing; preferences and risks are conditional analysis"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution.",
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
       "sources": []
     },
     {
@@ -2616,7 +3565,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2632,7 +3581,13 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
     },
     {
       "id": "2027-01-07-CLAIMS",
@@ -2646,7 +3601,7 @@ Total output lines: 4095
       "status": "scheduled",
       "isNew": true,
       "lastUpdated": "2026-10-13",
-      "interpretationAsOf": "2026-10-13",
+      "interpretationAsOf": "2026-10-15",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2662,7 +3617,57 @@ Total output lines: 4095
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed Oct 13: CPI, elevated long yields, oil above $100 and semiconductor earnings are the immediate valuation tests. Supportive and adverse outcomes are conditional analysis, not a forecast or causal attribution."
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts.",
+      "interpretationSources": [
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ]
+    },
+    {
+      "id": "2027-01-13-CPI",
+      "date": "2027-01-13",
+      "short": "CPI",
+      "event": "December 2026 Consumer Price Index",
+      "eventKey": "cpi",
+      "timeLabel": "08:30 ET · 16:30 Istanbul",
+      "type": "Inflation",
+      "importance": "Critical",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-15",
+      "interpretationAsOf": "2026-10-15",
+      "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "sources": [
+        {
+          "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+          "title": "Official BLS CPI release schedule"
+        }
+      ],
+      "expects": "No dependable December CPI forecast is available this far ahead. The latest known reading is September's 3.7% headline inflation and 0.3% monthly core increase; update consensus nearer release.",
+      "positive": "Core inflation cooling from the September heat while demand remains resilient would lower the risk of sustained restrictive policy and support long-duration technology valuations.",
+      "negative": "Another sticky core/services print or energy pass-through would revive higher-for-longer or further-tightening pricing and weigh on Nasdaq multiples.",
+      "watch": "Headline and core monthly/yearly rates, services/shelter, energy pass-through, revisions and Treasury yields",
+      "window": "08:30 ET release through the cash open and first hour",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "This official CPI release falls within the calendar's 90-day horizon and can reset rate expectations at the start of 2027.",
+      "interpretationSources": [
+        {
+          "url": "https://www.bls.gov/schedule/2027/01_sched_list.htm",
+          "title": "Official release date and time"
+        },
+        {
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-14/",
+          "title": "Current inflation and rate-pricing context"
+        },
+        {
+          "url": "https://in.marketscreener.com/news/dollar-retreats-from-18-month-high-despite-hot-cpi-as-fed-officials-temper-hike-bets-ce785dd3d98af422",
+          "title": "Reuters report on Oct 15 market repricing after hot CPI; macro context only"
+        }
+      ],
+      "interpretationContext": "Reviewed Oct 15: September CPI was hotter than consensus (3.7% y/y headline, 0.3% m/m core). Reuters reported October hike odds initially rose, then eased after cautious Fed remarks; event-specific scenarios remain conditional, not forecasts."
     }
   ],
   "recentEvents": [
@@ -3347,7 +4352,7 @@ Total output lines: 4095
     }
   ],
   "coverageCheck": {
-    "checkedAt": "2026-10-13T04:15:00Z",
+    "checkedAt": "2026-10-15T04:08:20Z",
     "comparisonSource": "https://www.marketwatch.com/economy-politics/calendar",
     "policy": "Major releases only; secondary calendar candidates require official confirmation; never infer cancellation from absence.",
     "addedIds": [
@@ -3377,9 +4382,11 @@ Total output lines: 4095
       "2026-11-17-IND PROD",
       "2026-12-16-IND PROD",
       "2026-10-15-WARSH IMF",
-      "2026-10-16-OPEX"
+      "2026-10-16-OPEX",
+      "2026-10-18-RUSSIA SANCTIONS DEADLINE",
+      "2027-01-13-CPI"
     ],
-    "lastResearchDate": "2026-10-13",
-    "researchNotes": "Updated the October CPI consensus and October FOMC market-pricing baseline using current Reuters reporting. Re-reviewed every displayed interpretation for CPI, elevated yields, oil and semiconductor earnings. October 23 flash PMI at 09:45 ET remains present, with official reconfirmation blocked; no cancellation inferred from absence."
+    "lastResearchDate": "2026-10-15",
+    "researchNotes": "Cross-checked official BLS, BEA, Federal Reserve and DOL schedules plus reputable reporting. MarketWatch remained unavailable (HTTP 401), and direct S&P PMI calendar access remained blocked (HTTP 403); the Oct 23 flash PMI has a strong secondary listing at 09:45 ET naming S&P Global. Added the Oct 18 Russia-energy-sanctions decision deadline (official law plus Reuters/AP confirmation) and the official Jan 13 CPI release within the 90-day horizon. Refreshed near-term consensus and all forward interpretation contexts after the September CPI surprise; estimates and scenario impacts remain conditional, not forecasts."
   }
 }
