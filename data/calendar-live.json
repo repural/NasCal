@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T04:08:20Z",
-  "asOf": "2026-10-15",
+  "updatedAt": "2026-10-16T04:12:51Z",
+  "asOf": "2026-10-16",
   "horizonEnd": "2027-01-13",
   "events": [
     {
@@ -3626,6 +3626,50 @@
       ]
     },
     {
+      "id": "2027-01-10-US-CHINA-TRUCE",
+      "date": "2027-01-10",
+      "short": "US–China truce",
+      "event": "U.S.–China tariff truce expires; further extension or deal needed",
+      "eventKey": "us-china-trade-truce-deadline",
+      "timeLabel": "Deadline · exact time not specified",
+      "type": "Policy",
+      "importance": "Critical",
+      "status": "scheduled",
+      "isNew": true,
+      "lastUpdated": "2026-10-16",
+      "interpretationAsOf": "2026-10-16",
+      "sourceUrl": "https://english.www.gov.cn/news/202609/28/content_WS6aba53c5c6d00ca5f9a0d803.html",
+      "sources": [
+        {
+          "url": "https://english.www.gov.cn/news/202609/28/content_WS6aba53c5c6d00ca5f9a0d803.html",
+          "title": "Chinese government confirmation of extension through January 10, 2027"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/us-treasurys-bessent-chinas-he-to-meet-unfinished-business-before-trumpxi-summit-2026-09-23/",
+          "title": "Reuters report quoting U.S. Treasury Secretary Scott Bessent on the two-month extension"
+        }
+      ],
+      "expects": "The existing arrangement is extended through January 10, 2027. Chinese officials say both sides will continue discussions and seek a further extension before year-end; no dependable market consensus is available on a successor agreement or post-deadline tariff path.",
+      "positive": "A timely, clearly documented further extension or broader agreement that preserves predictable tariff treatment and avoids new technology restrictions would best support semiconductor and mega-cap technology supply chains.",
+      "negative": "Failure to agree before the deadline could revive tariff uncertainty or trigger higher duties and related trade restrictions, pressuring global technology supply chains and risk appetite.",
+      "watch": "Official U.S. and Chinese announcements, tariff implementation notices, export-control language and any change in the deadline",
+      "window": "Policy updates through the deadline and next U.S. trading session",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "explanation": "The current bilateral tariff arrangement runs through this deadline. Any further extension, tariff change or breakdown could alter costs and supply-chain expectations for technology companies.",
+      "interpretationContext": "Verified Oct 16: Chinese government reporting says the arrangement was extended through Jan 10, 2027; Reuters reported Bessent's confirmation of the two-month extension. Continuation after that date remains uncertain.",
+      "interpretationSources": [
+        {
+          "url": "https://english.www.gov.cn/news/202609/28/content_WS6aba53c5c6d00ca5f9a0d803.html",
+          "title": "Official Chinese government statement on Jan 10, 2027 extension"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/us-treasurys-bessent-chinas-he-to-meet-unfinished-business-before-trumpxi-summit-2026-09-23/",
+          "title": "Reuters reporting on the U.S. Treasury Secretary's confirmation"
+        }
+      ]
+    },
+    {
       "id": "2027-01-13-CPI",
       "date": "2027-01-13",
       "short": "CPI",
@@ -4352,7 +4396,7 @@
     }
   ],
   "coverageCheck": {
-    "checkedAt": "2026-10-15T04:08:20Z",
+    "checkedAt": "2026-10-16T04:12:51Z",
     "comparisonSource": "https://www.marketwatch.com/economy-politics/calendar",
     "policy": "Major releases only; secondary calendar candidates require official confirmation; never infer cancellation from absence.",
     "addedIds": [
@@ -4384,9 +4428,10 @@
       "2026-10-15-WARSH IMF",
       "2026-10-16-OPEX",
       "2026-10-18-RUSSIA SANCTIONS DEADLINE",
-      "2027-01-13-CPI"
+      "2027-01-13-CPI",
+      "2027-01-10-US-CHINA-TRUCE"
     ],
-    "lastResearchDate": "2026-10-15",
-    "researchNotes": "Cross-checked official BLS, BEA, Federal Reserve and DOL schedules plus reputable reporting. MarketWatch remained unavailable (HTTP 401), and direct S&P PMI calendar access remained blocked (HTTP 403); the Oct 23 flash PMI has a strong secondary listing at 09:45 ET naming S&P Global. Added the Oct 18 Russia-energy-sanctions decision deadline (official law plus Reuters/AP confirmation) and the official Jan 13 CPI release within the 90-day horizon. Refreshed near-term consensus and all forward interpretation contexts after the September CPI surprise; estimates and scenario impacts remain conditional, not forecasts."
+    "lastResearchDate": "2026-10-16",
+    "researchNotes": "Reviewed the official-review input (last generated Oct 10; no event proposals; MarketWatch, BLS ICS and PMI feed unavailable; DOL, BEA and Fed feeds healthy). Independently rechecked official BLS, BEA, Federal Reserve and government trade sources plus Reuters. The Oct 23 S&P Global Flash PMI remains scheduled for 09:45 ET; direct S&P calendar access is blocked, but its own Oct 15 commentary and a current secondary release listing corroborate the date/time, so officialDateVerified remains false. Added the distinct Jan 10, 2027 U.S.-China tariff-truce deadline, confirmed by Chinese government reporting and Reuters quoting Treasury Secretary Bessent; the earlier Nov 10 date is superseded. Existing event interpretations were reviewed against the latest October 15 CPI/rate repricing; no other material calendar changes were verified. Estimates and scenario impacts remain conditional, not forecasts."
   }
 }
