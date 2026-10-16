@@ -2799,7 +2799,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 manufacturing PMI 47.9. ",
@@ -2831,7 +2831,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 23385.90921152889
@@ -2864,7 +2864,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7481.04903163223
@@ -3067,7 +3067,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 services PMI 53.8. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -3099,7 +3099,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 23600.58628348445
@@ -3132,7 +3132,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7529.12726416122
@@ -3335,7 +3335,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "November 2025 job openings 7.1 million. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -3367,7 +3367,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 23600.58628348445
@@ -3400,7 +3400,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7529.12726416122
@@ -3553,7 +3553,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 payroll employment +50,000; unemployment 4.4%. ",
@@ -3579,7 +3579,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30"
@@ -3603,7 +3603,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30"
@@ -3751,7 +3751,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 CPI +0.3% m/m and +2.7% y/y; core +0.2% m/m. ",
@@ -3777,7 +3777,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30"
@@ -3801,7 +3801,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30"
@@ -3949,7 +3949,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "November 2025 PPI final demand +0.2% m/m. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -3975,7 +3975,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -3999,7 +3999,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -4147,7 +4147,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "November 2025 advance retail and food services sales +0.6% m/m. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -4173,7 +4173,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30"
@@ -4197,7 +4197,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30"
@@ -4345,7 +4345,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "2025 Q3 real GDP updated estimate +4.4% annualized. ",
@@ -4371,7 +4371,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-updated",
           "releaseTimeET": "08:30"
@@ -4395,7 +4395,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-updated",
           "releaseTimeET": "08:30"
@@ -4583,7 +4583,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "November 2025 core PCE +0.2% m/m and +2.8% y/y; October core PCE +0.2% m/m. ",
@@ -4615,7 +4615,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 23364.60520019136
@@ -4648,7 +4648,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 8080.3846527259
@@ -4859,7 +4859,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 flash composite PMI 52.8; services 52.5; manufacturing 51.9. ",
@@ -4891,7 +4891,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 23426.47575037025
@@ -4924,7 +4924,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 7943.71704626384
@@ -5127,7 +5127,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Fed held federal funds target range at 3.50%–3.75%. ",
@@ -5159,7 +5159,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 23859.67739006786
@@ -5192,7 +5192,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 8294.40625592505
@@ -5355,7 +5355,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 PPI final demand +0.5% m/m as first reported. ",
@@ -5381,7 +5381,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -5405,7 +5405,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -5593,7 +5593,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 manufacturing PMI 52.6. ",
@@ -5625,7 +5625,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 23487.18999632536
@@ -5658,7 +5658,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 8037.04925790459
@@ -5861,7 +5861,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 services PMI 53.8. ",
@@ -5893,7 +5893,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 23081.13145003378
@@ -5926,7 +5926,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7846.81194159652
@@ -6129,7 +6129,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 job openings 6.5 million. ",
@@ -6161,7 +6161,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 22667.7249171816
@@ -6194,7 +6194,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7616.26766119905
@@ -6357,7 +6357,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "2025 Q4 Employment Cost Index +0.7% q/q and +3.4% y/y. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -6383,7 +6383,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
           "releaseTimeET": "08:30"
@@ -6407,7 +6407,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
           "releaseTimeET": "08:30"
@@ -6555,7 +6555,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 advance retail and food services sales virtually unchanged (+0.0% m/m). Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -6581,7 +6581,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30"
@@ -6605,7 +6605,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30"
@@ -6753,7 +6753,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 payroll employment +130,000; unemployment 4.3%. ",
@@ -6779,7 +6779,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30"
@@ -6803,7 +6803,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30"
@@ -6951,7 +6951,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 CPI +0.2% m/m and +2.4% y/y; core +0.3% m/m. ",
@@ -6977,7 +6977,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30"
@@ -7001,7 +7001,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30"
@@ -7189,7 +7189,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February 2026 flash composite PMI 52.3; services 52.3; manufacturing 51.2. ",
@@ -7221,7 +7221,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 22738.14080160832
@@ -7254,7 +7254,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 8233.92191433217
@@ -7407,7 +7407,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "2025 Q4 real GDP advance estimate +1.4% annualized. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -7433,7 +7433,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
           "releaseTimeET": "08:30"
@@ -7457,7 +7457,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
           "releaseTimeET": "08:30"
@@ -7595,7 +7595,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "December 2025 core PCE +0.4% m/m and +3.0% y/y. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -7621,7 +7621,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30"
@@ -7645,7 +7645,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30"
@@ -7801,7 +7801,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 PPI final demand +0.5% m/m and +2.9% y/y. ",
@@ -7827,7 +7827,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -7851,7 +7851,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -8039,7 +8039,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February 2026 manufacturing PMI 52.4. ",
@@ -8071,7 +8071,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 22554.03127280731
@@ -8104,7 +8104,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 8021.71967040049
@@ -8307,7 +8307,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February 2026 services PMI 56.1. ",
@@ -8339,7 +8339,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 22647.5048802455
@@ -8372,7 +8372,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7818.79984664884
@@ -8535,7 +8535,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February 2026 payroll employment -92,000; unemployment 4.4%. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -8561,7 +8561,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30"
@@ -8585,7 +8585,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30"
@@ -8733,7 +8733,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 advance retail and food services sales -0.2% m/m. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -8759,7 +8759,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30"
@@ -8783,7 +8783,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30"
@@ -8931,7 +8931,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February 2026 CPI +0.3% m/m and +2.4% y/y; core +0.2% m/m. ",
@@ -8957,7 +8957,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30"
@@ -8981,7 +8981,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30"
@@ -9129,7 +9129,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "2025 Q4 real GDP second estimate +0.7% annualized. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -9155,7 +9155,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
           "releaseTimeET": "08:30"
@@ -9179,7 +9179,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
           "releaseTimeET": "08:30"
@@ -9367,7 +9367,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 job openings 6.9 million. ",
@@ -9399,7 +9399,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 22449.03170858987
@@ -9432,7 +9432,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7785.56715002194
@@ -9595,7 +9595,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "January 2026 core PCE +0.4% m/m and +3.1% y/y. Observed price moves during this window may reflect simultaneous releases or other market news; they are not isolated causal effects.",
@@ -9621,7 +9621,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30"
@@ -9645,7 +9645,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30"
@@ -9841,7 +9841,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Fed held federal funds target range at 3.50%–3.75%; released updated economic projections. ",
@@ -9873,7 +9873,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 22348.05317883705
@@ -9906,7 +9906,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 7891.43059784412
@@ -10069,7 +10069,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February 2026 PPI final demand +0.7% m/m and +3.4% y/y. ",
@@ -10095,7 +10095,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -10119,7 +10119,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30"
@@ -10307,7 +10307,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "March 2026 flash composite PMI 51.4; February 51.9. ",
@@ -10339,7 +10339,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 21747.73419578848
@@ -10372,7 +10372,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 7724.04717708175
@@ -10575,7 +10575,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February 2026 job openings 6.9 million. ",
@@ -10607,7 +10607,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 21240.16843365682
@@ -10640,7 +10640,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7385.1913496786
@@ -10843,7 +10843,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Manufacturing expanded for a third straight month; the March PMI was 52.7.",
@@ -10872,7 +10872,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 21782.95440803078
@@ -10905,7 +10905,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7792.25727917283
@@ -11008,7 +11008,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Payrolls rebounded by 178,000 after a February decline; wage growth was moderate.",
@@ -11025,9 +11025,9 @@
           "at15": null,
           "at60": null,
           "dayClose": null,
-          "intradayStatus": "outside-index-session",
+          "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -11042,9 +11042,9 @@
           "at15": null,
           "at60": null,
           "dayClose": null,
-          "intradayStatus": "outside-index-session",
+          "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -11235,7 +11235,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Services remained in expansion at 54.0, down from February.",
@@ -11264,7 +11264,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 22023.3749618851
@@ -11297,7 +11297,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7900.60001238861
@@ -11500,7 +11500,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Job openings were broadly unchanged in the February release.",
@@ -11529,7 +11529,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 21774.99615962752
@@ -11562,7 +11562,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 7860.12699577494
@@ -11715,7 +11715,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "February PCE was delayed to April 9 and released at 08:30 ET; the release showed continued inflation pressure.",
@@ -11742,7 +11742,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30"
@@ -11766,7 +11766,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30"
@@ -11921,7 +11921,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Headline inflation accelerated with energy, while core rose 0.2% month over month.",
@@ -11944,7 +11944,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -11968,7 +11968,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -12096,7 +12096,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Producer prices rose 0.5%; energy and goods drove the increase.",
@@ -12119,7 +12119,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -12143,7 +12143,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -12281,7 +12281,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Retail sales accelerated in March, led by nominal consumer spending and fuel effects.",
@@ -12304,7 +12304,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -12328,7 +12328,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -12516,7 +12516,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "The April 28–29 FOMC meeting kept the target range unchanged; the press conference followed at 14:30 ET.",
@@ -12545,7 +12545,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 24618.47142461027
@@ -12578,7 +12578,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 10200.8389551959
@@ -12741,7 +12741,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Employment costs remained firm; the release shared the GDP/PCE timestamp.",
@@ -12764,7 +12764,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
           "releaseTimeET": "08:30",
@@ -12788,7 +12788,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
           "releaseTimeET": "08:30",
@@ -12936,7 +12936,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Growth accelerated to 2.0% annualized in the advance Q1 estimate.",
@@ -12959,7 +12959,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
           "releaseTimeET": "08:30",
@@ -12983,7 +12983,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
           "releaseTimeET": "08:30",
@@ -13131,7 +13131,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Core PCE rose 0.3% in March while headline PCE rose 0.7%; GDP was simultaneous.",
@@ -13154,7 +13154,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -13178,7 +13178,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -13374,7 +13374,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Manufacturing stayed in expansion at 52.7, matching March.",
@@ -13403,7 +13403,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 25145.03047773781
@@ -13436,7 +13436,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 10562.66675346198
@@ -13639,7 +13639,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Services expanded at 53.6, easing from March.",
@@ -13668,7 +13668,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 25270.87904162627
@@ -13701,7 +13701,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 10841.52698278361
@@ -13904,7 +13904,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Openings remained near 6.9 million in the March release.",
@@ -13933,7 +13933,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 25270.87904162627
@@ -13966,7 +13966,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 10841.52698278361
@@ -14129,7 +14129,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Payrolls rose 115,000 and unemployment held at 4.3%; the result was above the 65,000 consensus cited in contemporaneous coverage.",
@@ -14152,7 +14152,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -14176,7 +14176,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -14324,7 +14324,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Headline and core inflation accelerated in April; energy inflation was especially strong.",
@@ -14347,7 +14347,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -14371,7 +14371,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -14519,7 +14519,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Producer inflation surged 1.4% in April, the largest monthly gain since 2022.",
@@ -14542,7 +14542,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -14566,7 +14566,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -14704,7 +14704,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "Retail sales rose 0.5% in April, slowing from March.",
@@ -14727,7 +14727,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -14751,7 +14751,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -14899,7 +14899,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "The second estimate updated Q1 growth; the release shared the PCE timestamp.",
@@ -14922,7 +14922,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
           "releaseTimeET": "08:30",
@@ -14946,7 +14946,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
           "releaseTimeET": "08:30",
@@ -15094,7 +15094,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "explanation": "April PCE data showed continued inflation pressure; GDP second estimate was simultaneous.",
@@ -15117,7 +15117,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -15141,7 +15141,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -15218,7 +15218,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -15369,7 +15369,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26928.61582841896
@@ -15402,7 +15402,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 12646.91254130404
@@ -15483,7 +15483,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -15634,7 +15634,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 27092.0949984278
@@ -15667,7 +15667,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13512.22396891976
@@ -15760,7 +15760,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-06-03",
             "value": 27092.84453694551
@@ -15782,7 +15782,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-06-03",
             "value": 13971.14839628968
@@ -17879,7 +17879,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -18030,7 +18030,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26911.46328906445
@@ -18063,7 +18063,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13682.18501141986
@@ -18144,7 +18144,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -18249,7 +18249,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -18273,7 +18273,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -18339,7 +18339,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -18444,7 +18444,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -18468,7 +18468,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -18534,7 +18534,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -18639,7 +18639,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -18663,7 +18663,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -18729,7 +18729,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -18880,7 +18880,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 26424.15176792179
@@ -18913,7 +18913,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 13783.59830334393
@@ -18994,7 +18994,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -19099,7 +19099,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -19123,7 +19123,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -19189,7 +19189,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -19294,7 +19294,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -19318,7 +19318,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -19392,7 +19392,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -19543,7 +19543,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26010.68705903582
@@ -19576,7 +19576,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 14099.70884449764
@@ -19657,7 +19657,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -19808,7 +19808,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26076.28360573044
@@ -19841,7 +19841,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13783.36304901283
@@ -19922,7 +19922,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -20027,7 +20027,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -20051,7 +20051,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -20117,7 +20117,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -20268,7 +20268,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26055.35267678975
@@ -20301,7 +20301,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 13126.50013233148
@@ -20382,7 +20382,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -20488,7 +20488,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -20512,7 +20512,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -20574,7 +20574,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -20659,7 +20659,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -20683,7 +20683,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -20749,7 +20749,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -20854,7 +20854,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -20878,7 +20878,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -20944,7 +20944,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -21095,7 +21095,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 24751.82222925614
@@ -21128,7 +21128,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 10672.67301818816
@@ -21209,7 +21209,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -21314,7 +21314,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
           "releaseTimeET": "08:30",
@@ -21338,7 +21338,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-advance",
           "releaseTimeET": "08:30",
@@ -21404,7 +21404,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -21509,7 +21509,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -21533,7 +21533,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -21607,7 +21607,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -21712,7 +21712,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
           "releaseTimeET": "08:30",
@@ -21736,7 +21736,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-cost",
           "releaseTimeET": "08:30",
@@ -21802,7 +21802,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -21978,7 +21978,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 25705.88256802494
@@ -22011,7 +22011,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11107.91311810444
@@ -22092,7 +22092,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -22268,7 +22268,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26247.47895180638
@@ -22301,7 +22301,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11963.84345799304
@@ -22382,7 +22382,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -22558,7 +22558,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26709.93314720706
@@ -22591,7 +22591,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 12323.10802995111
@@ -22672,7 +22672,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -22803,7 +22803,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -22827,7 +22827,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -22889,7 +22889,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -23020,7 +23020,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -23044,7 +23044,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -23106,7 +23106,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -23226,7 +23226,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -23250,7 +23250,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -23316,7 +23316,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -23446,7 +23446,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -23470,7 +23470,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -23536,7 +23536,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -23646,7 +23646,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
           "releaseTimeET": "08:30",
@@ -23670,7 +23670,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "gdp-second",
           "releaseTimeET": "08:30",
@@ -23770,7 +23770,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-08-26",
             "value": 26099.57640220714
@@ -23792,7 +23792,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-08-26",
             "value": 11564.43525415462
@@ -25889,7 +25889,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -25999,7 +25999,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -26023,7 +26023,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "core-pce",
           "releaseTimeET": "08:30",
@@ -26128,7 +26128,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -26280,7 +26280,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26077.50216633122
@@ -26313,7 +26313,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11214.68612860684
@@ -26422,7 +26422,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -26574,7 +26574,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26077.50216633122
@@ -26607,7 +26607,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11214.68612860684
@@ -26693,7 +26693,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-02",
             "value": 26094.00436766905
@@ -26715,7 +26715,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-02",
             "value": 11243.54560637204
@@ -28839,7 +28839,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -28991,7 +28991,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26430.91692147155
@@ -29024,7 +29024,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 11154.32365542779
@@ -29133,7 +29133,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -29239,7 +29239,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -29263,7 +29263,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "employment-report",
           "releaseTimeET": "08:30",
@@ -29357,7 +29357,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -29509,7 +29509,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 26447.38586668834
@@ -29542,7 +29542,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 11915.87651509936
@@ -29651,7 +29651,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -29803,7 +29803,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 26262.45588339676
@@ -29836,7 +29836,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 11936.57864986138
@@ -29915,7 +29915,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -30062,7 +30062,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 26155.61898032853
@@ -30095,7 +30095,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 11695.43700817128
@@ -30183,7 +30183,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -30284,7 +30284,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -30308,7 +30308,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "ppi",
           "releaseTimeET": "08:30",
@@ -30404,7 +30404,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -30510,7 +30510,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -30534,7 +30534,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "cpi",
           "releaseTimeET": "08:30",
@@ -30605,7 +30605,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-15",
             "value": 26140.22737743617
@@ -30627,7 +30627,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-15",
             "value": 11233.0434712247
@@ -30674,7 +30674,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -30821,7 +30821,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 26161.84949311681
@@ -30854,7 +30854,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "13:59",
             "close": 11377.5570048445
@@ -30935,7 +30935,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Last completed one-minute bar before the scheduled release versus last completed one-minute bar at +15m or +60m; percent change rounded to 0.01 percentage points. Null if an exact bar is unavailable. These are observed price windows, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -31026,7 +31026,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -31050,7 +31050,7 @@
           },
           "intradayStatus": "exact-bars-unavailable",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null,
           "releaseLabel": "retail-sales",
           "releaseTimeET": "08:30",
@@ -31127,7 +31127,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-18",
             "value": 26522.0904690094
@@ -31149,7 +31149,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-18",
             "value": 11691.00442187154
@@ -31226,7 +31226,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -31378,7 +31378,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 27206.01204641615
@@ -31411,7 +31411,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 12603.90492319828
@@ -31492,7 +31492,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -31673,7 +31673,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 26907.04244711264
@@ -31706,7 +31706,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "12:59",
             "close": 12429.89236465128
@@ -31826,7 +31826,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15",
+          "verifiedAt": "2026-10-16",
           "assets": {
             "QQQ": {
               "at15": {
@@ -31978,7 +31978,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 27157.83869514727
@@ -32011,7 +32011,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:44",
             "close": 12538.03059660895
@@ -32214,7 +32214,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "indexLevels": {
@@ -32239,7 +32239,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-24",
             "value": 26734.50815004199
@@ -32272,7 +32272,7 @@
           },
           "intradayStatus": "measured",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-24",
             "value": 12309.09307455128
@@ -32365,7 +32365,7 @@
           },
           "intradayStatus": "no-single-release-time",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-24",
             "value": 26734.50815004199
@@ -32389,7 +32389,7 @@
           },
           "intradayStatus": "no-single-release-time",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "dayOpen": {
             "date": "2026-09-24",
             "value": 12309.09307455128
@@ -34529,7 +34529,7 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -34553,7 +34553,7 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -36643,7 +36643,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -36665,7 +36665,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -38766,7 +38766,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -38788,7 +38788,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -40889,7 +40889,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -40911,7 +40911,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -43012,7 +43012,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -43034,7 +43034,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -45135,7 +45135,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -45157,7 +45157,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -47258,7 +47258,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -47280,7 +47280,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -49381,7 +49381,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -49403,7 +49403,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -51504,7 +51504,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -51526,7 +51526,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -53627,7 +53627,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -53649,7 +53649,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -55750,7 +55750,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -55772,7 +55772,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -57873,7 +57873,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -57895,7 +57895,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -59996,7 +59996,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -60018,7 +60018,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -62119,7 +62119,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -62141,7 +62141,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -64242,7 +64242,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -64264,7 +64264,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -66365,7 +66365,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -66387,7 +66387,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -68488,7 +68488,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -68510,7 +68510,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -70611,7 +70611,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -70633,7 +70633,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -72734,7 +72734,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -72756,7 +72756,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -74857,7 +74857,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -74879,7 +74879,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -76980,7 +76980,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -77002,7 +77002,7 @@
           },
           "intradayStatus": "awaiting-minute-bars",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -79144,34 +79144,46 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-03-19",
-            "value": 17750.79029098091
+            "value": 17750.79029098091,
+            "open": 17590.11529735734
           },
           "dayClose": {
             "date": "2025-03-20",
-            "value": 17691.62608536857
+            "value": 17691.62608536857,
+            "open": 17586.06083346552
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-03-20",
+            "value": 17586.06083346552
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2025-03-19",
-            "value": 4634.53201085307
+            "value": 4634.53201085307,
+            "open": 4598.92187468199
           },
           "dayClose": {
             "date": "2025-03-20",
-            "value": 4601.3732163946
+            "value": 4601.3732163946,
+            "open": 4579.06435495359
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-03-20",
+            "value": 4579.06435495359
+          }
         }
       },
       "missingFields": {},
@@ -81308,34 +81320,46 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-06-24",
-            "value": 19912.5327651522
+            "value": 19912.5327651522,
+            "open": 19809.61463169094
           },
           "dayClose": {
             "date": "2025-06-25",
-            "value": 19973.5519184797
+            "value": 19973.5519184797,
+            "open": 20013.9466033208
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-06-25",
+            "value": 20013.9466033208
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2025-06-24",
-            "value": 5441.86542213532
+            "value": 5441.86542213532,
+            "open": 5335.2727816281
           },
           "dayClose": {
             "date": "2025-06-25",
-            "value": 5493.29796102521
+            "value": 5493.29796102521,
+            "open": 5461.15239762711
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-06-25",
+            "value": 5461.15239762711
+          }
         }
       },
       "missingFields": {},
@@ -83472,34 +83496,46 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-09-22",
-            "value": 22788.97599598129
+            "value": 22788.97599598129,
+            "open": 22606.59209390842
           },
           "dayClose": {
             "date": "2025-09-23",
-            "value": 22573.47349544744
+            "value": 22573.47349544744,
+            "open": 22782.71776693207
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-09-23",
+            "value": 22782.71776693207
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2025-09-22",
-            "value": 6330.1178481799
+            "value": 6330.1178481799,
+            "open": 6247.82480824534
           },
           "dayClose": {
             "date": "2025-09-23",
-            "value": 6308.20486209643
+            "value": 6308.20486209643,
+            "open": 6336.52797447176
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-09-23",
+            "value": 6336.52797447176
+          }
         }
       },
       "missingFields": {},
@@ -85636,34 +85672,46 @@
         "nasdaq": {
           "priorClose": {
             "date": "2025-12-16",
-            "value": 23111.46182003316
+            "value": 23111.46182003316,
+            "open": 22981.81919836458
           },
           "dayClose": {
             "date": "2025-12-17",
-            "value": 22693.32286663517
+            "value": 22693.32286663517,
+            "open": 23135.60942927654
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-12-17",
+            "value": 23135.60942927654
+          }
         },
         "sox": {
           "priorClose": {
             "date": "2025-12-16",
-            "value": 6958.43797542561
+            "value": 6958.43797542561,
+            "open": 6977.90349977952
           },
           "dayClose": {
             "date": "2025-12-17",
-            "value": 6695.30865594321
+            "value": 6695.30865594321,
+            "open": 6993.09968316837
           },
           "at15": null,
           "at60": null,
           "intradayStatus": "not-applicable-after-close",
           "intradayReason": "Cash Nasdaq Composite and SOX do not publish regular-session levels 15/60 minutes after an after-close earnings release. T+1 captures the first cash-session reaction.",
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
-          "updatedAt": "2026-10-16"
+          "updatedAt": "2026-10-16",
+          "dayOpen": {
+            "date": "2025-12-17",
+            "value": 6993.09968316837
+          }
         }
       },
       "missingFields": {},
@@ -85825,7 +85873,7 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -85849,7 +85897,7 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -85944,7 +85992,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "indexWindows": [
@@ -86027,7 +86075,7 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         },
         "sox": {
@@ -86051,7 +86099,7 @@
           },
           "at15": null,
           "at60": null,
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": null
         }
       },
@@ -86146,7 +86194,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "indexWindows": [
@@ -86225,7 +86273,7 @@
             "minuteET": "10:59",
             "close": 26814.30660537848
           },
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 26922.71375474601
@@ -86258,7 +86306,7 @@
             "minuteET": "10:59",
             "close": 12702.0765660289
           },
-          "updatedAt": "2026-10-15",
+          "updatedAt": "2026-10-16",
           "beforeRelease": {
             "minuteET": "09:59",
             "close": 12684.79729673127
@@ -86418,7 +86466,7 @@
           "priceSource": "Massive adjusted one-minute aggregate bars",
           "priceSourceUrl": "https://massive.com/docs/rest/stocks/aggregates/custom-bars",
           "method": "Exact last completed one-minute bar before scheduled release versus the bars ending at +15m and +60m. Includes extended hours only when available. Null means the exact bar was absent; these are observed moves, not causal estimates.",
-          "verifiedAt": "2026-10-15"
+          "verifiedAt": "2026-10-16"
         }
       ],
       "indexWindows": [
