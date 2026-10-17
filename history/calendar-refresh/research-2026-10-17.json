@@ -1,0 +1,823 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-17T04:07:52Z",
+  "automatedInput": {
+    "checkedAt": "2026-10-10T10:11:31.811Z",
+    "stale": true,
+    "proposals": 0,
+    "nextFlashPmi": {
+      "present": true,
+      "date": "2026-10-23",
+      "timeET": "09:45",
+      "officialDateVerified": false,
+      "secondaryConfirmation": [
+        "https://www.marketwatch.com/economy-politics/calendar",
+        "https://www.mtsinsights.com/events/4745/"
+      ]
+    }
+  },
+  "addedIds": [
+    "2026-10-21-META Earnings",
+    "2026-10-28-MSFT Earnings",
+    "2026-10-29-AMZN Earnings",
+    "2026-11-02-AAPL Earnings",
+    "2026-10-21-LRCX Earnings",
+    "2026-10-28-KLAC Earnings",
+    "2026-10-21-TXN Earnings",
+    "2026-11-15-CHINA AI CONSULTATION",
+    "2026-11-02-SP MFG FINAL",
+    "2026-11-04-SP SERVICES FINAL",
+    "2026-11-17-Retail",
+    "2026-12-16-Retail",
+    "2027-01-08-JOBS",
+    "2027-01-14-PPI"
+  ],
+  "updatedPolicyIds": [
+    "2026-10-18-RUSSIA SANCTIONS DEADLINE"
+  ],
+  "sources": {
+    "market": "https://www.marketwatch.com/economy-politics/calendar",
+    "close": "https://www.reuters.com/business/wall-st-futures-mixed-tech-wobbles-again-tesla-gains-2026-10-16/",
+    "rates": "https://www.federalreserve.gov/releases/h15/",
+    "fed": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "cpi": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+    "ppi": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+    "pce": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
+    "claims": "https://www.dol.gov/ui/data.pdf",
+    "industrial": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
+    "retail": "https://www.census.gov/retail/sales.html?os=vb",
+    "retailSchedule": "https://www.census.gov/retail/release_schedule.html",
+    "blsJan": "https://www.bls.gov/schedule/2027/01_sched_list.htm",
+    "pmi": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/us-investor-risk-appetite-tempered-as-apprehension-on-rates-october-flash-pmi-to-provide-fresh-market-guidance",
+    "waiver": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
+    "china": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
+    "meta": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+    "metaGuide": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/default.aspx?mod=article_inline",
+    "msft": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
+    "amzn": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
+    "amznGuide": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light",
+    "aapl": "https://investor.apple.com/investor-relations/default.aspx",
+    "lrcx": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+    "klac": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
+    "txn": "https://investor.ti.com/news-releases/news-release-details/texas-instruments-webcast-q3-2026-earnings-conference-call",
+    "amd": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+    "tsm": "https://investor.tsmc.com/japanese/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+    "asml": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+    "apec": "https://www.apec.org/",
+    "g20": "https://home.treasury.gov/news/press-releases/sb0398",
+    "fedExpectation": "https://www.reuters.com/business/us-import-prices-increase-more-than-expected-september-2026-10-16/"
+  },
+  "priorInterpretations": [
+    {
+      "id": "2026-10-01-CLAIMS",
+      "date": "2026-10-01",
+      "expects": "Released: initial claims 197,000 in the original Oct 1 release, later revised to 199,000 on Oct 8. No verified contemporaneous consensus retained.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-01-ISM",
+      "date": "2026-10-01",
+      "expects": "Pre-release expectation retained for comparison: Reuters economist poll: manufacturing PMI 55.0.. Event completed; see recorded results.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-02-Jobs",
+      "date": "2026-10-02",
+      "expects": "Pre-release expectation retained for comparison: Reuters reported a 100,000 payroll increase expectation on September 25; no newer verified survey located. Wages, unemployment and revisions may matter as much as that dated baseline.. Event completed; see recorded results.",
+      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
+      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-05-ISM Services",
+      "date": "2026-10-05",
+      "expects": "Released: ISM Services PMI 54.9 versus Reuters poll 55.2. Pre-release expectations are retained in history; the outcome is not a forecast for future surveys.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-07-FOMC MINUTES",
+      "date": "2026-10-07",
+      "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-07-UST 10Y",
+      "date": "2026-10-07",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-08-CLAIMS",
+      "date": "2026-10-08",
+      "expects": "Released: 197,000 initial claims versus MarketWatch forecast 200,000; prior week revised to 199,000. Continuing claims 1.716 million. A small downside claims surprise signals limited layoffs; no isolated market effect inferred.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-08-TSMC",
+      "date": "2026-10-08",
+      "expects": "No dependable monthly-sales consensus verified. Quarterly guidance provides context; monthly sales alone do not confirm earnings or a new outlook.",
+      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
+      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-08-UST 30Y",
+      "date": "2026-10-08",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-09-MICH PRE",
+      "date": "2026-10-09",
+      "expects": "Released Oct 9: sentiment 46.3 versus September final 48.1; one-year inflation expectations 4.7% versus 4.6%, long-run 3.5% versus 3.4%. Earlier MarketWatch sentiment forecast was 48.0; no verified inflation-expectations consensus.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-09-RUSSIAN DIESEL WAIVER",
+      "date": "2026-10-09",
+      "expects": "Announced outcome: the U.S. Treasury issued a license permitting Russian diesel imports through April 7, 2027, alongside an agreement for immediate and additional shipments. Analysts cited by Reuters questioned whether the volumes would produce a sustained price decline.",
+      "positive": "A durable fall in diesel and freight costs would reduce near-term inflation pressure, contain Treasury yields and support Nasdaq valuations and corporate margins.",
+      "negative": "Limited physical supply, renewed refinery disruption or geopolitical retaliation could reverse the initial diesel-price decline while weakening sanctions credibility.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-14-ASML Earnings",
+      "date": "2026-10-14",
+      "expects": "Company Q3 guidance: sales €11–12 billion and gross margin 55–57%; full-year sales €43–45 billion. These are issuer ranges; no independently verified current analyst consensus.",
+      "positive": "Orders and guidance confirm profitable AI-driven logic and memory investment, with strong cash conversion supporting semiconductor valuations despite elevated yields.",
+      "negative": "Weak bookings, delivery delays or tighter export restrictions undermine the outlook while AI spending and financing face scrutiny.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-14-BEIGE BOOK",
+      "date": "2026-10-14",
+      "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
+      "positive": "District reports of slower cost and wage growth with stable demand would ease the policy trade-off.",
+      "negative": "Persistent price pressure alongside weakening hiring and spending points to stagflation.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-14-CPI",
+      "date": "2026-10-14",
+      "expects": "Current consensus centers on September headline CPI rising about 0.6% month on month and 3.6–3.7% year on year, with core CPI near 0.2% month on month and 2.5% year on year. The headline-core split implies energy pressure; services and shelter will determine whether the report changes the Fed path.",
+      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
+      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
+      "interpretationAsOf": "2026-10-13"
+    },
+    {
+      "id": "2026-10-15-CLAIMS",
+      "date": "2026-10-15",
+      "expects": "Wall Street Journal survey median: 200,000 initial claims for the week ending Oct 10 versus 197,000 previously. This is a modest expected increase, not a recession signal by itself; the recent CPI surprise makes labor strength more rate-sensitive.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-15-PPI",
+      "date": "2026-10-15",
+      "expects": "Wall Street Journal survey median: PPI +0.6% m/m and +5.5% y/y; core ex-food-and-energy +0.3% m/m, versus +0.4% and +5.4% for headline previously. After September CPI exceeded forecasts, services and energy pass-through are the key confirmation risks.",
+      "positive": "Moderating PCE-relevant service and input costs would temper the hot CPI signal, reduce the risk of further tightening and ease margin pressure.",
+      "negative": "Sticky services costs or additional energy pass-through after hot CPI could entrench higher-for-longer pricing, pressuring both yields and margins.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-15-Retail",
+      "date": "2026-10-15",
+      "expects": "Wall Street Journal survey median: September retail sales +0.4% m/m and +0.5% excluding autos, versus +1.2% and +1.4% previously. Control-group sales and revisions distinguish real demand from price-driven nominal strength after hot CPI.",
+      "positive": "Healthy real control-group spending with restrained prices would support revenues without adding to renewed rate-hike concern.",
+      "negative": "Nominal strength driven by prices or broad real-spending weakness worsens the rates-growth balance after the inflation surprise.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-15-TSM Earnings",
+      "date": "2026-10-15",
+      "expects": "Official Q3 guidance: revenue $44.6–45.8 billion, gross margin 65–67%, operating margin 56–58%. These are company ranges, not a verified analyst consensus.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-15-WARSH IMF",
+      "date": "2026-10-15",
+      "expects": "The scheduled discussion concerns forces reshaping the global economy; no prepared-policy decision or dependable speech-specific market consensus is available. Markets will listen for changes in the Chair's inflation, energy-shock and rate outlook.",
+      "positive": "A balanced message that recognizes energy-driven inflation risk while retaining a data-dependent path would limit yield pressure without implying a sharp growth slowdown.",
+      "negative": "A firmer tightening signal in response to energy inflation could lift long yields; unusually defensive growth language could instead weaken the earnings outlook.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-16-IND PROD",
+      "date": "2026-10-16",
+      "expects": "Wall Street Journal survey median: September industrial production +0.4% m/m and capacity utilization 76.5%, versus 0.0% and 76.3% previously. Separate manufacturing from weather-sensitive utilities and volatile mining.",
+      "positive": "Production near the consensus with manageable capacity pressure would support demand without compounding the hot CPI signal.",
+      "negative": "A weak production reading would worsen growth concerns; strong production with tight capacity could add inflation pressure after the CPI surprise.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-16-OPEX",
+      "date": "2026-10-16",
+      "expects": "Monthly equity and P.M.-settled index options cease trading on October 16; A.M.-settled monthly index options cease trading October 15. Direction is not reliably forecast from expiration alone and depends on positioning, dealer gamma and contemporaneous catalysts.",
+      "positive": "Orderly expiry flows with positive dealer gamma could damp volatility and allow supportive earnings or macro news to dominate.",
+      "negative": "Large strike concentrations, negative gamma or post-expiry hedge removal could amplify moves around CPI, semiconductor earnings and the Fed Chair's overnight remarks.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
+      "date": "2026-10-18",
+      "expects": "No dependable market consensus on whether the administration will impose new sanctions/tariffs or waive them. Reuters reported October 13 that the decision had not been disclosed; the deadline follows Public Law 119-111, signed September 18.",
+      "positive": "A narrow or waived measure that avoids disrupting energy flows and contains freight, fuel-cost and Treasury-yield pressure would be the most supportive outcome for Nasdaq.",
+      "negative": "Broad energy sanctions, tariffs, retaliation or supply disruption could lift fuel and freight costs, complicate disinflation and push yields higher, weighing on long-duration technology shares.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-21-TSLA Earnings",
+      "date": "2026-10-21",
+      "expects": "Q3 deliveries were 486,532 versus a Visible Alpha consensus of 456,896, while energy-storage deployments were 13.7 GWh. No dependable current EPS, revenue or margin consensus was verified, so those figures are operating baselines rather than an earnings forecast.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-21-UST 20Y",
+      "date": "2026-10-21",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-22-CLAIMS",
+      "date": "2026-10-22",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-23-FLASH PMI",
+      "date": "2026-10-23",
+      "expects": "No dependable October consensus verified. October 23 at 09:45 ET is listed by a calendar that names S&P Global as the source; direct official calendar access remains blocked. After September CPI ran hot, read activity, employment and prices together rather than treating a headline beat as uniformly supportive.",
+      "positive": "Resilient activity with moderating prices and orderly hiring would support growth without validating the inflation shock or adding yield pressure.",
+      "negative": "Higher input/output prices alongside weak orders or employment would compound September's inflation surprise with slower growth, a particularly adverse rates-versus-earnings mix.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-23-MICH FIN",
+      "date": "2026-10-23",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-27-FOMC 1",
+      "date": "2026-10-27",
+      "expects": "Deliberations begin; the scheduled decision is the following day. No rate announcement is expected on this first meeting day.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-28-FED",
+      "date": "2026-10-28",
+      "expects": "No dependable current probability for an October rate change was verified. After hot September CPI, Reuters reported hike odds briefly rose to about one-third on October 14, then traders pared them on October 15 after cautious Fed remarks; this is a volatile market baseline, not a settled consensus.",
+      "positive": "No hike and a credible, data-dependent path that contains further tightening risk would be most supportive, especially if the Fed distinguishes energy-led headline pressure from persistent core inflation.",
+      "negative": "A hike or stronger tightening signal after the CPI surprise could lift yields sharply; dovishness framed as a response to abruptly weakening demand would still threaten earnings.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-29-CLAIMS",
+      "date": "2026-10-29",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-29-FCC China Labs",
+      "date": "2026-10-29",
+      "expects": "The FCC has announced a vote to bar Chinese laboratories and certification bodies from testing electronics for U.S. use. Passage is the stated policy direction; implementation is slated for December 2028.",
+      "positive": "Clear, limited implementation with workable compliance arrangements would reduce supply-chain uncertainty and avoid new earnings disruption.",
+      "negative": "Broader restrictions, retaliation or costly compliance increases technology-sector supply-chain and margin risk.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-29-GDP",
+      "date": "2026-10-29",
+      "expects": "No dependable Q3 consensus verified. Private demand, investment and price detail matter more than inventory or trade contributions alone.",
+      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
+      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-29-INTC Earnings",
+      "date": "2026-10-29",
+      "expects": "Intel has confirmed the date and call time. No dependable current revenue, EPS or margin consensus was independently verified, so uncertainty should be treated explicitly.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-29-PCE",
+      "date": "2026-10-29",
+      "expects": "No reliable September core PCE consensus verified. August's 0.2% monthly increase is the prior published baseline, not a forecast; hotter September CPI raises the importance of PCE-relevant services and energy pass-through.",
+      "positive": "Cooling core prices with resilient real spending would be especially supportive after September CPI ran hot, by easing renewed rate-hike pressure without implying a demand slump.",
+      "negative": "Persistent core inflation after hot September CPI could entrench higher-for-longer pricing; weakening real spending at the same time would compound the rates-versus-growth trade-off.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-29-STM Earnings",
+      "date": "2026-10-29",
+      "expects": "STMicroelectronics confirms October 29 for Q3 results. No dependable current analyst consensus or final release time was independently verified.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-29-UST 7Y",
+      "date": "2026-10-29",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-10-30-ECI",
+      "date": "2026-10-30",
+      "expects": "No dependable compensation consensus verified. Slower payroll-survey wages do not establish this broader wage-and-benefits outcome.",
+      "positive": "Moderating compensation growth with stable employment would help margins and contain rate pressure.",
+      "negative": "Sticky compensation costs raise inflation persistence and pressure profitability.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-02-ISM MFG",
+      "date": "2026-11-02",
+      "expects": "No reliable consensus verified for this forthcoming survey. The latest manufacturing report combines expansion with increased cost pressure; a headline beat alone is not uniformly supportive.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-03-AMD Earnings",
+      "date": "2026-11-03",
+      "expects": "Company Q3 guidance is revenue $13.0 billion ±$0.3 billion and non-GAAP gross margin about 56%. No dependable current analyst consensus verified; company guidance is the baseline.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-03-JOLTS",
+      "date": "2026-11-03",
+      "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
+      "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
+      "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-03-MIDTERMS",
+      "date": "2026-11-03",
+      "expects": "Congressional control is uncertain; no dependable national market-implied probability is used. Inflation and borrowing costs remain important policy issues.",
+      "positive": "An orderly result with a clearer fiscal and trade-policy outlook would reduce uncertainty without adding inflationary borrowing pressure.",
+      "negative": "A disputed result, disruptive policy shifts or deficit-heavy measures raise uncertainty and Treasury-yield risk.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-04-ARM Earnings",
+      "date": "2026-11-04",
+      "expects": "Arm confirms a November 4 webcast at 17:00 ET. No dependable current revenue, EPS or royalty-growth consensus was independently verified.",
+      "positive": "Profitable revenue growth, credible guidance and disciplined investment would support technology earnings while elevated yields and AI financing scrutiny make cash generation important.",
+      "negative": "Weak guidance, margin pressure or investment commitments without sufficient cash returns disappoint expectations and amplify valuation sensitivity to yields.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-04-ISM SERVICES",
+      "date": "2026-11-04",
+      "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-05-CLAIMS",
+      "date": "2026-11-05",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-05-PRODUCTIVITY",
+      "date": "2026-11-05",
+      "expects": "No reliable forecast verified for this vintage. Preliminary and revised productivity estimates must remain distinct when judging unit labor costs.",
+      "positive": "Higher productivity and slower unit labor costs support margins and disinflation.",
+      "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-06-JOBS",
+      "date": "2026-11-06",
+      "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
+      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
+      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "date": "2026-11-06",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-10-CPI",
+      "date": "2026-11-10",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
+      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
+      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-10-TSMC Sales",
+      "date": "2026-11-10",
+      "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
+      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
+      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "date": "2026-11-10",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-12-CLAIMS",
+      "date": "2026-11-12",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "date": "2026-11-12",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-13-PPI",
+      "date": "2026-11-13",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
+      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
+      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "date": "2026-11-17",
+      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
+      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-18-APEC",
+      "date": "2026-11-18",
+      "expects": "A separate Trump–Xi bilateral or advanced-chip concessions remain unconfirmed. Existing trade dialogue does not establish new technology relief.",
+      "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
+      "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-18-FOMC MINUTES",
+      "date": "2026-11-18",
+      "expects": "The minutes describe the preceding meeting rather than a new rate decision. Compare the debate with subsequently released data; no numerical consensus applies.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-18-UST 20Y",
+      "date": "2026-11-18",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "date": "2026-11-19",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "date": "2026-11-20",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "date": "2026-11-25",
+      "expects": "Qualitative district report; no numerical consensus applies. Assess price, wage and hiring descriptions against the current pause-versus-hike debate.",
+      "positive": "District reports of slower cost and wage growth with stable demand would ease the policy trade-off.",
+      "negative": "Persistent price pressure alongside weakening hiring and spending points to stagflation.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "date": "2026-11-25",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-25-GDP",
+      "date": "2026-11-25",
+      "expects": "No reliable revision consensus verified; the October 29 Q3 advance estimate is still ahead. An earlier-quarter result is not this release's forecast.",
+      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
+      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-25-PCE",
+      "date": "2026-11-25",
+      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
+      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
+      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "date": "2026-11-25",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-01-ISM MFG",
+      "date": "2026-12-01",
+      "expects": "No reliable consensus verified for this forthcoming survey. The latest manufacturing report combines expansion with increased cost pressure; a headline beat alone is not uniformly supportive.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-01-JOLTS",
+      "date": "2026-12-01",
+      "expects": "No reliable release-specific consensus verified. Hires, quits and layoffs will distinguish orderly cooling from labor-market weakness.",
+      "positive": "Fewer vacancies and slower quits without rising layoffs would support orderly labor cooling.",
+      "negative": "Labor tightness raises wage pressure, or sharply weaker hires and more layoffs undermine demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-03-CLAIMS",
+      "date": "2026-12-03",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-03-ISM SERVICES",
+      "date": "2026-12-03",
+      "expects": "No independently corroborated economist consensus verified. Services prices and employment will test whether expansion can continue without further inflation-driven tightening.",
+      "positive": "Expansion with cooler prices and stable employment would support earnings while containing yields.",
+      "negative": "Rising prices in a strong survey lift tightening risk; falling orders alongside high prices signal stagflation.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-04-JOBS",
+      "date": "2026-12-04",
+      "expects": "No dependable consensus yet for this release. Latest hiring and wage growth softened and prior months were revised down; a repeat is not assumed.",
+      "positive": "Moderate hiring and slower wages with stable unemployment would ease rate pressure without threatening revenues.",
+      "negative": "Hot wages lift tightening risk, while broad payroll weakness and revisions threaten growth.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-04-MICH PRE",
+      "date": "2026-12-04",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-08-PRODUCTIVITY",
+      "date": "2026-12-08",
+      "expects": "No reliable forecast verified for this vintage. Preliminary and revised productivity estimates must remain distinct when judging unit labor costs.",
+      "positive": "Higher productivity and slower unit labor costs support margins and disinflation.",
+      "negative": "Higher unit labor costs with weak productivity challenge margins and the inflation outlook.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-08-UST 10Y",
+      "date": "2026-12-08",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-09-FED",
+      "date": "2026-12-09",
+      "expects": "No freshly corroborated meeting-specific rate probability is available in this review. Inflation and labor releases before the decision can change the pause-versus-tightening baseline; earlier precise odds are not current pricing.",
+      "positive": "Credible restraint on further tightening with improving inflation and resilient growth would reduce yield pressure without creating a recession signal.",
+      "negative": "A stronger tightening bias or renewed inflation concern lifts yields; dovishness prompted by sharply weaker growth also threatens earnings.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-10-CLAIMS",
+      "date": "2026-12-10",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-10-CPI",
+      "date": "2026-12-10",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
+      "positive": "A softer core and services print with contained energy pass-through would ease yield pressure without requiring a recession.",
+      "negative": "Hot core services or energy pass-through lifts yields and restores tightening risk, compressing technology valuations.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-10-TSMC Sales",
+      "date": "2026-12-10",
+      "expects": "TSMC has officially scheduled the monthly sales publication. No dependable month-specific sales consensus was independently verified; quarterly guidance remains the broader baseline.",
+      "positive": "Revenue momentum consistent with profitable AI demand would support the semiconductor outlook, especially if followed by credible margin guidance.",
+      "negative": "Revenue softness or growth concentrated in low-margin activity weakens the AI-demand narrative amid elevated funding costs.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-10-UST 30Y",
+      "date": "2026-12-10",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-14-G20",
+      "date": "2026-12-14",
+      "expects": "No dependable forecast for summit outcomes or confirmed separate Trump–Xi bilateral emerged in this review.",
+      "positive": "Verified trade or technology-policy de-escalation would reduce semiconductor supply-chain uncertainty and earnings risk.",
+      "negative": "New restrictions or failed talks increase export and supply-chain risks; a meeting alone does not establish relief.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-15-PPI",
+      "date": "2026-12-15",
+      "expects": "No dependable release-specific economist consensus independently verified for this date. Energy pass-through and core services are key inputs to the tightening debate; prior rate probabilities are not refreshed pricing.",
+      "positive": "Moderating PCE-relevant service and input costs reduce margin pressure and the risk of further tightening.",
+      "negative": "Sticky services costs or energy pass-through raises the inflation outlook and pressures both yields and margins.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-16-IND PROD",
+      "date": "2026-12-16",
+      "expects": "No dependable monthly consensus verified; distinguish manufacturing output from weather-driven utilities and volatile mining.",
+      "positive": "Steady manufacturing production and manageable capacity pressure would support cyclical earnings.",
+      "negative": "Weak manufacturing signals softer demand, while supply constraints increase cost pressure.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-17-CLAIMS",
+      "date": "2026-12-17",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-18-MICH FIN",
+      "date": "2026-12-18",
+      "expects": "No dependable release-specific consensus verified. Latest official Oct 9 preliminary baseline: sentiment 46.3, one-year inflation expectations 4.7%, long-run 3.5%. This is a prior reading, not a forecast.",
+      "positive": "Anchored inflation expectations and steadier sentiment would reduce tightening risk while supporting consumption.",
+      "negative": "Rising inflation expectations alongside weaker sentiment deepen the rates-and-demand squeeze.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-23-GDP",
+      "date": "2026-12-23",
+      "expects": "No dependable final-estimate consensus verified; preceding Q3 estimates have not yet been released. Component revisions will establish the comparison.",
+      "positive": "Resilient private demand and investment with contained prices would support profits without worsening yield pressure.",
+      "negative": "A hot price component lifts rates, or weak underlying demand threatens earnings despite a positive headline.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-23-PCE",
+      "date": "2026-12-23",
+      "expects": "No reliable consensus verified for this forthcoming release. The latest published core increase was 0.2% month on month, a baseline rather than a forecast.",
+      "positive": "Cooling core prices with resilient real spending would support valuations and earnings despite elevated borrowing costs.",
+      "negative": "Persistent core inflation or weakening real spending creates an adverse rates-versus-growth trade-off.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-23-UST 20Y",
+      "date": "2026-12-23",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-24-CLAIMS",
+      "date": "2026-12-24",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-27-China Green Probe",
+      "date": "2026-12-27",
+      "expects": "MOFCOM Announcement 42 extends this distinct investigation to December 27. No finding, tariff rate or implementation date is confirmed.",
+      "positive": "Clear, limited implementation with workable compliance arrangements would reduce supply-chain uncertainty and avoid new earnings disruption.",
+      "negative": "Broader restrictions, retaliation or costly compliance increases technology-sector supply-chain and margin risk.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-27-China Supply Probe",
+      "date": "2026-12-27",
+      "expects": "MOFCOM Announcement 41 extends the investigation to December 27. No outcome or resulting trade measure is confirmed; the deadline does not guarantee sanctions.",
+      "positive": "Clear, limited implementation with workable compliance arrangements would reduce supply-chain uncertainty and avoid new earnings disruption.",
+      "negative": "Broader restrictions, retaliation or costly compliance increases technology-sector supply-chain and margin risk.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-29-UST 7Y",
+      "date": "2026-12-29",
+      "expects": "Formal announcements and when-issued pricing provide the baseline; no dependable tail, stop-through or bidder-share consensus is verified. A Fed pause need not remove long-duration supply risk.",
+      "positive": "A stop-through with strong indirect demand would contain elevated long yields and support duration-sensitive technology valuations.",
+      "negative": "A meaningful tail or weak indirect demand adds supply pressure to already elevated yields, reducing support for Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2026-12-31-CLAIMS",
+      "date": "2026-12-31",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2027-01-07-CLAIMS",
+      "date": "2027-01-07",
+      "expects": "No dependable forecast verified for this release. Latest Oct 8 baseline: 197,000 initial claims, 198,000 four-week average and 1.716 million continuing claims; refresh the consensus nearer release.",
+      "positive": "Gradual labor cooling without a sustained layoffs surge would contain wage pressure and preserve earnings demand.",
+      "negative": "Exceptionally low claims revive tightening concerns, or rising continuing claims signal deteriorating demand.",
+      "interpretationAsOf": "2026-10-15"
+    },
+    {
+      "id": "2027-01-10-US-CHINA-TRUCE",
+      "date": "2027-01-10",
+      "expects": "The existing arrangement is extended through January 10, 2027. Chinese officials say both sides will continue discussions and seek a further extension before year-end; no dependable market consensus is available on a successor agreement or post-deadline tariff path.",
+      "positive": "A timely, clearly documented further extension or broader agreement that preserves predictable tariff treatment and avoids new technology restrictions would best support semiconductor and mega-cap technology supply chains.",
+      "negative": "Failure to agree before the deadline could revive tariff uncertainty or trigger higher duties and related trade restrictions, pressuring global technology supply chains and risk appetite.",
+      "interpretationAsOf": "2026-10-16"
+    },
+    {
+      "id": "2027-01-13-CPI",
+      "date": "2027-01-13",
+      "expects": "No dependable December CPI forecast is available this far ahead. The latest known reading is September's 3.7% headline inflation and 0.3% monthly core increase; update consensus nearer release.",
+      "positive": "Core inflation cooling from the September heat while demand remains resilient would lower the risk of sustained restrictive policy and support long-duration technology valuations.",
+      "negative": "Another sticky core/services print or energy pass-through would revive higher-for-longer or further-tightening pricing and weigh on Nasdaq multiples.",
+      "interpretationAsOf": "2026-10-15"
+    }
+  ],
+  "reviewedEventCount": 107,
+  "unconfirmedCandidates": [
+    {
+      "event": "Alphabet Q3 2026 earnings, October 28",
+      "note": "Issuer-syndicated listing found, but direct official confirmation not retrievable; not promoted in this run."
+    }
+  ]
+}
