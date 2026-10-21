@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T04:25:00Z",
-  "asOf": "2026-10-20",
+  "updatedAt": "2026-10-21T04:01:44.104Z",
+  "asOf": "2026-10-21",
   "horizonEnd": "2027-01-18",
   "events": [
     {
@@ -15,8 +15,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -32,7 +32,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -66,8 +66,8 @@
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -76,7 +76,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -95,12 +95,12 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "interpretationSources": [
         {
           "url": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
@@ -112,7 +112,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -133,8 +133,8 @@
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -143,7 +143,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -162,12 +162,12 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "id": "2026-10-07-FOMC MINUTES",
       "timeLabel": "14:00 ET · 21:00 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -184,7 +184,7 @@
         }
       ],
       "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -206,8 +206,8 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -220,7 +220,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -234,8 +234,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -255,7 +255,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -289,12 +289,12 @@
       "id": "2026-10-08-TSMC",
       "timeLabel": "Publication time not fixed",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [],
       "eventKey": "tsmc-monthly-sales",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -317,8 +317,8 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -331,7 +331,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -345,8 +345,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -366,7 +366,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -390,8 +390,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.reuters.com/business/energy/trump-big-announcement-coming-up-diesel-2026-10-09/",
       "sources": [
         {
@@ -411,7 +411,7 @@
       "bias": "Bullish bias",
       "uncertainty": "High",
       "explanation": "Diesel is a major transport and production input. A persistent price change can affect inflation expectations, Treasury yields, margins and therefore Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -450,9 +450,9 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A key semiconductor capital-equipment report testing whether AI investment translates into orders and profitable deliveries.",
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -476,8 +476,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -493,7 +493,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -527,8 +527,8 @@
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -551,7 +551,7 @@
           "title": "Reuters Oct 12 CPI consensus and current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isNew": false
     },
     {
@@ -565,8 +565,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -582,7 +582,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -621,8 +621,8 @@
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -639,7 +639,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -661,8 +661,8 @@
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -679,7 +679,7 @@
         }
       ],
       "eventKey": "retail-sales",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -703,8 +703,8 @@
       "id": "2026-10-15-TSM Earnings",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
@@ -721,7 +721,7 @@
           "title": "Verified baseline or current context; supportive/risk outcomes are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -735,8 +735,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -756,7 +756,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Public remarks by the Fed Chair can reprice rates and Treasury yields even without a scheduled policy decision.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/",
@@ -780,8 +780,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -797,7 +797,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
@@ -825,8 +825,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
       "sources": [
         {
@@ -842,7 +842,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Monthly expiration can concentrate hedging and closing flows, but it is a volatility catalyst rather than a directional forecast.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
@@ -862,8 +862,8 @@
       "importance": "High",
       "status": "resolved",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
       "sources": [
         {
@@ -889,7 +889,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "resolvedAt": "2026-10-16",
       "isUpdated": true
     },
@@ -919,10 +919,10 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx",
@@ -947,9 +947,9 @@
       "explanation": "Memory and leading-edge equipment guidance is a semiconductor capital-spending read-through.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
@@ -977,7 +977,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-21-META Earnings",
@@ -992,9 +992,9 @@
       "explanation": "Advertising demand and AI spending returns test mega-cap cash generation.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
@@ -1026,7 +1026,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-21-TSLA Earnings",
@@ -1047,8 +1047,8 @@
       "positive": "Stronger automotive margins and cash generation alongside energy growth would matter more than delivery volume alone.",
       "negative": "Price cuts, weak margins or capital commitments without visible returns offset delivery growth.",
       "sourceUrl": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "sources": [
         {
@@ -1070,7 +1070,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -1086,9 +1086,9 @@
       "explanation": "Analog demand, inventories and utilization provide a broader-cycle semiconductor check.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://investor.ti.com/news-releases/news-release-details/texas-instruments-webcast-q3-2026-earnings-conference-call",
@@ -1116,7 +1116,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-21-UST 20Y",
@@ -1137,8 +1137,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -1155,7 +1155,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -1169,8 +1169,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1186,7 +1186,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -1236,9 +1236,9 @@
         }
       ],
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "verification": {
         "asOf": "2026-10-20",
         "standard": "strong reputable wire confirmation attributed to union statement",
@@ -1246,7 +1246,7 @@
         "exactStartConfirmed": false,
         "productionImpactConfirmed": false
       },
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/",
@@ -1269,12 +1269,12 @@
       "positive": "Resilient orders with cooler selling prices and orderly hiring would support earnings without amplifying oil-driven inflation or reversing bond-market relief.",
       "negative": "Sticky output prices with weaker activity would deepen the inflation-growth squeeze; an overheating surprise could instead lift yields.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1291,7 +1291,7 @@
         }
       ],
       "eventKey": "flash-pmi",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://www.mtsinsights.com/events/4745/",
@@ -1310,8 +1310,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -1331,7 +1331,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -1361,8 +1361,8 @@
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1375,12 +1375,12 @@
         }
       ],
       "eventKey": "fomc-day-1",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
     {
-      "expects": "Reuters October 19–20 reporting supports a hold at 3.75%–4.00% as the prevailing expectation. The latest numerical snapshot independently verified was October 19 (16% hike probability); no live replacement probability was verified.",
+      "expects": "Reuters' October 16–20 poll found 94 of 100 economists expect the Fed to hold at 3.75%–4.00% on October 28. Fed-funds futures implied an 83% hold probability early October 21; both are dated snapshots, not commitments.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -1391,15 +1391,15 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "The current market baseline favors no October change, but the decision and Warsh’s guidance will reset the path for December and 2027.",
-      "positive": "A credible pause with inflation discipline and resilient demand would relieve funding pressure without implying a growth emergency.",
-      "negative": "An unexpected hike or a firmer tightening path would pressure yields and valuations; energy inflation limits the scope for unconditional dovishness.",
+      "positive": "A well-communicated hold that preserves inflation credibility without pointing to a growth break would limit renewed pressure on long yields and Nasdaq valuations.",
+      "negative": "A surprise hike, or guidance that makes a larger December move more likely, would pressure yields and long-duration technology valuations; an overly dovish message could also unanchor inflation expectations.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
@@ -1427,7 +1427,7 @@
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://www.reuters.com/world/africa/dollar-holds-near-18-month-high-geopolitical-risks-rise-2026-10-13/",
@@ -1466,10 +1466,10 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
@@ -1494,9 +1494,9 @@
       "explanation": "Process-control demand and margins test advanced-node investment durability.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
@@ -1524,7 +1524,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-28-MSFT Earnings",
@@ -1539,9 +1539,9 @@
       "explanation": "Azure growth, AI monetization and capital-spending returns can move Nasdaq and chip suppliers.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
@@ -1569,7 +1569,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-29-AMZN Earnings",
@@ -1584,9 +1584,9 @@
       "explanation": "AWS and retail margins test cloud demand, consumers and capital-spending economics.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
@@ -1618,7 +1618,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-29-CLAIMS",
@@ -1631,8 +1631,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1648,7 +1648,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -1674,8 +1674,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "id": "2026-10-29-FCC China Labs",
       "date": "2026-10-29",
       "short": "FCC China Labs",
@@ -1707,11 +1707,11 @@
           "title": "Verified baseline or current context; supportive/risk outcomes are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
-      "expects": "No dependable Q3 advance-GDP consensus verified as of October 20. Separate private demand and productive investment from volatile trade/inventory contributions.",
+      "expects": "The October 16–20 Reuters economic poll put Q3 annualized growth at about 3.2%, versus 2.2% in Q2. Treat the figure as a dated survey estimate and separate private demand and productive investment from volatile trade and inventories.",
       "watch": "Headline, prices paid, employment, wages and revisions",
       "window": "Release through the first 90 minutes",
       "bias": "Neutral",
@@ -1722,14 +1722,14 @@
       "type": "Macro",
       "importance": "High",
       "explanation": "The first estimate of Q3 growth arrives alongside September PCE; the immediate market reaction reflects both.",
-      "positive": "Sustainable private demand and productive investment with moderating prices would support profits without adding inflation pressure.",
-      "negative": "Weak underlying demand hidden by inventories/trade, or a hot price component, would undermine the growth/inflation balance.",
+      "positive": "Broad, sustainable private demand and productive investment with contained price pressure would support earnings without forcing a more aggressive Fed response.",
+      "negative": "A hot price mix or demand strong enough to extend tightening would pressure yields; weak private demand hidden by inventories or trade would weaken the earnings outlook.",
       "sourceUrl": "https://www.bea.gov/news/schedule",
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1746,7 +1746,7 @@
         }
       ],
       "eventKey": "gdp-advance",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -1755,8 +1755,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "id": "2026-10-29-INTC Earnings",
       "date": "2026-10-29",
       "short": "INTC Earnings",
@@ -1792,7 +1792,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -1813,8 +1813,8 @@
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1843,7 +1843,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -1852,8 +1852,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "id": "2026-10-29-STM Earnings",
       "date": "2026-10-29",
       "short": "STM Earnings",
@@ -1889,7 +1889,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -1911,8 +1911,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -1929,7 +1929,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -1947,12 +1947,12 @@
       "positive": "Productivity-led cost restraint and measured wage growth would protect margins while reducing tightening pressure.",
       "negative": "Labor costs outpace productivity, leaving companies with weaker margins or more price pass-through.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1973,7 +1973,7 @@
         }
       ],
       "eventKey": "employment-cost",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -1989,9 +1989,9 @@
       "explanation": "iPhone demand and the holiday outlook affect a major Nasdaq weight and hardware suppliers.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://investor.apple.com/investor-relations/default.aspx",
@@ -2019,7 +2019,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "expects": "No dependable release-specific consensus verified. Read orders, employment and prices jointly; a stronger headline alone is not automatically favorable with tightening still priced.",
@@ -2036,12 +2036,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2062,7 +2062,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2078,9 +2078,9 @@
       "explanation": "Final manufacturing data precedes ISM by 15 minutes; pricing and orders matter alongside activity.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/us-investor-risk-appetite-tempered-as-apprehension-on-rates-october-flash-pmi-to-provide-fresh-market-guidance",
@@ -2121,7 +2121,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-11-03-AMD Earnings",
@@ -2142,8 +2142,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
       "sources": [
         {
@@ -2169,7 +2169,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -2187,12 +2187,12 @@
       "positive": "Gradually cooling vacancies with stable hiring would reduce wage pressure without implying a broad demand break.",
       "negative": "Weak hiring despite apparently firm openings could expose growth risk; renewed labor tightness could sustain inflation.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2213,7 +2213,7 @@
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2233,8 +2233,8 @@
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2247,7 +2247,7 @@
         }
       ],
       "eventKey": "us-midterm-elections",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false,
       "sourceUrl": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/"
@@ -2257,8 +2257,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "id": "2026-11-04-ARM Earnings",
       "date": "2026-11-04",
       "short": "ARM Earnings",
@@ -2294,7 +2294,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -2312,12 +2312,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2338,8 +2338,59 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
+    },
+    {
+      "id": "2026-11-04-QCOM Earnings",
+      "date": "2026-11-04",
+      "short": "QCOM Earnings",
+      "event": "Qualcomm fiscal Q4 2026 earnings conference call",
+      "eventKey": "qcom-earnings",
+      "type": "Earnings",
+      "importance": "Critical",
+      "timeLabel": "16:45 ET · 00:45 Istanbul Nov 5",
+      "status": "scheduled",
+      "expects": "Qualcomm guided to adjusted EPS of $2.05–$2.25 and revenue of $9.7–$10.5 billion. The July LSEG snapshot was $2.36 EPS and $10.02 billion revenue; those estimates may have changed and are not presented as live consensus.",
+      "positive": "Results or guidance showing Android recovery, automotive/data-center diversification and margin protection despite memory costs and declining Apple exposure would support Qualcomm and semiconductor breadth.",
+      "negative": "Higher memory and manufacturing costs, faster Apple revenue erosion, weak handset demand or unclear returns from data-center investment could pressure margins and the broader chip complex.",
+      "watch": "Adjusted EPS and revenue versus guidance, handset mix, Apple exposure, memory/input costs, automotive and data-center pipeline, layoffs and forward guidance",
+      "window": "After-hours release and 16:45 ET call through the next U.S. regular session",
+      "explanation": "Qualcomm is a large Nasdaq semiconductor company and a read-through for premium smartphones, edge AI, automotive chips and emerging data-center accelerators.",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "isUpdated": false,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
+      "sourceUrl": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
+      "sources": [
+        {
+          "url": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
+          "title": "Official Qualcomm event page confirming November 4 at 1:45 p.m. PT"
+        },
+        {
+          "url": "https://www.reuters.com/business/retail-consumer/qualcomm-forecasts-weak-quarterly-profit-expects-apple-revenue-drop-accelerate-2026-07-29/",
+          "title": "Reuters report on issuer guidance and the July LSEG expectation snapshot"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/qualcomm-cut-jobs-worldwide-performance-focused-layoffs-internal-memo-shows-2026-10-20/",
+          "title": "Current Qualcomm operating context checked October 21"
+        },
+        {
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-21/",
+          "title": "Current yields, oil and technology-market context checked October 21"
+        }
+      ],
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "verification": {
+        "asOf": "2026-10-21",
+        "standard": "official issuer confirmation",
+        "dateConfirmed": true,
+        "callTimeConfirmed": true
+      }
     },
     {
       "id": "2026-11-04-SP SERVICES FINAL",
@@ -2354,9 +2405,9 @@
       "explanation": "Services and composite activity and prices provide an economy-wide read before ISM Services.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/us-investor-risk-appetite-tempered-as-apprehension-on-rates-october-flash-pmi-to-provide-fresh-market-guidance",
@@ -2397,7 +2448,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-11-05-CLAIMS",
@@ -2410,8 +2461,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2427,7 +2478,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -2473,8 +2524,8 @@
       "negative": "Labor costs outpace productivity, leaving companies with weaker margins or more price pass-through.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2495,7 +2546,7 @@
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "expects": "No dependable release-specific payroll, unemployment or wage consensus verified. September payroll growth was 29,000 with unemployment 4.2%; the published baseline is not a forecast.",
@@ -2512,12 +2563,12 @@
       "positive": "Orderly wage moderation and steady employment would ease rate pressure without undermining household demand.",
       "negative": "A material hiring deterioration and downward revisions threaten earnings; unexpectedly hot wages would instead strengthen tightening risk.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-06-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2538,7 +2589,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2552,8 +2603,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -2573,7 +2624,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -2601,12 +2652,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2635,7 +2686,7 @@
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2643,8 +2694,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "id": "2026-11-10-TSMC Sales",
       "date": "2026-11-10",
       "short": "TSMC Sales",
@@ -2680,7 +2731,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -2702,8 +2753,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -2720,7 +2771,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2734,8 +2785,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2751,7 +2802,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -2791,8 +2842,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -2809,7 +2860,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2827,12 +2878,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-13-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2857,7 +2908,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2873,9 +2924,9 @@
       "explanation": "The consultation close is not a confirmed final-rule start date; provisional export registration began October 16.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
@@ -2903,7 +2954,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-11-17-IND PROD",
@@ -2916,8 +2967,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -2933,7 +2984,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
@@ -2967,9 +3018,9 @@
       "explanation": "Spending and revisions can shift growth and Fed expectations.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://www.census.gov/retail/release_schedule.html",
@@ -3001,7 +3052,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "expects": "APEC is confirmed for November 18–19. Reuters/WSJ reports a proposed Trump–Xi–Putin meeting, but Trump has not agreed and no agenda/date is confirmed. No separate bilateral or trilateral summit is scheduled here.",
@@ -3018,12 +3069,12 @@
       "positive": "Specific, implemented trade or security de-escalation would support investment and supply chains more than tentative meeting headlines.",
       "negative": "Talks fail to materialize or produce new tariff/export-control confrontation; diplomatic speculation does not remove existing supply risks.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.apec.org/",
       "id": "2026-11-18-APEC",
       "timeLabel": "Nov 18–19 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3044,7 +3095,7 @@
         }
       ],
       "eventKey": "apec-leaders",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://www.apec.org/",
@@ -3067,12 +3118,12 @@
       "positive": "Evidence of improving cost control with resilient demand and orderly credit would support cash generation without requiring tighter rates.",
       "negative": "Persistent price pressure combined with weaker demand or tighter credit would reveal a less favorable earnings/funding mix.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "id": "2026-11-18-FOMC MINUTES",
       "timeLabel": "14:00 ET · 22:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3097,7 +3148,7 @@
         }
       ],
       "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3119,8 +3170,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -3137,7 +3188,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3151,8 +3202,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3168,7 +3219,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3200,8 +3251,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -3221,7 +3272,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -3245,8 +3296,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -3262,7 +3313,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
@@ -3298,8 +3349,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3315,7 +3366,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3354,8 +3405,8 @@
       "id": "2026-11-25-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3372,7 +3423,7 @@
         }
       ],
       "eventKey": "gdp-second",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -3394,8 +3445,8 @@
       "id": "2026-11-25-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3424,7 +3475,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -3447,8 +3498,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -3465,7 +3516,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3483,12 +3534,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3509,7 +3560,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3527,12 +3578,12 @@
       "positive": "Gradually cooling vacancies with stable hiring would reduce wage pressure without implying a broad demand break.",
       "negative": "Weak hiring despite apparently firm openings could expose growth risk; renewed labor tightness could sustain inflation.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched.htm",
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3553,7 +3604,7 @@
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3567,8 +3618,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3584,7 +3635,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3620,12 +3671,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3646,7 +3697,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3664,12 +3715,12 @@
       "positive": "Orderly wage moderation and steady employment would ease rate pressure without undermining household demand.",
       "negative": "A material hiring deterioration and downward revisions threaten earnings; unexpectedly hot wages would instead strengthen tightening risk.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3690,7 +3741,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3704,8 +3755,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -3725,7 +3776,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -3763,8 +3814,8 @@
       "negative": "Labor costs outpace productivity, leaving companies with weaker margins or more price pass-through.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3785,7 +3836,7 @@
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-12-08-UST 10Y",
@@ -3806,8 +3857,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -3824,11 +3875,11 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
-      "expects": "Further tightening remains a credible year-end expectation. The last independently verified numerical snapshot was Reuters/CME on October 19 (92% December increase probability); it is not live pricing or a Fed commitment.",
+      "expects": "All 100 economists in Reuters' October 16–20 poll expected a December rate increase, while nearly 60% saw the policy rate peaking at 4.00%–4.25%. The result remains conditional on incoming inflation, labor and energy data.",
       "watch": "Decision, statement changes, vote, projections and press conference",
       "window": "14:00–15:30 ET",
       "bias": "Neutral",
@@ -3839,15 +3890,15 @@
       "type": "Fed",
       "importance": "Critical",
       "explanation": "Updated dot plot, rate decision and press conference will set the 2027 policy baseline.",
-      "positive": "Evidence that underlying inflation is easing while earnings demand holds would allow a less restrictive path without sacrificing inflation credibility.",
-      "negative": "Persistent energy and services inflation forces tighter policy than priced, while weaker credit-sensitive demand threatens profits.",
+      "positive": "A measured path backed by easing underlying inflation and resilient demand would reduce the risk of a larger tightening cycle while preserving Fed credibility.",
+      "negative": "Persistent energy and services inflation forces a larger or longer tightening path than expected, while weaker credit-sensitive demand threatens profits.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3868,7 +3919,7 @@
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3882,8 +3933,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3899,7 +3950,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3935,12 +3986,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3969,7 +4020,7 @@
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3977,8 +4028,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "id": "2026-12-10-TSMC Sales",
       "date": "2026-12-10",
       "short": "TSMC Sales",
@@ -4014,7 +4065,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -4036,8 +4087,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -4054,7 +4105,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4072,12 +4123,12 @@
       "positive": "Actionable de-escalation and predictable investment, energy and technology rules would support global earnings and lower risk premia.",
       "negative": "Renewed tariff, sanctions or security confrontation overrides positive diplomatic language and increases supply-chain uncertainty.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0398",
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4098,7 +4149,7 @@
         }
       ],
       "eventKey": "g20-leaders",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://home.treasury.gov/news/press-releases/sb0398",
@@ -4121,12 +4172,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
+      "lastUpdated": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4151,7 +4202,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4165,8 +4216,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "sources": [
         {
@@ -4182,7 +4233,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
@@ -4216,9 +4267,9 @@
       "explanation": "Spending and revisions can shift growth and Fed expectations.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://www.census.gov/retail/release_schedule.html",
@@ -4250,7 +4301,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-12-17-CLAIMS",
@@ -4263,8 +4314,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4280,7 +4331,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4312,8 +4363,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -4333,7 +4384,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -4364,8 +4415,8 @@
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4382,7 +4433,7 @@
         }
       ],
       "eventKey": "gdp-final",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -4404,8 +4455,8 @@
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4434,7 +4485,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -4457,8 +4508,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -4475,7 +4526,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4489,8 +4540,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4506,7 +4557,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4547,8 +4598,8 @@
       "id": "2026-12-27-China Green Probe",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
@@ -4569,7 +4620,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -4592,8 +4643,8 @@
       "id": "2026-12-27-China Supply Probe",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
@@ -4614,7 +4665,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -4636,8 +4687,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-20",
-      "lastUpdated": "2026-10-20",
+      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-21",
       "isNew": false,
       "interpretationSources": [
         {
@@ -4654,7 +4705,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4668,8 +4719,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4685,7 +4736,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4707,6 +4758,58 @@
       "isUpdated": true
     },
     {
+      "id": "2027-01-01-CANADA AUTO TARIFF",
+      "date": "2027-01-01",
+      "short": "Canada auto tariff",
+      "event": "Threatened 50% tariffs on Canadian vehicles and parts — announced effective date",
+      "eventKey": "canada-auto-tariff-threat",
+      "type": "Policy",
+      "importance": "High",
+      "timeLabel": "January 1 effective date announced · exact time unannounced",
+      "status": "scheduled",
+      "expects": "President Trump announced a 50% tariff on Canadian vehicles, trucks and auto parts from January 1, but no implementing proclamation or dependable deal probability was verified. Industry participants still see room for negotiation before the date.",
+      "positive": "A documented agreement, exemption or delay that preserves integrated North American supply chains and limits inflation spillovers would support risk appetite and rate-sensitive Nasdaq valuations.",
+      "negative": "Implementation at 50%, especially on parts, could lift U.S. production costs and inflation expectations, pressure automakers and suppliers, and reinforce a higher-for-longer rate path.",
+      "watch": "White House or Federal Register implementation notice, product scope, USMCA treatment, Canada retaliation, negotiations and exemptions",
+      "window": "Official announcements before the holiday effective date and the next U.S. regular trading session",
+      "explanation": "The direct earnings exposure is concentrated in autos, but the tariff can affect inflation, supply chains and Treasury yields—important transmission channels for Nasdaq.",
+      "bias": "Bearish bias",
+      "uncertainty": "High",
+      "isNew": true,
+      "isUpdated": false,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
+      "sourceUrl": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
+          "title": "Reuters report of the announced January 1 start date and tariff scope"
+        },
+        {
+          "url": "https://www.reuters.com/business/autos-transportation/automakers-thought-canada-was-getting-trade-deal-then-tariffs-doubled-2026-08-26/",
+          "title": "Reuters industry follow-up on supply-chain exposure and negotiation uncertainty"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/autos-transportation/automakers-thought-canada-was-getting-trade-deal-then-tariffs-doubled-2026-08-26/",
+          "title": "Verified baseline; supportive and adverse outcomes are conditional analysis"
+        },
+        {
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-21/",
+          "title": "Current yields, oil and risk-market context checked October 21"
+        }
+      ],
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "verification": {
+        "asOf": "2026-10-21",
+        "standard": "strong confirmation from two Reuters reports",
+        "announcedDateConfirmed": true,
+        "implementingProclamationVerified": false,
+        "exactTimeConfirmed": false
+      }
+    },
+    {
       "id": "2027-01-07-CLAIMS",
       "date": "2027-01-07",
       "short": "CLAIMS",
@@ -4717,8 +4820,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4734,7 +4837,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4768,9 +4871,9 @@
       "explanation": "Payrolls, unemployment and wages can reset growth and rate expectations.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://www.bls.gov/schedule/2027/01_sched_list.htm",
@@ -4802,7 +4905,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2027-01-10-US-CHINA-TRUCE",
@@ -4815,8 +4918,8 @@
       "importance": "Critical",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://english.www.gov.cn/news/202609/28/content_WS6aba53c5c6d00ca5f9a0d803.html",
       "sources": [
         {
@@ -4836,7 +4939,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "The current bilateral tariff arrangement runs through this deadline. Any further extension, tariff change or breakdown could alter costs and supply-chain expectations for technology companies.",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
@@ -4868,8 +4971,8 @@
       "importance": "Critical",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
       "sources": [
         {
@@ -4911,7 +5014,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -4940,10 +5043,10 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution.",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
@@ -4976,9 +5079,9 @@
       "explanation": "Producer prices and PCE-relevant components follow January 13 CPI.",
       "status": "scheduled",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-20",
-      "interpretationAsOf": "2026-10-20",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-21",
       "sources": [
         {
           "url": "https://www.bls.gov/schedule/2027/01_sched_list.htm",
@@ -5014,7 +5117,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 20: energy/supply risk remains despite the Russia waiver; semiconductor and AI earnings require evidence of demand, margins and cash returns. Preferred/risk outcomes are conditional analysis, not market consensus or causal attribution."
+      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     }
   ],
   "recentEvents": [
@@ -5699,7 +5802,7 @@
     }
   ],
   "coverageCheck": {
-    "checkedAt": "2026-10-20T04:25:00Z",
+    "checkedAt": "2026-10-21T04:01:44.104Z",
     "comparisonSource": "https://www.marketwatch.com/economy-politics/calendar",
     "policy": "Major releases only; secondary calendar candidates require official confirmation; never infer cancellation from absence.",
     "addedIds": [
@@ -5750,23 +5853,26 @@
       "2026-10-20-NFLX Earnings",
       "2026-10-28-GOOGL Earnings",
       "2027-01-14-CLAIMS",
-      "2026-10-22-MU STRIKE"
+      "2026-10-22-MU STRIKE",
+      "2026-11-04-QCOM Earnings",
+      "2027-01-01-CANADA AUTO TARIFF"
     ],
-    "lastResearchDate": "2026-10-20",
-    "researchNotes": "October 10 automated input is ten days old; independent research completed. Added the union-announced October 22 Taiwan-date Micron strike with exact start/duration/output effect unverified. Rechecked next Flash PMI at 09:45 ET; direct S&P calendar still 403. Updated services forecast to 58.0. Reviewed all displayed expectations/preferred outcomes/risks; no cancellation inferred from feed absence."
+    "lastResearchDate": "2026-10-21",
+    "researchNotes": "October 10 automated input remains stale; independent October 21 research completed. Added official Qualcomm November 4 earnings and the Reuters-confirmed January 1 announced effective date for threatened Canadian vehicle/parts tariffs, explicitly noting that no implementing proclamation was verified. Rechecked October 23 Flash PMI at 09:45 ET, official macro calendars and all displayed interpretations. Updated Fed and Q3 GDP expectations from the October 16–20 Reuters poll; no cancellation inferred from feed absence."
   },
   "interpretationReview": {
-    "asOf": "2026-10-20",
-    "reviewedEventCount": 111,
-    "context": "Fresh review of all displayed expectations and scenarios. Oil/shipping risk persists despite the waiver; AI earnings, financing and operating continuity remain key. The Micron strike is a confirmed union plan, not a verified output loss. Historical outcomes are not rewritten as forward forecasts.",
+    "asOf": "2026-10-21",
+    "reviewedEventCount": 113,
+    "context": "Fresh review of every displayed expectation and scenario. Reuters' October 16–20 poll now gives a strong October Fed-hold consensus and a December-hike consensus; oil around $110 and the 10-year yield near 5.12% keep inflation and valuation risks elevated. Historical outcomes remain retrospective rather than being rewritten as forecasts.",
     "sources": [
-      "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-20/",
-      "https://www.reuters.com/business/energy/oil-eases-markets-assess-potential-waiver-russian-energy-middle-east-supply-2026-10-20/",
-      "https://www.reuters.com/markets/wealth/fed-sees-ai-boom-adding-inflation-headache-others-may-pay-medicine-2026-10-19/",
-      "https://www.federalreserve.gov/releases/h15/",
+      "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/",
+      "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-21/",
+      "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/",
       "https://www.marketwatch.com/economy-politics/calendar",
-      "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/"
+      "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "https://www.bea.gov/news/schedule",
+      "https://www.bls.gov/schedule/2026/home.htm"
     ],
-    "priorInterpretationArchive": "history/calendar-refresh/research-2026-10-20.json"
+    "priorInterpretationArchive": "history/calendar-refresh/research-2026-10-21.json"
   }
 }
