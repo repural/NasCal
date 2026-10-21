@@ -1,21 +1,16 @@
 {
-  "checkedAt": "2026-10-21T07:40:54.745Z",
+  "checkedAt": "2026-10-21T16:26:48.275Z",
   "issues": [
     {
-      "id": "2026-04-03-JOBS",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
+      "id": "2026-10-15-PPI",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-04-03-JOBS",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-16-IND PROD",
+      "id": "2026-10-08-TSMC",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 2
+  "requests": 0
 }
