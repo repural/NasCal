@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T04:01:44.104Z",
-  "asOf": "2026-10-21",
+  "updatedAt": "2026-10-22T03:59:27.491Z",
+  "asOf": "2026-10-22",
   "horizonEnd": "2027-01-18",
   "events": [
     {
@@ -15,8 +15,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -32,7 +32,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -66,8 +66,8 @@
       "id": "2026-10-01-ISM",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -76,7 +76,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -95,12 +95,12 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
       "id": "2026-10-02-Jobs",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "interpretationSources": [
         {
           "url": "https://www.reuters.com/business/wall-st-week-ahead-jobs-report-inflation-data-test-us-rate-path-economic-2026-09-25/",
@@ -112,7 +112,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -133,8 +133,8 @@
       "id": "2026-10-05-ISM Services",
       "timeLabel": "10:00 ET · 17:00 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -143,7 +143,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -162,12 +162,12 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "id": "2026-10-07-FOMC MINUTES",
       "timeLabel": "14:00 ET · 21:00 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -184,7 +184,7 @@
         }
       ],
       "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -206,8 +206,8 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -220,7 +220,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -234,8 +234,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -255,7 +255,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -289,12 +289,12 @@
       "id": "2026-10-08-TSMC",
       "timeLabel": "Publication time not fixed",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [],
       "eventKey": "tsmc-monthly-sales",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -317,8 +317,8 @@
       "positive": "Completed event: assess the recorded outcome against the expectation available before release; there is no new prospective preferred outcome.",
       "negative": "Recorded return windows can contain other macro, earnings and policy news; do not interpret them as the isolated causal effect of this release.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -331,7 +331,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -345,8 +345,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -366,7 +366,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -390,8 +390,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.reuters.com/business/energy/trump-big-announcement-coming-up-diesel-2026-10-09/",
       "sources": [
         {
@@ -411,7 +411,7 @@
       "bias": "Bullish bias",
       "uncertainty": "High",
       "explanation": "Diesel is a major transport and production input. A persistent price change can affect inflation expectations, Treasury yields, margins and therefore Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -450,9 +450,9 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A key semiconductor capital-equipment report testing whether AI investment translates into orders and profitable deliveries.",
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -476,8 +476,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -493,7 +493,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -527,8 +527,8 @@
       "id": "2026-10-14-CPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -551,7 +551,7 @@
           "title": "Reuters Oct 12 CPI consensus and current rate-market context"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isNew": false
     },
     {
@@ -565,8 +565,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -582,7 +582,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -621,8 +621,8 @@
       "id": "2026-10-15-PPI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -639,7 +639,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -661,8 +661,8 @@
       "id": "2026-10-15-Retail",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "released",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -679,7 +679,7 @@
         }
       ],
       "eventKey": "retail-sales",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -703,8 +703,8 @@
       "id": "2026-10-15-TSM Earnings",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
@@ -721,7 +721,7 @@
           "title": "Verified baseline or current context; supportive/risk outcomes are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -735,8 +735,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -756,7 +756,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Public remarks by the Fed Chair can reprice rates and Treasury yields even without a scheduled policy decision.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.reuters.com/markets/asia/feds-warsh-gives-no-hint-october-policy-decision-2026-10-16/",
@@ -780,8 +780,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "sources": [
         {
@@ -797,7 +797,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
@@ -825,8 +825,8 @@
       "importance": "High",
       "status": "released",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
       "sources": [
         {
@@ -842,7 +842,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "Monthly expiration can concentrate hedging and closing flows, but it is a volatility catalyst rather than a directional forecast.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.optionseducation.org/getmedia/78d096fb-a61e-4120-b84a-35b631b58c4b/2026-Expiration-Calendar-12-16-FINAL.pdf?ext=.pdf",
@@ -862,8 +862,8 @@
       "importance": "High",
       "status": "resolved",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/",
       "sources": [
         {
@@ -889,7 +889,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "resolvedAt": "2026-10-16",
       "isUpdated": true
     },
@@ -920,9 +920,9 @@
       "uncertainty": "High",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx",
@@ -948,8 +948,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://newsroom.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
@@ -977,7 +977,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-21-META Earnings",
@@ -993,8 +993,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
@@ -1026,7 +1026,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-21-TSLA Earnings",
@@ -1047,8 +1047,8 @@
       "positive": "Stronger automotive margins and cash generation alongside energy growth would matter more than delivery volume alone.",
       "negative": "Price cuts, weak margins or capital commitments without visible returns offset delivery growth.",
       "sourceUrl": "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "sources": [
         {
@@ -1070,7 +1070,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -1087,8 +1087,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://investor.ti.com/news-releases/news-release-details/texas-instruments-webcast-q3-2026-earnings-conference-call",
@@ -1116,7 +1116,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-21-UST 20Y",
@@ -1137,8 +1137,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -1155,7 +1155,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -1169,8 +1169,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1186,7 +1186,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -1208,49 +1208,95 @@
       "isUpdated": true
     },
     {
+      "id": "2026-10-22-MIDEAST OIL ESCALATION",
+      "date": "2026-10-22",
+      "short": "Oil escalation",
+      "event": "Saudi attacks and U.S. diplomatic drawdown intensify oil-supply risk",
+      "eventKey": "middle-east-oil-supply-escalation",
+      "type": "Market",
+      "importance": "Critical",
+      "timeLabel": "Breaking event · Reuters 00:46 UTC / 03:46 Istanbul",
+      "status": "released",
+      "expects": "No dependable consensus exists for the duration or supply loss. Reuters reported Brent near $110.11 and WTI near $98.12 early October 22 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns; prices include both physical-risk and geopolitical-risk premiums.",
+      "positive": "Attacks are contained, oil infrastructure and shipping flows remain operational, and credible de-escalation lowers crude and inflation expectations, easing pressure on long yields and technology multiples.",
+      "negative": "Damage spreads to major Saudi facilities or Gulf shipping, causing verified supply losses, another oil spike and a higher inflation/rate path that compresses Nasdaq valuations.",
+      "watch": "Verified facility damage and output loss, Gulf loadings, shipping incidents, Brent/WTI, official security actions and Treasury inflation expectations",
+      "window": "Continuous headline risk through U.S. cash trading and subsequent Gulf operating updates",
+      "explanation": "The direct shock is in energy and transport, but the Nasdaq channel is oil-driven inflation, Treasury yields, consumer demand and data-center power costs. A price spike alone does not prove a physical supply loss.",
+      "bias": "Bearish bias",
+      "uncertainty": "High",
+      "isNew": true,
+      "isUpdated": false,
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "sourceUrl": "https://www.reuters.com/business/energy/oil-prices-rise-more-attacks-saudi-arabia-us-orders-diplomatic-drawdown-2026-10-22/",
+      "sources": [
+        {
+          "url": "https://www.reuters.com/business/energy/oil-prices-rise-more-attacks-saudi-arabia-us-orders-diplomatic-drawdown-2026-10-22/",
+          "title": "Reuters October 22: attacks, diplomatic drawdowns and early oil-price levels"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/business/energy/oil-prices-rise-more-attacks-saudi-arabia-us-orders-diplomatic-drawdown-2026-10-22/",
+          "title": "Verified breaking-event baseline; forward paths are conditional analysis"
+        }
+      ],
+      "verification": {
+        "asOf": "2026-10-22",
+        "standard": "strong reputable wire confirmation",
+        "attacksConfirmed": true,
+        "diplomaticDrawdownConfirmed": true,
+        "broadPhysicalSupplyLossConfirmed": false
+      }
+    },
+    {
       "id": "2026-10-22-MU STRIKE",
       "date": "2026-10-22",
       "short": "MU STRIKE",
-      "event": "Micron Taoyuan union plans solidarity strike",
+      "event": "Micron Taoyuan union 24-hour solidarity strike",
       "eventKey": "mu-taoyuan-solidarity-strike",
       "type": "Market",
       "importance": "High",
       "status": "scheduled",
       "bias": "Neutral",
       "uncertainty": "High",
-      "timeLabel": "October 22 Taiwan date · exact start and duration unannounced",
-      "timeVerified": false,
+      "timeLabel": "09:00 Taiwan / 01:00 UTC start · 24 hours",
+      "timeVerified": true,
       "dateBasis": "Asia/Taipei",
       "announcementDate": "2026-10-19",
-      "expects": "The Taoyuan union plans an October 22 solidarity strike. Participation, duration and production losses are unverified; no dependable quantified market consensus exists.",
-      "positive": "A settlement or limited disruption with deliveries protected would reduce Micron-specific uncertainty and support memory/AI supply-chain confidence.",
-      "negative": "A longer or wider stoppage could delay qualified memory deliveries, raise costs and weaken confidence in AI-server supply; an actual output loss is not yet established.",
-      "watch": "Union updates, Micron response, participation, operating continuity and delivery guidance",
-      "window": "Announcement and subsequent local updates; U.S. intraday reaction anchor requires a verified timestamp",
-      "explanation": "Potential memory-supply risk for Micron and AI customers. The Taoyuan action is distinct from the Taichung union's ongoing negotiations.",
-      "sourceUrl": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/",
+      "expects": "Reuters reports the Taoyuan union scheduled a 24-hour action from 09:00 Taiwan time. Micron reached a separate agreement with its Taichung union. Participation, operating-line impact and production losses remain unverified; no dependable quantified market consensus exists.",
+      "positive": "Critical operations continue and the action remains limited to one day, while the Taichung settlement contains broader labor and memory-supply risk.",
+      "negative": "The Taoyuan action disrupts front-end DRAM wafer production or spreads beyond the announced window, delaying qualified supply and weakening AI-memory confidence.",
+      "watch": "Confirmation the action began, participation, affected production lines, Micron continuity guidance and any extension beyond 24 hours",
+      "window": "09:00 Taiwan October 22 through the announced 24-hour window; U.S. market reaction may overlap other macro and geopolitical news",
+      "explanation": "Taoyuan includes front-end DRAM wafer manufacturing. Reuters says a one-day action may have limited effect if critical operations continue; no actual output loss is yet established. The Taichung union reached a separate settlement.",
+      "sourceUrl": "https://www.reuters.com/business/world-at-work/micron-reaches-deal-with-one-taiwan-union-strike-proceed-another-2026-10-21/",
       "sources": [
         {
-          "url": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/",
-          "title": "Reuters October 20: directly attributes Thursday strike plan to the Taoyuan union"
+          "url": "https://www.reuters.com/business/world-at-work/micron-reaches-deal-with-one-taiwan-union-strike-proceed-another-2026-10-21/",
+          "title": "Reuters October 21: 24-hour Taoyuan action from 09:00 Taiwan time; separate Taichung agreement"
         }
       ],
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "verification": {
-        "asOf": "2026-10-20",
-        "standard": "strong reputable wire confirmation attributed to union statement",
+        "asOf": "2026-10-22",
+        "standard": "strong reputable wire confirmation attributed to union and company statements",
         "dateConfirmed": true,
-        "exactStartConfirmed": false,
-        "productionImpactConfirmed": false
+        "exactStartConfirmed": true,
+        "announcedDurationConfirmed": true,
+        "productionImpactConfirmed": false,
+        "actualStartConfirmed": false
       },
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
-          "url": "https://www.reuters.com/business/world-at-work/micron-union-taiwan-launch-strike-bonus-dispute-escalates-2026-10-20/",
-          "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
+          "url": "https://www.reuters.com/business/world-at-work/micron-reaches-deal-with-one-taiwan-union-strike-proceed-another-2026-10-21/",
+          "title": "Current factual baseline; operating and market scenarios remain conditional"
         }
       ]
     },
@@ -1269,12 +1315,12 @@
       "positive": "Resilient orders with cooler selling prices and orderly hiring would support earnings without amplifying oil-driven inflation or reversing bond-market relief.",
       "negative": "Sticky output prices with weaker activity would deepen the inflation-growth squeeze; an overheating surprise could instead lift yields.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
       "id": "2026-10-23-FLASH PMI",
       "timeLabel": "09:45 ET · 16:45 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1291,7 +1337,7 @@
         }
       ],
       "eventKey": "flash-pmi",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://www.mtsinsights.com/events/4745/",
@@ -1310,8 +1356,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -1331,7 +1377,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -1361,8 +1407,8 @@
       "id": "2026-10-27-FOMC 1",
       "timeLabel": "Closed meeting · no public release",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1375,7 +1421,7 @@
         }
       ],
       "eventKey": "fomc-day-1",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -1394,12 +1440,12 @@
       "positive": "A well-communicated hold that preserves inflation credibility without pointing to a growth break would limit renewed pressure on long yields and Nasdaq valuations.",
       "negative": "A surprise hike, or guidance that makes a larger December move more likely, would pressure yields and long-duration technology valuations; an overly dovish message could also unanchor inflation expectations.",
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-10-28-FED",
       "timeLabel": "Decision 14:00 ET / 21:00 Istanbul · Press 14:30 ET / 21:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
@@ -1427,7 +1473,7 @@
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://www.reuters.com/world/africa/dollar-holds-near-18-month-high-geopolitical-risks-rise-2026-10-13/",
@@ -1467,9 +1513,9 @@
       "uncertainty": "High",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.marketscreener.com/news/alphabet-announces-date-of-third-quarter-2026-financial-results-conference-call-ce785dd9dc89f62d",
@@ -1495,8 +1541,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://ir.kla.com/news-events/press-releases/detail/522/kla-announces-first-quarter-fiscal-year-2027-earnings-date",
@@ -1524,7 +1570,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-28-MSFT Earnings",
@@ -1540,8 +1586,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/",
@@ -1569,7 +1615,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-29-AMZN Earnings",
@@ -1585,8 +1631,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://press.aboutamazon.com/2026/10/amazon-com-to-webcast-third-quarter-2026-financial-results-conference-call",
@@ -1618,7 +1664,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-10-29-CLAIMS",
@@ -1631,8 +1677,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -1648,7 +1694,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -1674,8 +1720,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "id": "2026-10-29-FCC China Labs",
       "date": "2026-10-29",
       "short": "FCC China Labs",
@@ -1707,7 +1753,7 @@
           "title": "Verified baseline or current context; supportive/risk outcomes are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -1728,8 +1774,8 @@
       "id": "2026-10-29-GDP",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1746,7 +1792,7 @@
         }
       ],
       "eventKey": "gdp-advance",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -1755,8 +1801,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "id": "2026-10-29-INTC Earnings",
       "date": "2026-10-29",
       "short": "INTC Earnings",
@@ -1792,7 +1838,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -1813,8 +1859,8 @@
       "id": "2026-10-29-PCE",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1843,7 +1889,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -1852,8 +1898,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "id": "2026-10-29-STM Earnings",
       "date": "2026-10-29",
       "short": "STM Earnings",
@@ -1889,7 +1935,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -1911,8 +1957,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -1929,7 +1975,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -1947,12 +1993,12 @@
       "positive": "Productivity-led cost restraint and measured wage growth would protect margins while reducing tightening pressure.",
       "negative": "Labor costs outpace productivity, leaving companies with weaker margins or more price pass-through.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/10_sched_list.htm",
       "id": "2026-10-30-ECI",
       "timeLabel": "08:30 ET · 15:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -1973,7 +2019,7 @@
         }
       ],
       "eventKey": "employment-cost",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -1990,8 +2036,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://investor.apple.com/investor-relations/default.aspx",
@@ -2019,7 +2065,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "expects": "No dependable release-specific consensus verified. Read orders, employment and prices jointly; a stronger headline alone is not automatically favorable with tightening still priced.",
@@ -2036,12 +2082,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-02-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2062,7 +2108,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2079,8 +2125,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/us-investor-risk-appetite-tempered-as-apprehension-on-rates-october-flash-pmi-to-provide-fresh-market-guidance",
@@ -2121,7 +2167,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-11-03-AMD Earnings",
@@ -2142,8 +2188,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
       "sources": [
         {
@@ -2169,7 +2215,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -2187,12 +2233,12 @@
       "positive": "Gradually cooling vacancies with stable hiring would reduce wage pressure without implying a broad demand break.",
       "negative": "Weak hiring despite apparently firm openings could expose growth risk; renewed labor tightness could sustain inflation.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-03-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2213,7 +2259,7 @@
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2233,8 +2279,8 @@
       "id": "2026-11-03-MIDTERMS",
       "timeLabel": "Polling hours vary · results mainly after 19:00 ET / 03:00 Istanbul (Nov 4)",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2247,7 +2293,7 @@
         }
       ],
       "eventKey": "us-midterm-elections",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false,
       "sourceUrl": "https://www.fec.gov/introduction-campaign-finance/election-results-and-voting-information/"
@@ -2257,8 +2303,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "id": "2026-11-04-ARM Earnings",
       "date": "2026-11-04",
       "short": "ARM Earnings",
@@ -2294,7 +2340,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -2312,12 +2358,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-11-04-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2338,7 +2384,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2360,9 +2406,9 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://investor.qualcomm.com/news-events/investor-events/events/event-details/2026/Q4-FY26-Earnings-Conference-Call-2026-zipgVlNz63/default.aspx",
       "sources": [
         {
@@ -2384,7 +2430,7 @@
           "title": "Current yields, oil and technology-market context checked October 21"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "verification": {
         "asOf": "2026-10-21",
         "standard": "official issuer confirmation",
@@ -2406,8 +2452,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/us-investor-risk-appetite-tempered-as-apprehension-on-rates-october-flash-pmi-to-provide-fresh-market-guidance",
@@ -2448,7 +2494,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-11-05-CLAIMS",
@@ -2461,8 +2507,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2478,7 +2524,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -2524,8 +2570,8 @@
       "negative": "Labor costs outpace productivity, leaving companies with weaker margins or more price pass-through.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2546,7 +2592,7 @@
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "expects": "No dependable release-specific payroll, unemployment or wage consensus verified. September payroll growth was 29,000 with unemployment 4.2%; the published baseline is not a forecast.",
@@ -2563,12 +2609,12 @@
       "positive": "Orderly wage moderation and steady employment would ease rate pressure without undermining household demand.",
       "negative": "A material hiring deterioration and downward revisions threaten earnings; unexpectedly hot wages would instead strengthen tightening risk.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-06-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2589,7 +2635,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2603,8 +2649,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -2624,7 +2670,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -2652,12 +2698,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2686,7 +2732,7 @@
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2694,8 +2740,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "id": "2026-11-10-TSMC Sales",
       "date": "2026-11-10",
       "short": "TSMC Sales",
@@ -2731,7 +2777,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -2753,8 +2799,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -2771,7 +2817,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2785,8 +2831,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -2802,7 +2848,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -2842,8 +2888,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -2860,7 +2906,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2878,12 +2924,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
       "id": "2026-11-13-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -2908,7 +2954,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -2925,8 +2971,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
@@ -2954,7 +3000,60 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+    },
+    {
+      "id": "2026-11-16-ASEAN SUMMIT",
+      "date": "2026-11-16",
+      "short": "ASEAN Summit",
+      "event": "49th ASEAN Summit and related summits; Trump attendance confirmed",
+      "eventKey": "asean-leaders-summit",
+      "type": "Politics",
+      "importance": "Critical",
+      "timeLabel": "November 16–18 · Manila · meeting times unannounced",
+      "status": "scheduled",
+      "expects": "Philippine official sources confirm the November 16–18 summit window and President Trump's attendance. No dependable consensus exists for trade, China, technology-policy or security outcomes, and no specific bilateral agenda is assumed.",
+      "positive": "Specific, implementable cooperation on trade, supply chains and regional security—without new technology restrictions—would reduce risk premiums for semiconductors and Asia-exposed Nasdaq firms.",
+      "negative": "New tariff or export-control threats, sharper U.S.–China confrontation, or an unresolved regional-security dispute raise supply-chain and valuation risk.",
+      "watch": "Official U.S.–ASEAN agenda, confirmed bilateral meetings, China and Taiwan language, tariffs, chip/export controls, critical minerals and implementation dates",
+      "window": "November 16–18 Manila headlines and the next U.S. regular session after each material announcement",
+      "explanation": "The gathering includes ASEAN and related leader summits. Nasdaq sensitivity is through U.S.–China policy, semiconductor controls, regional supply chains and the inflation/rate effects of any trade action.",
+      "bias": "Neutral",
+      "uncertainty": "High",
+      "isNew": true,
+      "isUpdated": false,
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "sourceUrl": "https://pco.gov.ph/news_releases/palace-confirms-trumps-attendance-at-asean-summit-in-manila/",
+      "sources": [
+        {
+          "url": "https://pco.gov.ph/news_releases/palace-confirms-trumps-attendance-at-asean-summit-in-manila/",
+          "title": "Philippine Presidential Communications Office confirmation of Trump attendance"
+        },
+        {
+          "url": "https://pco.gov.ph/news_releases/palace-declares-nov-16-18-as-special-non-working-days-in-ncr-for-asean-summit/",
+          "title": "Official November 16–18 summit window"
+        },
+        {
+          "url": "https://photos.asean2026.gov.ph/uploads/0346a697-ec0e-4950-85d1-d779cf1b6fdb.pdf",
+          "title": "Official ASEAN 2026 media advisory"
+        }
+      ],
+      "interpretationSources": [
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/trump-attend-asean-summit-manila-november-philippines-says-2026-10-14/",
+          "title": "Reuters corroboration of the official attendance announcement"
+        }
+      ],
+      "verification": {
+        "asOf": "2026-10-22",
+        "standard": "official host-government confirmation corroborated by Reuters",
+        "dateRangeConfirmed": true,
+        "trumpAttendanceConfirmed": true,
+        "bilateralAgendaConfirmed": false,
+        "exactMeetingTimesConfirmed": false
+      }
     },
     {
       "id": "2026-11-17-IND PROD",
@@ -2967,8 +3066,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -2984,7 +3083,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
@@ -3019,8 +3118,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://www.census.gov/retail/release_schedule.html",
@@ -3052,10 +3151,10 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
-      "expects": "APEC is confirmed for November 18–19. Reuters/WSJ reports a proposed Trump–Xi–Putin meeting, but Trump has not agreed and no agenda/date is confirmed. No separate bilateral or trilateral summit is scheduled here.",
+      "expects": "APEC is confirmed for November 18–19. Putin has renewed a proposal for a Trump–Xi–Putin meeting in China, but no trilateral or separate bilateral agenda/date is confirmed; no dependable summit-outcome consensus exists.",
       "watch": "Official statements, AI oversight, sector tariffs, chip controls, rare earths, Taiwan and implementation dates",
       "window": "Headline-driven; may extend across sessions",
       "bias": "Neutral",
@@ -3067,14 +3166,14 @@
       "importance": "Critical",
       "explanation": "APEC leaders meet in Shenzhen on November 18–19. China says Trump and Xi intend to attend each other's summits; the precise timing of any bilateral meeting is unconfirmed. Trade-truce implementation, chip controls and rare earths are key Nasdaq sensitivities.",
       "positive": "Specific, implemented trade or security de-escalation would support investment and supply chains more than tentative meeting headlines.",
-      "negative": "Talks fail to materialize or produce new tariff/export-control confrontation; diplomatic speculation does not remove existing supply risks.",
+      "negative": "A proposed meeting fails to materialize or produces new tariff, export-control or security confrontation; diplomatic speculation does not remove existing supply risks.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.apec.org/",
       "id": "2026-11-18-APEC",
       "timeLabel": "Nov 18–19 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3095,11 +3194,15 @@
         }
       ],
       "eventKey": "apec-leaders",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://www.apec.org/",
-          "title": "Current official summit date confirmation"
+          "title": "Current official APEC summit baseline"
+        },
+        {
+          "url": "https://www.reuters.com/world/china/putin-proposes-summit-with-trump-xi-discuss-ukraine-deal-wsj-says-2026-10-19/",
+          "title": "Reuters: renewed trilateral proposal remains unconfirmed"
         }
       ]
     },
@@ -3118,12 +3221,12 @@
       "positive": "Evidence of improving cost control with resilient demand and orderly credit would support cash generation without requiring tighter rates.",
       "negative": "Persistent price pressure combined with weaker demand or tighter credit would reveal a less favorable earnings/funding mix.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "id": "2026-11-18-FOMC MINUTES",
       "timeLabel": "14:00 ET · 22:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3148,7 +3251,7 @@
         }
       ],
       "eventKey": "fomc-minutes",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3170,8 +3273,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -3188,7 +3291,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3202,8 +3305,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3219,7 +3322,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3251,8 +3354,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -3272,7 +3375,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -3296,8 +3399,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "sources": [
         {
@@ -3313,7 +3416,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
@@ -3349,8 +3452,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3366,7 +3469,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3405,8 +3508,8 @@
       "id": "2026-11-25-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3423,7 +3526,7 @@
         }
       ],
       "eventKey": "gdp-second",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -3445,8 +3548,8 @@
       "id": "2026-11-25-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3475,7 +3578,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -3498,8 +3601,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -3516,7 +3619,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3534,12 +3637,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-01-ISM MFG",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3560,7 +3663,7 @@
         }
       ],
       "eventKey": "ism-manufacturing",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3578,12 +3681,12 @@
       "positive": "Gradually cooling vacancies with stable hiring would reduce wage pressure without implying a broad demand break.",
       "negative": "Weak hiring despite apparently firm openings could expose growth risk; renewed labor tightness could sustain inflation.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched.htm",
       "id": "2026-12-01-JOLTS",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3604,7 +3707,7 @@
         }
       ],
       "eventKey": "jolts",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3618,8 +3721,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3635,7 +3738,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3671,12 +3774,12 @@
       "positive": "Steady new orders alongside softer input/output prices would support profits without pushing Treasury yields higher.",
       "negative": "Slower orders with sticky prices would worsen the inflation-growth mix; strong activity paired with higher prices could also revive rate pressure.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "id": "2026-12-03-ISM SERVICES",
       "timeLabel": "10:00 ET · 18:00 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3697,7 +3800,7 @@
         }
       ],
       "eventKey": "ism-services",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3715,12 +3818,12 @@
       "positive": "Orderly wage moderation and steady employment would ease rate pressure without undermining household demand.",
       "negative": "A material hiring deterioration and downward revisions threaten earnings; unexpectedly hot wages would instead strengthen tightening risk.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-04-JOBS",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3741,7 +3844,7 @@
         }
       ],
       "eventKey": "employment-report",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3755,8 +3858,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -3776,7 +3879,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -3814,8 +3917,8 @@
       "negative": "Labor costs outpace productivity, leaving companies with weaker margins or more price pass-through.",
       "bias": "Neutral",
       "uncertainty": "High",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3836,7 +3939,7 @@
         }
       ],
       "eventKey": "productivity-costs",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-12-08-UST 10Y",
@@ -3857,8 +3960,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -3875,7 +3978,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3893,12 +3996,12 @@
       "positive": "A measured path backed by easing underlying inflation and resilient demand would reduce the risk of a larger tightening cycle while preserving Fed credibility.",
       "negative": "Persistent energy and services inflation forces a larger or longer tightening path than expected, while weaker credit-sensitive demand threatens profits.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "id": "2026-12-09-FED",
       "timeLabel": "Decision 14:00 ET / 22:00 Istanbul · Press 14:30 ET / 22:30",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -3919,7 +4022,7 @@
         }
       ],
       "eventKey": "fomc-decision",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -3933,8 +4036,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -3950,7 +4053,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -3986,12 +4089,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-10-CPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4020,7 +4123,7 @@
         }
       ],
       "eventKey": "cpi",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4028,8 +4131,8 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "id": "2026-12-10-TSMC Sales",
       "date": "2026-12-10",
       "short": "TSMC Sales",
@@ -4065,7 +4168,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -4087,8 +4190,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -4105,7 +4208,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4123,12 +4226,12 @@
       "positive": "Actionable de-escalation and predictable investment, energy and technology rules would support global earnings and lower risk premia.",
       "negative": "Renewed tariff, sanctions or security confrontation overrides positive diplomatic language and increases supply-chain uncertainty.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://home.treasury.gov/news/press-releases/sb0398",
       "id": "2026-12-14-G20",
       "timeLabel": "Dec 14–15 · bilateral time not announced",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4149,7 +4252,7 @@
         }
       ],
       "eventKey": "g20-leaders",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [
         {
           "url": "https://home.treasury.gov/news/press-releases/sb0398",
@@ -4172,12 +4275,12 @@
       "positive": "Broader cost and services-price moderation with resilient demand would protect margins and limit further tightening.",
       "negative": "Oil and shipping stress can sustain price pressure despite the Russia waiver; sticky underlying inflation with weaker demand would be particularly adverse.",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
+      "lastUpdated": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
       "id": "2026-12-15-PPI",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4202,7 +4305,7 @@
         }
       ],
       "eventKey": "ppi",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4216,8 +4319,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "sources": [
         {
@@ -4233,7 +4336,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.federalreserve.gov/releases/g17/20261016/default.htm",
@@ -4268,8 +4371,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://www.census.gov/retail/release_schedule.html",
@@ -4301,7 +4404,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2026-12-17-CLAIMS",
@@ -4314,8 +4417,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4331,7 +4434,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4363,8 +4466,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
       "sources": [
         {
@@ -4384,7 +4487,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://data.sca.isr.umich.edu/fetchdoc.php?docid=79628",
@@ -4415,8 +4518,8 @@
       "id": "2026-12-23-GDP",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4433,7 +4536,7 @@
         }
       ],
       "eventKey": "gdp-final",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -4455,8 +4558,8 @@
       "id": "2026-12-23-PCE",
       "timeLabel": "08:30 ET · 16:30 Istanbul",
       "status": "scheduled",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isUpdated": true,
       "interpretationSources": [
         {
@@ -4485,7 +4588,7 @@
         }
       ],
       "eventKey": "core-pce",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": [],
       "isNew": false
     },
@@ -4508,8 +4611,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -4526,7 +4629,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4540,8 +4643,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4557,7 +4660,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4598,8 +4701,8 @@
       "id": "2026-12-27-China Green Probe",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189382&type=11",
@@ -4620,7 +4723,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -4643,8 +4746,8 @@
       "id": "2026-12-27-China Supply Probe",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://trb.mofcom.gov.cn/mybldc/art/2026/art_a9e8355f3cf148eca2a0e32c0e3af70a.html",
@@ -4665,7 +4768,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -4687,8 +4790,8 @@
       "positive": "A stop-through with broad demand and stable post-auction yields would help preserve relief in long-duration funding costs.",
       "negative": "A significant tail or weak indirect demand could reverse the bond rally and pressure rate-sensitive Nasdaq valuations.",
       "sourceUrl": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ32026.pdf",
-      "interpretationAsOf": "2026-10-21",
-      "lastUpdated": "2026-10-21",
+      "interpretationAsOf": "2026-10-22",
+      "lastUpdated": "2026-10-22",
       "isNew": false,
       "interpretationSources": [
         {
@@ -4705,7 +4808,7 @@
         }
       ],
       "isUpdated": true,
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "sources": []
     },
     {
@@ -4719,8 +4822,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4736,7 +4839,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4776,9 +4879,9 @@
       "bias": "Bearish bias",
       "uncertainty": "High",
       "isNew": true,
-      "isUpdated": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "isUpdated": true,
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.reuters.com/business/autos-transportation/trump-says-he-will-raise-tariffs-all-cars-trucks-50-amid-canada-trade-spat-2026-08-24/",
       "sources": [
         {
@@ -4800,7 +4903,7 @@
           "title": "Current yields, oil and risk-market context checked October 21"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "verification": {
         "asOf": "2026-10-21",
         "standard": "strong confirmation from two Reuters reports",
@@ -4820,8 +4923,8 @@
       "importance": "High",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://oui.doleta.gov/unemploy/claims_arch.asp",
       "sources": [
         {
@@ -4837,7 +4940,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "A major labor, inflation-expectations or growth input that can change Fed expectations, Treasury yields and Nasdaq valuations.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.dol.gov/ui/data.pdf",
@@ -4872,8 +4975,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://www.bls.gov/schedule/2027/01_sched_list.htm",
@@ -4905,7 +5008,7 @@
           "title": "Rechecked October 19: factual baseline or current market context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     },
     {
       "id": "2027-01-10-US-CHINA-TRUCE",
@@ -4918,8 +5021,8 @@
       "importance": "Critical",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://english.www.gov.cn/news/202609/28/content_WS6aba53c5c6d00ca5f9a0d803.html",
       "sources": [
         {
@@ -4939,7 +5042,7 @@
       "bias": "Neutral",
       "uncertainty": "High",
       "explanation": "The current bilateral tariff arrangement runs through this deadline. Any further extension, tariff change or breakdown could alter costs and supply-chain expectations for technology companies.",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
@@ -4971,8 +5074,8 @@
       "importance": "Critical",
       "status": "scheduled",
       "isNew": false,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sourceUrl": "https://www.bls.gov/schedule/news_release/cpi.htm",
       "sources": [
         {
@@ -5014,7 +5117,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "isUpdated": true
     },
     {
@@ -5044,9 +5147,9 @@
       "uncertainty": "High",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution.",
       "interpretationSources": [
         {
           "url": "https://oui.doleta.gov/unemploy/claims_arch.asp",
@@ -5080,8 +5183,8 @@
       "status": "scheduled",
       "isNew": true,
       "isUpdated": true,
-      "lastUpdated": "2026-10-21",
-      "interpretationAsOf": "2026-10-21",
+      "lastUpdated": "2026-10-22",
+      "interpretationAsOf": "2026-10-22",
       "sources": [
         {
           "url": "https://www.bls.gov/schedule/2027/01_sched_list.htm",
@@ -5117,7 +5220,7 @@
           "title": "October 20 review: factual baseline or current context; scenarios are conditional analysis"
         }
       ],
-      "interpretationContext": "Reviewed October 21: the 10-year Treasury yield was about 5.12% and Brent was around $110 amid persistent Middle East shipping and supply risk. Early earnings were supportive, but AI-capex returns, cash generation and semiconductor demand remain central. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
+      "interpretationContext": "Reviewed October 22: Brent was about $110 after further attacks in Saudi Arabia and U.S. diplomatic drawdowns increased regional supply-risk concerns. Inflation, Treasury yields, AI-capex returns and semiconductor demand remain the principal Nasdaq transmission channels. Preferred and adverse outcomes are conditional analysis, not consensus or isolated causal attribution."
     }
   ],
   "recentEvents": [
@@ -5802,7 +5905,7 @@
     }
   ],
   "coverageCheck": {
-    "checkedAt": "2026-10-21T04:01:44.104Z",
+    "checkedAt": "2026-10-22T03:59:27.491Z",
     "comparisonSource": "https://www.marketwatch.com/economy-politics/calendar",
     "policy": "Major releases only; secondary calendar candidates require official confirmation; never infer cancellation from absence.",
     "addedIds": [
@@ -5855,19 +5958,22 @@
       "2027-01-14-CLAIMS",
       "2026-10-22-MU STRIKE",
       "2026-11-04-QCOM Earnings",
-      "2027-01-01-CANADA AUTO TARIFF"
+      "2027-01-01-CANADA AUTO TARIFF",
+      "2026-10-22-MIDEAST OIL ESCALATION",
+      "2026-11-16-ASEAN SUMMIT"
     ],
-    "lastResearchDate": "2026-10-21",
-    "researchNotes": "October 10 automated input remains stale; independent October 21 research completed. Added official Qualcomm November 4 earnings and the Reuters-confirmed January 1 announced effective date for threatened Canadian vehicle/parts tariffs, explicitly noting that no implementing proclamation was verified. Rechecked October 23 Flash PMI at 09:45 ET, official macro calendars and all displayed interpretations. Updated Fed and Q3 GDP expectations from the October 16–20 Reuters poll; no cancellation inferred from feed absence."
+    "lastResearchDate": "2026-10-22",
+    "researchNotes": "October 10 automated input remains stale. Independent October 22 research added a verified breaking Middle East oil-supply escalation and the officially dated November 16–18 ASEAN summit with confirmed Trump attendance. Updated the Micron Taoyuan action to its confirmed 09:00 Taiwan start and 24-hour announced duration, while keeping actual start and production loss unverified. Rechecked October 23 Flash PMI at 09:45 ET, official macro/Fed calendars and every displayed interpretation; no cancellation inferred from feed absence."
   },
   "interpretationReview": {
-    "asOf": "2026-10-21",
-    "reviewedEventCount": 113,
-    "context": "Fresh review of every displayed expectation and scenario. Reuters' October 16–20 poll now gives a strong October Fed-hold consensus and a December-hike consensus; oil around $110 and the 10-year yield near 5.12% keep inflation and valuation risks elevated. Historical outcomes remain retrospective rather than being rewritten as forecasts.",
+    "asOf": "2026-10-22",
+    "reviewedEventCount": 115,
+    "context": "Every displayed expectation and scenario was rechecked against October 22 conditions. Brent near $110 and escalating Saudi/Gulf risk keep inflation and long-yield sensitivity elevated; semiconductor results and AI-capex returns remain central. Historical outcomes were preserved as retrospective data rather than rewritten as forecasts.",
     "sources": [
-      "https://www.reuters.com/business/fed-skip-october-raise-rates-again-december-nearly-all-economists-say-2026-10-20/",
-      "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-21/",
-      "https://www.reuters.com/business/energy/oil-rises-middle-east-supply-worries-2026-10-21/",
+      "https://www.reuters.com/business/energy/oil-prices-rise-more-attacks-saudi-arabia-us-orders-diplomatic-drawdown-2026-10-22/",
+      "https://www.reuters.com/business/world-at-work/micron-reaches-deal-with-one-taiwan-union-strike-proceed-another-2026-10-21/",
+      "https://pco.gov.ph/news_releases/palace-confirms-trumps-attendance-at-asean-summit-in-manila/",
+      "https://pco.gov.ph/news_releases/palace-declares-nov-16-18-as-special-non-working-days-in-ncr-for-asean-summit/",
       "https://www.marketwatch.com/economy-politics/calendar",
       "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "https://www.bea.gov/news/schedule",
