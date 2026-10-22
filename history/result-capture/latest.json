@@ -1,36 +1,46 @@
 {
-  "checkedAt": "2026-10-22T07:36:42.006Z",
+  "checkedAt": "2026-10-22T16:27:13.781Z",
   "issues": [
     {
-      "id": "2026-10-21-TSLA Earnings",
+      "id": "2026-10-22-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-21-LRCX Earnings",
+      "id": "2026-10-15-Retail",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-21-META Earnings",
+      "id": "2026-10-15-TSM Earnings",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-21-TXN Earnings",
+      "id": "2026-10-15-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
+      "id": "2026-10-14-CPI",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
+      "id": "2026-10-14-BEIGE BOOK",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-02-Jobs",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-20-NFLX Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 6
+  "requests": 4
 }
