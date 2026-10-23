@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "range": [
     "2026-01",
     "2026-10"
   ],
-  "checkedOn": "2026-10-22",
+  "checkedOn": "2026-10-23",
   "sources": [
     "https://www.bea.gov/news/schedule/full",
     "https://www.census.gov/retail/release_schedule.html",
@@ -23,6 +23,15 @@
   ],
   "candidates": [
     {
+      "date": "2026-01-15",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": null,
+      "status": "needs-release-verification"
+    },
+    {
       "date": "2026-01-22",
       "family": "core-pce",
       "label": "Personal Income and Outlays, October and November 2025 View",
@@ -39,6 +48,15 @@
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "historyEventId": "2026-01-28-FOMC",
       "status": "recorded"
+    },
+    {
+      "date": "2026-02-17",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": null,
+      "status": "needs-release-verification"
     },
     {
       "date": "2026-02-20",
@@ -77,6 +95,15 @@
       "status": "recorded"
     },
     {
+      "date": "2026-03-16",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": null,
+      "status": "needs-release-verification"
+    },
+    {
       "date": "2026-03-18",
       "family": "fomc-decision",
       "label": "FOMC decision",
@@ -92,6 +119,15 @@
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
       "historyEventId": "2026-04-09-PCE",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-04-16",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-04-16-RETAIL",
       "status": "recorded"
     },
     {
@@ -119,6 +155,15 @@
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
       "historyEventId": "2026-04-30-GDP",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-05-14",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-05-14-RETAIL",
       "status": "recorded"
     },
     {
@@ -158,6 +203,15 @@
       "status": "recorded"
     },
     {
+      "date": "2026-06-16",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": null,
+      "status": "needs-release-verification"
+    },
+    {
       "date": "2026-06-17",
       "family": "fomc-decision",
       "label": "FOMC decision",
@@ -191,6 +245,15 @@
       "timeET": "10:00",
       "sourceUrl": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
       "historyEventId": "2026-07-06-ISM-SVC",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-07-16",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-07-16-RETAIL",
       "status": "recorded"
     },
     {
@@ -239,6 +302,15 @@
       "status": "recorded"
     },
     {
+      "date": "2026-08-16",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": null,
+      "status": "needs-release-verification"
+    },
+    {
       "date": "2026-08-26",
       "family": "core-pce",
       "label": "Personal Income and Outlays, July 2026 View",
@@ -266,12 +338,30 @@
       "status": "recorded"
     },
     {
+      "date": "2026-09-16",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-09-16-Retail",
+      "status": "recorded"
+    },
+    {
       "date": "2026-09-30",
       "family": "core-pce",
       "label": "Personal Income and Outlays, August 2026 View",
       "timeET": "08:30",
       "sourceUrl": "https://www.bea.gov/news/schedule/full",
       "historyEventId": "2026-09-30-PCE",
+      "status": "recorded"
+    },
+    {
+      "date": "2026-10-15",
+      "family": "retail-sales",
+      "label": "Advance retail sales",
+      "timeET": "08:30",
+      "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
+      "historyEventId": "2026-10-15-Retail",
       "status": "recorded"
     },
     {
@@ -297,16 +387,15 @@
     "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
   ],
   "errors": [
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/10_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
-    "Error: HTTP 500: https://www.census.gov/retail/release_schedule.html"
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm"
   ]
 }
