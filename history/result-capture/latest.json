@@ -1,21 +1,71 @@
 {
-  "checkedAt": "2026-10-23T07:33:51.744Z",
+  "checkedAt": "2026-10-23T16:16:55.999Z",
   "issues": [
     {
-      "id": "2026-10-07-UST 10Y",
+      "id": "2026-10-23-FLASH PMI",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-21-TSLA Earnings",
+      "id": "2026-10-23-FLASH PMI",
+      "asset": "nasdaq",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-23-FLASH PMI",
+      "asset": "sox",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-23-MICH FIN",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-21-LRCX Earnings",
+      "id": "2026-10-23-MICH FIN",
+      "asset": "nasdaq",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-23-MICH FIN",
+      "asset": "sox",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-21-META Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-21-TXN Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
+      "asset": "nasdaq",
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
+      "asset": "sox",
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-10-22-CLAIMS",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-20-NFLX Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-Retail",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 2
+  "requests": 8
 }
