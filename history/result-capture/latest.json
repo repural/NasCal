@@ -1,21 +1,41 @@
 {
-  "checkedAt": "2026-10-27T07:53:41.075Z",
+  "checkedAt": "2026-10-27T17:14:46.025Z",
   "issues": [
     {
-      "id": "2026-10-08-CLAIMS",
+      "id": "2026-10-27-DURABLE GOODS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-05-ISM Services",
+      "id": "2026-10-27-CONSUMER CONFIDENCE",
       "field": "outcome",
-      "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-01-CLAIMS",
+      "id": "2026-10-27-CONSUMER CONFIDENCE",
+      "asset": "nasdaq",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-27-CONSUMER CONFIDENCE",
+      "asset": "sox",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-10-08-TSMC",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-08-UST 30Y",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-07-FOMC MINUTES",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 2
+  "requests": 4
 }
