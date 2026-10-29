@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "range": [
     "2026-01",
     "2026-10"
   ],
-  "checkedOn": "2026-10-28",
+  "checkedOn": "2026-10-29",
   "sources": [
     "https://www.bea.gov/news/schedule/full",
     "https://www.census.gov/retail/release_schedule.html",
@@ -365,6 +365,15 @@
       "status": "recorded"
     },
     {
+      "date": "2026-10-28",
+      "family": "fomc-decision",
+      "label": "FOMC decision",
+      "timeET": "14:00",
+      "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "historyEventId": "2026-10-28-FED",
+      "status": "recorded"
+    },
+    {
       "date": "2026-10-29",
       "family": "core-pce",
       "label": "Personal Income and Outlays, September 2026",
@@ -387,15 +396,15 @@
     "ISM live schedule unavailable (Error: ISM response contained no release dates (possibly a login redirect)); used source-verified 2026 schedule snapshot dated 2026-09-24."
   ],
   "errors": [
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/10_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm"
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm"
   ]
 }
