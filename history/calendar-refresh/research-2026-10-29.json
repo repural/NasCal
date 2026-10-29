@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-29T04:15:00.000Z",
+  "asOf": "2026-10-29",
+  "officialReview": {
+    "checkedAt": "2026-10-10T10:11:31.811Z",
+    "stale": true,
+    "sourceHealth": {
+      "marketwatch": "HTTP 401",
+      "dol": "ok",
+      "bls": "HTTP 403",
+      "bea": "ok",
+      "fed": "ok",
+      "pmi": "HTTP 403"
+    },
+    "proposals": 0,
+    "announcements": 1,
+    "nextFlashPmi": {
+      "date": "2026-10-23",
+      "requiresReview": true
+    },
+    "disposition": "Treated as collection input only; fresh independent research performed."
+  },
+  "verifiedChanges": [
+    "Recorded October 27 durable-goods and consumer-confidence outcomes.",
+    "Recorded the October 28 FOMC decision and separate Microsoft, Alphabet and KLA earnings outcomes.",
+    "Recorded the Israel election as completed with preliminary counts and final certification pending.",
+    "Added the November 16 Fed AI/productivity field hearing.",
+    "Extended the 90-day horizon through January 27 with January 21 claims and the January 26\u201327 FOMC meeting as distinct entities.",
+    "Confirmed November 23 Flash U.S. PMI at 09:45 ET remains present; direct S&P date-row access remains blocked, with strong secondary confirmation retained."
+  ],
+  "sources": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+    "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/",
+    "https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000032/exhibit991earningsrelease0.htm",
+    "https://www.census.gov/manufacturing/m3/adv/current/index.html",
+    "https://www.conference-board.org/topics/consumer-confidence/",
+    "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "https://www.federalreserve.gov/monetarypolicy/productivity-and-jobs-task-force.htm",
+    "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en"
+  ],
+  "eventCount": 125
+}
