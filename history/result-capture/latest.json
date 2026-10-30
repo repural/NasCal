@@ -1,36 +1,46 @@
 {
-  "checkedAt": "2026-10-30T08:40:27.406Z",
+  "checkedAt": "2026-10-30T17:36:55.654Z",
   "issues": [
     {
-      "id": "2026-10-30-CANADA TARIFF SCOPE",
+      "id": "2026-10-30-ECI",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-20-NFLX Earnings",
+      "id": "2026-10-07-UST 10Y",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-16-IND PROD",
+      "id": "2026-10-21-UST 20Y",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-15-Retail",
+      "id": "2026-10-15-PPI",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-TSM Earnings",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-CLAIMS",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-WARSH IMF",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-14-CPI",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
     }
   ],
-  "requests": 6
+  "requests": 2
 }
