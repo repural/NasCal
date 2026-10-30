@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-30T04:20:11.000Z",
+  "calendarAsOf": "2026-10-30",
+  "sourceInput": {
+    "path": "history/calendar-refresh/official-review.json",
+    "checkedAt": "2026-10-10T03:50:21.000Z",
+    "assessment": "stale collection input; not treated as verified market conclusions",
+    "sourceHealth": {
+      "marketwatch": "HTTP 401",
+      "dol": "ok",
+      "bls": "HTTP 403",
+      "bea": "ok",
+      "federalReserve": "ok",
+      "spGlobalPmi": "HTTP 403"
+    },
+    "proposals": 0,
+    "announcements": 1,
+    "nextFlashPmi": {
+      "date": "2026-10-23",
+      "requiresReview": true,
+      "assessment": "stale; independently replaced by the confirmed November 23 event"
+    }
+  },
+  "publishedChanges": {
+    "addedIds": [
+      "2026-10-28-US ROBOTICS 232",
+      "2026-10-30-CANADA TARIFF SCOPE",
+      "2027-01-28-GDP",
+      "2027-01-28-PCE",
+      "2027-01-28-CLAIMS"
+    ],
+    "updatedOutcomeIds": [
+      "2026-10-29-GDP",
+      "2026-10-29-PCE",
+      "2026-10-29-CLAIMS",
+      "2026-10-29-UST 7Y",
+      "2026-10-29-AMZN Earnings",
+      "2026-10-29-INTC Earnings",
+      "2026-10-29-STM Earnings",
+      "2026-10-29-FCC China Labs",
+      "2026-10-26-CHINA FIFTH PLENUM"
+    ],
+    "reviewedEventCount": 130,
+    "horizonEnd": "2027-01-28"
+  },
+  "verification": {
+    "nextFlashPmi": {
+      "id": "2026-11-23-FLASH PMI",
+      "date": "2026-11-23",
+      "timeET": "09:45",
+      "present": true,
+      "source": "S&P Global release calendar / November flash-PMI confirmation"
+    },
+    "cancellationPolicy": "No event was cancelled from feed absence.",
+    "distinctEntities": "The October 30 Canadian product-scope change remains distinct from the unresolved January 1 auto-tariff threat; GDP, PCE and claims remain distinct January 28 events."
+  },
+  "sources": {
+    "official": [
+      "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "https://www.bea.gov/news/schedule/next-year",
+      "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+      "https://www.whitehouse.gov/presidential-actions/2026/10/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-motor-vehicles/",
+      "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000188/q326earningsrelease.htm"
+    ],
+    "reputable": [
+      "https://www.reuters.com/world/us/us-weekly-jobless-claims-hover-near-57-year-lows-2026-10-29/",
+      "https://www.investing.com/news/economy-news/us-inflation-heats-up-in-september-consumer-spending-rises-4983689",
+      "https://www.marketscreener.com/news/wall-street-slides-as-alphabet-revenue-miss-revives-ai-capex-jitters-ce785fdadd89ff24"
+    ]
+  },
+  "notes": "No paid OpenAI API was used. Historical datasets remain under history; NasDecode and NasBoard were not changed."
+}
