@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-31T03:43:42.000Z",
+  "calendarAsOf": "2026-10-31",
+  "sourceInput": {
+    "path": "history/calendar-refresh/official-review.json",
+    "checkedAt": "2026-10-10T10:11:31.811Z",
+    "assessment": "stale automated collection input; not treated as verified market conclusions",
+    "sourceHealth": {
+      "marketwatch": "HTTP 401",
+      "dol": "ok",
+      "bls": "HTTP 403",
+      "bea": "ok",
+      "federalReserve": "ok",
+      "spGlobalPmi": "HTTP 403"
+    },
+    "proposals": 0,
+    "announcements": 1,
+    "nextFlashPmi": {
+      "date": "2026-10-23",
+      "officialDateVerified": false,
+      "requiresReview": true,
+      "assessment": "stale; independently superseded by the confirmed November 23 entry"
+    }
+  },
+  "publishedChanges": {
+    "addedIds": [
+      "2026-10-30-LOGAN POLICY",
+      "2026-11-02-PLTR Earnings",
+      "2026-11-04-ADP",
+      "2027-01-29-ECI"
+    ],
+    "updatedIds": [
+      "2026-10-30-ECI",
+      "2026-10-30-CANADA TARIFF SCOPE",
+      "2026-10-22-MIDEAST OIL ESCALATION",
+      "2026-11-02-ISM MFG",
+      "2026-11-02-SP MFG FINAL",
+      "2026-11-04-ISM SERVICES",
+      "2026-11-04-SP SERVICES FINAL",
+      "2026-11-06-JOBS",
+      "2026-11-03-MIDTERMS",
+      "2026-11-02-AAPL Earnings",
+      "2026-11-03-AMD Earnings",
+      "2026-11-04-QCOM Earnings"
+    ],
+    "reviewedEventCount": 134,
+    "horizonEnd": "2027-01-29"
+  },
+  "verification": {
+    "nextFlashPmi": {
+      "id": "2026-11-23-FLASH PMI",
+      "date": "2026-11-23",
+      "timeET": "09:45",
+      "present": true,
+      "components": [
+        "Manufacturing",
+        "Services",
+        "Composite"
+      ]
+    },
+    "cancellationPolicy": "No event was cancelled because it was absent from a feed.",
+    "distinctEntities": "Palantir earnings, ADP employment, Logan policy remarks and January ECI remain separate stable event entities."
+  },
+  "sources": {
+    "official": [
+      "https://www.bls.gov/news.release/archives/eci_10302026.htm",
+      "https://www.bls.gov/schedule/news_release/eci.htm",
+      "https://www.dallasfed.org/news/speeches/logan/2026/lkl261030",
+      "https://adpemploymentreport.com/Default.aspx",
+      "https://mediacenter.adp.com/2026-09-30-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-90%2C000-Jobs-in-September",
+      "https://investors.palantir.com/news-details/2026/Palantir-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Webcast/",
+      "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "https://www.qualcomm.com/news/releases/2026/10/qualcomm-schedules-fourth-quarter-and-fiscal-2026-earnings-relea"
+    ],
+    "reputable": [
+      "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+      "https://www.reuters.com/business/energy/oil-rises-supply-concerns-houthis-attack-saudi-arabia-2026-10-30/",
+      "https://www.reuters.com/legal/legalindustry/wall-st-week-ahead-midterm-us-elections-earnings-jobs-data-loom-ai-wary-market-2026-10-30/"
+    ]
+  },
+  "notes": "No paid OpenAI API was used. Historical datasets remain under history; NasDecode and NasBoard were not changed."
+}
