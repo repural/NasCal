@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-01T05:26:00.000Z",
+  "calendarAsOf": "2026-11-01",
+  "mode": "monthly",
+  "sourceInput": {
+    "path": "history/calendar-refresh/official-review.json",
+    "checkedAt": "2026-10-10T10:11:31.811Z",
+    "assessment": "stale automated collection input; not treated as verified market conclusions",
+    "sourceHealth": {
+      "marketwatch": "HTTP 401",
+      "dol": "ok",
+      "bls": "HTTP 403",
+      "bea": "ok",
+      "federalReserve": "ok",
+      "spGlobalPmi": "HTTP 403"
+    },
+    "proposals": 0,
+    "announcements": 1,
+    "nextFlashPmi": {
+      "date": "2026-10-23",
+      "officialDateVerified": false,
+      "requiresReview": true,
+      "assessment": "stale; superseded by independently verified November and December coverage"
+    }
+  },
+  "publishedChanges": {
+    "addedIds": [
+      "2026-11-12-AMAT Earnings",
+      "2026-11-17-NVDA Earnings",
+      "2026-11-20-OPEX",
+      "2026-11-24-DELL Earnings",
+      "2026-12-14-ORCL Earnings",
+      "2026-12-16-FLASH PMI",
+      "2026-12-18-OPEX"
+    ],
+    "updatedIds": [],
+    "reviewedEventCount": 142,
+    "horizonEnd": "2027-01-30"
+  },
+  "verification": {
+    "novemberFlashPmi": {
+      "id": "2026-11-23-FLASH PMI",
+      "date": "2026-11-23",
+      "timeET": "09:45",
+      "present": true
+    },
+    "decemberFlashPmi": {
+      "id": "2026-12-16-FLASH PMI",
+      "date": "2026-12-16",
+      "timeET": "09:45",
+      "present": true,
+      "requiresOfficialRowReview": true
+    },
+    "optionsExpirations": {
+      "2026-11-20": "official OCC",
+      "2026-12-18": "official OCC"
+    },
+    "weekdayAlignment": {
+      "checked": true,
+      "invalidDates": []
+    },
+    "previousMonthPolicy": "October remains visible through November 7, then disappears automatically; historical records remain stored.",
+    "cancellationPolicy": "No event was cancelled because it was absent from a feed."
+  },
+  "sources": {
+    "official": [
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/default.aspx",
+      "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fourth-quarter-and-fiscal-2026-results",
+      "https://investors.delltechnologies.com/news-events/events",
+      "https://investor.oracle.com/faq/default.aspx?LanguageId=1",
+      "https://infomemo.theocc.com/infomemos?number=57897",
+      "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en"
+    ],
+    "reputable": [
+      "https://tradingvesting.com/globalvision_manufacturing_pmi_composite_flash.html"
+    ]
+  },
+  "notes": "No paid OpenAI API was used. Historical datasets remain under history; NasDecode and NasBoard were not changed."
+}
