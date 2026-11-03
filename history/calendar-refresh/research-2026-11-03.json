@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-03",
+  "collector": {
+    "checkedAt": "2026-10-10T10:11:31.811Z",
+    "stale": true,
+    "proposals": 0,
+    "nextFlashPmiStale": "2026-10-23",
+    "sourceHealth": {
+      "marketwatch": "HTTP 401",
+      "dol": "ok",
+      "bls": "HTTP 403",
+      "bea": "ok",
+      "fed": "ok",
+      "pmi": "HTTP 403"
+    }
+  },
+  "changes": {
+    "added": [
+      "2026-11-02-TREASURY BORROWING",
+      "2026-11-04-TREASURY REFUNDING"
+    ],
+    "outcomesCaptured": [
+      "2026-10-20-NFLX Earnings",
+      "2026-10-21-UST 20Y",
+      "2026-10-21-TSLA Earnings",
+      "2026-10-21-META Earnings",
+      "2026-10-21-TXN Earnings",
+      "2026-10-21-LRCX Earnings",
+      "2026-11-02-SP MFG FINAL",
+      "2026-11-02-ISM MFG",
+      "2026-11-02-SLOOS",
+      "2026-11-02-PLTR Earnings",
+      "2026-11-02-AAPL Earnings",
+      "2026-11-03-JOLTS",
+      "2026-11-03-AMD Earnings",
+      "2026-10-22-MIDEAST OIL ESCALATION"
+    ],
+    "eventCount": 144
+  },
+  "flashPmi": {
+    "next": "2026-11-23",
+    "timeET": "09:45 ET",
+    "alsoPresent": "2026-12-16"
+  },
+  "notes": [
+    "No cancellation inferred from feed absence.",
+    "All displayed interpretation fields were re-reviewed and stamped November 3.",
+    "Historical datasets remain under history; NasDecode and NasBoard were not changed."
+  ],
+  "sources": [
+    "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/us-manufacturing-pmi-holds-close-to-highest-since-2022-as-price-pressures-build",
+    "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+    "https://www.federalreserve.gov/data/sloos/sloos-202610.htm",
+    "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+    "https://www.reuters.com/technology/palantir-tops-third-quarter-revenue-estimates-strong-ai-software-demand-2026-11-02/",
+    "https://home.treasury.gov/news/press-releases/sb0675",
+    "https://www.reuters.com/business/finance/us-treasury-auction-changes-loom-2027-dealers-eye-long-end-cuts-2026-11-02/"
+  ]
+}
