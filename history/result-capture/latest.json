@@ -1,61 +1,66 @@
 {
-  "checkedAt": "2026-11-02T21:16:02.108Z",
+  "checkedAt": "2026-11-03T02:59:09.278Z",
   "issues": [
     {
-      "id": "2026-11-02-ISM MFG",
-      "field": "outcome",
-      "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-11-02-ISM MFG",
-      "asset": "nasdaq",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-11-02-ISM MFG",
-      "asset": "sox",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-11-02-SP MFG FINAL",
+      "id": "2026-11-02-AAPL Earnings",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-02-SP MFG FINAL",
+      "id": "2026-11-02-AAPL Earnings",
       "asset": "nasdaq",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-11-02-SP MFG FINAL",
+      "id": "2026-11-02-AAPL Earnings",
       "asset": "sox",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-11-02-SLOOS",
+      "id": "2026-11-02-PLTR Earnings",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-02-SLOOS",
+      "id": "2026-11-02-PLTR Earnings",
       "asset": "nasdaq",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-11-02-SLOOS",
+      "id": "2026-11-02-PLTR Earnings",
       "asset": "sox",
-      "reason": "HTTP 403"
+      "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-10-29-STM Earnings",
+      "id": "2026-10-23-FLASH PMI",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-29-AMZN Earnings",
+      "id": "2026-10-08-TSMC",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-08-UST 30Y",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-07-FOMC MINUTES",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-23-MICH FIN",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-22-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 6
+  "requests": 2
 }
