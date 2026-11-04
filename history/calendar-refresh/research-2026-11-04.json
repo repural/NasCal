@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-04",
+  "collector": {
+    "checkedAt": "2026-10-10T10:11:31.811Z",
+    "stale": true,
+    "proposals": 0,
+    "nextFlashPmiStale": "2026-10-23",
+    "sourceHealth": {
+      "marketwatch": "HTTP 401",
+      "dol": "ok",
+      "bls": "HTTP 403",
+      "bea": "ok",
+      "fed": "ok",
+      "pmi": "HTTP 403"
+    }
+  },
+  "changes": {
+    "added": [],
+    "outcomesCaptured": [
+      "2026-11-03-JOLTS",
+      "2026-11-03-AMD Earnings",
+      "2026-11-03-MIDTERMS"
+    ],
+    "materialUpdates": [
+      "2026-10-22-MIDEAST OIL ESCALATION"
+    ],
+    "eventCount": 144
+  },
+  "flashPmi": {
+    "next": "2026-11-23",
+    "timeET": "09:45 ET",
+    "alsoPresent": "2026-12-16"
+  },
+  "notes": [
+    "No cancellation inferred from feed absence.",
+    "Election voting is complete but Senate control remains unresolved; the row records the verified partial outcome.",
+    "All displayed interpretation fields were re-reviewed and stamped November 4.",
+    "Historical datasets remain under history; NasDecode and NasBoard were not changed."
+  ],
+  "sources": [
+    "https://www.bls.gov/news.release/jolts.htm",
+    "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "https://www.reuters.com/world/us/trump-faces-midterm-verdict-with-control-congress-stake-2026-11-03/",
+    "https://www.reuters.com/world/middle-east/irans-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-2026-11-03/"
+  ]
+}
