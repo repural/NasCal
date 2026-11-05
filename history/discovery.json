@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "range": [
     "2026-01",
     "2026-11"
   ],
-  "checkedOn": "2026-11-04",
+  "checkedOn": "2026-11-05",
   "sources": [
     "https://www.bea.gov/news/schedule/full",
     "https://www.census.gov/retail/release_schedule.html",
@@ -33,15 +33,6 @@
       "status": "needs-release-verification"
     },
     {
-      "date": "2026-01-22",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, October and November 2025 View",
-      "timeET": "10:00",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-01-22-PCE",
-      "status": "recorded"
-    },
-    {
       "date": "2026-01-28",
       "family": "fomc-decision",
       "label": "FOMC decision",
@@ -60,42 +51,6 @@
       "status": "needs-release-verification"
     },
     {
-      "date": "2026-02-20",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, December 2025 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-02-20-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-02-20",
-      "family": "gdp-advance",
-      "label": "GDP (Advance Estimate), 4th Quarter and Year 2025 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-02-20-GDP",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-03-13",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, January 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-03-13-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-03-13",
-      "family": "gdp-second",
-      "label": "GDP (Second Estimate), 4th Quarter and Year 2025 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-03-13-GDP",
-      "status": "recorded"
-    },
-    {
       "date": "2026-03-16",
       "family": "retail-sales",
       "label": "Advance retail sales",
@@ -111,15 +66,6 @@
       "timeET": "14:00",
       "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "historyEventId": "2026-03-18-FOMC",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-04-09",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, February 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-04-09-PCE",
       "status": "recorded"
     },
     {
@@ -141,48 +87,12 @@
       "status": "recorded"
     },
     {
-      "date": "2026-04-30",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, March 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-04-30-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-04-30",
-      "family": "gdp-advance",
-      "label": "GDP (Advance Estimate), 1st Quarter 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-04-30-GDP",
-      "status": "recorded"
-    },
-    {
       "date": "2026-05-14",
       "family": "retail-sales",
       "label": "Advance retail sales",
       "timeET": "08:30",
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
       "historyEventId": "2026-05-14-RETAIL",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-05-28",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, April 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-05-28-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-05-28",
-      "family": "gdp-second",
-      "label": "GDP (Second Estimate) and Corporate Profits, 1st Quarter 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-05-28-GDP",
       "status": "recorded"
     },
     {
@@ -222,15 +132,6 @@
       "status": "recorded"
     },
     {
-      "date": "2026-06-25",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, May 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-06-25-PCE",
-      "status": "recorded"
-    },
-    {
       "date": "2026-07-01",
       "family": "ism-manufacturing",
       "label": "ISM Manufacturing PMI",
@@ -267,24 +168,6 @@
       "status": "recorded"
     },
     {
-      "date": "2026-07-30",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, June 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-07-30-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-07-30",
-      "family": "gdp-advance",
-      "label": "GDP (Advance Estimate), 2nd Quarter 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-07-30-GDP",
-      "status": "recorded"
-    },
-    {
       "date": "2026-08-03",
       "family": "ism-manufacturing",
       "label": "ISM Manufacturing PMI",
@@ -312,24 +195,6 @@
       "status": "needs-release-verification"
     },
     {
-      "date": "2026-08-26",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, July 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-08-26-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-08-26",
-      "family": "gdp-second",
-      "label": "GDP (Second Estimate) and Corporate Profits, 2nd Quarter 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-08-26-GDP",
-      "status": "recorded"
-    },
-    {
       "date": "2026-09-16",
       "family": "fomc-decision",
       "label": "FOMC decision",
@@ -345,15 +210,6 @@
       "timeET": "08:30",
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
       "historyEventId": "2026-09-16-Retail",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-09-30",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, August 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-09-30-PCE",
       "status": "recorded"
     },
     {
@@ -375,24 +231,6 @@
       "status": "recorded"
     },
     {
-      "date": "2026-10-29",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, September 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-10-29-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-10-29",
-      "family": "gdp-advance",
-      "label": "GDP (Advance Estimate), 3rd Quarter 2026 View",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-10-29-GDP",
-      "status": "recorded"
-    },
-    {
       "date": "2026-11-16",
       "family": "retail-sales",
       "label": "Advance retail sales",
@@ -409,24 +247,6 @@
       "sourceUrl": "https://www.census.gov/retail/release_schedule.html",
       "historyEventId": "2026-11-17-Retail",
       "status": "recorded"
-    },
-    {
-      "date": "2026-11-25",
-      "family": "core-pce",
-      "label": "Personal Income and Outlays, October 2026",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-11-25-PCE",
-      "status": "recorded"
-    },
-    {
-      "date": "2026-11-25",
-      "family": "gdp-second",
-      "label": "GDP (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
-      "timeET": "08:30",
-      "sourceUrl": "https://www.bea.gov/news/schedule/full",
-      "historyEventId": "2026-11-25-GDP",
-      "status": "recorded"
     }
   ],
   "fallbacks": [
@@ -434,15 +254,16 @@
   ],
   "errors": [
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/02_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/04_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/01_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/05_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/08_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/03_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/06_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/07_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm",
     "Error: HTTP 403: https://www.bls.gov/schedule/2026/10_sched_list.htm",
-    "Error: HTTP 403: https://www.bls.gov/schedule/2026/11_sched_list.htm"
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/09_sched_list.htm",
+    "Error: HTTP 403: https://www.bls.gov/schedule/2026/11_sched_list.htm",
+    "TypeError: fetch failed"
   ]
 }
