@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-05",
+  "collector": {
+    "checkedAt": "2026-10-10T10:11:31.811Z",
+    "status": "stale",
+    "proposals": 0,
+    "announcements": "October 9 Fed survey; not new",
+    "nextFlashPmi": "stale October 23 reference",
+    "sources": [
+      {
+        "key": "marketwatch",
+        "status": "unavailable",
+        "reason": "HTTP 401"
+      },
+      {
+        "key": "dol",
+        "status": "ok"
+      },
+      {
+        "key": "bls",
+        "status": "unavailable",
+        "reason": "HTTP 403"
+      },
+      {
+        "key": "bea",
+        "status": "ok"
+      },
+      {
+        "key": "fed",
+        "status": "ok"
+      },
+      {
+        "key": "pmi",
+        "status": "unavailable",
+        "reason": "HTTP 403"
+      }
+    ]
+  },
+  "addedIds": [
+    "2026-11-03-SMCI Earnings",
+    "2026-11-09-UST 3Y",
+    "2026-12-07-COINS COMMENTS",
+    "2027-02-03-TREASURY REFUNDING",
+    "2026-11-10-BIS AFFILIATES",
+    "2026-11-10-SECTION 301 EXCLUSIONS",
+    "2026-11-27-CHINA DUAL USE",
+    "2026-11-29-VIETNAM SECTION 301"
+  ],
+  "updatedIds": [
+    "2026-10-22-MIDEAST OIL ESCALATION",
+    "2026-10-22-TREASURY OUTBOUND INVESTMENT NPRM",
+    "2026-10-27-ISRAEL ELECTION",
+    "2026-11-03-MIDTERMS",
+    "2026-11-04-ADP",
+    "2026-11-04-TREASURY REFUNDING",
+    "2026-11-04-SP SERVICES FINAL",
+    "2026-11-04-ISM SERVICES",
+    "2026-11-04-QCOM Earnings",
+    "2026-11-04-ARM Earnings",
+    "2026-11-05-CLAIMS",
+    "2026-11-05-PRODUCTIVITY",
+    "2026-11-06-JOBS",
+    "2026-11-06-MICH PRE",
+    "2026-11-10-CPI",
+    "2026-11-10-UST 10Y",
+    "2026-11-10-TSMC Sales",
+    "2026-11-12-CLAIMS",
+    "2026-11-12-UST 30Y",
+    "2026-11-12-AMAT Earnings",
+    "2026-11-13-PPI",
+    "2026-11-15-CHINA AI CONSULTATION",
+    "2026-11-16-ASEAN SUMMIT",
+    "2026-11-16-FED AI HEARING",
+    "2026-11-17-Retail",
+    "2026-11-17-IND PROD",
+    "2026-11-17-NVDA Earnings",
+    "2026-11-18-UST 20Y",
+    "2026-11-18-FOMC MINUTES",
+    "2026-11-18-APEC",
+    "2026-11-19-CLAIMS",
+    "2026-11-20-MICH FIN",
+    "2026-11-20-OPEX",
+    "2026-11-23-FLASH PMI",
+    "2026-11-24-DELL Earnings",
+    "2026-11-25-CLAIMS",
+    "2026-11-25-GDP",
+    "2026-11-25-PCE",
+    "2026-11-25-UST 7Y",
+    "2026-11-25-BEIGE BOOK",
+    "2026-12-01-ISM MFG",
+    "2026-12-01-JOLTS",
+    "2026-12-03-CLAIMS",
+    "2026-12-03-ISM SERVICES",
+    "2026-12-04-JOBS",
+    "2026-12-04-MICH PRE",
+    "2026-12-08-PRODUCTIVITY",
+    "2026-12-08-UST 10Y",
+    "2026-12-09-FED",
+    "2026-12-10-CLAIMS",
+    "2026-12-10-CPI",
+    "2026-12-10-UST 30Y",
+    "2026-12-10-TSMC Sales",
+    "2026-12-14-ORCL Earnings",
+    "2026-12-14-G20",
+    "2026-12-15-PPI",
+    "2026-12-16-Retail",
+    "2026-12-16-IND PROD",
+    "2026-12-16-FLASH PMI",
+    "2026-12-17-CLAIMS",
+    "2026-12-18-MICH FIN",
+    "2026-12-18-OPEX",
+    "2026-12-23-GDP",
+    "2026-12-23-PCE",
+    "2026-12-23-UST 20Y",
+    "2026-12-24-CLAIMS",
+    "2026-12-27-China Green Probe",
+    "2026-12-27-China Supply Probe",
+    "2026-12-29-UST 7Y",
+    "2026-12-31-CLAIMS",
+    "2027-01-01-CANADA AUTO TARIFF",
+    "2027-01-07-CLAIMS",
+    "2027-01-08-JOBS",
+    "2027-01-10-US-CHINA-TRUCE",
+    "2027-01-13-CPI",
+    "2027-01-14-CLAIMS",
+    "2027-01-14-PPI",
+    "2027-01-21-CLAIMS",
+    "2027-01-26-FOMC 1",
+    "2027-01-27-FED",
+    "2027-01-28-CLAIMS",
+    "2027-01-28-GDP",
+    "2027-01-28-PCE",
+    "2027-01-29-ECI"
+  ],
+  "eventCount": 152,
+  "nextFlashPmi": {
+    "id": "2026-11-23-FLASH PMI",
+    "date": "2026-11-23",
+    "timeET": "09:45",
+    "officialDateVerified": false,
+    "sources": [
+      {
+        "url": "https://www.cmegroup.com/education/events/econoday/671313",
+        "title": "CME Econoday: November 23 flash PMI"
+      },
+      {
+        "url": "https://www.investing.com/economic-calendar/s-p-global-composite-pmi-1492",
+        "title": "Independent November 23, 14:45 UTC schedule"
+      },
+      {
+        "url": "https://www.mtsinsights.com/events/4745/",
+        "title": "MTS Insights: November 23, 09:45 ET"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.marketwatch.com/economy-politics/calendar",
+    "https://www.reuters.com/business/energy/global-markets-global-markets-2026-11-05/",
+    "https://mediacenter.adp.com/2026-11-04-ADP-National-Employment-Report-Private-Sector-Employment-Increased-by-86%2C000-Jobs-in-October",
+    "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-11/ism-pmi-reports-roundup-october-2026-services/",
+    "https://home.treasury.gov/news/press-releases/sb0678/",
+    "https://www.federalregister.gov/d/2026-21786",
+    "https://www.reuters.com/legal/government/democrats-seize-congress-sweeping-midterm-repudiation-trump-2026-11-04/",
+    "https://apnews.com/article/57aefc6424da937ad2842f6d762631ae",
+    "https://investor.qualcomm.com/files/content_files/FY2026-4th-Quarter-Earnings-Release.pdf",
+    "https://investors.arm.com/static-files/0b5baa2e-fc47-4d05-b724-e49de7bd4356",
+    "https://www.investing.com/economic-calendar/s-p-global-composite-pmi-1492",
+    "https://www.fxblue.com/calendar/item/5085ec6f-0c90-43d0-83f0-b936a41da1e7/bf97f7f2-3ea2-49fc-96e2-e08c8ceecb4c",
+    "https://in.marketscreener.com/news/employment-report-on-tap-data-week-ahead-ce785fdfdd80f521",
+    "https://www.bea.gov/data/gdp/gross-domestic-product",
+    "https://bea.gov/data/personal-consumption-expenditures-price-index",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "https://ir.supermicro.com/news/news-details/2026/Supermicro-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx",
+    "https://www.federalregister.gov/d/2025-19846",
+    "https://ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-china-technology-transfer/china-section-301-tariff-actions-and-exclusion-process/reinstatement-certain-exclusions-previously-extended",
+    "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2025/art_43489ca6f2094b70954c25249702b4cc.html",
+    "https://www.reuters.com/legal/litigation/tesla-samsung-oppose-new-us-tariffs-vietnam-probe-deadline-nears-2026-11-02/"
+  ],
+  "notes": [
+    "Reassessed displayed completed rows as historical outcomes; no retrospective consensus fabricated. Forward event commentary updated by release, company, or policy milestone.",
+    "No cancellation inferred from feed absence. Recurring live site uses central JSON."
+  ]
+}
