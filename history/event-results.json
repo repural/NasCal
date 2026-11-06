@@ -79941,7 +79941,8 @@
           "dayOpen": {
             "date": "2025-03-20",
             "value": 17586.06083346552
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -79963,7 +79964,8 @@
           "dayOpen": {
             "date": "2025-03-20",
             "value": 4579.06435495359
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -82117,7 +82119,8 @@
           "dayOpen": {
             "date": "2025-06-25",
             "value": 20013.9466033208
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -82139,7 +82142,8 @@
           "dayOpen": {
             "date": "2025-06-25",
             "value": 5461.15239762711
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -84293,7 +84297,8 @@
           "dayOpen": {
             "date": "2025-09-23",
             "value": 22782.71776693207
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -84315,7 +84320,8 @@
           "dayOpen": {
             "date": "2025-09-23",
             "value": 6336.52797447176
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -86469,7 +86475,8 @@
           "dayOpen": {
             "date": "2025-12-17",
             "value": 23135.60942927654
-          }
+          },
+          "beforeRelease": null
         },
         "sox": {
           "priorClose": {
@@ -86491,7 +86498,8 @@
           "dayOpen": {
             "date": "2025-12-17",
             "value": 6993.09968316837
-          }
+          },
+          "beforeRelease": null
         }
       },
       "missingFields": {},
@@ -87438,16 +87446,13 @@
       },
       "missingFields": {
         "previous": {
-          "status": "source-unavailable",
-          "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "actual": {
-          "status": "source-unavailable",
-          "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "surprise": {
-          "status": "source-unavailable",
-          "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         }
       },
       "captureAttemptAt": "2026-11-06T09:26:16.609Z"
@@ -89909,13 +89914,16 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
       "indexLevels": {
@@ -89978,7 +89986,7 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-11-03T02:59:09.278Z",
+          "checkedAt": "2026-11-06T18:45:56.559Z",
           "minuteRetryAt": "2026-10-24T16:16:55.999Z"
         },
         "sox": {
@@ -89986,14 +89994,14 @@
           "dayClose": "captured",
           "at15": "captured",
           "at60": "captured",
-          "checkedAt": "2026-11-03T02:59:09.278Z",
+          "checkedAt": "2026-11-06T18:45:56.559Z",
           "minuteRetryAt": "2026-10-24T16:16:55.999Z"
         }
       },
-      "captureAttemptAt": "2026-11-03T02:59:09.278Z",
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
-      "outcomeRetryAt": "2026-11-03T03:29:09.278Z"
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-10-27-FOMC 1",
@@ -90659,16 +90667,13 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "source-unavailable",
-          "reason": "Official source HTTP 404; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "actual": {
-          "status": "source-unavailable",
-          "reason": "Official source HTTP 404; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "surprise": {
-          "status": "source-unavailable",
-          "reason": "Official source HTTP 404; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         }
       },
       "indexLevels": {
@@ -91056,45 +91061,68 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official source HTTP 403; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official source HTTP 403; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official source HTTP 403; MarketWatch HTTP 401"
         }
       },
       "indexLevels": {
         "nasdaq": {
-          "priorClose": null,
+          "priorClose": {
+            "date": "2026-11-05",
+            "value": 24314.99730288132
+          },
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null
+          "dayClose": null,
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "employment-report",
+          "intradayStatus": "outside-index-session"
         },
         "sox": {
-          "priorClose": null,
+          "priorClose": {
+            "date": "2026-11-05",
+            "value": 9011.13746976178
+          },
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null
+          "dayClose": null,
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "08:30",
+          "releaseLabel": "employment-report",
+          "intradayStatus": "outside-index-session"
         }
       },
       "capture": {
         "nasdaq": {
-          "priorClose": "missing",
+          "priorClose": "captured",
           "dayClose": "pending",
-          "at15": "pending",
-          "at60": "pending"
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         },
         "sox": {
-          "priorClose": "missing",
+          "priorClose": "captured",
           "dayClose": "pending",
-          "at15": "pending",
-          "at60": "pending"
+          "at15": "outside-index-session",
+          "at60": "outside-index-session",
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         }
-      }
+      },
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Official source HTTP 403; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-11-10-CPI",
@@ -99656,13 +99684,16 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
       "earningsCrossAssets": {
@@ -101486,20 +101517,20 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-02T21:16:02.108Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-02T21:16:02.108Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         }
       },
-      "captureAttemptAt": "2026-11-02T21:16:02.108Z",
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
-      "outcomeRetryAt": "2026-11-02T21:46:02.108Z"
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-11-04-ARM Earnings",
@@ -103841,16 +103872,13 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "actual": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "surprise": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         }
       },
       "indexLevels": {
@@ -104656,45 +104684,74 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
       "indexLevels": {
         "nasdaq": {
-          "priorClose": null,
+          "priorClose": {
+            "date": "2026-11-05",
+            "value": 24314.99730288132
+          },
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null
+          "dayClose": null,
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "10:00",
+          "releaseLabel": "michigan-sentiment-preliminary",
+          "intradayStatus": "plan-not-authorized"
         },
         "sox": {
-          "priorClose": null,
+          "priorClose": {
+            "date": "2026-11-05",
+            "value": 9011.13746976178
+          },
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null
+          "dayClose": null,
+          "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
+          "releaseTimeET": "10:00",
+          "releaseLabel": "michigan-sentiment-preliminary",
+          "intradayStatus": "plan-not-authorized"
         }
       },
       "capture": {
         "nasdaq": {
-          "priorClose": "missing",
+          "priorClose": "captured",
           "dayClose": "pending",
-          "at15": "pending",
-          "at60": "pending"
+          "at15": "due",
+          "at60": "missing",
+          "error": "HTTP 403",
+          "checkedAt": "2026-11-06T18:45:56.559Z",
+          "retryAt": "2026-11-06T19:00:56.559Z",
+          "minuteRetryAt": "2026-11-07T18:45:56.559Z"
         },
         "sox": {
-          "priorClose": "missing",
+          "priorClose": "captured",
           "dayClose": "pending",
-          "at15": "pending",
-          "at60": "pending"
+          "at15": "due",
+          "at60": "missing",
+          "error": "HTTP 403",
+          "checkedAt": "2026-11-06T18:45:56.559Z",
+          "retryAt": "2026-11-06T19:00:56.559Z",
+          "minuteRetryAt": "2026-11-07T18:45:56.559Z"
         }
-      }
+      },
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
+      "outcomeStatus": "awaiting-verification",
+      "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-11-12-CLAIMS",
@@ -117816,13 +117873,16 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
       "earningsCrossAssets": {
@@ -119646,20 +119706,20 @@
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-02T21:16:02.108Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-02T21:16:02.108Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         }
       },
-      "captureAttemptAt": "2026-11-02T21:16:02.108Z",
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
-      "outcomeRetryAt": "2026-11-02T21:46:02.108Z"
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-11-02-AAPL Earnings",
@@ -119671,13 +119731,16 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
       "earningsCrossAssets": {
@@ -121200,7 +121263,10 @@
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null,
+          "dayClose": {
+            "date": "2026-11-02",
+            "value": 25164.36313758485
+          },
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "releaseTimeET": "17:00",
           "releaseLabel": "aapl-earnings",
@@ -121214,7 +121280,10 @@
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null,
+          "dayClose": {
+            "date": "2026-11-02",
+            "value": 10328.32868203059
+          },
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "releaseTimeET": "17:00",
           "releaseLabel": "aapl-earnings",
@@ -121224,25 +121293,23 @@
       "capture": {
         "nasdaq": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-03T02:59:09.278Z",
-          "retryAt": "2026-11-03T03:14:09.278Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         },
         "sox": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-03T02:59:09.278Z",
-          "retryAt": "2026-11-03T03:14:09.278Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         }
       },
-      "captureAttemptAt": "2026-11-03T02:59:09.278Z",
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
-      "outcomeRetryAt": "2026-11-03T03:29:09.278Z"
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-11-02-SP MFG FINAL",
@@ -121254,16 +121321,13 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "actual": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "surprise": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         }
       },
       "indexLevels": {
@@ -127320,13 +127384,16 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
       "indexLevels": {
@@ -127371,20 +127438,20 @@
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-11-02T21:16:02.108Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         },
         "sox": {
           "priorClose": "captured",
           "dayClose": "captured",
           "at15": "no-single-release-time",
           "at60": "no-single-release-time",
-          "checkedAt": "2026-11-02T21:16:02.108Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         }
       },
-      "captureAttemptAt": "2026-11-02T21:16:02.108Z",
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
-      "outcomeRetryAt": "2026-11-02T21:46:02.108Z"
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-10-27-ISRAEL ELECTION",
@@ -127956,13 +128023,16 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "actual": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         },
         "surprise": {
-          "status": "awaiting-verification"
+          "status": "source-unavailable",
+          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
         }
       },
       "earningsCrossAssets": {
@@ -129485,7 +129555,10 @@
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null,
+          "dayClose": {
+            "date": "2026-11-02",
+            "value": 25164.36313758485
+          },
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "releaseTimeET": "17:00",
           "releaseLabel": "pltr-earnings",
@@ -129499,7 +129572,10 @@
           "beforeRelease": null,
           "at15": null,
           "at60": null,
-          "dayClose": null,
+          "dayClose": {
+            "date": "2026-11-02",
+            "value": 10328.32868203059
+          },
           "sourceUrl": "https://massive.com/docs/rest/indices/aggregates/custom-bars",
           "releaseTimeET": "17:00",
           "releaseLabel": "pltr-earnings",
@@ -129509,25 +129585,23 @@
       "capture": {
         "nasdaq": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-03T02:59:09.278Z",
-          "retryAt": "2026-11-03T03:14:09.278Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         },
         "sox": {
           "priorClose": "captured",
-          "dayClose": "missing",
+          "dayClose": "captured",
           "at15": "outside-index-session",
           "at60": "outside-index-session",
-          "checkedAt": "2026-11-03T02:59:09.278Z",
-          "retryAt": "2026-11-03T03:14:09.278Z"
+          "checkedAt": "2026-11-06T18:45:56.559Z"
         }
       },
-      "captureAttemptAt": "2026-11-03T02:59:09.278Z",
+      "captureAttemptAt": "2026-11-06T18:45:56.559Z",
       "outcomeStatus": "awaiting-verification",
       "outcomeError": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401",
-      "outcomeRetryAt": "2026-11-03T03:29:09.278Z"
+      "outcomeRetryAt": "2026-11-06T19:15:56.559Z"
     },
     {
       "eventId": "2026-11-04-ADP",
@@ -129629,16 +129703,13 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "actual": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "surprise": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         }
       },
       "indexLevels": {
@@ -134550,16 +134621,13 @@
       "sourceUrl": null,
       "missingFields": {
         "previous": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "actual": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         },
         "surprise": {
-          "status": "source-unavailable",
-          "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+          "status": "awaiting-verification"
         }
       },
       "indexLevels": {
@@ -136447,5 +136515,5 @@
       ]
     }
   },
-  "updatedAt": "2026-11-06T09:26:16.609Z"
+  "updatedAt": "2026-11-06T18:45:56.559Z"
 }
