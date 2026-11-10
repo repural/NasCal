@@ -1,51 +1,16 @@
 {
-  "checkedAt": "2026-11-10T03:55:51.453Z",
+  "checkedAt": "2026-11-10T09:52:45.100Z",
   "issues": [
     {
-      "id": "2026-11-09-AI CHIP EXPORT PUSH",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-11-09-AI CHIP EXPORT PUSH",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-21-UST 20Y",
+      "id": "2026-11-10-TSMC Sales",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-18-RUSSIA SANCTIONS DEADLINE",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-10-16-IND PROD",
+      "id": "2026-11-10-CHINA TARIFF STAY",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-10-15-Retail",
-      "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-11-03-MIDTERMS",
-      "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-10-15-PPI",
-      "field": "outcome",
-      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
     }
   ],
-  "requests": 4
+  "requests": 2
 }
