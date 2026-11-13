@@ -1,23 +1,38 @@
 {
-  "checkedAt": "2026-11-13T09:33:09.360Z",
+  "checkedAt": "2026-11-13T19:04:14.231Z",
   "issues": [
     {
-      "id": "2026-11-12-NVDA CEO TRANSITION",
+      "id": "2026-11-13-PPI",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-11-02-TREASURY BORROWING",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-29-STM Earnings",
+      "id": "2026-10-23-MICH FIN",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-29-AMZN Earnings",
+      "id": "2026-10-22-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-23-FLASH PMI",
+      "id": "2026-10-21-TSLA Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-21-LRCX Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-08-TSMC",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
