@@ -1,23 +1,38 @@
 {
-  "checkedAt": "2026-11-17T10:44:39.601Z",
+  "checkedAt": "2026-11-17T20:20:46.448Z",
   "issues": [
     {
-      "id": "2026-11-10-WALLER OUTLOOK",
+      "id": "2026-11-17-IND PROD",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-10-CHINA TARIFF STAY",
+      "id": "2026-11-17-Retail",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-10-CPI",
+      "id": "2026-11-04-ISM SERVICES",
       "field": "outcome",
-      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+      "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-10-UST 10Y",
+      "id": "2026-11-04-SP SERVICES FINAL",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-11-04-ADP",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-11-04-TREASURY REFUNDING",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-11-10-BOWMAN CFR",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
