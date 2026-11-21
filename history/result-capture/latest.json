@@ -1,46 +1,46 @@
 {
-  "checkedAt": "2026-11-20T19:30:13.885Z",
+  "checkedAt": "2026-11-21T00:57:01.569Z",
   "issues": [
     {
-      "id": "2026-11-20-MICH FIN",
+      "id": "2026-10-23-FLASH PMI",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-20-MICH FIN",
-      "asset": "nasdaq",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-11-20-MICH FIN",
-      "asset": "sox",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-10-05-ISM Services",
+      "id": "2026-11-13-PPI",
       "field": "outcome",
-      "reason": "Published date or supported outcome fields could not be verified.; MarketWatch HTTP 401"
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-01-CLAIMS",
+      "id": "2026-11-02-TREASURY BORROWING",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-12-NVDA CEO TRANSITION",
+      "id": "2026-10-23-MICH FIN",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-29-STM Earnings",
+      "id": "2026-10-22-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-29-AMZN Earnings",
+      "id": "2026-10-21-TSLA Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-21-LRCX Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-08-TSMC",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 4
+  "requests": 2
 }
