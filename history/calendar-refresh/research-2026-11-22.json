@@ -1,0 +1,1882 @@
+{
+  "asOf": "2026-11-22",
+  "checkedAt": "2026-11-22T04:34:44Z",
+  "horizonEnd": "2027-02-20",
+  "collectorCheckedAt": "2026-10-10T10:11:31.811Z",
+  "collectorHealth": {
+    "stale": true,
+    "proposals": 0,
+    "announcements": "Only October 9 Survey of Consumer Finances",
+    "nextFlashPmi": "Obsolete October 23 flag; independently verified November 23"
+  },
+  "added": [
+    "2026-11-23-WILLIAMS OUTLOOK",
+    "2027-01-05-JOLTS",
+    "2027-02-02-JOLTS",
+    "2027-02-11-CPI",
+    "2027-02-12-PPI",
+    "2026-12-08-FOMC 1",
+    "2026-11-20-NVDA SEC PROBE",
+    "2026-11-20-OVERSEAS DATA CENTERS",
+    "2026-11-21-HORMUZ TANKER ATTACKS",
+    "2026-11-21-BAHRAIN ATTACK",
+    "2026-11-22-CHINA FCC RESPONSE",
+    "2027-01-04-ISM MFG",
+    "2027-01-06-ISM SERVICES",
+    "2027-02-01-ISM MFG",
+    "2027-02-03-ISM SERVICES"
+  ],
+  "materialUpdates": [
+    "2026-11-23-FLASH PMI",
+    "2026-11-20-MICH FIN",
+    "2026-11-18-APEC",
+    "2026-12-14-G20",
+    "2027-01-10-US-CHINA-TRUCE",
+    "2026-11-25-PCE",
+    "2026-11-17-NVDA Earnings",
+    "2026-11-19-ANT IPO"
+  ],
+  "flashPmi": {
+    "date": "2026-11-23",
+    "timeET": "09:45",
+    "officialDateVerified": true,
+    "officialTimeVerified": false,
+    "publisherSource": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/five-things-to-watch-in-the-november-flash-pmis",
+    "timeSource": "https://forex.tradingcharts.com/economic_calendar/2026-11-23.html"
+  },
+  "sources": {
+    "pmi": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/five-things-to-watch-in-the-november-flash-pmis",
+    "pmitime": "https://forex.tradingcharts.com/economic_calendar/2026-11-23.html",
+    "cook": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+    "williams": "https://www.newyorkfed.org/newsevents/mediaadvisory/2026/1113-2026",
+    "mich": "https://www.sca.isr.umich.edu/",
+    "markets": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
+    "sec": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+    "secfirst": "https://www.reuters.com/technology/nvidia-facing-sec-probe-after-huangs-resignation-wsj-reports-2026-11-17/",
+    "dc": "https://www.whitehouse.gov/releases/2026/11/at-press-briefing-president-trump-touts-historic-wins-for-americans-signals-deal-making-on-healthcare/",
+    "dcwire": "https://www.reuters.com/technology/trump-says-us-penalize-firms-building-data-centers-abroad-2026-11-20/",
+    "ukmto": "https://www.ukmto.org/recent-incidents?gsid=646bb556-74ab-45ae-b68f-9ba64b7462ce",
+    "hormuz": "https://www.reuters.com/business/energy/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says-2026-11-21/",
+    "bahrain": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+    "fcc": "https://www.reuters.com/world/china-opposes-us-fcc-ban-chinese-telecoms-direct-access-us-phone-numbers-2026-11-22/",
+    "g20": "https://www.reuters.com/world/china/trump-basks-summit-pomp-chinas-xi-strengthens-his-hand-2026-11-21/",
+    "jan": "https://www.bls.gov/schedule/2027/01_sched_list.htm",
+    "feb": "https://www.bls.gov/schedule/2027/02_sched_list.htm",
+    "cpi": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "ppi": "https://www.bls.gov/news.release/ppi.nr0.htm",
+    "jolts": "https://www.bls.gov/news.release/jolts.nr0.htm",
+    "jobs": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "claims": "https://oui.doleta.gov/press/2026/111926.pdf",
+    "prod": "https://www.bls.gov/news.release/prod2.nr0.htm",
+    "fed": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "bea": "https://www.bea.gov/news/schedule",
+    "ism": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+    "treasury": "https://home.treasury.gov/news/press-releases/sb0678/"
+  },
+  "interpretationReview": [
+    {
+      "id": "2026-11-02-AAPL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-02-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-02-PLTR Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-02-SLOOS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-02-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-02-TREASURY BORROWING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-03-AMD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-03-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-03-MIDTERMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-03-SMCI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-04-ADP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-04-ARM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-04-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-04-QCOM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-04-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-04-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-05-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-05-H200 IMPORT DELAYS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-05-HORMUZ INCIDENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-05-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-06-CHINA IMPLEMENTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-06-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-07-IRON GATE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-09-AI CHIP EXPORT PUSH",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-09-BIS EXTENSION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-09-CHINA PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-09-UST 3Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-10-BOWMAN CFR",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-10-BOWMAN OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-10-CHINA TARIFF STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-10-CRWV Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-10-SECTION 301 EXCLUSIONS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-10-WALLER OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-11-CHINA RARE EARTH STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-11-VETERANS BOND CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-12-AMAT Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-12-BARR AI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-12-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-12-NVDA CEO TRANSITION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-12-NVDA TRADE OVERSIGHT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-13-JEFFERSON PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-13-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-15-CHINA AI CONSULTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-16-ASEAN SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-16-FED AI HEARING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-17-NVDA Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-17-NVDA RECORDS RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-17-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-18-APEC",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-18-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-18-NVDA HOUSE BRIEFING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-18-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-19-ANT IPO",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-19-APEC TRILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-19-APEC XI BILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-19-BIS REMOTE ACCESS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-20-EU UK SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-20-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-20-US CHINA CHIP REMARKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-23-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-24-ADI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-24-DELL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-24-IND PROD REVISION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-25-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-25-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-27-CHINA DUAL USE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-29-VIETNAM SECTION 301",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-12-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-01-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-03-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-04-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-04-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-07-COINS COMMENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-12-08-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-08-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-09-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-10-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-10-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-14-G20",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-14-ORCL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-15-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-16-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-16-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-16-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-17-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-18-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-18-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-12-23-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-23-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-23-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-24-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-27-China Green Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-12-27-China Supply Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-12-29-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-31-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-01-CANADA AUTO TARIFF",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2027-01-07-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-08-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-09-301 EXCLUSIONS EXPIRY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2026-11-10-BIS AFFILIATES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "retained after reviewing current policy, demand and financing context; completed results remain historical"
+    },
+    {
+      "id": "2027-01-10-US-CHINA-TRUCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-13-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-14-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-14-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-15-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-15-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-21-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-26-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-27-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-28-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-28-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-28-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-29-ECI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-02-03-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-02-04-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-02-04-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-02-05-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-23-WILLIAMS OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-05-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-02-02-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-02-11-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-02-12-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-12-08-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-20-NVDA SEC PROBE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-20-OVERSEAS DATA CENTERS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-21-HORMUZ TANKER ATTACKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-21-BAHRAIN ATTACK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2026-11-22-CHINA FCC RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "revised"
+    },
+    {
+      "id": "2027-01-04-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "new release using the official ISM business-day rule and freshly reviewed baseline and scenarios"
+    },
+    {
+      "id": "2027-01-06-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "new release using the official ISM business-day rule and freshly reviewed baseline and scenarios"
+    },
+    {
+      "id": "2027-02-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "new release using the official ISM business-day rule and freshly reviewed baseline and scenarios"
+    },
+    {
+      "id": "2027-02-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "new release using the official ISM business-day rule and freshly reviewed baseline and scenarios"
+    }
+  ],
+  "excludedLeads": [
+    {
+      "item": "SoftBank / SK Hynix trillion-dollar acquisition exploration",
+      "reason": "Spokesperson says no longer under consideration; no new scheduled deal event."
+    }
+  ],
+  "limitations": [
+    "Collector not fresh. Direct S&P date endpoint unavailable; separate publisher commentary confirms date.",
+    "Reported SEC inquiry is not a finding. No restatement, charge or enforcement deadline assumed.",
+    "No legal effective date invented for overseas-data-center tax threat or Chinese FCC retaliation.",
+    "Historical result datasets under history remain untouched; this audit records researched live-calendar changes."
+  ],
+  "publicationTargets": [
+    "NasCal main central JSON",
+    "existing Site",
+    "existing HTML export and Library identity"
+  ],
+  "officialRuleDerivedDates": [
+    {
+      "id": "2027-01-04-ISM MFG",
+      "source": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "rule": "ISM official first-business-day manufacturing / third-business-day services release rule, excluding January 1 holiday; date computed from that published rule."
+    },
+    {
+      "id": "2027-01-06-ISM SERVICES",
+      "source": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "rule": "ISM official first-business-day manufacturing / third-business-day services release rule, excluding January 1 holiday; date computed from that published rule."
+    },
+    {
+      "id": "2027-02-01-ISM MFG",
+      "source": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "rule": "ISM official first-business-day manufacturing / third-business-day services release rule, excluding January 1 holiday; date computed from that published rule."
+    },
+    {
+      "id": "2027-02-03-ISM SERVICES",
+      "source": "https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/",
+      "rule": "ISM official first-business-day manufacturing / third-business-day services release rule, excluding January 1 holiday; date computed from that published rule."
+    }
+  ]
+}
