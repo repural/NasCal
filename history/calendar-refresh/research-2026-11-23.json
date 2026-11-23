@@ -1,0 +1,1548 @@
+{
+  "asOf": "2026-11-23",
+  "checkedAt": "2026-11-23T04:21:16Z",
+  "collectorCheckedAt": "2026-10-10T10:11:31.811Z",
+  "collectorHealth": "Stale; MarketWatch 401, BLS and PMI 403; DOL/BEA/Fed marked ok only as of October 10. No proposals; only October 9 SCF announcement.",
+  "nextFlashPmi": {
+    "date": "2026-11-23",
+    "timeET": "09:45",
+    "dateSource": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/five-things-to-watch-in-the-november-flash-pmis",
+    "timeAndConsensusSource": "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-20/upcoming.htm",
+    "directCalendarEndpoint": "previously blocked; publisher commentary supplies official date"
+  },
+  "added": [
+    "2026-11-29-OPEC MINISTERIAL",
+    "2026-11-29-OPEC VOLUNTARY",
+    "2026-11-20-IRAN OIL TRUSTEES"
+  ],
+  "materialUpdates": [
+    "2026-11-23-FLASH PMI",
+    "2026-11-25-GDP"
+  ],
+  "sources": [
+    "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-20/upcoming.htm",
+    "https://www.reuters.com/business/energy/oil-prices-fall-amid-equity-selloff-though-iran-war-attacks-limit-losses-2026-11-23/",
+    "https://www.opec.org/pr-detail/605-7-june-2026.html",
+    "https://www.opec.org/pr-detail/2033620-1-november-2026.html",
+    "https://home.treasury.gov/news/press-releases/sb0697"
+  ],
+  "interpretationReview": [
+    {
+      "id": "2026-11-02-AAPL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-02-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-02-PLTR Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-02-SLOOS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-02-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-02-TREASURY BORROWING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-03-AMD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-03-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-03-MIDTERMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-03-SMCI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-04-ADP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-04-ARM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-04-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-04-QCOM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-04-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-04-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-05-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-05-H200 IMPORT DELAYS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-05-HORMUZ INCIDENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-05-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-06-CHINA IMPLEMENTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-06-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-07-IRON GATE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-09-AI CHIP EXPORT PUSH",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-09-BIS EXTENSION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-09-CHINA PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-09-UST 3Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-BOWMAN CFR",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-BOWMAN OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-CHINA TARIFF STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-CRWV Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-SECTION 301 EXCLUSIONS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-WALLER OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-11-CHINA RARE EARTH STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-11-VETERANS BOND CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-12-AMAT Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-12-BARR AI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-12-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-12-NVDA CEO TRANSITION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-12-NVDA TRADE OVERSIGHT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-13-JEFFERSON PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-13-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-15-CHINA AI CONSULTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-16-ASEAN SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-16-FED AI HEARING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-17-NVDA Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-17-NVDA RECORDS RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-17-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-18-APEC",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-18-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-18-NVDA HOUSE BRIEFING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-18-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-19-ANT IPO",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-19-APEC TRILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-19-APEC XI BILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-19-BIS REMOTE ACCESS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-20-EU UK SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-20-NVDA SEC PROBE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-20-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-20-OVERSEAS DATA CENTERS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-20-US CHINA CHIP REMARKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-21-BAHRAIN ATTACK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-21-HORMUZ TANKER ATTACKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-22-CHINA FCC RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-23-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from new evidence"
+    },
+    {
+      "id": "2026-11-23-WILLIAMS OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-24-ADI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-24-DELL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-24-IND PROD REVISION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-25-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from new evidence"
+    },
+    {
+      "id": "2026-11-25-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-27-CHINA DUAL USE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-29-VIETNAM SECTION 301",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-01-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-03-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-04-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-04-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-07-COINS COMMENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-08-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-08-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-08-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-09-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-10-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-10-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-14-G20",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-14-ORCL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-15-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-16-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-16-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-16-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-17-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-18-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-18-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-23-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-23-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-23-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-24-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-27-China Green Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-27-China Supply Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-29-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-12-31-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-01-CANADA AUTO TARIFF",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-04-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-05-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-06-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-07-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-08-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-09-301 EXCLUSIONS EXPIRY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-10-BIS AFFILIATES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-10-US-CHINA-TRUCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-13-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-14-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-14-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-15-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-15-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-21-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-26-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-27-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-28-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-28-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-28-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-01-29-ECI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-02-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-03-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-04-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-04-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-05-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-11-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2027-02-12-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Retained after reviewing inflation, growth, funding and policy context; historical figures remain dated outcomes, not current forecasts"
+    },
+    {
+      "id": "2026-11-29-OPEC MINISTERIAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from new evidence"
+    },
+    {
+      "id": "2026-11-29-OPEC VOLUNTARY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from new evidence"
+    },
+    {
+      "id": "2026-11-20-IRAN OIL TRUSTEES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from new evidence"
+    }
+  ],
+  "limitations": [
+    "PMI consensus is explicitly attributed to TD’s November 20 table; no composite forecast invented.",
+    "No future OPEC output decision or exact time assumed.",
+    "Shipping and refinery claims do not establish unverified production losses.",
+    "No findings or effective dates invented for previously reported NVIDIA inquiry or data-center penalty threat."
+  ],
+  "noCancellationsInferred": true
+}
