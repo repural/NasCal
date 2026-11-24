@@ -1,51 +1,26 @@
 {
-  "checkedAt": "2026-11-23T23:13:51.611Z",
+  "checkedAt": "2026-11-24T12:31:01.029Z",
   "issues": [
     {
-      "id": "2026-11-23-FLASH PMI",
+      "id": "2026-11-23-CRWD Earnings",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-23-FLASH PMI",
-      "asset": "nasdaq",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-11-23-FLASH PMI",
-      "asset": "sox",
-      "reason": "HTTP 403"
-    },
-    {
-      "id": "2026-11-23-WILLIAMS OUTLOOK",
+      "id": "2026-11-23-CRWD ZS MERGER",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-23-WILLIAMS OUTLOOK",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
+      "id": "2026-11-23-NVDA REINSTATEMENT",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-23-WILLIAMS OUTLOOK",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-11-22-CHINA FCC RESPONSE",
-      "asset": "nasdaq",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-11-22-CHINA FCC RESPONSE",
-      "asset": "sox",
-      "reason": "Due price window unavailable; see capture states"
-    },
-    {
-      "id": "2026-11-20-NVDA SEC PROBE",
+      "id": "2026-11-23-ZS Earnings",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
   ],
-  "requests": 12
+  "requests": 4
 }
