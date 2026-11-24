@@ -1,0 +1,1896 @@
+{
+  "asOf": "2026-11-24",
+  "checkedAt": "2026-11-24T03:49:16Z",
+  "collectorCheckedAt": "2026-10-10T10:11:31.811Z",
+  "collectorHealth": {
+    "fresh": false,
+    "blocked": {
+      "MarketWatch": 401,
+      "BLS": 403,
+      "S&P PMI": 403
+    },
+    "otherSources": "DOL, BEA and Fed marked healthy only as of October 10",
+    "proposals": 0,
+    "announcements": "Only October 9 Survey of Consumer Finances; not new material calendar news"
+  },
+  "nextFlashPmi": {
+    "reportFlag": "Obsolete October 23 date; official false and review required",
+    "nextCandidate": "2026-12-16",
+    "timeET": "09:45",
+    "present": true,
+    "officialDateVerified": false,
+    "requiresReview": true,
+    "freshSecondaryCorroboration": "https://traderinput.com/terminal/macro/releases/",
+    "officialEndpoint": "https://pmi.spglobal.com/Public/Release/ReleaseDates?language=en",
+    "officialEndpointHealth": "403 in this review",
+    "publisherAlternative": "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+    "publisherAlternativeLimitation": "November/December schedule confirms November flash and December finals, but stops before December flash. Annual table first December column is not treated as December 2026 confirmation."
+  },
+  "added": [
+    "2026-11-23-NVDA REINSTATEMENT",
+    "2026-11-23-IRAN SHADOW BANKING",
+    "2026-11-23-CRWD ZS MERGER",
+    "2026-11-23-CRWD Earnings",
+    "2026-11-23-ZS Earnings",
+    "2026-12-01-SP MFG FINAL",
+    "2026-12-03-SP SERVICES FINAL",
+    "2026-12-30-FOMC MINUTES"
+  ],
+  "materialUpdates": [
+    "2026-11-23-FLASH PMI",
+    "2026-11-23-WILLIAMS OUTLOOK",
+    "2026-11-12-NVDA CEO TRANSITION",
+    "2026-11-17-NVDA Earnings",
+    "2026-11-18-NVDA HOUSE BRIEFING",
+    "2026-11-20-NVDA SEC PROBE",
+    "2026-12-16-FLASH PMI",
+    "2026-12-09-FED",
+    "2027-01-27-FED"
+  ],
+  "sources": [
+    "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/11/us-flash-pmi-indicates-still-elevated-but-cooling-business-activity-growth-and-price-pressures",
+    "https://www.reuters.com/world/us/us-business-activity-growth-eases-further-november-survey-shows-2026-11-23/",
+    "https://www.pmi.spglobal.com/Public/Home/PDF/UK_Rel_Dates",
+    "https://traderinput.com/terminal/macro/releases/",
+    "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+    "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001045810/d56080ad-0d8b-401a-b284-e3308341659a.pdf",
+    "https://www.newyorkfed.org/newsevents/speeches/2026/wil261123",
+    "https://www.reuters.com/business/fed-has-work-do-lower-inflation-williams-says-2026-11-23/",
+    "https://www.reuters.com/world/india/gold-edges-up-bargain-buying-after-selloff-us-inflation-data-awaited-2026-11-24/",
+    "https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/",
+    "https://home.treasury.gov/news/press-releases/sb0699",
+    "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/",
+    "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial/",
+    "https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-first-quarter-fiscal-year-2027-financial",
+    "https://www.federalreserve.gov/newsevents/2026-december.htm",
+    "https://home.treasury.gov/news/press-releases/sb0678/",
+    "https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-20/upcoming.htm",
+    "https://www.dol.gov/ui/data.pdf",
+    "https://www.bea.gov/data/gdp/gross-domestic-product",
+    "https://www.bea.gov/news/schedule"
+  ],
+  "interpretationReview": [
+    {
+      "id": "2026-11-02-AAPL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-02-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-02-PLTR Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-02-SLOOS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-02-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-02-TREASURY BORROWING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-03-AMD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-03-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-03-MIDTERMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-03-SMCI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-04-ADP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-04-ARM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-04-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-04-QCOM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-04-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-04-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-05-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-05-H200 IMPORT DELAYS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-05-HORMUZ INCIDENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-05-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-06-CHINA IMPLEMENTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-06-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-07-IRON GATE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-09-AI CHIP EXPORT PUSH",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-09-BIS EXTENSION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-09-CHINA PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-09-UST 3Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-10-BOWMAN CFR",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-10-BOWMAN OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-10-CHINA TARIFF STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-10-CRWV Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-10-SECTION 301 EXCLUSIONS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-10-WALLER OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-11-CHINA RARE EARTH STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-11-VETERANS BOND CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-12-AMAT Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-12-BARR AI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-12-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-12-NVDA CEO TRANSITION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-12-NVDA TRADE OVERSIGHT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-13-JEFFERSON PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-13-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-15-CHINA AI CONSULTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-16-ASEAN SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-16-FED AI HEARING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-17-NVDA Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-17-NVDA RECORDS RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-17-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-18-APEC",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-18-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-18-NVDA HOUSE BRIEFING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-18-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-19-ANT IPO",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-19-APEC TRILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-19-APEC XI BILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-19-BIS REMOTE ACCESS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-20-EU UK SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-20-IRAN OIL TRUSTEES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-20-NVDA SEC PROBE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-20-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-20-OVERSEAS DATA CENTERS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-20-US CHINA CHIP REMARKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-21-BAHRAIN ATTACK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-21-HORMUZ TANKER ATTACKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-22-CHINA FCC RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-23-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-23-WILLIAMS OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-24-ADI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-24-DELL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-24-IND PROD REVISION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-25-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-25-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-27-CHINA DUAL USE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-29-OPEC MINISTERIAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-29-OPEC VOLUNTARY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-29-VIETNAM SECTION 301",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-01-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-03-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-04-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-04-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-07-COINS COMMENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-08-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-08-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-08-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-09-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-10-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-10-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-14-G20",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-14-ORCL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-15-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-16-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-16-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-16-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-17-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-18-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-18-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-23-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-23-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-23-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-24-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-27-China Green Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-27-China Supply Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-12-29-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-12-31-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-01-CANADA AUTO TARIFF",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-01-04-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-05-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-01-06-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-07-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-08-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-09-301 EXCLUSIONS EXPIRY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2026-11-10-BIS AFFILIATES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-01-10-US-CHINA-TRUCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-01-13-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-14-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-14-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-15-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-01-15-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-01-21-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-26-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-27-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-28-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-28-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-01-28-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-01-29-ECI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-02-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-02-02-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: dated released figures remain historical facts; conditional growth, rate, margin and policy scenarios remain applicable after the leadership rebound. No fresh event-specific consensus is implied."
+    },
+    {
+      "id": "2027-02-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-02-03-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-02-04-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-02-04-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-02-05-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-02-11-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2027-02-12-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated expectation or scenario to reflect new evidence"
+    },
+    {
+      "id": "2026-11-23-NVDA REINSTATEMENT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    },
+    {
+      "id": "2026-11-23-IRAN SHADOW BANKING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    },
+    {
+      "id": "2026-11-23-CRWD ZS MERGER",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    },
+    {
+      "id": "2026-11-23-CRWD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    },
+    {
+      "id": "2026-11-23-ZS Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    },
+    {
+      "id": "2026-12-01-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    },
+    {
+      "id": "2026-12-03-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    },
+    {
+      "id": "2026-12-30-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "New verified entity; all three fields researched"
+    }
+  ],
+  "confirmedScheduleChanges": [
+    {
+      "entity": "CrowdStrike Q3 FY2027 conference call",
+      "previousDate": "2026-12-01",
+      "newDate": "2026-11-23",
+      "timeET": "08:00",
+      "officialSource": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-third-quarter-fiscal-year-2027-financial/",
+      "existingCalendarId": null,
+      "action": "Added omitted released earnings as distinct entity; no nonexistent old entry deleted"
+    },
+    {
+      "entity": "Zscaler separate Q1 FY2027 results call",
+      "status": "Issuer explicitly cancelled separate call and withdrew guidance; results released November 23",
+      "officialSource": "https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-first-quarter-fiscal-year-2027-financial",
+      "existingCalendarId": null
+    }
+  ],
+  "independentBreakingNewsScope": [
+    "Leader summits and G20 follow-through",
+    "Tariffs, critical-minerals deadlines and export restrictions",
+    "Sanctions and Gulf shipping escalation",
+    "Emergency or unscheduled Fed communications",
+    "NVIDIA leadership and continuing investigations",
+    "Cybersecurity acquisition and accelerated results"
+  ],
+  "notAdded": [
+    {
+      "item": "Canada-Qatar prospective investment agreement",
+      "reason": "No verified material Nasdaq transmission or quantified new commitment; does not meet high-priority threshold"
+    },
+    {
+      "item": "February FOMC minutes",
+      "reason": "No independently rendered official future row in this review; no date invented"
+    }
+  ],
+  "limitations": [
+    "December flash PMI date remains officially unverified; do not infer cancellation from absence or blocked endpoint.",
+    "Market pricing is a dated Reuters/CME snapshot, not live probabilities.",
+    "Merger closing expectation is CrowdStrike fiscal H2 FY2028; no calendar-day closing date invented.",
+    "Huang reinstatement does not conclude independent or government investigations.",
+    "No isolated Nasdaq return is attributed to one of the concurrent November 23 events.",
+    "Same released figures can remain after review; no unverified future consensus is invented."
+  ],
+  "noCancellationsInferred": true,
+  "tavilyUsed": false,
+  "paidOpenAiApiUsed": false
+}
