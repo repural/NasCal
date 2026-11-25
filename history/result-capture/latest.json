@@ -1,51 +1,66 @@
 {
-  "checkedAt": "2026-11-24T21:49:47.214Z",
+  "checkedAt": "2026-11-25T04:44:08.291Z",
   "issues": [
     {
-      "id": "2026-11-24-DELL Earnings",
+      "id": "2026-11-24-301 CAPACITY REPORT",
       "asset": "nasdaq",
       "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-11-24-DELL Earnings",
+      "id": "2026-11-24-301 CAPACITY REPORT",
       "asset": "sox",
       "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-11-24-IND PROD REVISION",
+      "id": "2026-11-24-CONSUMER CONFIDENCE",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-24-IND PROD REVISION",
+      "id": "2026-11-24-CONSUMER CONFIDENCE",
       "asset": "nasdaq",
       "reason": "HTTP 403"
     },
     {
-      "id": "2026-11-24-IND PROD REVISION",
+      "id": "2026-11-24-CONSUMER CONFIDENCE",
       "asset": "sox",
       "reason": "HTTP 403"
     },
     {
-      "id": "2026-10-07-FOMC MINUTES",
+      "id": "2026-11-22-HORMUZ 219",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-09-UST 3Y",
-      "field": "outcome",
-      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
-    },
-    {
-      "id": "2026-11-07-IRON GATE",
+      "id": "2026-11-22-HORMUZ 219",
       "asset": "nasdaq",
       "reason": "Due price window unavailable; see capture states"
     },
     {
-      "id": "2026-11-07-IRON GATE",
+      "id": "2026-11-22-HORMUZ 219",
+      "asset": "sox",
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-10-21-TXN Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-20-NFLX Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-11-15-CHINA AI CONSULTATION",
+      "asset": "nasdaq",
+      "reason": "Due price window unavailable; see capture states"
+    },
+    {
+      "id": "2026-11-15-CHINA AI CONSULTATION",
       "asset": "sox",
       "reason": "Due price window unavailable; see capture states"
     }
   ],
-  "requests": 6
+  "requests": 12
 }
