@@ -1,0 +1,1866 @@
+{
+  "asOf": "2026-11-26",
+  "checkedAt": "2026-11-26T03:42:08Z",
+  "collectorTimestamp": "2026-10-10T10:11:31.811Z",
+  "sourceHealth": "Stale; MarketWatch 401, BLS/PMI 403; other source ok flags apply only to October 10",
+  "proposals": [],
+  "collectorAnnouncements": "Only October 9 SCF; no current material lead",
+  "nextFlashPmi": {
+    "present": true,
+    "date": "2026-12-16",
+    "timeET": "09:45",
+    "officialDateVerified": false,
+    "requiresReview": true,
+    "directEndpointStatus": 403,
+    "publisherPdfStatus": 403,
+    "secondarySource": "https://traderinput.com/terminal/macro/releases/"
+  },
+  "added": [
+    "2026-11-25-301 CAPACITY PROPOSAL",
+    "2027-01-05-301 COMMENTS",
+    "2027-01-25-301 HEARING",
+    "2026-11-25-DURABLE GOODS",
+    "2026-12-23-DURABLE GOODS"
+  ],
+  "sources": {
+    "pce": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+    "gdp": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+    "claims": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/ui-claims/20261732.pdf",
+    "beige": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm",
+    "ustr": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+    "wire": "https://www.reuters.com/business/us-inflation-rises-further-october-2026-11-25/",
+    "market": "https://apnews.com/article/94fdb0ecb060ec65c0b02879ce0d2d09",
+    "census": "https://www.census.gov/manufacturing/m3/adv/pdf/durgd.pdf?ts=20261027",
+    "pmi": "https://traderinput.com/terminal/macro/releases/",
+    "auction": "https://www.treasurydirect.gov/auctions/auction-announcements/"
+  },
+  "interpretationReview": [
+    {
+      "id": "2026-11-02-AAPL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-02-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-02-PLTR Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-02-SLOOS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-02-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-02-TREASURY BORROWING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-03-AMD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-03-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-03-MIDTERMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-03-SMCI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-04-ADP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-04-ARM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-04-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-04-QCOM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-04-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-04-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-05-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-05-H200 IMPORT DELAYS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-05-HORMUZ INCIDENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-05-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-06-CHINA IMPLEMENTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-06-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-07-IRON GATE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-09-AI CHIP EXPORT PUSH",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-09-BIS EXTENSION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-09-CHINA PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-09-UST 3Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-BOWMAN CFR",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-BOWMAN OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-CHINA TARIFF STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-CRWV Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-SECTION 301 EXCLUSIONS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-WALLER OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-11-CHINA RARE EARTH STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-11-VETERANS BOND CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-12-AMAT Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-12-BARR AI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-12-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-12-NVDA CEO TRANSITION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-12-NVDA TRADE OVERSIGHT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-13-JEFFERSON PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-13-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-15-CHINA AI CONSULTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-16-ASEAN SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-16-FED AI HEARING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-17-NVDA Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-17-NVDA RECORDS RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-17-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-18-APEC",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-18-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-18-NVDA HOUSE BRIEFING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-18-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-19-ANT IPO",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-19-APEC TRILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-19-APEC XI BILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-19-BIS REMOTE ACCESS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-20-EU UK SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-20-IRAN OIL TRUSTEES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-20-NVDA SEC PROBE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-20-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-20-OVERSEAS DATA CENTERS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-20-US CHINA CHIP REMARKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-21-BAHRAIN ATTACK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-21-HORMUZ TANKER ATTACKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-22-CHINA FCC RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-22-HORMUZ 219",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-23-CRWD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-23-CRWD ZS MERGER",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-23-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-23-IRAN SHADOW BANKING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-23-NVDA REINSTATEMENT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-23-WILLIAMS OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-23-ZS Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-24-301 CAPACITY REPORT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-24-ADI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-24-CONSUMER CONFIDENCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-24-DELL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-24-IND PROD REVISION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-25-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-25-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-25-RED SEA PORT THREAT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-27-CHINA DUAL USE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-29-OPEC MINISTERIAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-29-OPEC VOLUNTARY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-29-VIETNAM SECTION 301",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-01-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-01-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-03-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-03-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-04-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-04-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-07-COINS COMMENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-08-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-08-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-08-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-09-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-10-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-10-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-14-G20",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-14-ORCL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-15-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-16-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-16-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-16-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-17-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-18-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-18-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-23-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-23-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-23-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-24-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-27-China Green Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-27-China Supply Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-29-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-30-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-12-31-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-01-CANADA AUTO TARIFF",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-01-04-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-05-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-01-06-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-07-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-08-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-01-09-301 EXCLUSIONS EXPIRY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2026-11-10-BIS AFFILIATES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-01-10-US-CHINA-TRUCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-01-13-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-14-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-14-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-15-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-01-15-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-21-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-26-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-27-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-28-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-28-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-28-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-29-ECI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-02-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-02-02-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-02-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-02-03-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-02-04-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-02-04-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-02-05-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed: historical figures retain their dated meaning; still-applicable growth, funding, margin and supply scenarios retained without implying a fresh event-specific forecast."
+    },
+    {
+      "id": "2027-02-11-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-02-12-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-25-301 CAPACITY PROPOSAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-05-301 COMMENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2027-01-25-301 HEARING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-11-25-DURABLE GOODS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    },
+    {
+      "id": "2026-12-23-DURABLE GOODS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated from verified release or new conditional risk evidence"
+    }
+  ],
+  "noCancellationInferred": true,
+  "limitations": [
+    "Auction window elapsed; official result not independently rendered, no tail or demand-quality claim invented.",
+    "USTR proposed rates are not enacted duties; January 5/25 are consultation milestones.",
+    "MOFCOM November 27 dual-use suspension deadline retained; no verified superseding notice found.",
+    "Quarterly GDP price indexes are not confused with monthly October PCE rates.",
+    "Census durable orders are nominal and have no invented consensus."
+  ],
+  "tavilyUsed": false,
+  "paidOpenAiApiUsed": false
+}
