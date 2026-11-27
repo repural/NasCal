@@ -1,23 +1,48 @@
 {
-  "checkedAt": "2026-11-27T10:53:03.948Z",
+  "checkedAt": "2026-11-27T20:34:03.764Z",
   "issues": [
     {
-      "id": "2026-11-03-SMCI Earnings",
+      "id": "2026-11-27-EARLY CLOSE",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-10-28-MSFT Earnings",
+      "id": "2026-11-27-EARLY CLOSE",
+      "asset": "nasdaq",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-11-27-EARLY CLOSE",
+      "asset": "sox",
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "2026-11-05-PRODUCTIVITY",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-18-FOMC MINUTES",
+      "id": "2026-11-05-CLAIMS",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     },
     {
-      "id": "2026-11-18-UST 20Y",
+      "id": "2026-10-28-GOOGL Earnings",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-15-WARSH IMF",
+      "field": "outcome",
+      "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-14-CPI",
+      "field": "outcome",
+      "reason": "Official source HTTP 403; MarketWatch HTTP 401"
+    },
+    {
+      "id": "2026-10-07-UST 10Y",
       "field": "outcome",
       "reason": "Official outcome requires researched review; no deterministic adapter for this event.; MarketWatch HTTP 401"
     }
