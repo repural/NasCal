@@ -1,0 +1,1808 @@
+{
+  "asOf": "2026-11-28",
+  "checkedAt": "2026-11-28T03:55:36Z",
+  "collectorTimestamp": "2026-10-10T10:11:31.811Z",
+  "sourceHealth": "Stale: MarketWatch 401, BLS/PMI 403; other ok flags apply to October 10",
+  "proposals": [],
+  "collectorAnnouncements": "October 9 SCF only",
+  "nextFlashPmi": {
+    "present": true,
+    "date": "2026-12-16",
+    "timeET": "09:45",
+    "officialDateVerified": false,
+    "requiresReview": true,
+    "directEndpointStatus": 403,
+    "publisherPdfStatus": 403,
+    "secondaryCorroboration": "https://traderinput.com/terminal/macro/calendar/"
+  },
+  "added": [
+    "2026-11-30-CONGO COBALT"
+  ],
+  "sources": {
+    "cobalt": "https://www.reuters.com/world/africa/congo-halts-cobalt-exports-again-tackle-oversupply-support-prices-industry-2026-11-23/",
+    "sp": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/112326-drc-temporarily-suspends-cobalt-exports",
+    "opec": "https://www.reuters.com/business/energy/opec-set-keep-oil-production-targets-steady-first-quarter-sources-say-2026-11-27/",
+    "market": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/",
+    "pce": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+    "pmi": "https://traderinput.com/terminal/macro/calendar/"
+  },
+  "interpretationReview": [
+    {
+      "id": "2026-11-02-AAPL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-02-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-02-PLTR Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-02-SLOOS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-02-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-02-TREASURY BORROWING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-03-AMD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-03-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-03-MIDTERMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-03-SMCI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-04-ADP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-04-ARM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-04-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-04-QCOM Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-04-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-04-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-05-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-05-H200 IMPORT DELAYS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-05-HORMUZ INCIDENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-05-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-06-CHINA IMPLEMENTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-06-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-06-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-07-IRON GATE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-09-AI CHIP EXPORT PUSH",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-09-BIS EXTENSION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-09-CHINA PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-09-UST 3Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-BOWMAN CFR",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-BOWMAN OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-CHINA TARIFF STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-CRWV Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-SECTION 301 EXCLUSIONS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-WALLER OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-11-CHINA RARE EARTH STAY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-11-VETERANS BOND CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-12-AMAT Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-12-BARR AI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-12-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-12-NVDA CEO TRANSITION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-12-NVDA TRADE OVERSIGHT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-12-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-13-JEFFERSON PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-13-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-15-CHINA AI CONSULTATION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-16-ASEAN SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-16-FED AI HEARING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-17-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-17-NVDA Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-17-NVDA RECORDS RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-17-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-18-APEC",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-18-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-18-NVDA HOUSE BRIEFING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-18-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-19-ANT IPO",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-19-APEC TRILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-19-APEC XI BILATERAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-19-BIS REMOTE ACCESS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-19-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-20-EU UK SUMMIT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-20-IRAN OIL TRUSTEES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-20-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-20-NVDA SEC PROBE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-20-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-20-OVERSEAS DATA CENTERS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-20-US CHINA CHIP REMARKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-21-BAHRAIN ATTACK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-21-HORMUZ TANKER ATTACKS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-22-CHINA FCC RESPONSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-22-HORMUZ 219",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-23-CRWD Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-23-CRWD ZS MERGER",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-23-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-23-IRAN SHADOW BANKING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-23-NVDA REINSTATEMENT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-23-WILLIAMS OUTLOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-23-ZS Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-24-301 CAPACITY REPORT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-24-ADI Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-24-CONSUMER CONFIDENCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-24-DELL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-24-IND PROD REVISION",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-301 CAPACITY PROPOSAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-BEIGE BOOK",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-DURABLE GOODS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-RED SEA PORT THREAT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-25-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-27-EARLY CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-11-29-OPEC MINISTERIAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-11-29-OPEC VOLUNTARY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-11-29-VIETNAM SECTION 301",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-01-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-01-SP MFG FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-03-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-03-SP SERVICES FINAL",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-04-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-04-MICH PRE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-07-COINS COMMENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-08-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-08-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-08-UST 10Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-09-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-12-10-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-10-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-12-10-TSMC Sales",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-10-UST 30Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-14-G20",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-14-ORCL Earnings",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-12-15-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-12-16-FLASH PMI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-16-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-16-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-12-17-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-18-MICH FIN",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-18-OPEX",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-23-DURABLE GOODS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-23-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-23-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-12-23-UST 20Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-24-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-24-EARLY CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-25-CHRISTMAS CLOSE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-27-China Green Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-27-China Supply Probe",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-29-UST 7Y",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-30-FOMC MINUTES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-12-31-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-01-CANADA AUTO TARIFF",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2027-01-04-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-05-301 COMMENTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-05-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-06-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-07-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-08-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-09-301 EXCLUSIONS EXPIRY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-10-BIS AFFILIATES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-10-US-CHINA-TRUCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-13-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2027-01-14-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-14-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2027-01-15-IND PROD",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-15-Retail",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2027-01-21-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-25-301 HEARING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-26-FOMC 1",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2026-11-27-CHINA DUAL USE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-27-FED",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2027-01-28-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-28-GDP",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-01-28-PCE",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2027-01-29-ECI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-01-ISM MFG",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-02-JOLTS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-03-ISM SERVICES",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-03-TREASURY REFUNDING",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-04-CLAIMS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-04-PRODUCTIVITY",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-05-JOBS",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [],
+      "decision": "Reviewed after the Friday rebound, persistent inflation and specific material-supply risk. Dated historical outcomes and valid conditional scenarios retained; no event-specific consensus invented."
+    },
+    {
+      "id": "2027-02-11-CPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2027-02-12-PPI",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    },
+    {
+      "id": "2026-11-30-CONGO COBALT",
+      "fieldsReviewed": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "changedFields": [
+        "expects",
+        "positive",
+        "negative"
+      ],
+      "decision": "Updated for new evidence or current risk transmission"
+    }
+  ],
+  "verificationNotes": [
+    "Independent S&P/Platts and Reuters reporting quotes ARECOMS; direct official document not retrieved. This meets the strong reputable-confirmation standard.",
+    "Four-month evaluation lies beyond this horizon and does not establish a restart date; no invented end event.",
+    "OPEC expected rollover remains distinct from voluntary-adjustment review and no official outcome is assumed."
+  ],
+  "notAdded": [
+    {
+      "item": "US encouragement for Venezuela/Iraq to leave OPEC earlier in 2026",
+      "reason": "Retrospective reporting does not establish a new withdrawal or effective date."
+    },
+    {
+      "item": "Taiwan local elections",
+      "reason": "No independently confirmed new trade, military or semiconductor restriction tied to the vote in this review."
+    },
+    {
+      "item": "Chile proposed Apple fine",
+      "reason": "No verified material broad-Nasdaq transmission at the reported scale."
+    }
+  ],
+  "noCancellationFromAbsence": true,
+  "tavilyUsed": false,
+  "paidOpenAiApiUsed": false
+}
